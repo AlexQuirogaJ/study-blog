@@ -1,30 +1,28 @@
-+++
-author = "Alex"
-title = "Teoría Misiles"
-date = "2022-06-06"
-description = "Preguntas de Teoría de Misiles"
-tags = [
-    "tests",
-    "VA",
-]
-categories = [
-    "Misiles",
-    "Vehículos Aeroespaciales",
-]
-math = true
-html = true
-+++
+---
+author: "Alex"
+title: "Teoría Misiles"
+date: "2022-06-06"
+description: "Preguntas de Teoría de Misiles"
+tags:
+    - "Tests"
+categories:
+    - "Misiles"
+    - "Vehículos Aeroespaciales"
+
+image: "misil.jpg"
+math: true
+---
 
 
 # Exámenes
 
-## 7-Junio-2018
+## Junio-7-2018
 
 1. Comparando dos misiles, el primero provisto de una sola etapa de propulsada y luego una etapa de planeo, con el segundo provisto de una etapa aceleración y otra de crucero, se puede concluir que:
 
-    a. Para un mismo rango, el primero requerirá una velocidad finde combustión mayor que el segundo, implicando por tanto mayor resistencia aerodinámica, aunque con la ventaja de un menor calentamiento por rozamiento.
+    a. Para un mismo rango, el primero requerirá una velocidad fin de combustión mayor que el segundo, implicando por tanto mayor resistencia aerodinámica, aunque con la ventaja de un menor calentamiento por rozamiento.
 
-    b. Para un mismo rango, el primero requerirá una velocidad finde combustión mayor que el segundo, implicando por tanto mayor calentamiento por rozamiento
+    b. Para un mismo rango, el primero requerirá una velocidad fin de combustión mayor que el segundo, implicando por tanto mayor calentamiento por rozamiento
 
 
     <details>
@@ -106,7 +104,7 @@ html = true
     </details>
 
 
-## 4-Julio-2018
+## Julio-4-2018
 
 1. El principio de solidificación aplicado al movimiento de traslación de un cohete consiste en que:
 
@@ -207,7 +205,7 @@ html = true
     </details>
 
 
-## 25-Abril-2019
+## Abril-25-2019
 
 El despegue de un lanzador es vertical porque:
 
@@ -316,7 +314,7 @@ En el caso de guiado por telemando:
 </details>
 
 
-## 6-Junio-2019
+## Junio-6-2019
 
 El principio de solidificación aplicado al movimiento de traslación de un cohete consiste en que:
 
@@ -397,7 +395,7 @@ La ley de guiado de navegación proporcional:
 </details>
 
 
-## 3-Julio-2019
+## Julio-3-2019
 
 El giro por gravedad en un lanzador:
 
@@ -488,7 +486,7 @@ cambio introducido. Esto pasa cuando el centro de presiones está delante del ce
 </details>
 
 
-## 2020
+## PEI-2020
 
 La resistencia de forma de alas y controles se calcula mediante correlación con la resistencia de fricción
 
@@ -619,7 +617,7 @@ La relación peso/par suministrado es mejor en el actuador gas frio que en hidr�
 </details>
 
 
-## 2020-Ordinario
+## Ordinario-2020
 
 Si se quiere diseñar un misil con alta sustentación se puede emplear una sección elíptica y gran esbeltez lo que permite aumentar la eficiencia aerodinámica.
 
@@ -700,7 +698,7 @@ El autopiloto lateral está formado por un giróscopo cuya función es estabiliz
 </details>
 
 
-## 10-Junio-2021
+## Junio-10-2021
 
 La penalización por el efecto de la resistencia aerodinámica en la velocidad de fin de combustión en el caso de movimiento unidimensional del misil:
 

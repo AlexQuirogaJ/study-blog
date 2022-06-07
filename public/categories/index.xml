@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Blog de estudio</title>
+        <link>/categories/</link>
+        <description>Recent content in Categories on Blog de estudio</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Misiles</title>
+        <link>/categories/misiles/</link>
+        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/misiles/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vehículos Aeroespaciales</title>
+        <link>/categories/veh%C3%ADculos-aeroespaciales/</link>
+        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/veh%C3%ADculos-aeroespaciales/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/test/</guid>
+        <description>&lt;img src="/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
