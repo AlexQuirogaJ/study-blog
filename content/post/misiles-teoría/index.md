@@ -15,6 +15,7 @@ math: true
 
 
 # Exámenes
+> **Fuente:** Exámenes de la parte V1 de la asignatura "Vehículos Aeroespaciales" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).
 
 ## Junio-7-2018
 
@@ -27,7 +28,7 @@ math: true
 
     <details>
     <summary>Solución</summary>
-
+    
     **b**
     </details>
 
@@ -226,13 +227,13 @@ El despegue de un lanzador es vertical porque:
 Si se hace una comparativa entre misiles tácticos y estratégicos, se puede observar que:
 
    1. Típicamente, la estructura del misil balístico será más robusta que la del táctico, dado que el misil balístico tiene que soportar las
-   grandes aceleraciones producidas durante el despegue y la re-entrada.
+      grandes aceleraciones producidas durante el despegue y la re-entrada.
    2. El sistema de propulsión del misil balístico será motor cohete o en algunos casos turborreactor, en contraposición al misil táctico
-   que tendrá solamente motores cohete
+      que tendrá solamente motores cohete
    3. La carga de guerra del misil balístico es típicamente convencional, en contraposición, al misil táctico que siempre lleva carga
-   nuclear.
+      nuclear.
    4. El sistema de guiado del misil balístico será preferentemente navegación por referencia con el terreno, mientras que el del misil
-   táctico será autoguiado, teleguiado o haz director
+      táctico será autoguiado, teleguiado o haz director
    5. Ninguna de las anteriores es cierta
 
 <details>
@@ -247,11 +248,11 @@ El sistema de protección térmica de los misiles tácticos:
 
    1. Puede ser pasivo (selección de espesores y materiales) o bien activo con sistemas de enfriamiento activo (heat-pipes o cryocoolers)
    2. Busca que la difusividad térmica de la estructura sea lo más alta posible, de manera que el calentamiento en la ojiva se difunda
-   rápidamente por el cuerpo del misil y de esta forma la temperatura resultante sea más baja.
+      rápidamente por el cuerpo del misil y de esta forma la temperatura resultante sea más baja.
    3. Mediante el concepto de estructura caliente consiste en una estructura de gran espesor con una capa de aislante externo y otra
-   interna, que supone una penalización en peso pero que maximiza el volumen disponible.
+      interna, que supone una penalización en peso pero que maximiza el volumen disponible.
    4. Mediante el concepto de estructura auto-aislante consiste en seleccionar un material de difusividad térmica moderada, como por
-   ejemplo un material metálico como el aluminio
+      ejemplo un material metálico como el aluminio
    5. Ninguna de las anteriores es cierta.
 
 <details>
@@ -284,7 +285,7 @@ En el caso de guiado inercial:
    2. Requiere implementar en el computador un modelo gravitatorio que permite estimar la aceleración gravitatoria.
    3. Mediante plataforma strapdown, las medidas de aceleración se realizan en ejes inerciales
    4. Si los acelerómetros son tipo MEMS, son capaces de medir la aceleración gravitacional y no es necesario implementar en el
-   computador una estimación de la aceleración gravitatoria
+      computador una estimación de la aceleración gravitatoria
    5. Ninguna de las anteriores es cierta.
 
 <details>
@@ -298,13 +299,13 @@ En el caso de guiado inercial:
 En el caso de guiado por telemando:
 
    1. Su aplicación típica es la defensa antiaérea de baja cota, así como la aplicación superficie-superficie (por ejemplo, misiles
-   antitanque)
+      antitanque)
    2. Es el indicado para aplicaciones aire-aire, dada la altas exigencias dinámicas en los combates aire-aire
    3. Consiste en el seguimiento del misil y del blanco (que se puede hacer mediante una unidad para el misil y otra para el blanco o
-   bien una misma unidad para misil y blanco) y trasmisión de esas señales al misil, que realiza a bordo el cálculo de las
-   desviaciones de la trayectoria pre-establecida para la colisión
+      bien una misma unidad para misil y blanco) y trasmisión de esas señales al misil, que realiza a bordo el cálculo de las
+      desviaciones de la trayectoria pre-establecida para la colisión
    4. Se caracteriza por una gran complejidad, en comparación con el auto-guiado, debido a la necesidad de sistemas para recibir los
-   comandos e interpretarlos. Ese es el motivo por lo cual su aparición fue posterior a la del auto-guiado.
+      comandos e interpretarlos. Ese es el motivo por lo cual su aparición fue posterior a la del auto-guiado.
    5. Ninguna de las anteriores.
 
 <details>
@@ -862,3 +863,113 @@ La función exclusiva del autopiloto es estabilizar misiles inestables.
 
 **Falso**
 </details>
+
+
+## Abril-28-2022
+
+El ángulo de balance de los misiles:
+
+1. No es necesita ser medido ni controlarlo en misiles teleguiados, ya que los comandos son enviados desde un sistema de referencia exterior al
+misil.
+2. Es imperativo que sea controlado en el caso de los misiles auto-guiados ya que la posición del blanco se conoce con respecto a unos ejes que
+giran conjuntamente con el sistema de control.
+3. No necesita ser controlado en el caso de que se haga maniobra de giro por inclinación.
+4. No se puede controlar en los misiles en configuración Canard mediante deflexión diferencial de los controles. El misil tiene que llevar rolerones
+o desacoplar axialmente el conjunto de las alas del resto del misil.
+5. Ninguna de las anteriores es cierta
+
+<details>
+<summary>Solución</summary>
+
+**4**
+</details>
+
+---
+
+Indicar cuál de las siguientes aseveraciones es cierta:
+
+1. El uso de RGPS en aplicaciones militares se basa en uso de una base auxiliar o conocimiento preciso del terreno
+2. Es suficiente con 3 satélites GPS para hallar la solución de navegación del GPS
+3. La navegación mediante guiado inercial con strapdown no necesita estimación interna de la gravedad para el cálculo de la posición y velocidad,
+sin embargo, la plataforma flotante si la necesita para compensar el hecho de que los acelerómetros no están fijos a la estructura.
+4. La navegación mediante guiado inercial con plataforma flotante no necesita estimación interna de la gravedad para el cálculo de la posición y
+velocidad, sin embargo la strapdown si la necesita para compensar el hecho de que los acelerómetros están fijos a la estructura
+5. La navegación por referencia del terreno es típicamente usada en los misiles balísticos, lo que permite corregir los errores acumulados en los
+sistemas de navegación inercial
+
+<details>
+<summary>Solución</summary>
+
+**1**
+</details>
+
+---
+
+El despegue de un lanzador es vertical porque:
+
+1. Optimiza la carga de pago puesta en órbita
+2. Maximiza la altura que puede alcanzar el lanzador en el fin de combustión
+3. Minimiza las pérdidas por gravedad
+4. Con el fin de minimizar la masa estructural, las estructuras de los lanzadores son muy ligeras y soportan bajas cargas a flexión.
+5. Ninguna de las anteriores es cierta
+
+<details>
+<summary>Solución</summary>
+
+**4**
+</details>
+
+---
+
+Considerando la parte balística de la trayectoria de un misil balístico:
+
+1. El valor del alcance viene definido únicamente por el valor de un parámetro; el parámetro Q
+2. Para cualquier valor de Q, siempre hay dos órbitas: una baja y otra alta que tienen el mismo alcance.
+3. Es una órbita parabólica que sigue totalmente las leyes de la mecánica orbital
+4. Es la mayor contribuyente al alcance total del misil.
+5. Ninguna de las anteriores es cierta
+
+<details>
+<summary>Solución</summary>
+
+**4**
+</details>
+
+---
+
+En un misil que vuela a velocidad constante y que sigue una ley de guiado por navegación proporcional:
+
+1. Si misil se dispara con un error inicial, pero el blanco no maniobra y la constante de navegación reducida es igual a 2, la aceleración tenderá a
+infinito en el momento del impacto.
+2. Si el misil se dispara sin error inicial, pero el blanco maniobra y la constante de navegación reducida es mayor que 3, la aceleración está
+acotada y se produce en el instante inicial de la trayectoria
+3. Si el misil se dispara sin error inicial, pero el blanco maniobra y la constante de navegación reducida es igual a 2, la aceleración será constante
+durante toda la trayectoria
+4. Si misil se dispara con un error inicial, pero el blanco no maniobra y la constante de navegación reducida es mayor que 3, la aceleración está
+acotada y el máximo se produce en el momento del impacto.
+5. Ninguna de las anteriores es cierta
+
+<details>
+<summary>Solución</summary>
+
+**5**
+</details>
+
+---
+
+Un misil se lanza horizontalmente, desde un rail. Dicho misil tiene un empuje T y tiene una masa M.
+Además, dicho misil dispone de dos acelerómetros: un primer acelerómetro que mide aceleraciones en el eje longitudinal orientado hacia la proa del misil) (eje X positivo) y otro segundo que las mide perpendicularmente a la superficie de la Tierra (eje Z positivo). Supóngase que el instante de
+lanzamiento es t0, el cohete alcanza el régimen permanente instantáneamente en t0, la suelta del rail y el encendido del cohete son simultáneos y la resistencia aerodinámica es despreciable en los instantes iniciales. La evolución de la medida de dichos acelerómetros durante los instantes iniciales
+será:
+
+
+
+![](atts/image-20220607165842888.png)
+
+<details>
+<summary>Solución</summary>
+
+**3**
+</details>
+
+---
