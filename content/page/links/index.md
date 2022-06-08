@@ -16,4 +16,4 @@ comments: false
 
 
 ## Recursos empleados
-<a target="_blank" href="https://icons8.com/icon/l6iocFkbmCrh/libro">Libro</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/fH22K8x6Yvz6/libro">Libro</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

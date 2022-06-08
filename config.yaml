@@ -24,7 +24,7 @@ params:
     - post
   featuredImageField: image
   rssFullContent: true
-  favicon: https://img.icons8.com/officel/344/book.png
+  favicon: img/favicon.ico
 
   footer:
     since: 2022

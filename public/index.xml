@@ -736,6 +736,374 @@ será:&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>Teoría Vehículos Espaciales</title>
+        <link>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</link>
+        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</guid>
+        <description>&lt;img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/sat%C3%A9lite.jpg" alt="Featured image of post Teoría Vehículos Espaciales" /&gt;&lt;h1 id=&#34;exámenes&#34;&gt;Exámenes&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt; Exámenes de la parte V2 de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;junio-7-2018&#34;&gt;Junio-7-2018&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Describir los posibles efectos negativos de las cargas electrostáticas en un satélite en órbita terrestre, y explicar de forma razonada cómo minimizar el riesgo de sufrir dichos efectos. (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Se pueden acumular cargas en el satélite que den lugar a descargas electrostáticas de dos tipos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La acumulación de cargas en las superficies del satélite, debido al flujo externo de electrones de baja energia y a la radiación electromagnética de alta frecuencia, puede producir descargas entre superficies cercanas con distinto potencial. Esto provoca corrientes no deseadas en los componentes electrónicos que afectan a su integridad y a la de los datos transmitidos, y puede provocar cortocircuitos permanentes en las lineas de potencia de los paneles solares.&lt;/li&gt;
+&lt;li&gt;La carga profunda de dieléctricos, producida por electrones de alta energia que penetran en el dieléctrico acumulando carga negativa en su interior, puede dar lugar a una ruptura del dieléctrico si se acumula la suficiente carga, produciendo daños permanentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La forma de evitar estos efectos es minimizar el riesgo de acumulaciones de carga estática favoreciendo el equilibrio de voltajes en el vehiculo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Poniendo todas las superficies conductoras en contacto eléctrico directo con la estructura del vehiculo.&lt;/li&gt;
+&lt;li&gt;Usando materiales dieléctricos con una resistividad superficial suficientemente baja.&lt;/li&gt;
+&lt;li&gt;Usando recubrimientos conductores cuando sea necesario.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Para comunicarse con un satélite desde tierra, ¿qué frecuencias relativas interesa utilizar y por qué? (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;La radiación solar produce distintas capas de ionización en la atmósfera, caracterizadas por una frecuencia de plasma de electrones $f_{pe}$. Las frecuencias de comunicación con satélites desde tierra deberán ser mucho mayores que la frecuencia de plasma de la capa $F$ (la de mayor $f_{pe}$ ) para atravesar la ionosfera y evitar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La reflexión de ondas para $f=f_{pe}$.&lt;/li&gt;
+&lt;li&gt;Cambios de fase aleatorios para $f &amp;gt; \sim f_{\text {pe}}$.&lt;/li&gt;
+&lt;li&gt;La absorción total de la radiación para $f &amp;lt; f_{pe}$.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Describir de forma cualitativa las fases tipicas de una maniobra aeroasistida. ( $0.5$ puntos)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Para pasar de una órbita a otra de menor energí, se puede aprovechar la reducción de energia que produce la resistencia aerodinámica:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Reducción de la altura del periapsis&lt;/li&gt;
+&lt;li&gt;Circularización progresiva de la órbita (rapo $\downarrow$ ) gracias a la resistencia aerodinámica en el periapsis&lt;/li&gt;
+&lt;li&gt;Elevación de la altura del periapsis&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Indicar los componentes principales del segmento de tierra de una misión espacial. ( $0.5$ puntos)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Sistemas de tierra: todos los elementos de infraestructura en tierra que se usan para dar soporte a las actividades de preparación y ejecución de operaciones y a las actividades post-operativas.
+&lt;ul&gt;
+&lt;li&gt;Instalaciones de fabricación y ensayos del vehiculo espacial.&lt;/li&gt;
+&lt;li&gt;Instalaciones de lanzamiento.&lt;/li&gt;
+&lt;li&gt;Estaciones de seguimiento en tierra, redes de comunicaciones y Centros de Control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Equipo de gestión de la misión y equipos de operaciones.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;julio-4-2018&#34;&gt;Julio-4-2018&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Describir los principales efectos de la radiación electromagnética solar constante en una misión espacial. (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Es la fuente de energía de muchas misiones espaciales.&lt;/li&gt;
+&lt;li&gt;El equilibrio térmico se obtiene mediante el equilibrio entre la radiación incidente del entorno y la radiación emitida por las superficies del vehiculo:
+&lt;ul&gt;
+&lt;li&gt;Flujo total de energia solar $\sim 1350 \mathrm{~W} / \mathrm{m}^{2}$.&lt;/li&gt;
+&lt;li&gt;Albedo terrestre $\sim 30 %$ del flujo de energía solar.&lt;/li&gt;
+&lt;li&gt;Radiación terrestre $\sim 17 %$ del flujo de energia solar.&lt;/li&gt;
+&lt;li&gt;Radiación del vehiculo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rayos-X y EUV:
+&lt;ul&gt;
+&lt;li&gt;Afectan a la ionosfera terrestre.&lt;/li&gt;
+&lt;li&gt;Degradan las propiedades de las superficies externas (por ejemplo de los polimeros)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Se produce una presión de radiación solar $p=\frac{C_{S}}{c}$ :
+&lt;ul&gt;
+&lt;li&gt;Se puede aprovechar mediante velas solares.&lt;/li&gt;
+&lt;li&gt;Cambia las trayectorias orbitales, incrementando la excentricidad&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Representar de forma esquemática el armónico esférico $\mathrm{J}_{22}$ del potencial gravitatorio terrestre, y explicar brevemente su efecto en las órbitas geoestacionarias. (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Perturbaciones en órbitas geoestacionarias debidas al potencial gravitatorio:
+&lt;ul&gt;
+&lt;li&gt;$J_{22}$ (armónico sectorial)
+&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094730834.png&#34;
+	width=&#34;652&#34;
+	height=&#34;256&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094730834_hu83943b08e761a5c2f58cc806e568aded_83013_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094730834_hu83943b08e761a5c2f58cc806e568aded_83013_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;254&#34;
+		data-flex-basis=&#34;611px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;Movimiento oscilatorio alrededor de dos posiciones estables $\left(75^{\circ}\right.$ y $\left.255^{\circ} \mathrm{E}\right)$&lt;/li&gt;
+&lt;li&gt;Dos posiciones inestables.
+&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094759116.png&#34;
+	width=&#34;502&#34;
+	height=&#34;488&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094759116_hu3461032bb67d6d336fed21d15877c8c7_160996_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094759116_hu3461032bb67d6d336fed21d15877c8c7_160996_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;246px&#34;
+	
+&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;junio-6-2019&#34;&gt;Junio-6-2019&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Describir las principales ventajas de utilizar órbitas heliosíncronas e indicar, justificando la respuesta, el parámetro orbital que es necesario seleccionar para obtener este tipo de órbita en la mayoría de casos prácticos. (1.5 puntos)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Una órbita heliosíncrona mantiene constante la orientación del plano orbital respecto al meridiano solar.&lt;/p&gt;
+&lt;p&gt;Ventajas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Orientación de los paneles solares.&lt;/li&gt;
+&lt;li&gt;Control térmico.&lt;/li&gt;
+&lt;li&gt;Observaciones de zonas de interés a horas solares (esto es, condiciones de iluminación) fijas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para órbitas LEO, la variación secular dominante es la de $\Omega$ debida a $\mathrm{J}_{2}$. En general $e$ y $a$ están fijados por otros requisitos de misión, de modo que se elige la inclinación de la órbita para igualar la variación de $\Omega$ a la del meridiano solar.&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Describir los dos principales mecanismos de acumulación de carga electrostática en un vehículo espacial. (1.5 puntos)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Carga superficial:
+&lt;ul&gt;
+&lt;li&gt;El flujo de electrones de media energía que incide sobre las superficies del vehículo puede dar lugar a acumulaciones de carga positiva o negativa cuando se liberan más o menos electrones de los que se reciben.&lt;/li&gt;
+&lt;li&gt;La radiación electromagnética incidente de onda corta da lugar a la acumulación de carga positiva por fotoemisión.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Carga profunda de dieléctricos: los electrones de alta energía pueden penetrar en los dieléctricos, acumulando carga negativa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608095502528.png&#34;
+	width=&#34;954&#34;
+	height=&#34;260&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608095502528_hu9880dae33e7c5fdf41a9910729a1e505_146435_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608095502528_hu9880dae33e7c5fdf41a9910729a1e505_146435_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;366&#34;
+		data-flex-basis=&#34;880px&#34;
+	
+&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ordinario-2020&#34;&gt;Ordinario 2020&lt;/h2&gt;
+&lt;p&gt;Fuera del campo magnético terrestre, los rayos cósmicos son la principal fuente de plasma.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;El riesgo de descargas electrostáticas en superficies y dieléctricos se mitiga favoreciendo el movimiento de electrones.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Siempre es necesario utilizar al menos una órbita de transferencia para pasar de una órbita inicial a otra final.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Para ir de una órbita inicial a otra final coplanarias, que no se cortan, el consumo mínimo se consigue siempre con una transferencia de Hohmann.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Las órbitas geoestacionarias no permiten tener cobertura en latitudes muy altas.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Las órbitas heliosíncronas son necesariamente retrógradas.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Para conseguir una órbita frozen es necesario elegir la inclinación que hace que $\left(1-\frac{5}{4} \sin ^{2} i\right)=0$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Un vehículo tendrá cobertura sobre un punto determinado de la superficie terrestre si el ángulo central entre el punto y la traza es menor que la anchura del swath del sensor.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;junio-10-2021&#34;&gt;Junio-10-2021&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Si se quiere realizar una transferencia de tipo Hohmann entre dos órbitas circulares pero los propulsores del satélite son pequeños y no proporcionan el impulso necesario para cada maniobra, describir posibles alternativas con impulsos por maniobra menores. (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Bajo empuje químico &lt;strong&gt;Hohmann segmentada&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Se dan muchos impulsos en el periapsis hasta que el radio en el apoapsis es igual al radio de la órbita mayor&lt;/li&gt;
+&lt;li&gt;Se da un impulso en el apoapsis para recircularizar la órbita&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bajo empuje eléctrico &lt;strong&gt;Transferencia en espiral&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Se van dando impulsos progresivamente&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Describir brevemente el principio de diseño de una órbita heliosíncrona, indicando sus principales ventajas. (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Mantiene constante la orientación del plano orbital respecto al meridiano solar&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Propiedades:
+&lt;ul&gt;
+&lt;li&gt;Iluminación solar casi constante
+&lt;ul&gt;
+&lt;li&gt;Orientación de los paneles solares&lt;/li&gt;
+&lt;li&gt;Control térmico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Observaciones a horas fijas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Eligiendo la $i$ de la órbita se consigue $\delta=cte \Rightarrow \dot{\Omega}=\dot{\alpha}$&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Describir los efectos de la ionosfera terrestre en las comunicaciones entre tierra y vehículos espaciales en función de la frecuencia de la señal. (1 punto)&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Frecuencia de plasma $f_{\mathrm{pe}}=8.97 \sqrt{n_{e}}$, siendo $n_{e}$ la densidad de electrones en $\mathrm{m}^{-3}$
+&lt;ul&gt;
+&lt;li&gt;Reflexión de ondas de radio para $f=f_{\text {pe }}$&lt;/li&gt;
+&lt;li&gt;Retardos y cambios de fase aleatorios en la señal para $f&amp;gt;f_{\mathrm{pe}}$&lt;/li&gt;
+&lt;li&gt;Retardos impredecibles para $f \gg f_{\mathrm{pe}}$ errores no corregibles en sistemas de navegación&lt;/li&gt;
+&lt;li&gt;Absorción total de las ondas de radio para $f&amp;lt;f_{\text {pe }}$
+$\rightarrow$ Se deben usar frecuencias suficientemente mayores que la del plasma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;enero-2022&#34;&gt;Enero-2022&lt;/h2&gt;
+&lt;p&gt;Fuera del campo magnético terrestre, el viento solar es la principal fuente de plasma.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;El riesgo de descargas electrostáticas en superficies y dieléctricos se mitiga impidiendo el
+movimiento de electrones.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Para pasar de una órbita inicial a otra final es necesaria una órbita de transferencia sólo si las órbitas inicial y final no se cortan.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Para ir de una órbita inicial a otra final coplanarias, que no se cortan, el consumo mínimo no
+siempre se consigue con una transferencia de Hohmann.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;Las órbitas geoestacionarias tienen eclipses de 70 minutos durante todo el año.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;En general (teniendo en cuenta otros requisitos de misión habituales), el parámetro orbital que se utiliza para conseguir una órbita heliosíncrona es la inclinación.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;En una órbita heliosíncrona LAN10, el vehículo hará siempre observaciones de la zona de interés a
+las 10:00 hora solar local.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Falso&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;p&gt;El círculo de visibilidad de una estación de tierra está determinado por el ángulo de elevación
+mínimo de la estación y por la altura orbital del vehículo.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Verdadero&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+        </item>
+        <item>
         <title>Archives</title>
         <link>/page/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -778,7 +1146,7 @@ será:&lt;/p&gt;
         
         <guid>/page/links/</guid>
         <description>&lt;h2 id=&#34;recursos-empleados&#34;&gt;Recursos empleados&lt;/h2&gt;
-&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://icons8.com/icon/l6iocFkbmCrh/libro&#34;&gt;Libro&lt;/a&gt; icon by &lt;a target=&#34;_blank&#34; href=&#34;https://icons8.com&#34;&gt;Icons8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://icons8.com/icon/fH22K8x6Yvz6/libro&#34;&gt;Libro&lt;/a&gt; icon by &lt;a target=&#34;_blank&#34; href=&#34;https://icons8.com&#34;&gt;Icons8&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

@@ -28,6 +28,9 @@
                 href="/categories/"
                 />
   </url><url>
+    <loc>/categories/espacio/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/misiles/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -58,6 +61,9 @@
                 />
   </url><url>
     <loc>/post/misiles-teor%C3%ADa/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/tests/</loc>
