@@ -5,12 +5,20 @@
         <link>/tags/</link>
         <description>Recent content in Tags on Blog de estudio</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Tests</title>
-        <link>/tags/tests/</link>
+        <lastBuildDate>Thu, 09 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Apuntes</title>
+        <link>/tags/apuntes/</link>
+        <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/tags/apuntes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Exámenes</title>
+        <link>/tags/ex%C3%A1menes/</link>
         <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>/tags/tests/</guid>
+        <guid>/tags/ex%C3%A1menes/</guid>
         <description></description>
         </item>
         

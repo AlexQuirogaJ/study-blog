@@ -1,10 +1,10 @@
 ---
 author: "Alex"
-title: "Teoría Misiles"
+title: "Exámenes Teoría Misiles"
 date: "2022-06-06"
 description: "Preguntas de Teoría de Misiles"
 tags:
-    - "Tests"
+    - "Exámenes"
 categories:
     - "Misiles"
     - "Vehículos Aeroespaciales"
@@ -28,7 +28,7 @@ math: true
 
     <details>
     <summary>Solución</summary>
-    
+
     **b**
     </details>
 

@@ -6,12 +6,12 @@
         <description>Recent content in Misiles on Blog de estudio</description>
         <generator>Hugo -- gohugo.io</generator>
         <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/misiles/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Teoría Misiles</title>
-        <link>/post/misiles-teor%C3%ADa/</link>
+        <title>Exámenes Teoría Misiles</title>
+        <link>/post/misiles-teor%C3%ADa-ex%C3%A1menes/</link>
         <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>/post/misiles-teor%C3%ADa/</guid>
-        <description>&lt;img src="/post/misiles-teor%C3%ADa/misil.jpg" alt="Featured image of post Teoría Misiles" /&gt;&lt;h1 id=&#34;exámenes&#34;&gt;Exámenes&lt;/h1&gt;
+        <guid>/post/misiles-teor%C3%ADa-ex%C3%A1menes/</guid>
+        <description>&lt;img src="/post/misiles-teor%C3%ADa-ex%C3%A1menes/misil.jpg" alt="Featured image of post Exámenes Teoría Misiles" /&gt;&lt;h1 id=&#34;exámenes&#34;&gt;Exámenes&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt; Exámenes de la parte V1 de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -716,10 +716,10 @@ acotada y el máximo se produce en el momento del impacto.&lt;/li&gt;
 Además, dicho misil dispone de dos acelerómetros: un primer acelerómetro que mide aceleraciones en el eje longitudinal orientado hacia la proa del misil) (eje X positivo) y otro segundo que las mide perpendicularmente a la superficie de la Tierra (eje Z positivo). Supóngase que el instante de
 lanzamiento es t0, el cohete alcanza el régimen permanente instantáneamente en t0, la suelta del rail y el encendido del cohete son simultáneos y la resistencia aerodinámica es despreciable en los instantes iniciales. La evolución de la medida de dichos acelerómetros durante los instantes iniciales
 será:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/misiles-teor%C3%ADa/atts/image-20220607165842888.png&#34;
+&lt;p&gt;&lt;img src=&#34;/post/misiles-teor%C3%ADa-ex%C3%A1menes/atts/image-20220607165842888.png&#34;
 	width=&#34;1588&#34;
 	height=&#34;854&#34;
-	srcset=&#34;/post/misiles-teor%C3%ADa/atts/image-20220607165842888_hub74ec8d0694a96054366b9e0a12b7d69_98621_480x0_resize_box_3.png 480w, /post/misiles-teor%C3%ADa/atts/image-20220607165842888_hub74ec8d0694a96054366b9e0a12b7d69_98621_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;/post/misiles-teor%C3%ADa-ex%C3%A1menes/atts/image-20220607165842888_hub74ec8d0694a96054366b9e0a12b7d69_98621_480x0_resize_box_3.png 480w, /post/misiles-teor%C3%ADa-ex%C3%A1menes/atts/image-20220607165842888_hub74ec8d0694a96054366b9e0a12b7d69_98621_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

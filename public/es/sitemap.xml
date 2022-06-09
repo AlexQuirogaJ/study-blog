@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="/"
                 />
   </url><url>
+    <loc>/tags/apuntes/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,13 +32,10 @@
                 />
   </url><url>
     <loc>/categories/espacio/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/misiles/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -48,7 +48,7 @@
                 />
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -60,16 +60,22 @@
                 href="/tags/"
                 />
   </url><url>
-    <loc>/post/misiles-teor%C3%ADa/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/tests/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/veh%C3%ADculos-aeroespaciales/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ex%C3%A1menes/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/misiles-teor%C3%ADa-ex%C3%A1menes/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/misiles/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/page/archives/</loc>

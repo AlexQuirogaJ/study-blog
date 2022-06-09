@@ -5,13 +5,1958 @@
         <link>/categories/espacio/</link>
         <description>Recent content in Espacio on Blog de estudio</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espacio/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espacio/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Teoría Vehículos Espaciales</title>
         <link>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</link>
-        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</guid>
-        <description>&lt;img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/sat%C3%A9lite.jpg" alt="Featured image of post Teoría Vehículos Espaciales" /&gt;&lt;h1 id=&#34;exámenes&#34;&gt;Exámenes&lt;/h1&gt;
+        <description>&lt;img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/anillos_van_allen.jpg" alt="Featured image of post Teoría Vehículos Espaciales" /&gt;&lt;h1 id=&#34;apuntes&#34;&gt;Apuntes&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Diapositivas y notas de la parte V2 de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/li&gt;
+&lt;li&gt;Wikipedia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;parámetros-orbitales&#34;&gt;Parámetros orbitales&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El plano XY es el pplano ecuatorial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si el vehículo describiese la orbita a esa velocidad cte M seria el ángulo polar correspondiente.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/dibujo_par%C3%A1metros.png&#34;
+	width=&#34;1679&#34;
+	height=&#34;1257&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/dibujo_par%C3%A1metros_hu64a5d2aae1a3595372c9334b3fb5a268_305708_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/dibujo_par%C3%A1metros_hu64a5d2aae1a3595372c9334b3fb5a268_305708_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Elementos orbitales&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Elementos orbitales de un cuerpo alrededor del Sol&lt;/summary&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/elementos_orbitales_sol.png&#34;
+	width=&#34;2560&#34;
+	height=&#34;2051&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/elementos_orbitales_sol_hu49ebf389fd16bef9b31112d626dc6d5c_234749_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/elementos_orbitales_sol_hu49ebf389fd16bef9b31112d626dc6d5c_234749_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;124&#34;
+		data-flex-basis=&#34;299px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://es.wikipedia.org/wiki/%C3%93rbita&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fuente&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;Para definir la posición del satélite necesitamos 6 parámetros:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Omega, i$ (plano orbital)&lt;/li&gt;
+&lt;li&gt;$a, e, \omega$ (forma de órbita)&lt;/li&gt;
+&lt;li&gt;$\nu(t)$ (en que punto está el satélite)&lt;/li&gt;
+&lt;li&gt;$M_0$ (referencia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La expresión general de la anomalia media es $M=n (t-\tau)-n\tau$ donde $\tau$ es un tiempo de referencia, normalmente de paso por el perigeo, inicia la misión, etc. El significado de la anomalía media es el ángulo que tendría el satélite si recorriese su órbita a velocidad angular constante. Por ejemplo en una órbita circular sería:
+$$
+n = \sqrt{\frac{\mu}{a^{3}}} \quad T=2 \pi \sqrt{\frac{a^{3}}{\mu}} \quad M=\frac{2\pi}{T}
+$$&lt;/p&gt;
+&lt;p&gt;donde n es la velocidad orbital.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/Par%C3%A1metros_orbitales.png&#34;
+	width=&#34;2350&#34;
+	height=&#34;1504&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/Par%C3%A1metros_orbitales_huc067977be87ca839286f3badfcbb5808_1216012_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/Par%C3%A1metros_orbitales_huc067977be87ca839286f3badfcbb5808_1216012_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Parámetros orbitales&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;375px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Definición de la anomalía excéntrica, $E$:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/anomalia_exc%C3%A9ntrica.png&#34;
+	width=&#34;773&#34;
+	height=&#34;425&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/anomalia_exc%C3%A9ntrica_hub6c46b395849753bf82258cbbf90a2a5_38641_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/anomalia_exc%C3%A9ntrica_hub6c46b395849753bf82258cbbf90a2a5_38641_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Dibujo anomalía excéntrica&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;436px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;órbitas-keplerianas&#34;&gt;Órbitas keplerianas&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Conservación de la energía:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Relaciona el módulo del radiovector con el módulo de la velocidad de manera que la relación es única para cada tamaño órbital.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Conservación del momento:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si el momento cinético es cte, es $\perp$ al plano orbital.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$$
+\vec{r} \times \vec{v} = \vec{h} = \vec{cte} \rightarrow \textrm{es } \perp \textrm{al plano orbital.}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+h = r v \cos{\gamma}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/momento.png&#34;
+	width=&#34;1462&#34;
+	height=&#34;1181&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/momento_hu6aa3e575e45edcd3c2ca63c89cd50e86_125323_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/momento_hu6aa3e575e45edcd3c2ca63c89cd50e86_125323_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Dibujo momento cinético&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Expresión paramétrica de la cónica:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cualquier cónica responde a la expresión&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+r = \frac{p}{1+e \cdot \cos{\nu}} = \frac{\frac{\overbrace{h^{2}}^{a (1-e^{2})}}{\mu}}{1+e \cdot \cos{\nu}}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ángulo de asiento del vector velocidad :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ángulo entre la velocidad y  el vector director en la dirección polar (dirección angular, horizontal local).Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\overbrace{\gamma}^{\text{ ángulo de asiento }} = \hat{\vec{u}_{v}, \vec{v}} = atan[(1- \frac{r}{\rho} \tan{\mu})]
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;3ª Ley de Kepler:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Para cualquier planeta, el cuadrado de su período orbital es directamente proporcional al cubo de la longitud del semieje mayor de su órbita elíptica&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+T = 2 \pi \sqrt{\frac{a^{3}}{\mu}}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;tema-1-misión-y-elementos&#34;&gt;Tema 1 Misión y Elementos&lt;/h2&gt;
+&lt;h3 id=&#34;tipos-de-misión&#34;&gt;Tipos de misión&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Según Desarrolladores de la Misión:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sin intereses comerciales:&lt;/strong&gt; Agencias Espaciales (NASA, ESA)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Militares&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comercial&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Según el Tipo de Orbita:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orbitadores Terrestres&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LEO:&lt;/strong&gt; Low Earth Orbit (ℎ &amp;lt; 3000 𝑘𝑚)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MEO:&lt;/strong&gt; Medium Earth Orbit (ℎ &amp;lt; 35790 𝑘𝑚)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GSO:&lt;/strong&gt; Geosynchronous Orbit (ℎ = 35790 𝑘𝑚)(24h de periodo)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HEO:&lt;/strong&gt; High Eccentricity Orbit&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Super-Synchoronous:&lt;/strong&gt; Mas alto que GSO, pero más bajo que la luna&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lunar, Puntos de Lagrange (Tierra-Sol)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interplanetaria / Misiones de Espacio Profundo&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Mas lejos que la Luna, pero en el Sistema Solar&lt;/li&gt;
+&lt;li&gt;Misiones Planetarias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interestelares&lt;/strong&gt;: Fuera del sistema solar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Según el Objetivo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Comunicaciones&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Observación Terrestre&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Navegación&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ciencia y Exploración&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;misiones-de-comunicación&#34;&gt;Misiones de Comunicación&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No comerciales:&lt;/strong&gt; Agencias Espaciales, Militares&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TDRS, EDRS&lt;/li&gt;
+&lt;li&gt;Constelación Geosíncrona&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Comerciales&lt;/strong&gt;
+Son las mas frecuentes. Estas misiones proporcionan distintos
+canales a los distribuidores de información ya sean compañías telefónicas, canales de
+TV y radiodifusión.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requieren de un gran consumo de energía. Llevaran grandes paneles solares&lt;/li&gt;
+&lt;li&gt;Gran cantidad de antenas y transpondedores&lt;/li&gt;
+&lt;li&gt;Se intenta minimizar costes de inyección y misión, por lo tanto, se emplearán &lt;strong&gt;tecnologías ya conocidas&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se tienen:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Satélites de Telefonía:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geoestacionarias&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LEO:&lt;/strong&gt; Proporcionan cobertura global&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Satélites de TV:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geoestacionarias&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HEO:&lt;/strong&gt; Utilizado para zonas de alta latitud. El satélite se pasa la mayor parte del
+tiempo en el apogeo de su órbita. Sera necesario tener varios satélites para que cuando uno este dando la vuelta a la tierra el otro este apuntando a la tierra
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Molniya:&lt;/strong&gt; Periodo de 12 horas. Necesario 2 satélites. Problemas de
+apuntamiento ya que el satélite cambia de posición visto desde la
+tierra&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tundra:&lt;/strong&gt; Periodo de 24 horas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;8H:&lt;/strong&gt; Reducción de la distancia de la comunicación&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;misiones-de-observación-terrestre&#34;&gt;Misiones de Observación Terrestre&lt;/h3&gt;
+&lt;p&gt;Se caracteriza sobre todo por el objetivo que cumplen consistente en la observación de una forma u otra de la superficie terrestre y su entorno.&lt;/p&gt;
+&lt;p&gt;Estas misiones se desarrollan en orbitas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geoestacionarias&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orbitas Bajas&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Según el &lt;strong&gt;tipo de observación&lt;/strong&gt; pueden ser:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Meteorológicas:&lt;/strong&gt; Observación y monitorización de la atmosfera
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LEO:&lt;/strong&gt; Orbitas Heliosincronas o polares&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GEO&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Observación de la Superficie Terrestre:&lt;/strong&gt; Se basan en el uso de una cámara que toma imágenes de la superficie terrestre, a la que apunta el instrumento
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GMES:&lt;/strong&gt; Global Monitores for Environment and Security&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EOEP:&lt;/strong&gt; Earth Observation Envelope Programme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nasa’s EOSs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comerciales:&lt;/strong&gt; Landsat, SPOT&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Militares:&lt;/strong&gt; Para aviso temprano y vigilancia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;misiones-de-navegación&#34;&gt;Misiones de Navegación&lt;/h3&gt;
+&lt;p&gt;Proporcionan la &lt;strong&gt;posición del usuario&lt;/strong&gt; a través de la posición de estos con respecto a una
+referencia común establecida.&lt;/p&gt;
+&lt;p&gt;Estos satélites deben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Determinación MUY PRECISA DE LAS ORBITAS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Transmisión de las mismas a los usuarios para su uso&lt;/li&gt;
+&lt;li&gt;Sincronización de los relojes y señales de los satélites&lt;/li&gt;
+&lt;li&gt;Determinación Precisa de los errores asociados a los satélites&lt;/li&gt;
+&lt;li&gt;Centros de Control y seguimiento complejos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MEO ($h \sim 26000$ km)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disponibilidad y fiabilidad&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Las misiones más famosas son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GPS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GLONASS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Galileo, Compass, IRNSS, QZSS&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;misiones-de-ciencia&#34;&gt;Misiones de Ciencia&lt;/h3&gt;
+&lt;p&gt;Su objetivo principal es &lt;strong&gt;investigar algún área de la ciencia o el universo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Estas misiones se pueden dividir a su vez en:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Misiones Astrofísica&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Misiones Física Fundamental&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Misiones del Sistema Solar y su Interacción con la tierra&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Las misiones más destacables son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Integral:&lt;/strong&gt; Medición de rayos gamma, rayos x y espectro visible&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clúster:&lt;/strong&gt; Medición del campo magnético y la interacción con el viento solar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hubble:&lt;/strong&gt; Telescopio, UV, Visible e IR o XMN: Rayos X&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exosat:&lt;/strong&gt; Rayos X&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;misiones-de-exploración&#34;&gt;Misiones de Exploración&lt;/h3&gt;
+&lt;p&gt;Las misiones actuales tienen como objetivo &lt;strong&gt;alcanzar cuerpos no explorados totalmente&lt;/strong&gt; hasta el momento, mediante sondas interplanetarias.&lt;/p&gt;
+&lt;p&gt;El tipo de trayectorias que se siguen en este tipo de misiones son múltiples y en general se les denomina Misiones Interplanetarias, ya que incluyen trayectorias dominadas por la gravedad del sol, tierra y otros planetas además de las asistencias gravitatorias.&lt;/p&gt;
+&lt;p&gt;Estas misiones destacan por &lt;strong&gt;una fuerte optimización de recursos&lt;/strong&gt; para alcanzar el objetivo en plazos y condiciones aceptables&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No tripuladas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fly-bys:&lt;/strong&gt; Siguen una trayectoria continua y nunca son capturados en una nueva orbita sobre un cuerpo objetivo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deben permitir observaciones a velocidades altas&lt;/li&gt;
+&lt;li&gt;Deben almacenar mucha información durante periodos muy cortos&lt;/li&gt;
+&lt;li&gt;Necesidad de antenas de alta ganancia y frecuencias elevadas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sondas:&lt;/strong&gt; Suelen ir con un orbitador que le acerca a la atmosfera a estudiar. La sonda realiza una reentrada mientras que el orbitador sigue en su órbita alrededor del planeta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No suelen ser autónomas y necesitan un vehículo que las traslade y un repetidor&lt;/li&gt;
+&lt;li&gt;Necesitan estabilización y protección térmica
+No hay expectativas de supervivencia de la sonda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Orbitador:&lt;/strong&gt; Llego a un planeta y me quedo orbitando alrededor de él.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Necesario capacidad de propulsión para decelerar el vehículo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soportar eclipses de sol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sobrellevar la perdida de comunicaciones durante ocultación de la tierra&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lander:&lt;/strong&gt; Vehículos que tienen como objetivo alcanzar de forma controlada la superficie del objetivo y mantenerse activos durante el tiempo necesarios.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No suelen ser autónomos&lt;/li&gt;
+&lt;li&gt;Necesitan estabilización y protección térmica&lt;/li&gt;
+&lt;li&gt;Deben resistir las condiciones ambientales en la superficie del planeta&lt;/li&gt;
+&lt;li&gt;Sistema de energía adecuado debido a la mayor duración de la misión&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rovers:&lt;/strong&gt; Cochecito caminando por el planeta. Este tipo de vehículos requiere un diseño y por lo tanto unos requisitos independientes del resto.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tripulados&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orbitadores&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estaciones Espaciales:&lt;/strong&gt; Vehículos establecidos de forma permanente en el espacio, como bases espaciales tripuladas con reabastecimiento y relevos de tripulación periódicos de forma que su vida útil puede extenderse por mucho mas tiempo que en los vehículos convencionales Suelen utilizar orbitas bajas y deben, obviamente, permitir la vida dentro&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transporte:&lt;/strong&gt; Permiten realizar conexiones y desconexiones con la estación espacial, así como realizar transferencias de material y tripulación. Están preparados para la supervivencia de la tripulación en la reentrada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Landers Lunares&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;presente-y-futuro-de-las-misiones-espaciales&#34;&gt;Presente y futuro de las misiones espaciales&lt;/h3&gt;
+&lt;p&gt;Antiguamente &lt;strong&gt;el objetivo fundamental&lt;/strong&gt; era ser los primeros en hacer algo (Carrera espacial).
+Ahora el objetivo fundamental es &lt;strong&gt;explotar las ventajas y posibilidades de las misiones&lt;/strong&gt;
+&lt;strong&gt;espaciales.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Habrá que tener en cuenta que me puedo permitir, los intereses comerciales, etc.
+Los factores que mayor importancia están adquiriendo son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Coste del ciclo de vida de la misión&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actividades Internacionales en el programa&lt;/strong&gt;, que permiten un programa de mayor
+ambición&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;elementos-de-una-misión-espacial&#34;&gt;Elementos de una Misión Espacial&lt;/h3&gt;
+&lt;p&gt;Una &lt;strong&gt;misión espacial&lt;/strong&gt; esta formada por los siguientes elementos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Segmento Espacial:&lt;/strong&gt;
+Relacionado con las trayectorias y orbital del vehículo, así como todo lo relacionado
+con el vehículo en el espacio.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lanzador:&lt;/strong&gt;
+Diseño y fabricación de lanzadores&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Segmento de Tierra:&lt;/strong&gt;
+Todo lo demás a parte del segmento de lanzamiento. Instalaciones, personal, centros
+entrenamiento de astronautas, fabricas de sistemas del vehículo, personal,
+operadores, sala de control, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Segmento de Usuario:&lt;/strong&gt;
+La persona o grupo destinatario del objetivo de la misión. En una misión de
+navegación, el usuario somos nosotros con nuestros móviles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nave-espacial&#34;&gt;Nave Espacial&lt;/h3&gt;
+&lt;p&gt;Está formada por:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Carga de Pago:&lt;/strong&gt;
+Es el elemento que realmente &lt;strong&gt;realiza la misión&lt;/strong&gt;. Tendrá una serie de sensores e
+instrumentos que obtienen la información del objeto de la misión&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modulo de Servicio o Bus:&lt;/strong&gt;
+Son todos los &lt;strong&gt;subsistemas&lt;/strong&gt; que proporcionan a la carga de pago, todos los recursos
+necesarios para que opere y se comunique con tierra
+&lt;ul&gt;
+&lt;li&gt;Potencia Eléctrica&lt;/li&gt;
+&lt;li&gt;Control Térmico&lt;/li&gt;
+&lt;li&gt;Guardado de datos&lt;/li&gt;
+&lt;li&gt;Comunicaciones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trayectorias-y-orbitas&#34;&gt;Trayectorias y Orbitas&lt;/h3&gt;
+&lt;p&gt;Las orbitas son seleccionadas de forma que cumplamos la misión que me hayan asignado con
+el &lt;strong&gt;mínimo coste o con un coste permisible&lt;/strong&gt;. A veces el mínimo coste da lugar a misiones
+arriesgadas por lo tanto es posible que sea mas recomendable pagar un poco mas antes que
+petar la nave.&lt;/p&gt;
+&lt;p&gt;Por lo general se podrá mandar un solo vehículo o se podrá realizar una constelación.&lt;/p&gt;
+&lt;p&gt;El camino que realiza un vehículo hasta su posición final será:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Trayectoria de Inyección dada por el Lanzador&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orbita de Aparcamiento&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orbita de Transferencia&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orbita de Operación (Orbita Final)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Corrección de Perturbaciones&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tema-2-ambiente-espacial&#34;&gt;Tema 2 Ambiente Espacial&lt;/h2&gt;
+&lt;h3 id=&#34;introducción&#34;&gt;Introducción&lt;/h3&gt;
+&lt;p&gt;El vehículo espacial durante su operación y fabricación se enfrenta a múltiples situaciones con
+diferentes características:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fabricación&lt;/strong&gt; (control de la humedad y el polvo)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transporte&lt;/strong&gt; (cargas importantes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lanzamiento&lt;/strong&gt; (fuertes cargas acústicas)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operación&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reentrada&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tener en cuenta todos los entornos&lt;/strong&gt; de operación del satélite afectaran a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Diseño&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo de vida&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arquitectura de la misión&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En el caso de una &lt;strong&gt;Orbita cerca de la Tierra&lt;/strong&gt; se tienen los siguientes factores:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Atmosfera Residual:&lt;/strong&gt; Resistencia Aerodinámica&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ionosfera:&lt;/strong&gt; Puede afectar a los equipos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Campo Gravitatorio Terrestre:&lt;/strong&gt; No hay simetría exacta&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Campo Magnético Terrestre&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basura espacial&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sol&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Radiación Electromagnética&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flujo de Plasma&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si me salgo de la esfera de influencia de la tierra&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Entorno Interplanetario&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Otros planetas:&lt;/strong&gt; Campo gravitatorio, Atmosfera, Radiación …&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rayos Cósmicos:&lt;/strong&gt; Flujo Isotrópico de partículas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fondo de Radiación Electromagnética&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/solar_influence.jpg&#34;
+	width=&#34;1680&#34;
+	height=&#34;1050&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/solar_influence_hub1a2ad1faef9a264708e620f68e28edf_113184_480x0_resize_q75_box.jpg 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/solar_influence_hub1a2ad1faef9a264708e620f68e28edf_113184_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;el-sol&#34;&gt;EL Sol&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Extension&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Core&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;$r &amp;lt; 0,25r_{Sun}$&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Nuclear fusion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2. Radiative zone&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;$0,25r_{Sun}&amp;lt; r &amp;lt; 0,75r_{Sun}$&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Gamma ray diffusion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3. Convective zone&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;$0,75r_{Sun}&amp;lt; r &amp;lt; r_{Sun}$&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Plasma convection: solar dynamo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4. Photosphere&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Visible surface (sunspots, machas solares -&amp;gt; relacionada con la actividad solar)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;6. Chromosphere&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Colored Surface, IR (sunspots, prominences)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;7. Corona&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;X-rays, White light&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;El medio interplanetario esta &lt;strong&gt;dominado por los efectos del sol&lt;/strong&gt;, sobre todo por el gravitatorio. El
+Sol es un &lt;strong&gt;reactor termonuclear&lt;/strong&gt; cuya emisión de energía se realiza en su mayor parte en forma
+de &lt;strong&gt;RADIACION ELECTROMAGNETICA&lt;/strong&gt;, pero no solo, también &lt;strong&gt;EMITE MASA QUE SE PIERDE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Efectos del Sol:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gravitación&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Radiación Electromagnética&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emisión de masa&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El sol posee una &lt;strong&gt;zona convectiva&lt;/strong&gt; donde hay un plasma que genera un &lt;strong&gt;efecto dinamo&lt;/strong&gt; que es el
+que da lugar al &lt;strong&gt;campo magnético solar&lt;/strong&gt;. Este campo es &lt;strong&gt;MUY DINAMICO&lt;/strong&gt; y da lugar a &lt;strong&gt;variaciones&lt;/strong&gt;
+&lt;strong&gt;de carácter periódico y transitorios de corto plazo&lt;/strong&gt;. Esto provocara cambios en lugares que no
+están en el sol (Por ejemplo, la atmosfera terrestre)&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;actividad solar&lt;/strong&gt; la podemos medir en sus &lt;strong&gt;capas exteriores&lt;/strong&gt;. En la &lt;strong&gt;fotosfera&lt;/strong&gt; se ven &lt;strong&gt;manchas&lt;/strong&gt;
+&lt;strong&gt;solares&lt;/strong&gt; las cuales están relacionadas directamente con la actividad del sol y por lo tanto con la
+&lt;strong&gt;energía emitida&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Con respecto a la &lt;strong&gt;emisión de masa&lt;/strong&gt;, esta es expulsada del Sol a un flujo de un millón de
+toneladas por segundo. Esta materia esta en &lt;strong&gt;estado de plasma, electrones y iones&lt;/strong&gt;. La cantidad
+de masa emitida dependerá de la &lt;strong&gt;actividad solar&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;radiación-electromagnética-solar&#34;&gt;Radiación Electromagnética Solar&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/espectro_sol.png&#34;
+	width=&#34;670&#34;
+	height=&#34;460&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/espectro_sol_hu93f62c3ba8a07bb2cb609147472c19aa_110533_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/espectro_sol_hu93f62c3ba8a07bb2cb609147472c19aa_110533_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Espectro electromagnético solar&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;145&#34;
+		data-flex-basis=&#34;349px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Cada capa del sol emite en unas longitudes de onda características, pero el espectro
+electromagnético del Sol se ajusta al de un cuerpo negro a &lt;strong&gt;$5800 \mathrm{k}$.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Como se puede observar la mayor parte se da en el visible. Cuanto mas pequeña sea la longitud
+de onda, &lt;strong&gt;más energía y más ionizante&lt;/strong&gt;. Sin embargo, cuando más grande sea la longitud de onda
+&lt;strong&gt;menor energía y no ionizante&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;radiación electromagnética&lt;/strong&gt; emitida va perdiendo intensidad inversamente proporcional a la distancia al sol al cuadrado $\left(\sim 1 / r^{2}\right)$.&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;constante solar&lt;/strong&gt;, la cual representa el &lt;strong&gt;valor medio de radiación solar al largo de un año&lt;/strong&gt; que Ilega a la tierra es:&lt;/p&gt;
+&lt;p&gt;$$
+C_{s}=1366 \mathrm{~W} / \mathrm{m}^{2}
+$$&lt;/p&gt;
+&lt;p&gt;En &lt;strong&gt;invierno&lt;/strong&gt;, esta energía será &lt;strong&gt;MAYOR&lt;/strong&gt; ya que nos encontramos &lt;strong&gt;mas cerca del sol&lt;/strong&gt;. Además, su emisión dependerá de las variaciones producidas en la actividad solar&lt;/p&gt;
+&lt;h4 id=&#34;actividad-solar&#34;&gt;Actividad Solar&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;¿Qué es la actividad solar?&lt;/strong&gt;  $\rightarrow $ El flujo que emite el sol hacia el sistema solar. Formado por la &lt;strong&gt;radiación electromagnética&lt;/strong&gt; y el &lt;strong&gt;plasma (masa)&lt;/strong&gt; que fluye de manera continua.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Actividad Estacionaria&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Viento Solar:&lt;/strong&gt; Flujo continuo de plasma magnetizado. Tarda en llegar 5 días a la tierra. Tiene temperaturas del orden de $10^{5}-10^{6} \mathrm{~K}$ disminuyendo al alejarse del sol.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Radiación Electromagnética:&lt;/strong&gt; Tarda 8 minutos en llegar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Actividad Periódica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Se debe a zonas activas cerca de las &lt;strong&gt;manchas solares&lt;/strong&gt; que emiten &lt;strong&gt;rayos-x&lt;/strong&gt; y radiación &lt;strong&gt;ultravioleta extrema&lt;/strong&gt;, por lo que esta directamente relacionada con el &lt;strong&gt;ciclo de 11 años&lt;/strong&gt; de &lt;strong&gt;formación de manchas solares&lt;/strong&gt; en el Sol (Ciclo Solar).&lt;/p&gt;
+&lt;p&gt;Los ciclos en los que se forman mayor cantidad de manchas solares resultan en una &lt;strong&gt;mayor intensidad de la radiación solar&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Actividad Transitoria&lt;/strong&gt;
+Ocurren en la atmosfera solar (fotosfera, cromosfera, corona)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Llamaradas (Flares):&lt;/strong&gt; Explosiones en las proximidades de las manchas solares. Duran varios minutos. Emiten una gran cantidad de energía. Radiación muy intensa en las altas frecuencias&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eyecciones de masa coronaria (CME):&lt;/strong&gt; Expulsión de gran cantidad de masa que vieja a altas velocidades. Es un &lt;strong&gt;efecto local&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El plasma que viaja a velocidad supersónica produce ondas de choque en el viento solar que aceleran partículas solares que pueden &lt;strong&gt;llegar a la Tierra unas horas después del impacto&lt;/strong&gt;, y unos días después llegara el resto de masa.&lt;/p&gt;
+&lt;p&gt;Este fenómeno nos sirve de aviso para prepararnos para lo que viene. Esto afecta fuertemente al campo magnético de la Tierra y puede freír perfectamente naves y a astronautas&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/flares.png&#34;
+	width=&#34;1502&#34;
+	height=&#34;950&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/flares_hue2030f655d6e2b9b4c9c488296689959_1411871_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/flares_hue2030f655d6e2b9b4c9c488296689959_1411871_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Flares&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;379px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/cme.jpg&#34;
+	width=&#34;2700&#34;
+	height=&#34;2377&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/cme_hu6dcb24816d8faaf31d587d27644ed8d8_2476372_480x0_resize_q75_box.jpg 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/cme_hu6dcb24816d8faaf31d587d27644ed8d8_2476372_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;CME&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;272px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;atmósfera-terrestre&#34;&gt;Atmósfera Terrestre&lt;/h3&gt;
+&lt;p&gt;La composición, temperatura, presión y densidad son &lt;strong&gt;función de la altitud&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A bajas altitudes, se da un proceso de expansión adiabática, y al subir en altura disminuye T.&lt;/p&gt;
+&lt;p&gt;A altitudes &lt;strong&gt;superiores a 150 km&lt;/strong&gt;, la densidad y composición dependen mucho de la &lt;strong&gt;actividad solar y geomagnética&lt;/strong&gt;. La temperatura en la &lt;strong&gt;estratosfera, termosfera y exosfera&lt;/strong&gt; aumentara con la altitud.&lt;/p&gt;
+&lt;p&gt;Esto es debido a que en la &lt;strong&gt;estratosfera&lt;/strong&gt; se absorbe radiación de &lt;strong&gt;alta energía&lt;/strong&gt; (EUV) debido a la capa de ozono y la descomposición formara calor.&lt;/p&gt;
+&lt;p&gt;En la &lt;strong&gt;termosfera&lt;/strong&gt; hay un cambio de gradiente de temperatura por la absorción de rayos &lt;strong&gt;EUV/X-Ray&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La temperatura alcanzada en altas capas de la atmosfera puede ser muy alta ($\sim 1500 ºC$), lo cual puede fundir cualquier nave. Sin embargo, debido a la escasez de masa (baja densidad) la transmisión del calor es nula.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/atm%C3%B3sfera_terrestre.png&#34;
+	width=&#34;1692&#34;
+	height=&#34;1008&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/atm%C3%B3sfera_terrestre_hu2c700a5d2af4fe32f62be201aec20aa8_548051_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/atm%C3%B3sfera_terrestre_hu2c700a5d2af4fe32f62be201aec20aa8_548051_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Atmósfera Terrestre&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;402px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Los &lt;strong&gt;modelos&lt;/strong&gt; de la atmosfera pueden ser &lt;strong&gt;estáticos&lt;/strong&gt; o &lt;strong&gt;dinámicos&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Estáticos (Standard, CIRA)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No tienen en cuenta las variaciones temporales, solo la variación con la altitud.
+$$
+\rho=\rho_{0} e^{\frac{h_{0}-h}{H}}
+$$
+Para cada capa de la atmosfera se usa un valor diferente de la constante H, que &lt;strong&gt;depende&lt;/strong&gt; de la &lt;strong&gt;temperatura&lt;/strong&gt; como de la &lt;strong&gt;capa de la atmosfera&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dinámicos (Jacchia, MSIS)&lt;/strong&gt;
+Tienen en cuenta las &lt;strong&gt;variaciones temporales de la atmosfera&lt;/strong&gt;. Incluyen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Variaciones Periódicas&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dia/Noche (1 día):&lt;/strong&gt; Por el día al haber mas calor aumentara la densidad sobre todo en las capas altas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rotación Solar (27 días):&lt;/strong&gt; Si el sol tiene manchas, al rotar, habrá un periodo de actividad&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actividad Solar Periódica (11 años)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variaciones Transitorias&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Actividad Solar Transitoria&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/actividad_solar_peri%C3%B3dica.png&#34;
+	width=&#34;800&#34;
+	height=&#34;492&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/actividad_solar_peri%C3%B3dica_hubd0ec60cef98943408db8264759af5d5_298485_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/actividad_solar_peri%C3%B3dica_hubd0ec60cef98943408db8264759af5d5_298485_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Actividad solar periódica&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;390px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La actividad solar influye de una manera MUY IMPORTANTE en la temperatura, siendo mucho mas importante que las variaciones debidas a la altitud&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Los CME no se pueden predecir&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/modelo_atm%C3%B3sfera_din%C3%A1mico.png&#34;
+	width=&#34;1398&#34;
+	height=&#34;292&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/modelo_atm%C3%B3sfera_din%C3%A1mico_hu7eb510c5903892ecaf4d575ee04afada_62869_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/modelo_atm%C3%B3sfera_din%C3%A1mico_hu7eb510c5903892ecaf4d575ee04afada_62869_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Modelo dinámico&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;478&#34;
+		data-flex-basis=&#34;1149px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$a_{p}$ (Índice Geomagnético)&lt;/li&gt;
+&lt;li&gt;F10.7 (Flujo Solar en $10.7 cm$ ): Muy relacionado con la actividad de las manchas solares porque esta radiación es emitida por gases que se acumulan en la atmosfera sobre estas manchas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$K_{p}$ y $a_{p}$ están elaborados a partir de las &lt;strong&gt;variaciones&lt;/strong&gt; en &lt;strong&gt;cortos periodos de tiempo&lt;/strong&gt; en las &lt;strong&gt;medidas del campo magnético terrestre&lt;/strong&gt; en diversas estaciones distribuidas a lo largo de la superficie de la Tierra y por ello son sensibles a &lt;strong&gt;variaciones de alta frecuencia temporal&lt;/strong&gt; de la actividad solar, es decir de &lt;strong&gt;llamaradas y CME&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para hacer &lt;strong&gt;modelos a futuro del periodo de 11 años&lt;/strong&gt; es conveniente tener al menos datos de &lt;strong&gt;tres años en el periodo de estudio&lt;/strong&gt;, con eso es posible hacer una predicción con buena precisión de la amplitud del periodo&lt;/p&gt;
+&lt;h3 id=&#34;ionosfera-terrestre&#34;&gt;Ionosfera Terrestre&lt;/h3&gt;
+&lt;p&gt;La ionosfera es una &lt;strong&gt;cascara esférica de plasma ionizado&lt;/strong&gt; embebido en la termosfera y mesosfera (60 km $\rightarrow$ 2000 km). Es importante notar que &lt;strong&gt;no es uniforme con la altura&lt;/strong&gt; y que hay distintas capas&lt;/p&gt;
+&lt;p&gt;¿De que esta formado? $\rightarrow$ &lt;strong&gt;Iones y electrones&lt;/strong&gt; producidos por la &lt;strong&gt;radiación de alta energía que proviene del sol (Rayos X y EUV)&lt;/strong&gt;. La temperatura de este plasma es similar a la de los &lt;strong&gt;átomos neutros&lt;/strong&gt; presentes en la atmosfera en la que esta embebido&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Capas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D&lt;/strong&gt;: Esta es la mas interna. Absorbe los &lt;strong&gt;Rayos-X duros&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E&lt;/strong&gt;: Capa intermedia. Absorbe los &lt;strong&gt;Rayos-X blandos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F&lt;/strong&gt;: Es la exterior. Absorbe los &lt;strong&gt;Rayos-UV&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Durante el día la capa F se separa en F1 y F2. Mientras que la &lt;strong&gt;capa D&lt;/strong&gt; suele desaparecer durante la noche&lt;/p&gt;
+&lt;h4 id=&#34;efectos-debidos-a-la-ionosfera&#34;&gt;Efectos debidos a la ionosfera&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reflexión o Absorción de Ondas electromagnéticas
+La &lt;strong&gt;densidad de electrones&lt;/strong&gt; de la &lt;strong&gt;ionosfera&lt;/strong&gt; nos definirá una &lt;strong&gt;Frecuencia de Plasma&lt;/strong&gt; definida como:&lt;/p&gt;
+&lt;p&gt;$$
+f_{p e}=8.97 \sqrt{n_{e}}
+$$&lt;/p&gt;
+&lt;p&gt;Donde $n_{e}$ es la &lt;strong&gt;densidad de electrones&lt;/strong&gt; $\left(m^{-1}\right)$. Esta densidad de electrones &lt;strong&gt;DEPENDE DE LA ALTURA&lt;/strong&gt; según el perfil mostrado en la figura anterior.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cuando una &lt;strong&gt;onda electromagnética&lt;/strong&gt; viaja a través del plasma pueden producirse varios efectos &lt;strong&gt;dependiendo de la relación de la frecuencia de radiación y la del plasma&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Reflexión de las Ondas de Radio&lt;/strong&gt; $\rightarrow f=f_{pe}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retrasos y cambios de fase&lt;/strong&gt; $\rightarrow f&amp;gt;\sim f_{pe}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retrasos Erráticos&lt;/strong&gt; $\rightarrow \boldsymbol{f} &amp;raquo; f_{pe}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Absorción de la ondas&lt;/strong&gt; $\rightarrow f&amp;lt;f_{pe}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Se estamos transmitiendo información al espacio es &lt;strong&gt;importante que no se pierda información&lt;/strong&gt; y que &lt;strong&gt;no llegue con demasiado retraso&lt;/strong&gt;. Habrá que usar por lo tanto frecuencias &lt;strong&gt;mayores y del orden de la del plasma&lt;/strong&gt; ($f &amp;gt;\sim f_{p e}$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como cada capa tiene una frecuencia distinta &lt;strong&gt;SE UTILIZARÁN FRECUENCIAS QUE ESTAN POR ENCIMA DE TODAS ELLAS&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si queremos transmitir información dentro del propio planeta a lo largo de una amplia distancia, nos podemos aprovechar de la &lt;strong&gt;reflexión de las ondas&lt;/strong&gt; debidas a la ionosfera. Para ello habrá que &lt;strong&gt;igualar ambas frecuencias&lt;/strong&gt; $f = f_{pe}$, sin embargo, cada &lt;strong&gt;capa de la ionosfera tiene unas frecuencias distintas&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D y E&lt;/strong&gt; $\rightarrow$ Ondas de radio AM&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F&lt;/strong&gt; $\rightarrow$ Ondas de radio CORTAS&lt;/li&gt;
+&lt;li&gt;Las ondas &lt;strong&gt;FM&lt;/strong&gt; y de &lt;strong&gt;TV&lt;/strong&gt; son muy cortas para ser reflejadas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/efectos_ionosfera.png&#34;
+	width=&#34;784&#34;
+	height=&#34;412&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/efectos_ionosfera_hu6a3cfe7efe27443a271c2592eaaa0ee9_159526_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/efectos_ionosfera_hu6a3cfe7efe27443a271c2592eaaa0ee9_159526_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Efectos ionosfera&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;190&#34;
+		data-flex-basis=&#34;456px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;campo-gravitatorio-terrestre&#34;&gt;Campo Gravitatorio Terrestre&lt;/h3&gt;
+&lt;h4 id=&#34;modelo-ideal&#34;&gt;Modelo Ideal&lt;/h4&gt;
+&lt;p&gt;En el caso &lt;strong&gt;ideal&lt;/strong&gt; de que la tierra es una &lt;strong&gt;esfera perfecta&lt;/strong&gt; de densidad constante podemos definir la siguiente expresión.&lt;/p&gt;
+&lt;p&gt;$$
+F=-\frac{G M m}{r^{2}} \rightarrow \boldsymbol{F}=m \boldsymbol{a} \rightarrow \boldsymbol{a}=\nabla \mathrm{U} \rightarrow \mathrm{U}(\mathrm{r})=\frac{\mu}{r}
+$$&lt;/p&gt;
+&lt;p&gt;Donde $U(r)$ será el &lt;strong&gt;Potencial Gravitatorio Ideal&lt;/strong&gt; que es &lt;strong&gt;independiente de la masa de la partícula&lt;/strong&gt; y depende solo de la &lt;strong&gt;distancia&lt;/strong&gt; al primario.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Este potencial es constante en el interior de una cascara, mientras que en el exterior el potencial es &lt;strong&gt;INDEPENDIENTE DE SU TAMAÑO e igual al de un punto de masa situado en su centro y de masa igual a la de la cascara&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Puede valer que la tierra tenga distintas capas, pero cada capa no debe varían ni en longitud ni en latitud (&lt;strong&gt;Capas Homogéneas&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;El potencial gravitatorio creado por esferas homogéneas, o por esferas cuya densidad sea función de la distancia al centro, es el correspondiente a un punto material de masa igual a la de la esfera y situado en el centro de la misma&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/modelo_gravitatorio.png&#34;
+	width=&#34;628&#34;
+	height=&#34;626&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/modelo_gravitatorio_hud61b7a201929aaa44527f73151fd29e1_582744_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/modelo_gravitatorio_hud61b7a201929aaa44527f73151fd29e1_582744_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Modelo gravitatoria ICGEM&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;modelo-armónicos-esféricos&#34;&gt;Modelo Armónicos Esféricos&lt;/h4&gt;
+&lt;p&gt;Sin embargo, la &lt;strong&gt;Tierra&lt;/strong&gt; no es una esfera perfecta.
+$$
+U = G \int dm / \rho
+$$&lt;/p&gt;
+&lt;p&gt;Donde $\rho$ es la &lt;strong&gt;distancia&lt;/strong&gt; del punto al diferencial de masa
+Esta expresión la podemos representar como una sumatorio tal que:&lt;/p&gt;
+&lt;p&gt;$$
+U(r, \lambda, \phi)=\frac{\mu}{r} \sum_{n=0}^{\infty} \sum_{m=0}^{n} J_{n m}\left(\frac{R_{\oplus}}{r}\right)^{n} P_{n m}(\sin \phi) \cos \left(\lambda-\lambda_{n m}\right)
+$$&lt;/p&gt;
+&lt;p&gt;Esto representa una &lt;strong&gt;expansión en armónicos esféricos&lt;/strong&gt; y como se puede observar contempla variaciones &lt;strong&gt;radiales&lt;/strong&gt; en &lt;strong&gt;longitud&lt;/strong&gt; $(\lambda)$ y &lt;strong&gt;latitud&lt;/strong&gt; $(\phi)$. Incluye los &lt;strong&gt;polinomios de Legendre&lt;/strong&gt;, $P_{nm}$, de grado $n$ y orden $m$. $J_{mn}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el &lt;strong&gt;radio del astro&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$
+\text{Longitud } = 0 \leq \lambda \leq 2 \pi \quad \text{Latitud } = \frac{-\pi}{2} \leq \phi \leq \frac{\pi}{2}
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$n$ &lt;strong&gt;cambios de signo en la esfera totales&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$n-m$ &lt;strong&gt;cambios de signo en LATITUD&lt;/strong&gt; ($-\pi / 2 \leq \phi \leq \pi / 2$)&lt;/li&gt;
+&lt;li&gt;$2m$ &lt;strong&gt;ceros en LONGITUD&lt;/strong&gt; ($0 \leq \lambda \leq 2\pi$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/arm%C3%B3nicos_esf%C3%A9ricos.png&#34;
+	width=&#34;894&#34;
+	height=&#34;226&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/arm%C3%B3nicos_esf%C3%A9ricos_hudac744876ee93087e1153f208889ec3c_114107_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/arm%C3%B3nicos_esf%C3%A9ricos_hudac744876ee93087e1153f208889ec3c_114107_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Armónicos esféricos&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;395&#34;
+		data-flex-basis=&#34;949px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Blanco: contribución positiva a la masa&lt;/li&gt;
+&lt;li&gt;Negro: contribución negativa a la masa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Términos de Segundo Orden&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$J_{20}$: Achatamiento, el término más importante en la serie.&lt;/li&gt;
+&lt;li&gt;$J_{21}$: Cero con una selección adecuada del eje (ejes principales de inercia)&lt;/li&gt;
+&lt;li&gt;$J_{22}$: Elipcidad másica según el Ecuador Planetario. Afecta a satélites geoestacionarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A medida que aumenta n, la contribución empieza a ser menor. Aun así, las diferentes  contribuciones dependen del planeta a analizar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;campo-magnético-terrestre&#34;&gt;Campo Magnético Terrestre&lt;/h3&gt;
+&lt;p&gt;Este campo tiene su origen en el &lt;strong&gt;movimiento convectivo y de rotación de la zona externa del núcleo terrestre.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;magnetosfera&lt;/strong&gt; será por lo tanto la región del espacio donde el &lt;strong&gt;campo magnético de la Tierra tiene influencia&lt;/strong&gt;. Presenta dos zonas diferenciadas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inner Model&lt;/strong&gt; = Campo Magnético Terrestre Dominante (IGRF)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outer Model&lt;/strong&gt; = El efecto del viento solar tiene importancia (Tsyganenko)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El campo magnético &lt;strong&gt;no es una región infinita&lt;/strong&gt;, &lt;strong&gt;el viento solar deflecta las lineas de campo&lt;/strong&gt;, por lo tanto, dejaran de ser simetrías. Cuando estamos a distancias cercanas de la Tierra ($r&amp;lt;4R$) sí que parece más normal.&lt;/p&gt;
+&lt;p&gt;Sin embargo el &lt;strong&gt;campo magnetico&lt;/strong&gt; tambien deflecta el viento solar. El viento solar llega unidireccionalmente, de forma que al encontrarse con el campo magnetico se forma una &lt;strong&gt;onda de choque&lt;/strong&gt; que desvia el viento solar.&lt;/p&gt;
+&lt;p&gt;Este viento pueden pasar dentro, sin una direccion definida (Magnetosheath). Estas partículas serán atrapadas en las &lt;strong&gt;lineas del campo magnetico&lt;/strong&gt; en las zonas del polo &lt;strong&gt;norte y sur&lt;/strong&gt;, formando las conocidas &lt;strong&gt;auroras boreales&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Por otro lado este viento solar puede entrar por la cola formada en el campo magnetico&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/campo_magn%C3%A9tico_terrestre.png&#34;
+	width=&#34;910&#34;
+	height=&#34;518&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/campo_magn%C3%A9tico_terrestre_hu86cbe998bae69028fca0a33ccfa13f4b_558076_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/campo_magn%C3%A9tico_terrestre_hu86cbe998bae69028fca0a33ccfa13f4b_558076_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Campo magnético terrestre&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;421px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Cuando nos acercamos a la tierra ($r&amp;lt;4R$), empezamos a ver el campo magnético como un dipolo, pero tiene unas cuantas peculiaridades.&lt;/p&gt;
+&lt;p&gt;El campo magnético creado por el núcleo es análogo al creado por un &lt;strong&gt;dipolo magnético&lt;/strong&gt; cuyo &lt;strong&gt;eje forme un ángulo de 11 º con el eje de rotación&lt;/strong&gt; de la Tierra y &lt;strong&gt;desplazado unos 400 km&lt;/strong&gt; hacia el océano Pacifico&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Es decir, el &lt;strong&gt;campo magnético no está alineado, ni centrado con la Tierra&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para representar este campo se puede utilizar una &lt;strong&gt;expansión en armónicos esféricos&lt;/strong&gt;. Sin embargo, esto &lt;strong&gt;solo es válido hasta del orden de $4R$&lt;/strong&gt; debido a la influencia del viento solar.&lt;/p&gt;
+&lt;h4 id=&#34;anillos-de-van-allen&#34;&gt;Anillos de Van Allen&lt;/h4&gt;
+&lt;p&gt;El campo magnético esta &lt;strong&gt;influenciado notablemente por el viento solar que llega&lt;/strong&gt;. Algunas partículas del viento solar que entran al campo magnético, se quedan atrapadas entre las &lt;strong&gt;líneas de campo&lt;/strong&gt;. Estas formaran los anillos de &lt;strong&gt;Van Allen&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Los &lt;strong&gt;anillos de Van Allen&lt;/strong&gt; serán por lo tanto anillos formados por partículas cargadas que han
+quedado atrapadas en el campo magnético&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Anillo Interior&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Protones&lt;/strong&gt; / Radiación Cósmica&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electrones de BAJA Energía&lt;/strong&gt; / Viento Solar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anillo Exterior&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;I&lt;strong&gt;ones y Electrones de ALTA Energía&lt;/strong&gt; / Viento Solar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Las &lt;strong&gt;orbitas LEO&lt;/strong&gt; caen por &lt;strong&gt;debajo del circulo interior&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Los satélites de &lt;strong&gt;GPS&lt;/strong&gt; están &lt;strong&gt;justo por en el límite inferior del cinturón exterior&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Los satélites &lt;strong&gt;geoestacionarios están justo por encima&lt;/strong&gt;. Habrá que tener &lt;strong&gt;cuidado en con las orbitas de gran excentricidad&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/anillos_van_allen.png&#34;
+	width=&#34;1642&#34;
+	height=&#34;480&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/anillos_van_allen_hudf863dbc583e13691c5d7c1889c502dd_620787_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/anillos_van_allen_hudf863dbc583e13691c5d7c1889c502dd_620787_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Anillos de Van Allen&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;342&#34;
+		data-flex-basis=&#34;821px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;anomalía-del-atlántico-sur&#34;&gt;Anomalía del Atlántico Sur&lt;/h4&gt;
+&lt;p&gt;Las partículas acumuladas en el cinturón interior de Van Allen, debido a la inclinación y desplazamiento del dipolo magnético, se adentran en &lt;strong&gt;altitudes bajas&lt;/strong&gt; en una zona del Atlántico Sur&lt;/p&gt;
+&lt;p&gt;El &lt;strong&gt;campo magnético es estacionario&lt;/strong&gt;, aunque sufre pequeñas variaciones periódicas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Periodo de 24 horas:&lt;/strong&gt; Debidas a los cambios en la ionosfera debido a la rotación de la Tierra sobre si misma&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Periodo del orden de meses:&lt;/strong&gt; Debidas a cambios del campo geomagnético terrestre&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seculares:&lt;/strong&gt; Reducción intensidad, desplazamiento hacia el Atlántico&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transitorias:&lt;/strong&gt; Debido a la actividad solar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/anomalia_atl%C3%A1ntico_sur.png&#34;
+	width=&#34;1668&#34;
+	height=&#34;572&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/anomalia_atl%C3%A1ntico_sur_hubaf58516d46e5f18b74f07a236bfc25a_357744_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/anomalia_atl%C3%A1ntico_sur_hubaf58516d46e5f18b74f07a236bfc25a_357744_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Anomalía del Atlántico Sur&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;291&#34;
+		data-flex-basis=&#34;699px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ambiente-interplanetario&#34;&gt;Ambiente Interplanetario&lt;/h3&gt;
+&lt;p&gt;Es la zona que se encuentra más allá de la magnetosfera terrestre y fuera del área de influencia del ambiente debido a otros planetas, aunque su definición depende del autor.&lt;/p&gt;
+&lt;p&gt;Este ambiente es mas &lt;strong&gt;peligroso&lt;/strong&gt; que el de la Tierra ya que el campo magnético terrestre nos protege de la radiación proveniente del Sol y del espacio profundo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RADIACION&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CMB / Fondo de Microondas Cósmico&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Radiación &lt;strong&gt;Isotrópica de microonda&lt;/strong&gt;s&lt;/li&gt;
+&lt;li&gt;Comportamiento parecido a un cuerpo negro a $T_{b}=2.73 \pm 0.05 K$
+Tiene pequeña influencia en viajes cortos y se suele despreciar, sin embargo, es un &lt;strong&gt;aporte de radiación constante&lt;/strong&gt; y puede dar a problemas térmicos si no la considero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Radiación Cósmica / Rayos Cósmicos&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Radiación Isotrópica de partículas.&lt;/li&gt;
+&lt;li&gt;Compuesta por protones y partículas alfa (&lt;strong&gt;Alta Energía&lt;/strong&gt;, pero &lt;strong&gt;baja densidad&lt;/strong&gt;, 1 proton /$m^{2}$)&lt;/li&gt;
+&lt;li&gt;Proceden del espacio interestelar o del propio sol.&lt;/li&gt;
+&lt;li&gt;Contribuyen al cinturón &lt;strong&gt;interior&lt;/strong&gt; de Van Alen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Viento Solar&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Radiación Electromagnética Solar&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;POLVO MICROSCOPICO&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CAMPO MAGNETICO SOLAR&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;basura-espacial-y-micrometeoritos&#34;&gt;Basura Espacial y MicroMeteoritos&lt;/h3&gt;
+&lt;p&gt;La basura espacial se ha visto incrementada debido al incremento de numero de lanzamientos. Esta mayor cantidad de objetos volando en trayectorias que son muy usadas pueden resultar en un gran peligro para las empresas cuyos satélites están orbitando en esas orbitas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objetos Humanos&lt;/strong&gt; ($7.5 km/s$)
+&lt;ul&gt;
+&lt;li&gt;Operacionales (6 %)&lt;/li&gt;
+&lt;li&gt;No operacionales ($20 %$)&lt;/li&gt;
+&lt;li&gt;Etapas Superiores de Lanzamientos&lt;/li&gt;
+&lt;li&gt;Fragmentos de la misión (Coberturas de lentes, adaptadores de etapas)&lt;/li&gt;
+&lt;li&gt;Fragmentos no intencionados (Originados en explosiones de etapas superiores, trozos de pintura&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Micrometeoritos&lt;/strong&gt; ($\sim 70 km/s$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hay una &lt;strong&gt;fuerte acumulación de elementos&lt;/strong&gt; en &lt;strong&gt;orbitas bajas y orbitas geoestacionarias&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Lo más peligroso de todos estos tipos son los fragmentos ya que son pequeños y difíciles de trackear. Los objetos grandes los puedo seguir y catalogarlos, por lo tanto, es mejor tener un trozo gigante volando que miles de fragmentos pequeños&lt;/p&gt;
+&lt;h4 id=&#34;medidas-adoptadas&#34;&gt;Medidas Adoptadas&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Inmediatas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No producir explosiones de forma deliberada&lt;/li&gt;
+&lt;li&gt;Minimizar la cantidad de basura generada en la fase de operación&lt;/li&gt;
+&lt;li&gt;Vaciar los tanques de propulsante de los depósitos de etapas superiores&lt;/li&gt;
+&lt;li&gt;Desorbitar los vehículos que se encuentran en &lt;strong&gt;orbitas densamente pobladas&lt;/strong&gt; antes de que hayan trascurrido 25 años después de finalizada la misión&lt;/li&gt;
+&lt;li&gt;Orbitar en &lt;strong&gt;órbitas supersincronas&lt;/strong&gt; para vehículos no operativos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Secundarias:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eliminación de las etapas de lanzadores y vehículos&lt;/li&gt;
+&lt;li&gt;Reorbitar las etapas de lanzadores y vehículos en orbitas diferentes a las anteriores a una &lt;strong&gt;órbita cementerio&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Desorbitar sobre el océano para reducir riesgos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Largo Plazo:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dispositivos para desorbitar vehículos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;clasificación-y-predicción&#34;&gt;Clasificación y Predicción&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Objetos Pequeños&lt;/strong&gt; $\rightarrow$ &lt;strong&gt;Modelos Estadísticos&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NASA: Orbital Debris Engineering Model (ORDEM)&lt;/li&gt;
+&lt;li&gt;ESA: Meteoroid and Space Debris Terrestrial Environment Reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Objetos Grandes&lt;/strong&gt; $\rightarrow$ &lt;strong&gt;Catálogos&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NASA: USSTRATCOM&lt;/li&gt;
+&lt;li&gt;ESA: DISCOS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;protección&#34;&gt;Protección&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El &lt;strong&gt;daño crece con el tamaño y la velocidad relativa&lt;/strong&gt; de impacto&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Escudos Protectores monobloque&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escudos Whipple:&lt;/strong&gt; Aumentan el tamaño del vehículo, pero requiere menos masa que la del escudo monobloque&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los escudos por lo general poseen varias capas que están dimensionadas según el impacto esperado. Estas absorben energía de manera que el objeto se divide en una gran multitud de forma que las siguientes capas puedan pararlos de manera más fácil&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/protecci%C3%B3n_micrometeoritos.png&#34;
+	width=&#34;538&#34;
+	height=&#34;380&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/protecci%C3%B3n_micrometeoritos_hu3eb98af94b9787da0b05cb09843c9063_114036_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/protecci%C3%B3n_micrometeoritos_hu3eb98af94b9787da0b05cb09843c9063_114036_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Escudos Whipple&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Evasión mediante propulsión:&lt;/strong&gt; Requieren de propulsante y son complicadas. Valido para misiones caras o de alto riesgo (tripuladas) (ISS, NASA’s EOS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;efectos-del-ambiente-sobre-el-vehículo&#34;&gt;Efectos del Ambiente sobre el Vehículo&lt;/h3&gt;
+&lt;h4 id=&#34;microgravedad&#34;&gt;Microgravedad&lt;/h4&gt;
+&lt;p&gt;En un vehículo orbitando la tierra las aceleraciones detectadas por los acelerómetros son del orden de $\mu g$.&lt;/p&gt;
+&lt;p&gt;Todo ha sido diseñado en la Tierra donde esta presenta una aceleración bastante acusada de 1g. Sin embargo, en el espacio esto no es así y por lo tanto puede haber ciertos problemas&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fluidos:&lt;/strong&gt; Al no estar sometidos a una &lt;strong&gt;fuerza volumétrica&lt;/strong&gt;, estos pueden estar en varios volúmenes. &lt;strong&gt;NO HAY CONVECCION NATURAL&lt;/strong&gt;. No tengo ni idea de cómo va a estar un fluido a priori en un contenedor. Sera necesario por lo tanto &lt;strong&gt;presurizar los fluidos para&lt;/strong&gt; garantizar su &lt;strong&gt;suministro&lt;/strong&gt; Además, habrá que usar &lt;strong&gt;convección forzada&lt;/strong&gt; para la refrigeración de ciertos elementos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estructuras estarán descargadas&lt;/strong&gt;. Las estructuras se diseñan para el lanzamiento. Ojo que si hay algún mecanismo complejo puede generar cargas en el espacio&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efectos en la vida:&lt;/strong&gt; Efectos sobre las plantas, humanos …&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;radiación&#34;&gt;Radiación&lt;/h4&gt;
+&lt;p&gt;La radiación tiene &lt;strong&gt;efectos muy diversos:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&#34;cargas-electroestáticas&#34;&gt;Cargas Electroestáticas&lt;/h5&gt;
+&lt;p&gt;Debido a la radiación, se produce una acumulación de cargas en ciertas zonas del vehículo.
+Estas zonas pueden ser &lt;strong&gt;exteriores o interiores (aislantes)&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cargas Superficiales / Externas&lt;/strong&gt;:
+Causadas por el flujo de electrones del &lt;strong&gt;viento solar&lt;/strong&gt;. La acumulación de carga puede dar lugar a una &lt;strong&gt;carga no neutra&lt;/strong&gt;. Esta acumulación de carga puede ser &lt;strong&gt;positiva o negativa&lt;/strong&gt;. La &lt;strong&gt;radiación ultravioleta (onda corta)&lt;/strong&gt; provocara &lt;strong&gt;cargas positivas&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cargas del Aislante / Internas&lt;/strong&gt;: Las partículas que entran serán aquellas de mayor energía. Estas se acumulan en los aislantes los cuales están hechos para &lt;strong&gt;impedir el movimiento de las cargas&lt;/strong&gt; eléctricas. Por lo general se acumula &lt;strong&gt;carga negativa&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/cargas_electrost%C3%A1ticas.png&#34;
+	width=&#34;1278&#34;
+	height=&#34;294&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/cargas_electrost%C3%A1ticas_hu8f4eca8f44e2a60b55153e9a24634167_201846_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/cargas_electrost%C3%A1ticas_hu8f4eca8f44e2a60b55153e9a24634167_201846_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Cargas electrostáticas&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;434&#34;
+		data-flex-basis=&#34;1043px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Es posible que &lt;strong&gt;distintas partes de la nave estén expuestas a distintas cargas solares&lt;/strong&gt;. Si las condiciones de iluminación cambian puedo tener &lt;strong&gt;DIFERENCIAS DE POTENCIAL&lt;/strong&gt; lo cual puede generar &lt;strong&gt;arcos eléctricos dañinos&lt;/strong&gt;. Esto puede afectar a los circuitos electrónicos, daño en los datos transmitidos, cortocircuitos permanentes …&lt;/p&gt;
+&lt;p&gt;Si se acumula &lt;strong&gt;mucha carga en el aislante&lt;/strong&gt; también puede provocar su rotura y por lo tanto causando un &lt;strong&gt;daño PERMANENTE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Cómo solucionamos esto?&lt;/strong&gt; → &lt;strong&gt;Dando movilidad a la carga&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Poniendo en contacto las superficies exteriores para que estén con el &lt;strong&gt;mismo potencial&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Usar dieléctricos con una &lt;strong&gt;resistividad limitada&lt;/strong&gt; ($&amp;lt; 10^{7} \Omega/m^{2}$)&lt;/li&gt;
+&lt;li&gt;Mantas conductoras&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;¿Qué orbitas son peligrosas?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orbitas bajas:&lt;/strong&gt; &lt;strong&gt;No hay problema de acumulación de carga&lt;/strong&gt; ya que se descargan por el plasma de la ionosfera. &lt;strong&gt;Solo en latitudes altas hay problemas.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Navegación:&lt;/strong&gt; Están cerca del borde interior (20000 km). Se acumulan electrones del viento solar, además de acumulación en dieléctricos. Pueden causar roturas de estos últimos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GSO (Geoestacionarias): MAYOR RIESGO&lt;/strong&gt;, ya que no hay nada que nos protege y además no hay ningún camino conductivo. Los diseños deben ser cuidadosos en cuento a equilibrar los potenciales entre las superficies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;radiación-de-partículas&#34;&gt;Radiación de Partículas&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dañan materiales y electrónica&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Electrones penetran mas&lt;/li&gt;
+&lt;li&gt;Iones son más destructivos&lt;/li&gt;
+&lt;li&gt;Bit Flips: Cambio espontaneo de valores de bits (Temporal o permanente)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reducción eficiencia de paneles solares:&lt;/strong&gt; Hay que tener en cuenta esta variación de la eficiencia porque sino nuestra misión morirá más pronto de lo planeado.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estrellas Falsas:&lt;/strong&gt; En satélites que determinan su actitud basándose en &lt;strong&gt;sensores de estrellas&lt;/strong&gt;, un impacto de una partícula en el sensor puede crear estrellas falsas contaminando la entrada de datos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Degradación de las propiedades superficiales&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Los &lt;strong&gt;CMEs&lt;/strong&gt; afectan en gran medida
+&lt;ul&gt;
+&lt;li&gt;Aumentan la densidad atmosférica y la temperatura y también la resistencia&lt;/li&gt;
+&lt;li&gt;Crean turbulencias y cambios de densidad en la ionosfera&lt;/li&gt;
+&lt;li&gt;Cambian la magnetosfera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;La dosis de radiación&lt;/strong&gt; es el &lt;strong&gt;PRINCIPAL FACTOR LIMITANTE de la vida de la mayoría de los
+sistemas electrónicos y es un problema muy tocho para MISIONES HUMANAS DE LARGA
+DURACION&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;radiación-electromagnética-solar-1&#34;&gt;Radiación electromagnética solar&lt;/h5&gt;
+&lt;p&gt;Me permite &lt;strong&gt;obtener&lt;/strong&gt; energía eléctrica mediante &lt;strong&gt;paneles solares&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Se debe aseguarar el &lt;strong&gt;equilibrio térmico&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;INPUT: Radiación que viene desde el entorno&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Energía Total del Sol&lt;/strong&gt; $\sim 1350 W / m^{2}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Albedo Terrestre&lt;/strong&gt; (Energía solar que rebota en la Tierra) $\sim 30 %$ del flujo de energía Solar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Radiación Terrestre&lt;/strong&gt; $\sim 17 %$ del flujo de energía solar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OUTPUT: Emisión de radiación desde las superficies de la nave&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Es importante hacer un buen diseño térmico para mantener todo el equipamiento en su
+rango de temperaturas de funcionamiento&lt;/strong&gt;, ya que algunos funcionan bien a bajas
+temperaturas (paneles solares) y otros funcionan bien a otras temperaturas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Los rayos &lt;strong&gt;EUV / X_Ray&lt;/strong&gt; que afectan a la &lt;strong&gt;ionosfera&lt;/strong&gt; de la Tierra &lt;strong&gt;degradan las
+propiedades superficiales&lt;/strong&gt; del vehículo (Polímeros)&lt;/p&gt;
+&lt;h5 id=&#34;presión-de-radiación-fotónica&#34;&gt;Presión de Radiación Fotónica&lt;/h5&gt;
+&lt;p&gt;La radiación ejerce una &lt;strong&gt;presión&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;$$
+p=\frac{\frac{P}{A}}{c}=\frac{C_{s}}{c}=\frac{1370}{3 \cdot 10^{8}}=4,5 \cdot 10^{-6}
+$$&lt;/p&gt;
+&lt;p&gt;Esta presión es ejercida en la dirección de la radiación solar. Aparece una &lt;strong&gt;fuerza proporcional a $C_{s}$&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Partiendo de una órbita circular, si la fuerza va en contra del movimiento, &lt;strong&gt;la altitud se reduce&lt;/strong&gt; (sigue siendo circular la órbita).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/efecto_presi%C3%B3n_radiaci%C3%B3n.png&#34;
+	width=&#34;658&#34;
+	height=&#34;490&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/efecto_presi%C3%B3n_radiaci%C3%B3n_huf8f398cb8419f71b48a12a871a9f3c3a_64940_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/efecto_presi%C3%B3n_radiaci%C3%B3n_huf8f398cb8419f71b48a12a871a9f3c3a_64940_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Efecto de la presión de radiación fotónica&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;134&#34;
+		data-flex-basis=&#34;322px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Entonces cuando el vehículo ha completado media vuelta, tendrá la fuerza a favor, habrá por
+lo tanto un incremento de velocidad, &lt;strong&gt;AUMENTANDO LA EXCENTRICIDAD DE LA ORBITA&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Esto puede usarse para &lt;strong&gt;Velas Solares&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&#34;atmosfera&#34;&gt;Atmosfera&lt;/h5&gt;
+&lt;p&gt;La altitud &lt;strong&gt;afecta notablemente&lt;/strong&gt; a la &lt;strong&gt;resistencia aerodinámica&lt;/strong&gt; ya que está
+relacionada &lt;strong&gt;exponencialmente con la densidad&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;$$
+a_{D}=\frac{D}{m}=\frac{1}{2} \rho|\boldsymbol{V}|^{2} \frac{A C_{D}}{m}=\frac{\rho}{2 \beta}|\boldsymbol{V}|^{2}
+$$&lt;/p&gt;
+&lt;p&gt;$\beta$ es el &lt;strong&gt;coeficiente balístico&lt;/strong&gt; que solo depende del &lt;strong&gt;vehículo&lt;/strong&gt; y su &lt;strong&gt;orientación respecto a la velocidad incidente.&lt;/strong&gt; Para altitudes entre los $600-1000 km$ no afecta mucho&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Orbitas de menos de 600 km&lt;/strong&gt; de altitud pueden tener que adoptar medidas para mantener su
+altitud durante la misión&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para orbitas de más de 600 km, habrá que reservar un poco de fuel para tener generar una
+reentrada al terminar la misión.&lt;/p&gt;
+&lt;h5 id=&#34;vacío&#34;&gt;Vacío&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AUSENCIA DE CONVECCION:&lt;/strong&gt; La única manera de evacuar calor será por &lt;strong&gt;radiación&lt;/strong&gt; o &lt;strong&gt;convección forzada&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tanques de combustible&lt;/strong&gt; y otros sistemas necesitaran &lt;strong&gt;presurización&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sublimación&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metales&lt;/strong&gt; sueltan moléculas de gas absorbidas en su estancia en la Tierra&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polímeros y otros materiales compuestos&lt;/strong&gt; de materiales volátiles sueltan partículas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Materiales Higroscópicos&lt;/strong&gt; sueltan toda el agua absorbida por el aire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Todo esto puede provocar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cambios en las propiedades de los materiales&lt;/li&gt;
+&lt;li&gt;Descomposición contaminando otras superficies&lt;/li&gt;
+&lt;li&gt;Interferencias en medidas&lt;/li&gt;
+&lt;li&gt;Corto circuitos y malfuncionamiento de instrumentos&lt;/li&gt;
+&lt;li&gt;Soldadura Fría&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Habrá que evitar usar metales de fácil sublimación como son el Zinc o Cesio, mantener las piezas móviles en recintos presurizados, o si no usar lubricantes con una débil tasa de evaporación y sublimación&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;efectos-de-la-basura-espacial&#34;&gt;Efectos de la basura Espacial&lt;/h4&gt;
+&lt;p&gt;Cada vez hay menos fragmentos de explosiones ya que no se detona nada en el espacio. Sin embargo, si que aumentaran los fragmentos de colisión, al haber mas objetos volando sin eliminar los que ya hay&lt;/p&gt;
+&lt;p&gt;Se han tomado una serie de medidas para mitigar el problema de los fragmentos como es:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Generar la menor cantidad de basura posible durante la misión&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minimizar la posibilidad de explosiones en orbita&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eliminar los vehículos tras la misión y prevenir las colisiones en órbita&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por lo tanto, habrá dos maneras extra de mitigar el crecimiento de objetos volando:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PDM:&lt;/strong&gt; Post Mission Disposal (25 years): &lt;strong&gt;Llevar los objetos a orbitas cementerios o que se desintegren en la atmosfera&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ADR0x:&lt;/strong&gt; &lt;strong&gt;Eliminación de basura de manera activa&lt;/strong&gt;. Se eliminarán x objetos por años. Como no hay nadie que lo quiera hacer pues actualmente no se esta realizando, pero hay numerosas naves experimentales que realizar esta tarea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El uso de basureros (Recogida activa de basura), supondría un descenso increíble de la basura espacial a largo plazo&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/n%C3%BAmero_de_objetos.png&#34;
+	width=&#34;1034&#34;
+	height=&#34;716&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/n%C3%BAmero_de_objetos_hu4e25a5a95e7387f0f524e1474ada5126_268482_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_2/n%C3%BAmero_de_objetos_hu4e25a5a95e7387f0f524e1474ada5126_268482_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Número de objetos&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tema-3-maniobras&#34;&gt;Tema 3 Maniobras&lt;/h2&gt;
+&lt;h3 id=&#34;introducción-1&#34;&gt;Introducción&lt;/h3&gt;
+&lt;p&gt;La misión define una órbita de operación y no siempre es alcanzable directamente con el lanzador y lugar de lanzamiento disponibles/seleccionados. Una vez lanzadas la inmensa mayoría tienen que hacer una serie de maniobras con objeto de modificar o cambiar radicalmente sus trayectorias&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si la &lt;strong&gt;orbital inicial&lt;/strong&gt; y la &lt;strong&gt;órbita final SE CORTAN no hará falta una órbita de transferencia&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Si la &lt;strong&gt;órbita inicial y finales no se cortan será necesario emplear&lt;/strong&gt; al menos una órbita intermedia, &lt;strong&gt;órbita de transferencia&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para realizar órbita una maniobra, es necesario que el cohete posea unos &lt;strong&gt;motores cohete&lt;/strong&gt; (Solidos o Líquidos por lo general). Se caracterizan por que &lt;strong&gt;su TIEMPO DE COMBUSTION es MUY PEQUEÑO en comparación con el PERIODO ORBITAL&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Por lo tanto, su efecto puede compararse a un &lt;strong&gt;IMPULSO INSTANTANEO O PERCUSION&lt;/strong&gt; (𝚫𝑽). Se
+cambia de velocidad sin cambiar notablemente de posición&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En general se trata de &lt;strong&gt;minimizar ∆𝐕, es decir, la masa&lt;/strong&gt;. Siempre que los &lt;strong&gt;tiempos requeridos&lt;/strong&gt; para realizar las maniobras &lt;strong&gt;no penalicen demasiado la misión&lt;/strong&gt;. Por ejemplo, un &lt;strong&gt;cambio instantáneo&lt;/strong&gt; de orbita (sin orbita de transferencia), es un cambio instantáneo sin embargo el &lt;strong&gt;consumo de combustible es muy grande&lt;/strong&gt;. Si realizamos una maniobra con asistencia de una &lt;strong&gt;órbita de transferencia, se ahorrará combustible&lt;/strong&gt;, pero tendremos una penalización de tiempo al realizar esa transferencia&lt;/p&gt;
+&lt;p&gt;Es importante tener en cuenta que &lt;strong&gt;Δ𝑽 tiene carácter VECTORIAL&lt;/strong&gt;. Por lo tanto, según como este sea aplicado la órbita cambiara de diferente forma.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se asume que se emplean impulsos instantáneos&lt;/li&gt;
+&lt;li&gt;Dirección de ∆𝐕&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paralela al plano orbital&lt;/strong&gt;: puede variar $a, e, \omega$ (caraterísticas de la órbita).    $\omega$ reorientaría el plano orbital.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perpendicular al plano orbital&lt;/strong&gt;: puede variar $\Omega, i$ (características del plano orbital)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gasto-de-propulsante&#34;&gt;Gasto de propulsante&lt;/h3&gt;
+&lt;p&gt;El impulso necesario en cada maniobra se consigue mediante un motor cohete y varía según el tipo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Propulsante líquido: se puede variar ∆𝑉 durante la misión&lt;/li&gt;
+&lt;li&gt;Propulsante sólido: no se puede variar ∆𝑉 durante la misión&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dado un Δ𝑉 necesario para realizar una maniobra, podemos calcular la masa de propulsante necesaria para realizar la maniobra a partir de la siguiente expresión:&lt;/p&gt;
+&lt;p&gt;$$
+\Delta V=I_{s p} g \ln \frac{\text { masa inicial }}{\text { masa final }} \quad m_{p}=m_{s}\left[\exp \left(\frac{\Delta V}{I_{s p} g}\right)-1\right]
+$$&lt;/p&gt;
+&lt;p&gt;Donde:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$m_{P}$: masa de propulsante necesaria&lt;/li&gt;
+&lt;li&gt;$m_{s}$ : masa seca&lt;/li&gt;
+&lt;li&gt;$I_{sp}$: impulso específico&lt;/li&gt;
+&lt;li&gt;g: $9.81 m/s^{2}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trigonometría-esférica&#34;&gt;Trigonometría esférica&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Relaciona lados y ángulos de triángulos esféricos. En realidad los lados son arcos y vienen dados en unidades de ángulo. Por definición, los lados de un triángulo esférico están definidos por circulos máximos. El ecuador es un círculo máximo pero cualquier otro paralelo no porque no incluye el centro de la Tierra.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Área de la superficie
+$$
+S=\frac{\pi r^{2}}{180^{\circ}}\left(A+B+C-180^{\circ}\right) \geq 0
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un triángulo muy pequeño tiene un área cercana a π, y la trigonometría plana es una buena aproximación&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Teorema del seno
+$$
+\frac{\sin a}{\sin A}=\frac{\sin b}{\sin B}=\frac{\sin c}{\sin C}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Teorema de la cotangente
+$$
+\cot a \sin b=\cos b \cos C+\sin C \cot A
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/tri%C3%A1ngulo_esf%C3%A9rico.png&#34;
+	width=&#34;518&#34;
+	height=&#34;524&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/tri%C3%A1ngulo_esf%C3%A9rico_huc45c257012453173206812d61a3d2ee9_143707_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/tri%C3%A1ngulo_esf%C3%A9rico_huc45c257012453173206812d61a3d2ee9_143707_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Triángulo esférico&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;237px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Teor. del coseno para lados: Relaciona los lados y un ángulo
+$$
+\cos a=\cos b \cos c+\sin b \sin c \cos A
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Teor. del coseno para ángulos: Relaciona los ángulos y un lado
+$$
+\cos A=-\cos B \cos C+\sin B \sin C \cos a
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lanzamiento&#34;&gt;Lanzamiento&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hay un interes por tener bases de lanzamiento cerca del ecuador. Esto es debido a que las inclinaciones orbitales a las que uno tiene acceso están limitadas por la latitud a la que se lanza.  Se busca minimizar combustible o alcanzar la órbita de la forma más directa posible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Un vehículo se lanza desde una base L, cuya latitud geométrica es $\phi$. Nuestro objetivo es colocarlo en una órbita cuya inclinación es $i$. ¿Con que ángulo azimutal, $A$, habrá que lanzar el lanzador?&lt;/p&gt;
+&lt;p&gt;Hipótesis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La trayectoria propulsada está contenida en el plano orbital&lt;/li&gt;
+&lt;li&gt;No se considera el efecto del giro de la Tierra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aplicando el teorema del coseno&lt;/p&gt;
+&lt;p&gt;$$
+\cos i=-\cos A \cos \frac{\pi}{2}+\sin A \sin \frac{\pi}{2} \cos \phi
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$
+\cos i=\sin A \cos \phi
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;El mínimo valor de 𝒊 que se puede conseguir es el de la latitud de la base de lanzamiento.&lt;/p&gt;
+&lt;p&gt;$$
+|\cos i| \leq |\cos \phi| \rightarrow \pi - \phi \geq i \geq \phi
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$
+i_{min} = \phi \quad i_{max} = \pi - \phi
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$sin A$ nunca será mayor que la unidad, por lo tanto, la inclinación estará limitada por la latitud
+de la base de lanzamiento y podemos comprobar cómo realizar un lanzamiento desde el ecuador es la mejor opción ya que abarca todos ángulos desde esa zona de lanzamiento.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112115740554.png&#34;
+	width=&#34;622&#34;
+	height=&#34;576&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112115740554_hu496f013688a0525776879ec5b159e553_117314_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112115740554_hu496f013688a0525776879ec5b159e553_117314_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;107&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/lanzamiento.jpg&#34;
+	width=&#34;1236&#34;
+	height=&#34;914&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/lanzamiento_hu6b7664f523075193f9f11d79c1c9dcfa_68192_480x0_resize_q75_box.jpg 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/lanzamiento_hu6b7664f523075193f9f11d79c1c9dcfa_68192_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;324px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Si lanzamos desde el polo norte ($\phi = \pi / 2$):
+$$
+\cos i = \sin A \cdot 0 = 0 \rightarrow \quad i = \frac{\pi}{2}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si lanzamos desde el polo sur ($\phi = - \pi / 2$):
+$$
+\cos i = \sin A \cdot 0 = 0 \rightarrow \quad i = \frac{\pi}{2}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si lanzamos desde el ecuador ($\phi = 0; A= \pi / 2$):
+$$
+\cos i = \sin A \cdot 1 = \sin A = 0 \quad \rightarrow \quad 180 \geq i \geq 0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si lanzamos desde Madrid ($\phi = 40º$):
+$$
+cos i = sin A \cdot 0.766 \rightarrow i_{min} = 40º (A=90º); \quad i_{max}=140º(A=270)
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cada base de lanzamiento dispone de figuras en las que se muestran las inclinaciones posibles para la Base Cabo Cañaberal con azimuth de 29º. Se limita el sur y norte por zonas habitadas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112120013692.png&#34;
+	width=&#34;698&#34;
+	height=&#34;482&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112120013692_huf4a33a977c8a38aeeec94323f195697f_209277_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112120013692_huf4a33a977c8a38aeeec94323f195697f_209277_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112121359495.png&#34;
+	width=&#34;696&#34;
+	height=&#34;720&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112121359495_hueac3cc2ebbdcf95f467ffa7c3c18913a_185072_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/image-20211112121359495_hueac3cc2ebbdcf95f467ffa7c3c18913a_185072_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;232px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;maniobras-coplanarias&#34;&gt;Maniobras coplanarias&lt;/h3&gt;
+&lt;p&gt;Se da impulsos dentro del plano orbital para cambiar los parámetros de la cónica. Pierdo algo de energía en girar y no en cambiar la energía de la órbita. Para que no exista esta pérdida lo mejor es usar impulsos tangenciales. Sin embargo, si no tengo más remedio por restricciones de tiempo se tendrá que utilizar impulsos no tangenciales.&lt;/p&gt;
+&lt;p&gt;Un satélite se encuentra en una órbita kepleriana inicial. En una cierta posición se le comunica un impulso, $\Delta \vec{V}$. Por lo tanto, la velocidad pasará de $\vec{V_{l}}$ a $\vec{V_{f}}$ y por lo tanto se encontrará en una nueva orbita&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$V_f$ tangente a la órbita final&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salvo que quiera cambiar el argumento en el perigeo los impulsos se realizarán en el apoapsis o periapsis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;impulso-no-tangencial&#34;&gt;Impulso no tangencial&lt;/h4&gt;
+&lt;p&gt;En el caso de que el impulso se haya dado dentro del plano de la órbita (Maniobra Coplanaria), este impulso se caracterizara con $\Delta V$ y $\varphi$, donde $\varphi$ sera el angulo entre la velocidad inicial y la velocidad final&lt;/p&gt;
+&lt;p&gt;Si el impulso NO ES TANGENTE A LA TRAYECTORIA $\rightarrow \varphi \neq 0$&lt;/p&gt;
+&lt;p&gt;A partir del teorema del coseno obtendremos que:&lt;/p&gt;
+&lt;p&gt;$$
+\Delta V=\sqrt{V_{f}^{2}+V_{i}^{2}-2 V_{f} V_{i} \cos \varphi} \geq V_{f}-V_{i}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sin \psi=\frac{V_{f} \sin \varphi}{\Delta V}
+$$&lt;/p&gt;
+&lt;p&gt;El ángulo $\psi$, nos da el angulo que tiene que formar el impulso con la velocidad inicial&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No se maximiza la eficiencia ($\varphi \neq 0$), parte del impulso no se emplea en aumentar la energía específica de la órbita. Recordemos que la energía específica en un punto dado sólo depende del módulo de la velocidad&lt;/li&gt;
+&lt;li&gt;Se emplea cuando se quiere reducir el tiempo requerido para la maniobra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_no_tangencial.png&#34;
+	width=&#34;511&#34;
+	height=&#34;416&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_no_tangencial_huc26283ecee1ace88dff24212e476fc18_97793_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_no_tangencial_huc26283ecee1ace88dff24212e476fc18_97793_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Impulso no tangencial&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;122&#34;
+		data-flex-basis=&#34;294px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;impulso-tamngencial&#34;&gt;Impulso tamngencial&lt;/h4&gt;
+&lt;p&gt;En este caso el impulso se realiza tangencialmente a la órbita (𝜑 = 0), por lo tanto, se maximiza la eficiencia del impulso.&lt;/p&gt;
+&lt;p&gt;Sera utilizado en el caso de que el tiempo no sea una prioridad.&lt;/p&gt;
+&lt;p&gt;En general se realizan en el apoapsis o en el periapsis. Sin embargo, si se realiza en el apoapsis conseguiremos VENTAJAS ENERGETICAS&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_tangencial.png&#34;
+	width=&#34;538&#34;
+	height=&#34;424&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_tangencial_hu2974588eddf678ed37b0b0e615af754b_133498_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_tangencial_hu2974588eddf678ed37b0b0e615af754b_133498_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Impulso tangencial&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;304px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cálculo-del-impulso-no-tangencial&#34;&gt;Cálculo del impulso no tangencial&lt;/h4&gt;
+&lt;p&gt;Conocidas la órbita inicial y final, conocemos $a, e, \omega$ de ambas orbitas.  Estos parámetros me determinan donde tengo que dar el impulso y con qué ángulo.&lt;/p&gt;
+&lt;p&gt;Igualamos los radios en el punto de impulso i:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{p_{i}}{1+e_{i} \cos \left(\nu_{i}\right)}=\frac{p_{f}}{1+e_{f} \cos \left(\nu_{i}-\omega_{f}+\omega_{i}\right)}
+$$&lt;/p&gt;
+&lt;p&gt;En la ecuación es todo conocido excepto $\nu_{i}$. EL resultado será $r_{I}, \nu_{I}$ del punto de impulso en la órbita inicial. Las velocidades antes y después de la maniobra serán:&lt;/p&gt;
+&lt;p&gt;$$
+V_{i}^{2}=\mu\left(\frac{2}{r_{I}}-\frac{1}{a_{i}}\right) \quad V_{f}^{2}=\mu\left(\frac{2}{r_{I}}-\frac{1}{a_{f}}\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\gamma_{i}=\operatorname{atan}\left(\left(1-\frac{r_{I}}{p_{i}}\right) \tan v_{i}\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\gamma_{f}=\operatorname{atan}\left(\left(1-\frac{r_{I}}{p_{f}}\right) \tan \left(\nu_{i}-\omega_{f}+\omega_{i}\right)\right)
+$$&lt;/p&gt;
+&lt;p&gt;Donde $\gamma$ serán los ángulos que forman las velocidades iniciales y finales con la horizontal. La dirección del impulso será:&lt;/p&gt;
+&lt;p&gt;$$
+\varphi=\gamma_{i}-\gamma_{f}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/c%C3%A1lculo_impulso_no_tangencial.png&#34;
+	width=&#34;798&#34;
+	height=&#34;638&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/c%C3%A1lculo_impulso_no_tangencial_huaa35c4cc2e8c95b0c61e643c1059f89b_125167_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/c%C3%A1lculo_impulso_no_tangencial_huaa35c4cc2e8c95b0c61e643c1059f89b_125167_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Cálculo impulso no tangencial&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;transferencias-coplanarias&#34;&gt;Transferencias coplanarias&lt;/h3&gt;
+&lt;p&gt;Muy a menudo las órbitas inicial y final no se cortan, por lo que para pasar de una a la otra es necesario una órbita de transferencia. Esta órbita puede ser secante o tangente a las órbitas inicial y final.&lt;/p&gt;
+&lt;p&gt;Estas orbitas de transferencia necesitaran de al menos 2 impulsos. El primer impulso, $\Delta V_{1}$, origina el abandono del vehículo de su órbita inicial, y el segundo, $\Delta V_{2}$ inserta a este en la órbita final.&lt;/p&gt;
+&lt;p&gt;En el caso de una transferencia mediante dos impulsos NO tangenciales:&lt;/p&gt;
+&lt;p&gt;$$
+\Delta V=\left|\Delta V_{1}\right|+\left|\Delta V_{2}\right|
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencia_coplanaria.png&#34;
+	width=&#34;694&#34;
+	height=&#34;564&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencia_coplanaria_hu1d81a93c510e54a1f5a677d9230c213e_90738_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencia_coplanaria_hu1d81a93c510e54a1f5a677d9230c213e_90738_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;295px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Esta maniobra es:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Poco eficiente&lt;/li&gt;
+&lt;li&gt;Rápida&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lo más eficiente seria hacer dos impulsos tangenciales. Aunque un caso intermedio seria hacer
+un impulso tangencial y otro no.&lt;/p&gt;
+&lt;h4 id=&#34;notación-para-transferencias&#34;&gt;Notación para transferencias&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Órbitas
+&lt;ul&gt;
+&lt;li&gt;Initial&lt;/li&gt;
+&lt;li&gt;Final&lt;/li&gt;
+&lt;li&gt;Transfer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Posiciones de las maniobras
+&lt;ul&gt;
+&lt;li&gt;a = Primer Impulso&lt;/li&gt;
+&lt;li&gt;b = Segundo Impulso&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Incrementos de velocidad ($\mathbf{V}_{Orbita,PuntoImpulso}$)
+&lt;ul&gt;
+&lt;li&gt;$\Delta V_{a} = V_{trans,a} - V_{init}$&lt;/li&gt;
+&lt;li&gt;$\Delta V_{b} = V_{final} - V_{trans, b}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Si se emplean más de una órbita de transferencia se denominan trans1, trans2, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/notaci%C3%B3n_transferencias.png&#34;
+	width=&#34;692&#34;
+	height=&#34;994&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/notaci%C3%B3n_transferencias_hu5403cba183ab48aa2c1975a41ba80304_406434_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/notaci%C3%B3n_transferencias_hu5403cba183ab48aa2c1975a41ba80304_406434_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;69&#34;
+		data-flex-basis=&#34;167px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;transferencia-de-hohmann&#34;&gt;Transferencia de Hohmann&lt;/h4&gt;
+&lt;p&gt;Se utilizarán DOS IMPULSOS TANGENCIALES. Se recorre la mitad de una órbita elíptica de
+transferencia. Es muy eficiente en la mayoría de casos prácticos&lt;/p&gt;
+&lt;h5 id=&#34;tranferencia-entre-dos-órbitas-circulares&#34;&gt;Tranferencia entre dos órbitas circulares.&lt;/h5&gt;
+&lt;p&gt;$r_{\text {init }} y r_{\text {final }}$ son los radios de las orbitas inicial y final (Orbitas Circulares). A partir de la ecuación de la energía especifica obtendremos las velocidades en cada punto para cada orbita y así obtener el $\Delta V$ necesario en cada punto&lt;/p&gt;
+&lt;p&gt;$$
+V_{\text {init }}=\sqrt{\frac{\mu}{r_{\text {init }}}} ; V_{\text {final }}=\sqrt{\frac{\mu}{r_{\text {final }}}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+a_{\text {trans }}=\frac{r_{\text {init }}+r_{\text {final }}}{2} ; t_{\text {trans }}=\frac{T}{2}=\pi \sqrt{\frac{a_{\text {trans }}^{3}}{\mu} 1}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+V_{\text {trans }, a}=\sqrt{\frac{2 \mu}{r_{\text {init }}}-\frac{\mu}{a_{\text {trans }}}} ; V_{\text {trans }, b}=\sqrt{\frac{2 \mu}{r_{\text {final }}}-\frac{\mu}{a_{\text {trans }}}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\Delta V_{a}=V_{\text {trans }, a}-V_{\text {init }} ; \Delta V_{b}=V_{\text {final }}-V_{\text {trans }, b} ; \Delta V=\left|\Delta V_{a}\right|+\left|\Delta V_{b}\right|
+$$&lt;/p&gt;
+&lt;h5 id=&#34;transferencia-entre-dos-órbitas-elípticas-coaxiales&#34;&gt;Transferencia entre dos órbitas elípticas coaxiales&lt;/h5&gt;
+&lt;p&gt;La forma de resolver el problema se realiza de la misma forma. Solo
+cambian las expresiones de $V_{init}, V_{final}$&lt;/p&gt;
+&lt;p&gt;$$
+V_{\text {init }}=\sqrt{\frac{2 \mu}{r_{\text {init }}}-\frac{\mu}{a_{\text {init }}}} ; \quad V_{\text {final }}=\sqrt{\frac{2 \mu}{r_{\text {final }}}-\frac{\mu}{a_{\text {final }}}}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencias_hohmann.png&#34;
+	width=&#34;908&#34;
+	height=&#34;606&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencias_hohmann_hucd5e160ec79974e1b162d70bc9bf591e_275410_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencias_hohmann_hucd5e160ec79974e1b162d70bc9bf591e_275410_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Tranferencias de Hohmann&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;transferencia-bielíptica&#34;&gt;Transferencia bielíptica&lt;/h4&gt;
+&lt;p&gt;Se usa para transferencias entre orbitas circulares. El concepto es usar una órbita de transferencia, pero en este caso me voy MUUY LEJOS (Punto B).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Desde el punto A me voy cuanto más lejos mejor (B) y en este punto doy otro impulso que me lleva a una segunda segunda órbita de transferencia que me dirige al radio final y finalmente doy un último impulso de recircularización. Se utilizan dos elipses de transferencia, de ahí el nombre.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;El punto B será un PARÁMETRO DE DISEÑO, ya que el $\Delta V$ requerido será función del valor que demos a $r_{b}$:
+$$
+r_{\text {init }}, r_{\text {final }}, r_{b} \rightarrow a_{\text {trans }, 1}, t_{\text {trans, } 1}, a_{\text {trans, } 2}, t_{\text {trans, } 2}, \Delta V_{a}, \Delta V_{b}, \Delta V_{c}
+$$&lt;/li&gt;
+&lt;li&gt;La distancia del punto en que se realiza el segundo impulso (b) al foco es mayor que el radio de la órbita mayor&lt;/li&gt;
+&lt;li&gt;Es más eficiente que la de Hohmann si $R^{*}=\frac{r_{b}}{r_{\text {init }}} \uparrow \uparrow$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencia_biel%C3%ADptica.png&#34;
+	width=&#34;848&#34;
+	height=&#34;532&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencia_biel%C3%ADptica_hu58eb10c912a966740f7242e057fc9042_145222_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/transferencia_biel%C3%ADptica_hu58eb10c912a966740f7242e057fc9042_145222_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Transferencia bielíptica&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;382px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;El impulso es más eficiente cuanto más alta es la velocidad cuando doy el impluso (efecto Oberth)&lt;/p&gt;
+&lt;h4 id=&#34;efecto-oberth&#34;&gt;Efecto Oberth&lt;/h4&gt;
+&lt;p&gt;Ir más y más lejos no me cuesta cada vez más sino que el límite es la velocidad de escape ($\infty$), y por tanto el $\Delta V$ que necesito para irme muy lejos esta limitado&lt;/p&gt;
+&lt;p&gt;¿En qué punto interesa más dar el impulso?:&lt;/p&gt;
+&lt;p&gt;Desde el punto de vista energético y para un impulso tangencial:
+$$
+\varepsilon_{\text {trans }, a}=\frac{(V+\Delta V)^{2}}{2}-\frac{\mu}{r}=\varepsilon_{\text {init }}+V_{\text {init }} \Delta V+\frac{\Delta V^{2}}{2}
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cuanto mayor es la velocidad en el punto en que se da el impulso, más eficiente resulta el impulso&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;transferencias-hohmann-vs-bielíptica&#34;&gt;Transferencias Hohmann vs. bielíptica&lt;/h4&gt;
+&lt;p&gt;El impulso total empleado para una transferencia de Hohmann será:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\Delta V}{V}=\sqrt{\frac{2 \lambda}{1+\lambda}}\left(1-\frac{1}{\lambda}\right)+\sqrt{\frac{1}{\lambda}}-1
+$$&lt;/p&gt;
+&lt;p&gt;donde $\lambda=r_{f} / r_{i}$. Si $\boldsymbol{\lambda}&amp;lt;\mathbf{1}$, estamos pasando de una órbita exterior a una interior. Si representamos $\Delta V / V$ en funcion de $\lambda$ obtendremos la siguiente gráfica:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_hohmann.png&#34;
+	width=&#34;792&#34;
+	height=&#34;402&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_hohmann_hu2a448c71b0392c963eddec4893dbef42_86741_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/impulso_hohmann_hu2a448c71b0392c963eddec4893dbef42_86741_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;197&#34;
+		data-flex-basis=&#34;472px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;A partir de esta figura se puede deducir que:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;La transferencia de orbitas interiores a exteriores cuesta menos que pasar de orbitas
+exteriores a interiores&lt;/li&gt;
+&lt;li&gt;Es más costoso pasar a una órbita 10 veces mayor que la inicial que a una órbita 1000
+veces mayor que la inicial&lt;/li&gt;
+&lt;li&gt;Para valores de $0.49 &amp;lt; \lambda &amp;lt; 3.3$, es más económico la transferencia que el escape. Esto
+quiere decir que mandar un satélite de una órbita baja a una geoestacionaria ($\lambda = 6.3$)
+cuesta mas que enviar al vehículo fuera de la atracción terrestre&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Como podemos ver, ir super lejos no implica aumentar mucho Δ𝑉 porque hay un límite. Ese límite es la velocidad de Escape (Velocidad de Inyección en órbita Parabólica).&lt;/p&gt;
+&lt;p&gt;Definimos $R^{*}=r_{b} / r_{init }$. Existen unos valores especiales:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$R^{*}= \lambda = 15.58$:&lt;/p&gt;
+&lt;p&gt;Mínimo valor de $R^{*}$ que consigue orbita bieliptica mas barata que una Hohmann&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lambda=11.94$ y $R^{*}=\infty$ :&lt;/p&gt;
+&lt;p&gt;En el mejor de los casos, en el que quiera gastar un tiempo infinito en la transferencia y me voy al infinito, necesito como mínimo para que la bieliptica me compense que $\lambda=11.94$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/hohmann_vs_biel%C3%ADptica.png&#34;
+	width=&#34;932&#34;
+	height=&#34;718&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/hohmann_vs_biel%C3%ADptica_hu75e68ae09e49e9c01f5b6fa82833630d_328938_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/hohmann_vs_biel%C3%ADptica_hu75e68ae09e49e9c01f5b6fa82833630d_328938_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;l&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;311px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Por lo tanto, podemos llegar a estas conclusiones.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lambda&amp;lt;$ 11. 94: Usar transferencia de Hohmann&lt;/li&gt;
+&lt;li&gt;$\lambda&amp;gt;$ 11. 94: Habra que ver si renta más Hohmann o Bieliptica dependiendo de $\boldsymbol{R}^{*}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A la hora de diseñar una órbita mirar el valor de $\lambda$, y ver si es mayor o menor que 11.94&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;restricción-en-𝑉&#34;&gt;Restricción en ∆𝑉&lt;/h3&gt;
+&lt;p&gt;Si los thrusters que lleva el satélite son pequeños el valor de ∆𝑉 puede estar LIMITADO&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bajo empuje químico $\rightarrow$ Hohmann segmentada
+&lt;ul&gt;
+&lt;li&gt;Se dan muchos impulsos en el periapsis (punto de menor radio y mayor velocidad) hasta que el radio en el apoapsis es igual al radio de la órbita mayor&lt;/li&gt;
+&lt;li&gt;Se da un impulso en el apoapsis para recircularizar la órbita&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bajo empuje eléctrico $\rightarrow$ Transferencia en espiral
+&lt;ul&gt;
+&lt;li&gt;Se van dando impulsos progresivamente&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;maniobra-de-cambio-de-plano&#34;&gt;Maniobra de cambio de plano&lt;/h3&gt;
+&lt;p&gt;Para cambiar el plano de la órbita necesitamos un impulso normal al plano. Al cambiar el plano de la órbita cambiamos la inclinación, $i$, y la ascensión del nodo ascendente, $\Omega$ (RAAN)&lt;/p&gt;
+&lt;p&gt;Existen tres opciones:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Solo cambiar la inclinación: $\Delta i=i_{f}-i_{i}$&lt;/li&gt;
+&lt;li&gt;Solo cambiar RAAN: $\Delta \Omega=\Omega_{f}-\Omega_{i}$&lt;/li&gt;
+&lt;li&gt;Cambiar inclinación y RAAN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Un cambio de plano orbital, sin modificación de la forma ni del tamaño de la órbita, requerirá un impulso que DEJE INVARIABLE EL MODULO DE LA VELOCIDAD del satélite y que sea perpendicular al radio vector del mismo (Giro a velocidad constante)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$
+|V_{i}| = |V_{f}|
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_de_plano.png&#34;
+	width=&#34;834&#34;
+	height=&#34;612&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_de_plano_hu54e92dc0d72874fc9cd8c5663b00678b_130740_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_de_plano_hu54e92dc0d72874fc9cd8c5663b00678b_130740_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;327px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sólo-cambia-la-inclinación&#34;&gt;Sólo cambia la inclinación&lt;/h4&gt;
+&lt;p&gt;El impulso debe darse en el paso del satélite por el ecuador (Línea de nodos). Si no tendríamos un cambio en la RAAN&lt;/p&gt;
+&lt;p&gt;Como no se modifica a, el módulo de la velocidad se debe conservar durante el impulso, $V_i = V_f \rightarrow \Delta V = 2 V_{i} sin \frac{\psi}{2}$:&lt;/p&gt;
+&lt;p&gt;​	$\Delta V=\sqrt{V_{f}^{2}+V_{i}^{2}-2 V_{f} V_{i} \cos \varphi}=2 V_{i} \sqrt{\frac{1-\cos \varphi}{2}}=2 V_{i} \sin \frac{\varphi}{2}$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n.png&#34;
+	width=&#34;442&#34;
+	height=&#34;258&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_hue40123cb85cc679299e688971a015444_34075_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_hue40123cb85cc679299e688971a015444_34075_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;m&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Para órbitas circulares: $\varphi=\Delta i \rightarrow \Delta V=2 V_{i} \sin \frac{\Delta i}{2}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para órbitas elípticas la componente de la velocidad normal al eje de giro (radiovector) es la que rota un ángulo ∆𝑖: $\Delta V=2 V_{i} \cos \gamma \sin \frac{\Delta i}{2}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El coste de la maniobra es altísimo: $\Delta V=2 V_{i} \cos \gamma \sin \frac{\Delta i}{2} \rightarrow \mathrm{i} i \Delta V \sim V_{i} ! !$. En caso de hacerse esta maniobra, conviene que sea en el nodo en que la velocidad sea menor (apogeo).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;LOS CAMBIOS DE PLANO ORBITAL SE DEBEN REALIZAR EN LA ZONA DE MENOR VELOCIDAD&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;sólo-cambia-raan&#34;&gt;Sólo cambia RAAN&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Igual que antes pero con $i_i = i_f$. DEBE HACERSE FUERA DEL ECUADOR    PORQUE SINO, NO LO CAMBIO.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;El lanzamiento desde una base se puede hacer en cualquier instante si sólo se tiene como requisito la inclinación de la órbita&lt;/p&gt;
+&lt;p&gt;Si hay un requisito para el valor de RAAN, será necesario esperar a tener una ventana de lanzamiento, o realizar una maniobra de cambio de RAAN&lt;/p&gt;
+&lt;p&gt;Particularizando para $i_i = i_f$ (no debe cambiar la inclinación) los resultados obtenidos en el caso anterior…&lt;/p&gt;
+&lt;p&gt;Se determina la magnitud, dirección y punto de aplicación del impulso $\Delta V, \Delta A, u_{i}$ en función de $i_{i}$ y $\Delta \Omega$.
+$u_{i}$ es el argumento de latitud&lt;/p&gt;
+&lt;p&gt;HIPOTESIS: ORBITA CIRCULAR&lt;/p&gt;
+&lt;p&gt;Aplicaremos el teorema del coseno para geometría esférica&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dirección del Impulso:
+$$
+\cos \Delta A=\cos ^{2} i_{i}+\sin ^{2} i_{i} \cos \Delta \Omega
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El impulso:
+$$
+\Delta V=2 V_{i} \sin \frac{\Delta A}{2}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El punto de aplicación del impulso se obtiene del teorema del coseno modificado, con $u = \omega + \nu$
+$$
+\cos u_{i}=\tan i_{i} \frac{\cos \Delta \Omega-\cos \Delta A}{\sin \Delta A}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_raan.png&#34;
+	width=&#34;486&#34;
+	height=&#34;424&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_raan_hu8dad4080557f8523007dd18d27e32677_91983_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_raan_hu8dad4080557f8523007dd18d27e32677_91983_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;275px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cambio-de-inclinación-y-de-raan&#34;&gt;Cambio de inclinación y de RAAN&lt;/h4&gt;
+&lt;p&gt;Se debe determinar la magnitud, dirección y punto de aplicación del impulso ($\Delta V, \Delta A, u_{i}$) en función de $i_{i}, i_{f}, \Delta \Omega$&lt;/p&gt;
+&lt;p&gt;HIPOTESIS: ORBITA CIRCULAR (Si no lo fuese cambiaria el argumento del perigeo $(\omega)$&lt;/p&gt;
+&lt;p&gt;Aplicando el teorema del coseno para geometría esférica tendremos que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dirección del Impulso
+$$
+\cos \Delta A = - \cos i_{f} \cdot \cos(\pi-i_{i}) + \sin i_{f} \cdot \sin(\pi - i_{i}) \cdot \cos \Delta \Omega
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\cos \Delta A = \cos i_{f} \cos i_{i} + \sin i_{f} \sin i_{i} \cos \Delta \Omega
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Impulso
+$$
+\Delta V=2 V_{i} \sin \frac{\Delta A}{2}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Punto Aplicación Impulso
+$$
+u = \omega + \nu
+$$
+$$
+\cos u_{i}=\frac{\cos i_{f}+\cos \Delta A \cdot \cos \left(\pi-i_{i}\right)}{\sin \Delta A \sin \left(\pi-i_{i}\right)}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_raan.png&#34;
+	width=&#34;568&#34;
+	height=&#34;560&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_raan_huaf3750264e20a15d86c3a1e0fc7e26d9_104475_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_raan_huaf3750264e20a15d86c3a1e0fc7e26d9_104475_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;243px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;maniobra-combinada&#34;&gt;Maniobra combinada&lt;/h3&gt;
+&lt;p&gt;En este tipo de maniobras, el $\Delta \vec{V}$ tendrá componentes fuera del plano y dentro de él, por lo tanto, habrá un cambio de forma/tamaño de la órbita además de un cambio de plano orbital.&lt;/p&gt;
+&lt;p&gt;En general se trata de MINIMIZAR EL NUMERO DE IMPULSOS&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reducir el tiempo de la maniobra completa&lt;/li&gt;
+&lt;li&gt;Reducir la complejidad de la maniobra&lt;/li&gt;
+&lt;li&gt;Reducir el $\Delta V$ total&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;HIPOTESIS: ORBITA CIRCULAR&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En principio el cambio de plano es el MÁS COSTOSO, por lo tanto será el que se trate de minimizar, por encima del cambio de forma/tamaño. Se minimiza el gasto debido al cambio de plano por encima del gasto debido al cambio de forma&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/maniobra_combinada.png&#34;
+	width=&#34;407&#34;
+	height=&#34;292&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/maniobra_combinada_hu678269bc35e3ad7942dd0bf74e5939fb_18736_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/maniobra_combinada_hu678269bc35e3ad7942dd0bf74e5939fb_18736_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;139&#34;
+		data-flex-basis=&#34;334px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/white.jpg&#34;
+	width=&#34;1680&#34;
+	height=&#34;1050&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/white_hu6ee7e6f0b1418576dd1f2485aa7d299c_51182_480x0_resize_q75_box.jpg 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/white_hu6ee7e6f0b1418576dd1f2485aa7d299c_51182_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Una maniobra combinada, nos puede ayudar a reducir el $\Delta V$ necesario. En el ejemplo se puede ver, como para alcanzar $V_{f}$ hay dos opciones: Combinada (Roja), o primero impulso en plano y luego otro. Como se puede ver la roja implica menos $\Delta V$ que la suma de las otras dos&lt;/p&gt;
+&lt;p&gt;$$
+\Delta V_{Combi} &amp;lt; \Delta V_{Hoh, 1}+\Delta V_{Hoh, 2}
+$$&lt;/p&gt;
+&lt;p&gt;Es mejor combinar impulsos para reducir complejidad, tiempo y $\Delta V$ de la maniobra&lt;/p&gt;
+&lt;p&gt;En este tipo de maniobras son utilizadas por satélites para pasar de una órbita de aparcamiento LEO con inclinación $i_{i}$ a una orbita GEO. Para ello habrá que hacer un cambio de altitud y un cambio de inclinación.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La optimización del problema no es lineal, aunque hay que tener claro unos conceptos, cuanto menor sea la velocidad del satélite, MEJOR PARA CAMBIAR LA INCLINACION. Cuanto más rápido vaya el satélite, mejor para aumentar la energía especifica de la orbita&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Una buena maniobra seria por ejemplo realizar la mayor parte del cambio de plano en el apogeo que es el punto de menor velocidad&lt;/p&gt;
+&lt;p&gt;La formula a utilizar en estos problemas será la más general posible:&lt;/p&gt;
+&lt;p&gt;$$
+\Delta V=\sqrt{V_{f}^{2}+V_{i}^{2}-2 V_{f} V_{i} \cos \phi} \geq V_{f}-V_{i}
+$$&lt;/p&gt;
+&lt;p&gt;Donde $\phi$ será el ángulo que forman los vectores velocidad inicial y final. En el caso de que la órbita inicial sea circular, $\Delta \phi=\Delta i$&lt;/p&gt;
+&lt;h3 id=&#34;maniobra-aeroasistida--aerobraking&#34;&gt;Maniobra Aeroasistida / Aerobraking&lt;/h3&gt;
+&lt;p&gt;Queremos pasar de una orbita a otra de MENOR ENERGIA.&lt;/p&gt;
+&lt;p&gt;En el caso de estar cerca de un planeta con atmosfera, nos aprovechamos de la resistencia AERODINAMICA para REDUCIR LA ENERGIA DE LA ORBITA. Esto nos ahorra una gran cantidad de combustible además de reducir los costes de la misión.&lt;/p&gt;
+&lt;p&gt;¿Cómo se realiza?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;El cohete reduce la altura del perigeo mediante un impulso y forma que pase por la atmosfera del planeta&lt;/li&gt;
+&lt;li&gt;Cada vez que pasa el satélite por la atmosfera, este disminuirá su velocidad y altura del apogeo DISMINUIRA por lo tanto se producirá una circularización progresiva de la orbita&lt;/li&gt;
+&lt;li&gt;Una vez tengo la altura del apogeo necesaria. Meto otro impulso para ALEJAR EL PERIGEO DE LA ATMOSFERA.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Este tipo de maniobras NO SON NADA SENCILLAS. Las condiciones atmosféricas NO SON CONSTANTES TEMPORALMENTE NI GEOGRAFICAMENTE. Por lo tanto, será necesario controlar las variables atmosféricas donde hago el frenado. La longitud será una variable importante a tener en cuenta debido a que la atmosfera rota con el planeta&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Exámenes Teoría Vehículos Espaciales</title>
+        <link>/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/</link>
+        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/</guid>
+        <description>&lt;img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/sat%C3%A9lite.jpg" alt="Featured image of post Exámenes Teoría Vehículos Espaciales" /&gt;&lt;h1 id=&#34;exámenes&#34;&gt;Exámenes&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt; Exámenes de la parte V2 de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -56,10 +2001,10 @@
 &lt;p&gt;Describir de forma cualitativa las fases tipicas de una maniobra aeroasistida. ( $0.5$ puntos)&lt;/p&gt;
  &lt;details&gt;
  &lt;summary&gt;Solución&lt;/summary&gt;
-&lt;p&gt;Para pasar de una órbita a otra de menor energí, se puede aprovechar la reducción de energia que produce la resistencia aerodinámica:&lt;/p&gt;
+&lt;p&gt;Para pasar de una órbita a otra de menor energía, se puede aprovechar la reducción de energia que produce la resistencia aerodinámica:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Reducción de la altura del periapsis&lt;/li&gt;
-&lt;li&gt;Circularización progresiva de la órbita (rapo $\downarrow$ ) gracias a la resistencia aerodinámica en el periapsis&lt;/li&gt;
+&lt;li&gt;Circularización progresiva de la órbita ($r_{apo} \downarrow$ ) gracias a la resistencia aerodinámica en el periapsis&lt;/li&gt;
 &lt;li&gt;Elevación de la altura del periapsis&lt;/li&gt;
 &lt;/ol&gt;
  &lt;/details&gt;
@@ -95,8 +2040,8 @@
 &lt;li&gt;El equilibrio térmico se obtiene mediante el equilibrio entre la radiación incidente del entorno y la radiación emitida por las superficies del vehiculo:
 &lt;ul&gt;
 &lt;li&gt;Flujo total de energia solar $\sim 1350 \mathrm{~W} / \mathrm{m}^{2}$.&lt;/li&gt;
-&lt;li&gt;Albedo terrestre $\sim 30 %$ del flujo de energía solar.&lt;/li&gt;
-&lt;li&gt;Radiación terrestre $\sim 17 %$ del flujo de energia solar.&lt;/li&gt;
+&lt;li&gt;Albedo terrestre $\sim 30$ % del flujo de energía solar.&lt;/li&gt;
+&lt;li&gt;Radiación terrestre $\sim 17$ % del flujo de energia solar.&lt;/li&gt;
 &lt;li&gt;Radiación del vehiculo.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -126,10 +2071,10 @@
 &lt;li&gt;Perturbaciones en órbitas geoestacionarias debidas al potencial gravitatorio:
 &lt;ul&gt;
 &lt;li&gt;$J_{22}$ (armónico sectorial)
-&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094730834.png&#34;
+&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608094730834.png&#34;
 	width=&#34;652&#34;
 	height=&#34;256&#34;
-	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094730834_hu83943b08e761a5c2f58cc806e568aded_83013_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094730834_hu83943b08e761a5c2f58cc806e568aded_83013_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608094730834_hu83943b08e761a5c2f58cc806e568aded_83013_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608094730834_hu83943b08e761a5c2f58cc806e568aded_83013_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -140,10 +2085,10 @@
 &gt;&lt;/li&gt;
 &lt;li&gt;Movimiento oscilatorio alrededor de dos posiciones estables $\left(75^{\circ}\right.$ y $\left.255^{\circ} \mathrm{E}\right)$&lt;/li&gt;
 &lt;li&gt;Dos posiciones inestables.
-&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094759116.png&#34;
+&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608094759116.png&#34;
 	width=&#34;502&#34;
 	height=&#34;488&#34;
-	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094759116_hu3461032bb67d6d336fed21d15877c8c7_160996_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608094759116_hu3461032bb67d6d336fed21d15877c8c7_160996_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608094759116_hu3461032bb67d6d336fed21d15877c8c7_160996_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608094759116_hu3461032bb67d6d336fed21d15877c8c7_160996_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -191,10 +2136,10 @@
 &lt;/li&gt;
 &lt;li&gt;Carga profunda de dieléctricos: los electrones de alta energía pueden penetrar en los dieléctricos, acumulando carga negativa.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608095502528.png&#34;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608095502528.png&#34;
 	width=&#34;954&#34;
 	height=&#34;260&#34;
-	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608095502528_hu9880dae33e7c5fdf41a9910729a1e505_146435_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/image-20220608095502528_hu9880dae33e7c5fdf41a9910729a1e505_146435_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608095502528_hu9880dae33e7c5fdf41a9910729a1e505_146435_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa-ex%C3%A1menes/atts/image-20220608095502528_hu9880dae33e7c5fdf41a9910729a1e505_146435_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
