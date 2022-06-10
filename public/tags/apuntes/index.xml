@@ -171,7 +171,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 T = 2 \pi \sqrt{\frac{a^{3}}{\mu}}
 $$&lt;/p&gt;
-&lt;h2 id=&#34;tema-1-misión-y-elementos&#34;&gt;Tema 1 Misión y Elementos&lt;/h2&gt;
+&lt;h2 id=&#34;tema-1-misión-y-elementos&#34;&gt;Tema 1: Misión y Elementos&lt;/h2&gt;
 &lt;h3 id=&#34;tipos-de-misión&#34;&gt;Tipos de misión&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -438,7 +438,7 @@ petar la nave.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Orbita de Operación (Orbita Final)&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Corrección de Perturbaciones&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;tema-2-ambiente-espacial&#34;&gt;Tema 2 Ambiente Espacial&lt;/h2&gt;
+&lt;h2 id=&#34;tema-2-ambiente-espacial&#34;&gt;Tema 2: Ambiente Espacial&lt;/h2&gt;
 &lt;h3 id=&#34;introducción&#34;&gt;Introducción&lt;/h3&gt;
 &lt;p&gt;El vehículo espacial durante su operación y fabricación se enfrenta a múltiples situaciones con
 diferentes características:&lt;/p&gt;
@@ -1245,7 +1245,7 @@ reentrada al terminar la misión.&lt;/p&gt;
 		data-flex-basis=&#34;346px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;tema-3-maniobras&#34;&gt;Tema 3 Maniobras&lt;/h2&gt;
+&lt;h2 id=&#34;tema-3-maniobras&#34;&gt;Tema 3: Maniobras&lt;/h2&gt;
 &lt;h3 id=&#34;introducción-1&#34;&gt;Introducción&lt;/h3&gt;
 &lt;p&gt;La misión define una órbita de operación y no siempre es alcanzable directamente con el lanzador y lugar de lanzamiento disponibles/seleccionados. Una vez lanzadas la inmensa mayoría tienen que hacer una serie de maniobras con objeto de modificar o cambiar radicalmente sus trayectorias&lt;/p&gt;
 &lt;ul&gt;
@@ -2287,18 +2287,20 @@ $$&lt;/p&gt;
 &lt;p&gt;En esta orbita el valor de $\delta$ es igual a $90º$ y el satélite va sobrevolando, aproximadamente, la línea de separación entre el hemisferio iluminado y el oscuro.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;hora-local-de-paso-del-punto-subsatelite&#34;&gt;Hora Local de Paso del Punto Subsatelite&lt;/h3&gt;
+&lt;h4 id=&#34;hora-local-de-paso-del-punto-subsatelite&#34;&gt;Hora Local de Paso del Punto Subsatelite&lt;/h4&gt;
 &lt;p&gt;Ahora vamos a ver la relación entre la hora solar de paso de un satélite cualquiera por su nodo ascendente y la de paso por cualquier otro lugar&lt;/p&gt;
 &lt;p&gt;$H$ sera la hora solar en el punto L. Hay que tener en cuenta que cuando defino la hora estoy definiendo la posición del satélite respecto del Sol, es decir, ANGULOS.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;La hora en un punto será $\sigma$, es decir, la distancia angular entre el meridiano del satélite y el meridiano solar&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;$$
-\begin{aligned}
-&amp;amp;\sigma=\Omega-\alpha+\beta \
-&amp;amp;H=\frac{\sigma}{15}+12 \
-&amp;amp;(\Omega-\alpha+\beta) \cdot \frac{1}{15}+12
-\end{aligned}
+\sigma=\Omega-\alpha+\beta
+$$&lt;/p&gt;
+&lt;p&gt;$$
+H=\frac{\sigma}{15}+12
+$$&lt;/p&gt;
+&lt;p&gt;$$
+H=(\Omega-\alpha+\beta) \cdot \frac{1}{15}+12
 $$&lt;/p&gt;
 &lt;p&gt;El 12 es por qué cuando $\sigma=0$, son las 12 del mediodía (El satélite está en la eclíptica del Sol, por lo tanto, tendrá el Sol a su espalda). 15 es el factor de conversión entre grados y horas 15 grados /hora)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_4/hora_local_punto_subsat%C3%A9lite.png&#34;
@@ -2392,13 +2394,13 @@ $$&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;LO IMPORANTE ES QUE SEA UN NUMERO ENTERO&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;efecto-de-las-perturbaciones&#34;&gt;Efecto de las Perturbaciones&lt;/h3&gt;
+&lt;h4 id=&#34;efecto-de-las-perturbaciones&#34;&gt;Efecto de las Perturbaciones&lt;/h4&gt;
 &lt;p&gt;El potencial gravitatorio, en especial, el achatamiento terrestre, $J_{2}$, provocara que el tiempo de paso entre dos nodos ascendentes no sea el periodo orbita, ya que este provocara regresión de los nodos.&lt;/p&gt;
 &lt;p&gt;En este caso el periodo será $T_{\Omega}$ llamado tiempo nodal, que será el tiempo que transcurre entre dos pases consecutivos sobre el nodo ascendente&lt;/p&gt;
 &lt;p&gt;$$
-n + \dot{M}&lt;em&gt;{0}+ \dot{\omega}= \frac{2 \pi}{T&lt;/em&gt;{\Omega}}
+n + \dot{M_{0}}+ \dot{\omega}= \frac{2 \pi}{T_{\Omega}}
 $$&lt;/p&gt;
-&lt;p&gt;Si $\dot{M}&lt;em&gt;{0}$ y $\dot{\omega}$ son nulos, $T&lt;/em&gt;{\Omega}=T$&lt;/p&gt;
+&lt;p&gt;Si $\dot{M_{O}}$ y $\dot{\omega}$ son nulos, $T_{\Omega}=T$&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\omega_{\text {tierra }}-\dot{\Omega}}{\omega_{\Omega}}=\frac{k_{\text {day2rep }}}{k_{\text {orb2rep }}} \rightarrow\left(\omega_{\text {tierra }}-\dot{\Omega}\right) k_{\text {orb } 2 \text { rep }}=\frac{2 \pi}{T_{\Omega}} k_{\text {day2rep }}
 $$&lt;/p&gt;
@@ -2424,10 +2426,10 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;A partir de las ecuaciones de Lagrange obtenemos, $\dot{e}$ y $\dot{\omega}$&lt;/p&gt;
 &lt;p&gt;$$
-\begin{gathered}
-\dot{e}=-\frac{3}{2} \frac{n}{\left(1-e^{2}\right)^{2}} J_{3}\left(\frac{R_{\text {tierra }}}{a}\right)^{3}\left(1-\frac{5}{4} \sin ^{2} i\right) \sin i \cos \omega=0 \
+\dot{e}=-\frac{3}{2} \frac{n}{\left(1-e^{2}\right)^{2}} J_{3}\left(\frac{R_{\text {tierra }}}{a}\right)^{3}\left(1-\frac{5}{4} \sin ^{2} i\right) \sin i \cos \omega=0
+$$&lt;/p&gt;
+&lt;p&gt;$$
 \dot{\omega}=\frac{3 n}{\left(1-e^{2}\right)^{2}} J_{2}\left(\frac{R_{\text {tierra }}}{a}\right)^{2}\left(1-\frac{5}{4} \sin ^{2} i\right) \theta=0
-\end{gathered}
 $$&lt;/p&gt;
 &lt;p&gt;Por lo tanto, tengo varias opciones a la hora de cancelar los parámetros&lt;/p&gt;
 &lt;table&gt;
@@ -2460,10 +2462,10 @@ $$&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Elijo la inclinación critica, $i_{\omega}$&lt;/p&gt;
 &lt;p&gt;$$
-\begin{gathered}
-1-\frac{5}{4} \sin ^{2} i=0 \
-i_{\omega}=63.345 \circ
-\end{gathered}
+1-\frac{5}{4} \sin ^{2} i=0
+$$&lt;/p&gt;
+&lt;p&gt;$$
+i_{\omega}=63.345º
 $$&lt;/p&gt;
 &lt;p&gt;Si elijo la inclinación critica se cancelarán los dos efectos.&lt;/p&gt;
 &lt;/li&gt;
@@ -2473,11 +2475,13 @@ $$&lt;/p&gt;
 b. Podemos elegir $e=e_{f}$ de forma que $\theta=0 \rightarrow \dot{\omega}=0$ y $\dot{e}=0$&lt;/p&gt;
 &lt;p&gt;Suponiendo una órbita en la que $e \ll 1$ (Casi circulares) y $\tan i \gg e$ (Lejos de los ecuadores)&lt;/p&gt;
 &lt;p&gt;$$
-\begin{aligned}
-&amp;amp; \theta=1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \frac{1}{1-e^{2}} \frac{\sin ^{2} i-e^{2} \cos ^{2} i}{\sin i} \frac{\sin \omega}{e} \
-&amp;amp; 0=1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \sin i \frac{\sin \omega}{e_{f}} \
-&amp;amp; e_{f} \sim 1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \sin i \sin \omega
-\end{aligned}
+\theta=1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \frac{1}{1-e^{2}} \frac{\sin ^{2} i-e^{2} \cos ^{2} i}{\sin i} \frac{\sin \omega}{e}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+0=1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \sin i \frac{\sin \omega}{e_{f}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+e_{f} \sim 1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \sin i \sin \omega
 $$&lt;/p&gt;
 &lt;p&gt;Donde $e_{f} \sim 0.0015 \ll 1$ (Ojo, no todas frozen tienen $e$ pequeño)&lt;/p&gt;
 &lt;blockquote&gt;
@@ -2552,40 +2556,40 @@ $$&lt;/p&gt;
 \delta=cte \rightarrow \dot{\alpha}=\dot{\Omega}
 $$&lt;/p&gt;
 &lt;p&gt;Output&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;$i=i(a, e)$  ($i&amp;gt;90º$, Orbita Retrograda)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;groundtrack&#34;&gt;GROUNDTRACK&lt;/h4&gt;
 &lt;p&gt;Se busca que cada cierto tiempo, el satélite siempre pase por el mismo punto. Traza constante para $t \rightarrow \infty$&lt;/p&gt;
 &lt;p&gt;$$
-\begin{gathered}
-\omega_{\text {tierra }} t_{0}=2 \pi k_{\text {day } 2 \text { rep }} \
-\omega_{k} t_{0}=2 \pi k_{\text {orb } 2 \text { rep }}
-\end{gathered}
+\omega_{ierra} t_{0}=2 \pi k_{day2rep}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\omega_{k} t_{0}=2 \pi k_{orb2rep}
 $$&lt;/p&gt;
 &lt;p&gt;Output&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;$a=a(k_{day2rep}, k_{orb2rep})$&lt;/li&gt;
 &lt;li&gt;$k_{orb2rep}=k_{orb2rep} (k_{day2rep}, a)$&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;p&gt;$k_{orb2rep}$ y $k_{day2rep}$ deben ser enteros para que la órbita este sincronizada&lt;/p&gt;
 &lt;h4 id=&#34;frozen&#34;&gt;FROZEN&lt;/h4&gt;
 &lt;p&gt;Buscamos anular las perturbaciones $J_{2}$ y $J_{3}$&lt;/p&gt;
 &lt;p&gt;$$
-\begin{aligned}
-&amp;amp;\dot{\omega}(e, i, \omega, a, n)=0 \
-&amp;amp;\dot{e}(e, i, \omega, a, n)=0
-\end{aligned}
+\dot{\omega}(e, i, \omega, a, n)=0
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\dot{e}(e, i, \omega, a, n)=0
 $$&lt;/p&gt;
 &lt;p&gt;Output&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Inclinación Critica, $i_{\omega}$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Combinaciones de $\omega$ y $e$. $\rightarrow \omega, e = f(i, perturbaciones)$&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;molniya&#34;&gt;MOLNIYA&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Frozen + GroundTrack&lt;/p&gt;
@@ -2599,6 +2603,669 @@ $$&lt;/p&gt;
 &lt;p&gt;CONDICIONES NO EXCLUYENTES: Puedo tener una HELIOSINCRONA + FROZEN + TRAZA
 REPETIDA&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2 id=&#34;tema-5-geometría-de-misiones-eo&#34;&gt;Tema 5: Geometría de Misiones EO&lt;/h2&gt;
+&lt;h3 id=&#34;geometría-en-la-esfera-celeste&#34;&gt;Geometría en la Esfera Celeste&lt;/h3&gt;
+&lt;h4 id=&#34;sistemas-de-referencia&#34;&gt;Sistemas de Referencia&lt;/h4&gt;
+&lt;p&gt;En casi todas las misiones es necesario conocer la posición y el movimiento de los objetos en relación con el satélite.&lt;/p&gt;
+&lt;p&gt;La elección de un sistema de referencia adecuado facilita la resolución de los problemas&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Nombre&lt;/th&gt;
+&lt;th&gt;Ligado a&lt;/th&gt;
+&lt;th&gt;Centro&lt;/th&gt;
+&lt;th&gt;Eje z&lt;/th&gt;
+&lt;th&gt;Eje x&lt;/th&gt;
+&lt;th&gt;Aplicación&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Heliocéntrico&lt;/td&gt;
+&lt;td&gt;Espacio inercial&lt;/td&gt;
+&lt;td&gt;Sol&lt;/td&gt;
+&lt;td&gt;Polo eclíptica&lt;/td&gt;
+&lt;td&gt;Aries&lt;/td&gt;
+&lt;td&gt;Órbitas planetarias, efeméricas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Geocéntrico inercial&lt;/td&gt;
+&lt;td&gt;Espacio inercial&lt;/td&gt;
+&lt;td&gt;Tierra&lt;/td&gt;
+&lt;td&gt;Polo celeste&lt;/td&gt;
+&lt;td&gt;Aries&lt;/td&gt;
+&lt;td&gt;Cálculo orbital&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fijo a Tierra&lt;/td&gt;
+&lt;td&gt;Tierra&lt;/td&gt;
+&lt;td&gt;Tierra&lt;/td&gt;
+&lt;td&gt;Polo celeste&lt;/td&gt;
+&lt;td&gt;Meridiano de Greenwich&lt;/td&gt;
+&lt;td&gt;Movimiento relativo del SC, cobertura, visibilidad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Celeste inercial&lt;/td&gt;
+&lt;td&gt;Espacio inercial&lt;/td&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;td&gt;Polo celeste&lt;/td&gt;
+&lt;td&gt;Aries&lt;/td&gt;
+&lt;td&gt;Observación astronómica&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LVLH&lt;/td&gt;
+&lt;td&gt;Órbita&lt;/td&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;td&gt;Nadir&lt;/td&gt;
+&lt;td&gt;Contenido en el plano orbital&lt;/td&gt;
+&lt;td&gt;Observación de la Tierra, maniobras de actitud&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fijo al SC&lt;/td&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;td&gt;Dirección al SC apuntando a nadir&lt;/td&gt;
+&lt;td&gt;Dirección del SC en la dirección de la velocidad&lt;/td&gt;
+&lt;td&gt;Apuntamiento de instrumentos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;El geocéntrico inercial es el que estamos usando durante todo el curso, sin embargo, si me quiero fijar en cosas fijas a la Tierra o a un satélite, este sistema es un poco caca. El heliocéntrico inercial el centro está en el Sol, útil para orbitas planetarias.&lt;/p&gt;
+&lt;p&gt;Para movimientos RELATIVOS A LA TIERRA, usaremos un sistema fijo a esta, cuyo centro está en la Tierra, sin embargo, el eje $x$, que apunta al meridiano 0 (Greenwich), rotara junto a la tierra respecto al geocéntrico inercial.&lt;/p&gt;
+&lt;p&gt;El celeste inercial es igual que el geocéntrico inercial sin embargo el centro está en el vehículo. Útil en el caso de navegación por estrellas, apuntar un telescopio &amp;hellip;&lt;/p&gt;
+&lt;p&gt;Los ejes LVLH, son unos ejes ligados a la órbita cuyo eje z punta a NADIR (Centro de la Tierra)&lt;/p&gt;
+&lt;h4 id=&#34;esfera-celeste&#34;&gt;Esfera Celeste&lt;/h4&gt;
+&lt;p&gt;Una vez seleccionado el sistema de referencia, para identificar una dirección en él es muy útil emplear la esfera celeste. Esta es una esfera imaginaria centrada en el origen del sistema de referencia y de radio unidad&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/esfera_celeste.png&#34;
+	width=&#34;2091&#34;
+	height=&#34;748&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/esfera_celeste_hu3b8029aeb35d6cb94d2c8d4d81554ec1_682678_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/esfera_celeste_hu3b8029aeb35d6cb94d2c8d4d81554ec1_682678_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Ref. SMAD&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;279&#34;
+		data-flex-basis=&#34;670px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Esta representación es perfecta porque las direcciones vienen del centro de la esfera, entonces al cortar en ella, se formarán triángulos esféricos.&lt;/p&gt;
+&lt;p&gt;Por lo tanto, un punto en la esfera celeste representa una DIRECCION&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nadir: Apunta al centro de la tierra&lt;/li&gt;
+&lt;li&gt;Zenit: Apunta al satélite desde el centro de la tierra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/esfera_celeste_2.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;800&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/esfera_celeste_2_huf4ecbbebac521818e738c0c527aa3f24_60392_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/esfera_celeste_2_huf4ecbbebac521818e738c0c527aa3f24_60392_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;El Sol, la Tierra y la actitud del satélite formaran los siguientes ángulos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\beta, \eta, \psi:$ Lados del triángulo esférico&lt;/li&gt;
+&lt;li&gt;$\phi, \sum, \Lambda:$ Ángulos del triángulo esférico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;trigonometría-esférica-1&#34;&gt;Trigonometría esférica&lt;/h3&gt;
+&lt;p&gt;Teorema del seno&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\sin a}{\sin A}=\frac{\sin b}{\sin B}=\frac{\sin c}{\sin C}
+$$&lt;/p&gt;
+&lt;p&gt;Teorema del Coseno para LADOS&lt;/p&gt;
+&lt;p&gt;$$
+\cos a=\cos b \cos c+\sin b \sin c \cos A
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\cos b=\cos c \cos a+\sin c \sin a \cos B
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\cos c=\cos a \cos b+\sin a \sin b \cos C
+$$&lt;/p&gt;
+&lt;p&gt;Teorema del Coseno para ANGULOS&lt;/p&gt;
+&lt;p&gt;$$
+\cos A=-\cos B \cos C+\sin B \sin C \cos a
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\cos B=-\cos C \cos A+\sin C \sin A \cos b
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\cos C=-\cos A \cos B+\sin A \sin B \cos c
+$$&lt;/p&gt;
+&lt;p&gt;Fórmula de Gauss&lt;/p&gt;
+&lt;p&gt;$$
+\sin \left[\frac{1}{2}(A-B)\right]=\frac{\sin \left[\frac{1}{2}(a-b)\right]}{\sin c / 2} \cos C / 2
+$$&lt;/p&gt;
+&lt;p&gt;Formulas Útiles&lt;/p&gt;
+&lt;p&gt;$$
+c=\operatorname{atan}(\tan b \cos A) \pm \operatorname{atan}(\tan a \cos B)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+C=\operatorname{atan}\left(\frac{1}{\tan A \cos b}\right) \pm \operatorname{atan}\left(\frac{1}{\tan B \cos \alpha}\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+A=\Sigma-\pi
+$$&lt;/p&gt;
+&lt;p&gt;Donde $\Sigma$ es la suma de los ángulos en radianes (Siempre mayor que $\pi$ ). $A$ es el área del triángulo en estereorradianes&lt;/p&gt;
+&lt;p&gt;Un triángulo muy pequeño tiene un área muy cercana a $\pi$ y la trigonometría plana es una buena aproximación&lt;/p&gt;
+&lt;h3 id=&#34;iluminación&#34;&gt;Iluminación&lt;/h3&gt;
+&lt;p&gt;Para este estudio vamos a suponer una órbita circular de altura $1000 Km$ y una inclinación de 32º&lt;/p&gt;
+&lt;p&gt;Vamos a utilizar la esfera celeste centrada en el satélite y fijo nadir. En esa esfera si pinto todas las direcciones donde veo la tierra, se creará un círculo con un cierto radio.&lt;/p&gt;
+&lt;p&gt;Este disco cubre un semiangulo de:&lt;/p&gt;
+&lt;p&gt;$$
+\sin \rho=\frac{R_{E}}{R_{E}+H} \rightarrow \rho=59,8º \sim 60º
+$$&lt;/p&gt;
+&lt;p&gt;Se podría decir que este disco es la sombra de la tierra.&lt;/p&gt;
+&lt;p&gt;Ahora pinto el vector que apunta al Sol. Se formará un ángulo que será el que forma el Sol con el plano orbital. Además, este tendrá un periodo&lt;/p&gt;
+&lt;p&gt;$$
+T_{orb}, \beta_{s}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_1.png&#34;
+	width=&#34;1158&#34;
+	height=&#34;796&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_1_hu569197489ee6786389eaeac97103a165_469055_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_1_hu569197489ee6786389eaeac97103a165_469055_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;145&#34;
+		data-flex-basis=&#34;349px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_2.png&#34;
+	width=&#34;940&#34;
+	height=&#34;775&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_2_hu91dfc8fb9ea6f74f9018b7681375fe4f_559970_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_2_hu91dfc8fb9ea6f74f9018b7681375fe4f_559970_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;291px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;A lo largo de una órbita, como el sistema de referencia esta fijo al satélite, todo lo demás que no sea el satélite está rotando (Excepto la Tierra). Por lo tanto, el punto del sol, describirá una corona a lo largo de una órbita que se puedo observar en la esfera.&lt;/p&gt;
+&lt;p&gt;La Tierra no varía por que el eje z estará siempre apuntando al NADIR.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A lo largo del año, $\beta_{s}$ cambia entonces será una espiral no una corona.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;El trozo de esa corona que este dentro de la zona de sombra de la Tierra indicara cuando sucede un Eclipse&lt;/p&gt;
+&lt;p&gt;$$
+T_{e c l}=\frac{\phi}{2 \pi} T_{orb}
+$$&lt;/p&gt;
+&lt;p&gt;$T_{ecl}$ sera el tiempo en el que estoy en eclipse, $\phi$ será el ángulo (Se ha supuesto órbita circular)&lt;/p&gt;
+&lt;p&gt;¿Cuánto vale $\phi$?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_3.png&#34;
+	width=&#34;726&#34;
+	height=&#34;710&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_3_hu541edafb9ce928b3c9a414403670bb20_373262_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_3_hu541edafb9ce928b3c9a414403670bb20_373262_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;245px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_4.png&#34;
+	width=&#34;1037&#34;
+	height=&#34;812&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_4_hu348b1291d190f173913f3028a3e8ed80_86905_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/iluminaci%C3%B3n_4_hu348b1291d190f173913f3028a3e8ed80_86905_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Aplicamos el teorema del coseno&lt;/p&gt;
+&lt;p&gt;$$
+\cos \rho=\cos \beta_{S} \cos \frac{\phi}{2}+\sin \beta_{S} \sin \frac{\phi}{2} \cos 90^{\circ} \rightarrow \cos \frac{\phi}{2}=\frac{\cos \boldsymbol{\rho}}{\cos \boldsymbol{\beta}_{s}}
+$$&lt;/p&gt;
+&lt;p&gt;Con esa última ecuación calculo la duración del eclipse&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Se ha trasladado $\phi / 2$ al ecuador de la esfera para poder usar los teoremas en geometría esférica&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¿Duración Mínima del Eclipse?&lt;/p&gt;
+&lt;p&gt;Tendremos que imponer $\beta_{S,max}$. En las orbitas geoestacionarias, este ángulo será el de la eclíptica.&lt;/p&gt;
+&lt;p&gt;En el caso más extremo, nunca va a valer más que la inclinación orbital + ángulo eclíptica&lt;/p&gt;
+&lt;p&gt;$$
+\beta_{S,max}=i + 23,5º = 32º + 23,5º =55.5º
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si aumenta la inclinación (Positiva), aumenta $\beta_{S,max}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si consideramos, perturbaciones, la línea de nodos, va a estar girando, con lo que el plano orbital estará orientado de diferentes maneras con respecto a la eclíptica a lo largo de la vida de la misión, a no ser que tenga una órbita heliosíncrona.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En este ejemplo $\beta_{S,max}$ es menor que $\rho$, por lo tanto, durante todo el año, tendré eclipses. Interesara por lo tanto que $\beta_{S}$ sea alto para que no haya eclipses&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;¿Cuándo ocurrirán los ángulos máximos y mínimos?&lt;/p&gt;
+&lt;p&gt;Cuando las líneas de nodos del plano orbital y del sol, coincidan, es decir, con el equinoccio vernal&lt;/p&gt;
+&lt;h3 id=&#34;trazas&#34;&gt;Trazas&lt;/h3&gt;
+&lt;p&gt;La traza se define como la línea que dibuja sobre la superficie terrestre el punto subsatelite.&lt;/p&gt;
+&lt;p&gt;Este punto subsatelite se define como la intersección del radio vector que une el centro de la tierra y el satélite con la superficie terrestre. Este punto subsatelite también se podría decir que el punto que ves desde el satélite mirando a nadir&lt;/p&gt;
+&lt;p&gt;Por lo tanto, la traza será el dibujo que formará la sucesión de puntos sub-satelite.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tierra No GIRA:&lt;/p&gt;
+&lt;p&gt;En este caso, la traza del satélite es la intersección de su plano orbital con la Tierra, con lo que todos satélites situados en un mismo plano tendrían la misma traza.&lt;/p&gt;
+&lt;p&gt;En este caso la traza seria una SINUSOIDE CERRADA, esto quiere decir que el nodo ascendente siempre estará en la misma longitud y latitud&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tierra ROTA:&lt;/p&gt;
+&lt;p&gt;La Tierra gira respecto a una referencia inercial, por lo tanto, la traza ahora será una sinusoide abierta&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El hecho de que la Tierra gire modificara la forma de la sinusoide, pero NO LA AMPLITUD respecto a la cerrada&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AMPLITUD DE LA ORBITA (Tierra gire o no)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Orbita Directa: $\phi_{max} = i; \quad \phi_{min} = -i$&lt;/li&gt;
+&lt;li&gt;órbita Retrógrada: $\phi_{max} = 180 - i; \quad \phi_{min} = -180 + i$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Aquí se está hablando de sinusoides porque el tema va de orbitas geoestacionarias y estas son circulares (excentricidad nula). En el caso de que la excentricidad fuese muy alta, aparecerían bucles en la traza. En este caso el argumento del perigeo ($\omega$) afectara mucho a la forma de la traza&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;desfase-entre-nodos-ascendentes-consecutivos&#34;&gt;Desfase entre Nodos Ascendentes Consecutivos&lt;/h4&gt;
+&lt;p&gt;Cuando la Tierra rota hay un desfase entre las sucesivas orbitas, es decir, el nodo ascendente NO MANTIENE SU LONGITUD Y LATITUD.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Es muy importante tener en cuenta que este desfase es siempre hacia el OESTE, es decir, el nodo ascendente consecutivo estará a la izquierda del anterior en el mapamundi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/desfase_nodos_ascendentes.png&#34;
+	width=&#34;2310&#34;
+	height=&#34;521&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/desfase_nodos_ascendentes_hu0685e6fe1fbebe4a9b29fc30799d03b3_1211215_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/desfase_nodos_ascendentes_hu0685e6fe1fbebe4a9b29fc30799d03b3_1211215_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;443&#34;
+		data-flex-basis=&#34;1064px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Como se puede ver en estas imágenes, la segunda orbita esta desplazada a la izquierda (hacia el Oeste)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿De qué depende cuanto se me ha movido?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Esto dependerá del periodo Orbital de la Orbita $T$&lt;/p&gt;
+&lt;p&gt;A mayor periodo orbital, mayor será ese desfase entre nodos ascendentes ya que la Tierra habrá tenido mas tiempo para girar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Desfase A $\sim$ 40º&lt;/li&gt;
+&lt;li&gt;Desfase C $\sim$ 270º&lt;/li&gt;
+&lt;li&gt;Geosíncrona $\sim$ 360º&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No se puede ser 0, ya que la órbita seria infinitamente rápida, y a la Tierra no le da
+tiempo a girar lo que gira la orbita&lt;/p&gt;
+&lt;p&gt;SE MIDEN SIEMPRE HACIA EL OESTE&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En la imagen de arriba a la derecha:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Orbita E: Geosíncrona. $T=24$ h&lt;/li&gt;
+&lt;li&gt;Orbita D: Geosíncrona. $T=24$ h&lt;/li&gt;
+&lt;li&gt;Orbita C: Subsincrona. $T=18$ h&lt;/li&gt;
+&lt;li&gt;Orbita B: Subsincrona. $T=8$ h&lt;/li&gt;
+&lt;li&gt;Orbita A: Subsincrona. $T=2.67$ h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si despreciamos los efectos perturbadores, el desfase en longitud entre dos nodos ascendentes consecutivos es:&lt;/p&gt;
+&lt;p&gt;$$
+|\Delta \lambda|=\omega_{\text {tierra }} T=\omega_{\text {tierra }} 2 \pi \sqrt{\frac{a^{3}}{\mu}}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$n$: movimiento medio&lt;/li&gt;
+&lt;li&gt;$\lambda$: en grados&lt;/li&gt;
+&lt;li&gt;$a$ : en km&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/desfase_nodos_2.png&#34;
+	width=&#34;1437&#34;
+	height=&#34;720&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/desfase_nodos_2_hu67d11dc521abd756fccb62ac914cde39_485658_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/desfase_nodos_2_hu67d11dc521abd756fccb62ac914cde39_485658_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;479px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Es muy importante indicar la dirección de la orbita ya que no tienen nada que ver una orbita directa y una orbita retrograda con la misma traza.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Orbita Directa: Flechita de Oeste a Este (De izquierda a derecha)&lt;/li&gt;
+&lt;li&gt;Orbita Retrograda: Flechita de Este a Oeste (De derecha a izquierda)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;angulo-de-traza-con-el-ecuador-en-el-nodo-ascendente&#34;&gt;Angulo de Traza con el ecuador en el Nodo Ascendente&lt;/h4&gt;
+&lt;p&gt;Queremos saber el ángulo de la traza con el ecuador en el Nodo ascendente. Para ellos vamos a sacar el siguiente triangulo de velocidades.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/%C3%A1ngulo_traza.png&#34;
+	width=&#34;1248&#34;
+	height=&#34;555&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/%C3%A1ngulo_traza_hue4098040ae5fb35948e5eb600b0edc50_134660_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/%C3%A1ngulo_traza_hue4098040ae5fb35948e5eb600b0edc50_134660_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;224&#34;
+		data-flex-basis=&#34;539px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;$V^{*}$ es la velocidad del satélite en ejes inerciales proyectada en el plano horizontal :&lt;/p&gt;
+&lt;p&gt;$$
+V^{*}=|\vec{V}| \cos (\gamma)
+$$&lt;/p&gt;
+&lt;p&gt;Si el nodo ascendente coincide con el periapsis o apoapsis donde la velocidad es perpendicular al radio-vector, se cumple que:&lt;/p&gt;
+&lt;p&gt;$$
+V^{*}=|\vec{V}|
+$$&lt;/p&gt;
+&lt;p&gt;Pero nosotros queremos la velocidad relativa respecto tierra. Para ello a la velocidad del satélite habrá que restar la velocidad de giro de la Tierra, que es su velocidad angular por el radio instantáneo del satélite.&lt;/p&gt;
+&lt;p&gt;En el CASO GENERAL se usa la siguiente expresión:&lt;/p&gt;
+&lt;p&gt;$$
+\tan \alpha = \frac{ V^{*} \cdot \sin i}{ V^∗ \cdot \cos i - \omega_{tierra} \cdot r}
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$r$ varia en función de la posición del satélite en el caso de una órbita con $e \neq 0$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En el caso de ORBITA CIRCULAR $(e=0)$, esto implicara que $r=CTE$, ya que al ser circular $r$ no cambia. Por lo tanto, quedara la siguiente expresión:&lt;/p&gt;
+&lt;p&gt;$$
+V^{*}=2 \pi \frac{r}{T}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\alpha=\operatorname{atan}\left(\frac{\sin i}{\cos i-\frac{T}{24}}\right)
+$$&lt;/p&gt;
+&lt;p&gt;Donde $T$ es el periodo orbital en HORAS.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ORBITA (Mayor T y menor velocidad), más grande será esa diferencia&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/trazas.png&#34;
+	width=&#34;1390&#34;
+	height=&#34;1332&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/trazas_huf34f4a8729980359d7ad670f4e774296_1442733_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/trazas_huf34f4a8729980359d7ad670f4e774296_1442733_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;250px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Volviendo a los efectos del valor del argumento del perigeo en la traza para orbitas con excentricidad alta, se puede observar lo siguiente:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Para $\omega=0$ o $180º$, las trazas son simétricas respecto al nodo descendente (Simetría de Punto). Sin embargo, para $\omega=90º$ o $270º$, las trazas en cada hemisferio son simétricas respecto su meridiano central (Simetría de Línea)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para otros valores de $\omega$, NO HAY NINGUNA SIMETRIA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Las trazas en las proximidades del perigeo abarcan un gran arco en sentido directo debido a la gran velocidad en esa zona.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Las trazas de Orbitas Subsincronas se cierran en cada revolución.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si las excentricidades son muy altas puede haber un movimiento retrogrado cerca del apogeo donde la velocidad es muy baja (Se forman bucles)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Con respecto a la imagen de la derecha, se observa que, si aumenta la altura (aumenta $a$ ), también lo hace el retraso nodal $|\Delta \lambda|$ y la sinusoide se va haciendo mas corta. Cuando la órbita es síncrona, se forma un 8 (360° de desfase). Si además la órbita tiene excentricidad nula e $\boldsymbol{i}$ nula, la traza será un punto.&lt;/p&gt;
+&lt;h4 id=&#34;dibujar-órbitas&#34;&gt;Dibujar Órbitas&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Conocemos $a, e, i$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Miramos si es Directa ($i &amp;lt; 90$) o Retrograda ($i&amp;gt; 90º$)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculamos Amplitud de Latitud&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Directa: $\phi_{\max }=i;  \quad \phi_{min} = -i$;&lt;/li&gt;
+&lt;li&gt;Retrógrada: $\phi_{\max }=180º-i; \quad \phi_{min} = - 180 + i$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dibujamos los LIMITES en el mapamundi asociados a esas latitudes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculamos el Periodo Orbital $T$ a partir de $a$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculamos $|\Delta \lambda|$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Establezco el Nodo Ascendente Inicial&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Existe Restricción en el enunciado (Nos dan latitud por la que va el satélite)&lt;/li&gt;
+&lt;li&gt;No nos dan restricción
+Utilizamos el Meridiano de Greenwich $(\lambda=0)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180 y-180$&lt;/p&gt;
+&lt;p&gt;¿De dónde sale esto del $\Delta \lambda / 2$ ?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En una órbita circular, en $T / 2$ el nodo ascendente se habrá desplazado $\Delta T / 2$.&lt;/li&gt;
+&lt;li&gt;En una órbita NO CIRCULAR puede pasar, pero ocurre cuando hay simetrías, es decir, el nodo ascendente coincide con la línea de ápsides. PERO ESTO ES MUY RARO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dibujar Dirección del Movimiento del Satélite&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/dibujar_trazas.png&#34;
+	width=&#34;2103&#34;
+	height=&#34;978&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/dibujar_trazas_hu34bff6849f351cdce74f190db6c14d60_354983_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/dibujar_trazas_hu34bff6849f351cdce74f190db6c14d60_354983_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;215&#34;
+		data-flex-basis=&#34;516px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cobertura-1&#34;&gt;Cobertura&lt;/h3&gt;
+&lt;p&gt;La cobertura geográfica de un satélite es la zona de la Tierra visible por el en cada instante.&lt;/p&gt;
+&lt;p&gt;Desde esta circunferencia se varia al satélite sobre el horizonte&lt;/p&gt;
+&lt;p&gt;Es importante definir los siguientes conceptos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Field of Regard (FOR)&lt;/p&gt;
+&lt;p&gt;Es el ángulo del cono potencial de visibilidad de un satélite o sensor, limitado por restricciones geométricas (por ejemplo: límite del horizonte). Esta limitación puede ser física del sensor o del objeto que estoy observando.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;EI FOR NO ES UN VALOR UNICO, SIEMPRE ESTA REFERENCIADO A ALGO (Limitación Sensor o Horizonte)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Field of View (FOV)&lt;/p&gt;
+&lt;p&gt;Es el ángulo del cono de visibilidad de UN SENSOR. Este esta limitado por restricciones físicas (lente, antena). EI FOV se orienta dentro del FOR siendo el FOV menor que el FOR.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, un propio sensor puede ajustar su FOV al cambiar el zoom de su cámara, al aumentar el zoom disminuye el FOV y al alejar el zoom aumenta el FOV&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Se podría decir que el FOR es todo el rango que cubre el sensor, la zona de búsqueda total (si se ha definido el FOR en referencia al sensor) y el FOV es un momento concreto y es menor que el FOR&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Swath&lt;/p&gt;
+&lt;p&gt;Es el área en la superficie de la Tierra en torno a la traza que puede observar el SC a medida que avanza. Este se mide desde dentro de la Tierra&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anchura del Swath (Swath Width):&lt;/p&gt;
+&lt;p&gt;Distancia angular, medida desde el centro de la Tierra, que abarca el swath perpendicularmente a la traza (Se mide en Km)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/cobertura_1.png&#34;
+	width=&#34;688&#34;
+	height=&#34;945&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/cobertura_1_hu6161b9d5751af555e12ad11958041010_286658_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/cobertura_1_hu6161b9d5751af555e12ad11958041010_286658_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;72&#34;
+		data-flex-basis=&#34;174px&#34;
+	
+&gt; &lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/cobertura_2.png&#34;
+	width=&#34;682&#34;
+	height=&#34;623&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/cobertura_2_hu64bac79e9a828201ae21d3a433b598d9_453192_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/cobertura_2_hu64bac79e9a828201ae21d3a433b598d9_453192_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;262px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;definiciones-geométricas&#34;&gt;Definiciones Geométricas&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/definiciones_geom%C3%A9tricas.png&#34;
+	width=&#34;1827&#34;
+	height=&#34;888&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/definiciones_geom%C3%A9tricas_hudddbdb68b97410077de9f3038adfd186_126759_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/definiciones_geom%C3%A9tricas_hudddbdb68b97410077de9f3038adfd186_126759_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;493px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;$$
+FOR_{Horizonte}=2 \rho; \quad FOR_{\varepsilon_{min}}=2 \eta;\quad Swath = 2 \lambda
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Radio Angular Terrestre: $\rho$&lt;/li&gt;
+&lt;li&gt;Angulo Central Terrestre: $\lambda$&lt;/li&gt;
+&lt;li&gt;Angulo de Nadir: $\eta$&lt;/li&gt;
+&lt;li&gt;Elevación: $\varepsilon$&lt;/li&gt;
+&lt;li&gt;Slant range: $D$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para resolver este problema tenemos dos opciones:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Dada una altura determinada ($\rho$) esta nos condiciona $FOR$&lt;/li&gt;
+&lt;li&gt;Dado un $FOR$, este nos condiciona la altura ($\rho$)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$
+\sin \rho=\sin \lambda_{0}=\frac{R_{E}}{R_{E}+h} \quad ; \quad \lambda+\eta+\epsilon=\frac{\pi}{2}
+$$&lt;/p&gt;
+&lt;p&gt;$\left(R_{E}+h\right) \sin \eta=R_{E} \sin (\eta+\lambda) \rightarrow \frac{R_{E}+h}{R_{E}} \sin \eta=\frac{\sin \eta}{\sin \rho}=\sin (\eta+\lambda)=\sin \left(\frac{\pi}{2}-\varepsilon\right)$&lt;/p&gt;
+&lt;p&gt;$\rightarrow \frac{\sin \eta}{\sin \rho}=\sin \eta \cos \lambda+\cos \eta \sin \lambda \rightarrow \quad \tan \eta=\frac{\sin \rho \sin \lambda}{1-\cos \lambda \sin \rho}$&lt;/p&gt;
+&lt;p&gt;$\rightarrow \frac{\sin \eta}{\sin \rho}=\sin \left(\frac{\pi}{2}-\varepsilon\right)=\cos \varepsilon \rightarrow \quad \frac{\sin \eta}{\sin \rho}=\cos \varepsilon$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/definiciones_geom%C3%A9tricas_1.png&#34;
+	width=&#34;2068&#34;
+	height=&#34;855&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/definiciones_geom%C3%A9tricas_1_hub95180515a51f0d4c6fffe6021b236eb_963920_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/definiciones_geom%C3%A9tricas_1_hub95180515a51f0d4c6fffe6021b236eb_963920_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;241&#34;
+		data-flex-basis=&#34;580px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Tengo la posición del satélite $(S)$ y también tengo la del target de observación (P) (conozco su latitud y longitud). Por lo tanto $\lambda$ será el ángulo entre el punto subsatelite y el punto objetivo.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Habrá cobertura sobre el target (P) en el caso de que $\lambda_{P} &amp;lt; \lambda_{FOR, \epsilon}$. Tener en cuenta que $\lambda$ tiene que ser un ángulo central ya que esta medido desde el centro de la Tierra.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;anchura-del-swath-para-cobertura-total&#34;&gt;Anchura del Swath para Cobertura Total&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;¿Cómo condiciono una órbita y la anchura del swath para tener cobertura total?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El satélite realiza varias orbitas y en cada pasada hará una traza distinta. La orbita y el sensor se diseña de manera que la anchura del swath, se solapa entre una órbita y la siguiente en los nodos ascendentes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Cómo aumento el swath?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Volando más alto: Para un mismo ángulo $\eta$ consigo barrer más terreno (aumenta $\lambda$) al irme más lejos&lt;/li&gt;
+&lt;li&gt;Restringir menos el sensor: Si el sensor puede abarcar una mayor amplitud (Disminuye la elevación $\varepsilon$) (Limite observaciones tangenciales, $\varepsilon=0$ ), el swath será mucho mayor que si el sensor solo puede ver un pixel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cuidado, tener en cuenta más factores, si aumenta la altura, aumentara el periodo orbital y, por lo tanto, aumentara $|\Delta \lambda|$. Esto implicara que las sucesivas orbitas estarán mas separadas y por lo tanto se puede perder el solape que había antes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Al aumentar la altura, el swath aumenta de tamaño, pero estarán más separadas las sucesivas orbitas pudiendo perder el solape.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Habrá que jugar con las opciones. Si pierdo el solape y no puedo, pues puedo meter más satélites y tal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/anchura_swath.png&#34;
+	width=&#34;1703&#34;
+	height=&#34;940&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/anchura_swath_hu2f9fd11cb1cbe858ea950f1949469cdd_579683_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/anchura_swath_hu2f9fd11cb1cbe858ea950f1949469cdd_579683_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;434px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;visibilidad-desde-una-estación-en-tierra&#34;&gt;Visibilidad desde una Estación en Tierra&lt;/h3&gt;
+&lt;p&gt;Quiero seguimiento y control además de descarga de datos del satélite. Para ello necesito estaciones en la Tierra, sin embargo, para realizar estas tareas, las estaciones deben &amp;ldquo;ver&amp;rdquo; al satélite para realizar una comunicación efectiva.&lt;/p&gt;
+&lt;p&gt;La visibilidad será la capacidad del satélite de ser visto, desde alguna red de telemando para su operación o alguna estación de telemedida para recogida de información a bordo&lt;/p&gt;
+&lt;p&gt;Para realizar un análisis fácil, se asumirán ORBITAS CIRCULARES. Lo que se va a desarrollar es aplicable para orbitas elípticas, pero se cumple SOLO EN UN PUNTO, sin embargo, en orbitas circulares se cumple para todo punto de la orbita&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/visibilidad.png&#34;
+	width=&#34;2079&#34;
+	height=&#34;754&#34;
+	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/visibilidad_hue0d2574c38b77a20a0b97390a55d2bcb_420615_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/visibilidad_hue0d2574c38b77a20a0b97390a55d2bcb_420615_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;275&#34;
+		data-flex-basis=&#34;661px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Tenemos una estación en E, que tiene que prever por donde va a entrar el satélite en su zona de visibilidad para poder trackearlo. Para ello necesita propagar los datos de la órbita del satélite y además orientar sus antenas.&lt;/p&gt;
+&lt;p&gt;La antena de Tierra se orientará según un azimut y una elevación. Esta elevación tiene unas limitaciones: Limitaciones por terreno, $\varepsilon_{\min } y$ limitación por objetos del terreno (Tendidos eléctricos).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Es este caso considero el caso más RESTRICTIVO (En el que $\varepsilon$ es mayor), y por lo tanto nos quedamos con el $\varepsilon_{\min }$. Esta limitación se deberá extender a los 360 o de azimut&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Al hacer esto se formará un cono, que intersecará con una esfera con un radio igual al de la orbita en ese momento. En esa intersección habrá dos puntos que indicaran la entrada y salida del satélite de la zona de visibilidad&lt;/p&gt;
+&lt;p&gt;Suponiendo que $S$, es el punto por donde entro, quiero conocer $\lambda$.. Tengo que resolver el mismo triangulo que teníamos antes pero ahora las variables significan otra cosa&lt;/p&gt;
+&lt;p&gt;$$
+\sin \rho=\frac{R_{E}}{R_{E}+h} ; \quad \frac{\sin \eta}{\sin \rho}=\cos \varepsilon
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\lambda+\eta+\varepsilon=\frac{\pi}{2} \rightarrow \eta=\frac{\pi}{2}-\lambda-\varepsilon
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\sin \eta=\sin \left(\frac{\pi}{2}-\lambda-\varepsilon\right)=\cos (\lambda+\varepsilon) \rightarrow \lambda=\cos ^{-1}(\sin \eta)-\varepsilon
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\lambda=\cos ^{-1}(\cos \varepsilon \sin \rho)-\varepsilon
+$$&lt;/p&gt;
+&lt;p&gt;El circulo de visibilidad (dado por $\lambda$, que al ser un circulo es constante para $e=0$), al representarse en el mapamundi, no será circular.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El área de visibilidad depende de la ESTACION $\varepsilon_{min}$ y de la ALTURA del SATELITE ($\rho$)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En órbitas con excentricidad distinta de cero $(e \neq \mathbf{0}), \lambda \neq CTE$, en entonces ya no dibujara un circulo de visibilidad, debido a la variación de altura (Ovalada)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Qué pasa cuando estoy fuera del círculo de visibilidad?&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Estoy por encima del horizonte, pero todavía por debajo de $\varepsilon_{min}$&lt;/li&gt;
+&lt;li&gt;Estoy por debajo del horizonte (Al otro lado de la Tierra)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El satélite es visible cuando $\varepsilon(t) \geq \varepsilon_{min, Estacion}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si representamos $\varepsilon(t)$ obtendremos la siguiente figura, donde la línea amarilla será $\varepsilon_{min}$. Por debajo de la línea roja, el satélite esta por debajo del horizonte.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CUANTO MAS PERPERDICULAR SEA EL PASE, MAYOR ES LA DURACION. LA CONDICION DE 90° OCURRE CUANDO EL PUNTO SUBSATELITE PASA JUSTO POR ENCIMA DE LA ESTACION&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Como se puede ver los tiempos de pase son muy pequeños frente al periodo orbital. Por lo tanto, en el caso de tener una estación puede haber problemas de descargas de datos. Estos problemas son típicos en orbitas LEO&lt;/p&gt;
+&lt;p&gt;En orbitas LEO, puede haber entre 4-6 pases útiles, ya que si la elevación es muy baja puede no transmitirse bien la información.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La duración de estos pases depende de la altura orbital, de la latitud de la estación y de la inclinación de la órbita&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;El hecho de que el circulo de visibilidad de la estación vea o no los pases depende del hecho de que la traza de la órbita se desplaza por el efecto de que la Tierra gira. (Esto describe lo que se ve en la imagen de que entre 0-10 horas, los pases se ven, pero luego no, además hay que tener en cuenta que el pico de 90 o es porque habrá una órbita cuya traza por el punto subsatelite)&lt;/p&gt;
+&lt;h3 id=&#34;selección-de-estaciones-de-tierra&#34;&gt;Selección de Estaciones de Tierra&lt;/h3&gt;
+&lt;p&gt;Los pases duran una puta mierda en comparación al periodo orbital entonces igual no tenemos suficiente tiempo en cada pase para descargar la información si tenemos una estación.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Qué hacemos?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;FACIL, MAS ESTACIONES&lt;/p&gt;
+&lt;p&gt;Sera necesario seleccionar más de una estación de tierra para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tener acceso con suficiente periodicidad&lt;/strong&gt; (Descargar un cierto volumen de datos cada un cierto periodo de tiempol&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tener tiempo suficiente de acceso&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El &lt;strong&gt;análisis de accesos&lt;/strong&gt;, al igual que el de coberturas se puede hacer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analíticamente de forma aproximada&lt;/li&gt;
+&lt;li&gt;Con simulaciones numéricas (STK)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         
