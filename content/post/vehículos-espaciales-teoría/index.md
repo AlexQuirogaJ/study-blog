@@ -16,6 +16,7 @@ math: true
 
 # Apuntes
 > **Fuente:**
+> - [Apuntes Vehículos Espaciales de AGZTAUSTE](https://www.wuolah.com/perfil/AGZTAUSTE/uploaded?folderId=16443)
 > - Diapositivas y notas de la parte V2 de la asignatura "Vehículos Aeroespaciales" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).
 > - Wikipedia
 
@@ -934,25 +935,25 @@ Es importante tener en cuenta que **Δ𝑽 tiene carácter VECTORIAL**. Por lo t
 
 - Se asume que se emplean impulsos instantáneos
 - Dirección de ∆𝐕
- - **Paralela al plano orbital**: puede variar $a, e, \omega$ (caraterísticas de la órbita).    $\omega$ reorientaría el plano orbital.
- - **Perpendicular al plano orbital**: puede variar $\Omega, i$ (características del plano orbital)
+ - **Paralela al plano orbital**: puede variar $a, e, \omega$ (caraterísticas de la **órbita**).    $\omega$ reorientaría el plano orbital.
+ - **Perpendicular al plano orbital**: puede variar $\Omega, i$ (características del **plano orbital**)
 
 ### Gasto de propulsante
 
-El impulso necesario en cada maniobra se consigue mediante un motor cohete y varía según el tipo:
+El impulso necesario en cada maniobra se consigue mediante un motor cohete y varía según el tipo de propulsante:
 
-- Propulsante líquido: se puede variar ∆𝑉 durante la misión
-- Propulsante sólido: no se puede variar ∆𝑉 durante la misión
+- **Propulsante líquido:** se puede variar ∆𝑉 durante la misión
+- **Propulsante sólido:** no se puede variar ∆𝑉 durante la misión
 
 
-Dado un Δ𝑉 necesario para realizar una maniobra, podemos calcular la masa de propulsante necesaria para realizar la maniobra a partir de la siguiente expresión:
+Dado un Δ𝑉 necesario para realizar una maniobra, podemos calcular la **masa de propulsante necesaria** para realizar la maniobra a partir de la siguiente expresión:
 
 $$
 \Delta V=I_{s p} g \ln \frac{\text { masa inicial }}{\text { masa final }} \quad m_{p}=m_{s}\left[\exp \left(\frac{\Delta V}{I_{s p} g}\right)-1\right]
 $$
 
 Donde:
-- $m_{P}$: masa de propulsante necesaria
+- $m_{p}$: masa de propulsante necesaria
 - $m_{s}$ : masa seca
 - $I_{sp}$: impulso específico
 - g: $9.81 m/s^{2}$
@@ -970,24 +971,24 @@ Donde:
 
   - Un triángulo muy pequeño tiene un área cercana a π, y la trigonometría plana es una buena aproximación
 
-- Teorema del seno
+- **Teorema del seno**
   $$
   \frac{\sin a}{\sin A}=\frac{\sin b}{\sin B}=\frac{\sin c}{\sin C}
   $$
 
-- Teorema de la cotangente
+- **Teorema de la cotangente**
   $$
   \cot a \sin b=\cos b \cos C+\sin C \cot A
   $$
 
 ![Triángulo esférico](atts/tema_3/triángulo_esférico.png)
 
-- Teor. del coseno para lados: Relaciona los lados y un ángulo
+- **Teorema del coseno para lados:** Relaciona los lados y un ángulo
   $$
   \cos a=\cos b \cos c+\sin b \sin c \cos A
   $$
 
-- Teor. del coseno para ángulos: Relaciona los ángulos y un lado
+- **Teorema del coseno para ángulos:** Relaciona los ángulos y un lado
   $$
   \cos A=-\cos B \cos C+\sin B \sin C \cos a
   $$
@@ -996,13 +997,17 @@ Donde:
 
 > Hay un interes por tener bases de lanzamiento cerca del ecuador. Esto es debido a que las inclinaciones orbitales a las que uno tiene acceso están limitadas por la latitud a la que se lanza.  Se busca minimizar combustible o alcanzar la órbita de la forma más directa posible.
 
-Un vehículo se lanza desde una base L, cuya latitud geométrica es $\phi$. Nuestro objetivo es colocarlo en una órbita cuya inclinación es $i$. ¿Con que ángulo azimutal, $A$, habrá que lanzar el lanzador?
+Un vehículo se lanza desde una **base L**, cuya **latitud** geométrica es $\phi$. Nuestro objetivo es colocarlo en una **órbita** cuya inclinación es $i$. ¿Con que ángulo azimutal, $A$, habrá que lanzar el lanzador?
 
 Hipótesis:
-- La trayectoria propulsada está contenida en el plano orbital
-- No se considera el efecto del giro de la Tierra
+- **La trayectoria propulsada está contenida en el plano orbital**
+- **No se considera el efecto del giro de la Tierra**
 
-Aplicando el teorema del coseno
+Como podemos ver el ángulo $\phi$, el angulo $A$ y $i$ nos generan un triángulo esférico. Este triangulo como podemos comprobar está formado por círculos máximos.
+
+![](atts/tema_3/image-20211112115740554.png) ![](atts/tema_3/lanzamiento.jpg)
+
+Aplicando el **teorema del coseno**
 
 $$
 \cos i=-\cos A \cos \frac{\pi}{2}+\sin A \sin \frac{\pi}{2} \cos \phi
@@ -1012,7 +1017,7 @@ $$
   \cos i=\sin A \cos \phi
 > $$
 
-El mínimo valor de 𝒊 que se puede conseguir es el de la latitud de la base de lanzamiento.
+El **mínimo valor de 𝒊** que se puede conseguir es el de la latitud de la base de lanzamiento.
 
 $$
 |\cos i| \leq |\cos \phi| \rightarrow \pi - \phi \geq i \geq \phi
@@ -1022,26 +1027,24 @@ $$
   i_{min} = \phi \quad i_{max} = \pi - \phi
 > $$
 
-$sin A$ nunca será mayor que la unidad, por lo tanto, la inclinación estará limitada por la latitud
-de la base de lanzamiento y podemos comprobar cómo realizar un lanzamiento desde el ecuador es la mejor opción ya que abarca todos ángulos desde esa zona de lanzamiento.
+**$sin A$ nunca será mayor que la unidad**, por lo tanto, la inclinación estará limitada por la latitud
+de la base de lanzamiento y podemos comprobar cómo realizar un **lanzamiento desde el ecuador** es la mejor opción ya que abarca todos ángulos desde esa zona de lanzamiento.
 
-![](atts/tema_3/image-20211112115740554.png) ![](atts/tema_3/lanzamiento.jpg)
-
-- Si lanzamos desde el polo norte ($\phi = \pi / 2$):
+- Si lanzamos desde el **polo norte** ($\phi = \pi / 2$):
   $$
   \cos i = \sin A \cdot 0 = 0 \rightarrow \quad i = \frac{\pi}{2}
   $$
 
-- Si lanzamos desde el polo sur ($\phi = - \pi / 2$):
+- Si lanzamos desde el **polo sur** ($\phi = - \pi / 2$):
   $$
   \cos i = \sin A \cdot 0 = 0 \rightarrow \quad i = \frac{\pi}{2}
   $$
 
-- Si lanzamos desde el ecuador ($\phi = 0; A= \pi / 2$):
+- Si lanzamos desde el **ecuador** ($\phi = 0; A= \pi / 2$):
   $$
   \cos i = \sin A \cdot 1 = \sin A = 0 \quad \rightarrow \quad 180 \geq i \geq 0
   $$
-- Si lanzamos desde Madrid ($\phi = 40º$):
+- Si lanzamos desde **Madrid** ($\phi = 40º$):
   $$
   cos i = sin A \cdot 0.766 \rightarrow i_{min} = 40º (A=90º); \quad i_{max}=140º(A=270)
   $$
@@ -1058,18 +1061,17 @@ Se da impulsos dentro del plano orbital para cambiar los parámetros de la cóni
 Un satélite se encuentra en una órbita kepleriana inicial. En una cierta posición se le comunica un impulso, $\Delta \vec{V}$. Por lo tanto, la velocidad pasará de $\vec{V_{l}}$ a $\vec{V_{f}}$ y por lo tanto se encontrará en una nueva orbita
 
 
-> - $V_f$ tangente a la órbita final
->
-> Salvo que quiera cambiar el argumento en el perigeo los impulsos se realizarán en el apoapsis o periapsis.
+- $V_f$ tangente a la órbita final
+- Salvo que quiera cambiar el argumento en el perigeo los impulsos se realizarán en el apoapsis o periapsis.
 
 
 #### Impulso no tangencial
 
-En el caso de que el impulso se haya dado dentro del plano de la órbita (Maniobra Coplanaria), este impulso se caracterizara con $\Delta V$ y $\varphi$, donde $\varphi$ sera el angulo entre la velocidad inicial y la velocidad final
+En el caso de que el **impulso** se haya dado dentro del plano de la órbita (**Maniobra Coplanaria**), este impulso se caracterizara con $\Delta V$ y $\varphi$, donde $\varphi$ sera el angulo entre la **velocidad inicial** y la **velocidad final**
 
-Si el impulso NO ES TANGENTE A LA TRAYECTORIA $\rightarrow \varphi \neq 0$
+Si el **impulso** NO ES TANGENTE A LA TRAYECTORIA $\rightarrow \varphi \neq 0$
 
-A partir del teorema del coseno obtendremos que:
+A partir del **teorema del coseno** obtendremos que:
 
 $$
 \Delta V=\sqrt{V_{f}^{2}+V_{i}^{2}-2 V_{f} V_{i} \cos \varphi} \geq V_{f}-V_{i}
@@ -1079,34 +1081,33 @@ $$
 \sin \psi=\frac{V_{f} \sin \varphi}{\Delta V}
 $$
 
-El ángulo $\psi$, nos da el angulo que tiene que formar el impulso con la velocidad inicial
+El ángulo $\psi$, nos da el angulo que tiene que **formar el impulso con la velocidad inicial**
 
-- No se maximiza la eficiencia ($\varphi \neq 0$), parte del impulso no se emplea en aumentar la energía específica de la órbita. Recordemos que la energía específica en un punto dado sólo depende del módulo de la velocidad
-- Se emplea cuando se quiere reducir el tiempo requerido para la maniobra
+- No se maximiza la eficiencia ($\varphi \neq 0$), **parte del impulso no se emplea en aumentar la energía específica** de la órbita. Recordemos que la energía específica en un punto dado sólo depende del módulo de la velocidad
+- **Se emplea cuando se quiere reducir el tiempo requerido** para la maniobra
 
 ![Impulso no tangencial](atts/tema_3/impulso_no_tangencial.png)
 
-#### Impulso tamngencial
+#### Impulso tangencial
 
-En este caso el impulso se realiza tangencialmente a la órbita (𝜑 = 0), por lo tanto, se maximiza la eficiencia del impulso.
+En este caso el impulso se realiza tangencialmente a la órbita (𝜑 = 0), por lo tanto, se **maximiza la eficiencia** del impulso.
 
-Sera utilizado en el caso de que el tiempo no sea una prioridad.
+Sera utilizado en el caso de que el **tiempo no sea una prioridad**.
 
-En general se realizan en el apoapsis o en el periapsis. Sin embargo, si se realiza en el apoapsis conseguiremos VENTAJAS ENERGETICAS
+En general se realizan en el **apoapsis o en el periapsis**. Sin embargo, si se realiza en el **apoapsis** conseguiremos **VENTAJAS ENERGETICAS**
 
 ![Impulso tangencial](atts/tema_3/impulso_tangencial.png)
 
 #### Cálculo del impulso no tangencial
 
-Conocidas la órbita inicial y final, conocemos $a, e, \omega$ de ambas orbitas.  Estos parámetros me determinan donde tengo que dar el impulso y con qué ángulo.
+Conocidas la **órbita inicial y final**, conocemos $a, e, \omega$ de ambas orbitas.  Estos parámetros me determinan donde tengo que dar el impulso y con qué ángulo.
 
-Igualamos los radios en el punto de impulso i:
-
+**Igualamos los radios en el punto de impulso** i:
 $$
 \frac{p_{i}}{1+e_{i} \cos \left(\nu_{i}\right)}=\frac{p_{f}}{1+e_{f} \cos \left(\nu_{i}-\omega_{f}+\omega_{i}\right)}
 $$
 
-En la ecuación es todo conocido excepto $\nu_{i}$. EL resultado será $r_{I}, \nu_{I}$ del punto de impulso en la órbita inicial. Las velocidades antes y después de la maniobra serán:
+En la ecuación **es todo conocido excepto $\nu_{i}$**. EL resultado será $r_{I}, \nu_{I}$ del punto de impulso en la órbita inicial. Las **velocidades antes y después de la maniobra** serán:
 
 $$
 V_{i}^{2}=\mu\left(\frac{2}{r_{I}}-\frac{1}{a_{i}}\right) \quad V_{f}^{2}=\mu\left(\frac{2}{r_{I}}-\frac{1}{a_{f}}\right)
@@ -1120,7 +1121,7 @@ $$
 \gamma_{f}=\operatorname{atan}\left(\left(1-\frac{r_{I}}{p_{f}}\right) \tan \left(\nu_{i}-\omega_{f}+\omega_{i}\right)\right)
 $$
 
-Donde $\gamma$ serán los ángulos que forman las velocidades iniciales y finales con la horizontal. La dirección del impulso será:
+Donde $\gamma$ serán los **ángulos que forman las velocidades iniciales y finales con la horizontal**. La dirección del impulso será:
 
 $$
 \varphi=\gamma_{i}-\gamma_{f}
@@ -1130,11 +1131,11 @@ $$
 
 ### Transferencias coplanarias
 
-Muy a menudo las órbitas inicial y final no se cortan, por lo que para pasar de una a la otra es necesario una órbita de transferencia. Esta órbita puede ser secante o tangente a las órbitas inicial y final.
+Muy a menudo las **órbitas inicial y final no se cortan**, por lo que para pasar de una a la otra es necesario una **órbita de transferencia**. Esta órbita puede ser **secante o tangente a las órbitas inicial y final**.
 
-Estas orbitas de transferencia necesitaran de al menos 2 impulsos. El primer impulso, $\Delta V_{1}$, origina el abandono del vehículo de su órbita inicial, y el segundo, $\Delta V_{2}$ inserta a este en la órbita final.
+Estas orbitas de transferencia necesitaran de **al menos 2 impulsos**. El primer impulso, $\Delta V_{1}$, origina el abandono del vehículo de su órbita inicial, y el segundo, $\Delta V_{2}$ inserta a este en la órbita final.
 
-En el caso de una transferencia mediante dos impulsos NO tangenciales:
+En el caso de una **transferencia mediante dos impulsos NO tangenciales**:
 
 $$
 \Delta V=\left|\Delta V_{1}\right|+\left|\Delta V_{2}\right|
@@ -1143,8 +1144,8 @@ $$
 ![](atts/tema_3/transferencia_coplanaria.png)
 
 Esta maniobra es:
-- Poco eficiente
-- Rápida
+- **Poco eficiente**
+- **Rápida**
 
 Lo más eficiente seria hacer dos impulsos tangenciales. Aunque un caso intermedio seria hacer
 un impulso tangencial y otro no.
@@ -1167,12 +1168,12 @@ un impulso tangencial y otro no.
 
 #### Transferencia de Hohmann
 
-Se utilizarán DOS IMPULSOS TANGENCIALES. Se recorre la mitad de una órbita elíptica de
+Se utilizarán **DOS IMPULSOS TANGENCIALES**. Se recorre la **mitad de una órbita elíptica** de
 transferencia. Es muy eficiente en la mayoría de casos prácticos
 
 ##### Tranferencia entre dos órbitas circulares.
 
-$r_{\text {init }} y r_{\text {final }}$ son los radios de las orbitas inicial y final (Orbitas Circulares). A partir de la ecuación de la energía especifica obtendremos las velocidades en cada punto para cada orbita y así obtener el $\Delta V$ necesario en cada punto
+$r_{init}$ y $r_{final}$ son los **radios** de las orbitas **inicial y final** (Orbitas Circulares). A partir de la **ecuación de la energía especifica** obtendremos las velocidades en cada punto para cada orbita y así obtener el $\Delta V$ necesario en cada punto
 
 $$
 V_{\text {init }}=\sqrt{\frac{\mu}{r_{\text {init }}}} ; V_{\text {final }}=\sqrt{\frac{\mu}{r_{\text {final }}}}
@@ -1204,30 +1205,28 @@ $$
 
 #### Transferencia bielíptica
 
-Se usa para transferencias entre orbitas circulares. El concepto es usar una órbita de transferencia, pero en este caso me voy MUUY LEJOS (Punto B).
+Se usa para **transferencias entre orbitas circulares**. El concepto es usar una órbita de transferencia, pero en este caso me voy **MUUY LEJOS (Punto B)**.
 
 > Desde el punto A me voy cuanto más lejos mejor (B) y en este punto doy otro impulso que me lleva a una segunda segunda órbita de transferencia que me dirige al radio final y finalmente doy un último impulso de recircularización. Se utilizan dos elipses de transferencia, de ahí el nombre.
 
-- El punto B será un PARÁMETRO DE DISEÑO, ya que el $\Delta V$ requerido será función del valor que demos a $r_{b}$:
+- El **punto B será un PARÁMETRO DE DISEÑO**, ya que el $\Delta V$ requerido será función del valor que demos a $r_{b}$:
 $$
 r_{\text {init }}, r_{\text {final }}, r_{b} \rightarrow a_{\text {trans }, 1}, t_{\text {trans, } 1}, a_{\text {trans, } 2}, t_{\text {trans, } 2}, \Delta V_{a}, \Delta V_{b}, \Delta V_{c}
 $$
 - La distancia del punto en que se realiza el segundo impulso (b) al foco es mayor que el radio de la órbita mayor
-- Es más eficiente que la de Hohmann si $R^{*}=\frac{r_{b}}{r_{\text {init }}} \uparrow \uparrow$
+- Es **más eficiente que la de Hohmann si** $R^{*}=\frac{r_{b}}{r_{\text {init }}} \uparrow \uparrow$
 
 ![Transferencia bielíptica](atts/tema_3/transferencia_bielíptica.png)
 
 
 
-El impulso es más eficiente cuanto más alta es la velocidad cuando doy el impluso (efecto Oberth)
-
 #### Efecto Oberth
 
-Ir más y más lejos no me cuesta cada vez más sino que el límite es la velocidad de escape ($\infty$), y por tanto el $\Delta V$ que necesito para irme muy lejos esta limitado
+Ir más y más lejos no me cuesta cada vez más sino que el **límite es la velocidad de escape** ($\infty$), y por tanto el $\Delta V$ que necesito para irme muy lejos esta limitado
 
 ¿En qué punto interesa más dar el impulso?:
 
-Desde el punto de vista energético y para un impulso tangencial:
+Desde el punto de **vista energético** y para un **impulso tangencial**:
 $$
 \varepsilon_{\text {trans }, a}=\frac{(V+\Delta V)^{2}}{2}-\frac{\mu}{r}=\varepsilon_{\text {init }}+V_{\text {init }} \Delta V+\frac{\Delta V^{2}}{2}
 $$
@@ -1236,65 +1235,65 @@ $$
 
 #### Transferencias Hohmann vs. bielíptica
 
-El impulso total empleado para una transferencia de Hohmann será:
+El i**mpulso total** empleado para una transferencia de **Hohmann** será:
 
 $$
 \frac{\Delta V}{V}=\sqrt{\frac{2 \lambda}{1+\lambda}}\left(1-\frac{1}{\lambda}\right)+\sqrt{\frac{1}{\lambda}}-1
 $$
 
-donde $\lambda=r_{f} / r_{i}$. Si $\boldsymbol{\lambda}<\mathbf{1}$, estamos pasando de una órbita exterior a una interior. Si representamos $\Delta V / V$ en funcion de $\lambda$ obtendremos la siguiente gráfica:
+donde $\lambda=r_{f} / r_{i}$. Si $\boldsymbol{\lambda}<\mathbf{1}$, estamos pasando de una **órbita exterior a una interior**. Si representamos $\Delta V / V$ en funcion de $\lambda$ obtendremos la siguiente gráfica:
 
 ![](atts/tema_3/impulso_hohmann.png)
 
 A partir de esta figura se puede deducir que:
 
-1) La transferencia de orbitas interiores a exteriores cuesta menos que pasar de orbitas
-exteriores a interiores
-2) Es más costoso pasar a una órbita 10 veces mayor que la inicial que a una órbita 1000
-veces mayor que la inicial
-3) Para valores de $0.49 < \lambda < 3.3$, es más económico la transferencia que el escape. Esto
+1) La transferencia de orbitas **interiores a exteriores cuesta menos** que pasar de orbitas
+**exteriores a interiores**
+2) Es más costoso pasar a una órbita **10 veces mayor que la inicial** que a una órbita **1000**
+**veces mayor que la inicial**
+3) Para valores de $0.49 < \lambda < 3.3$, es **más económico la transferencia que el escape**. Esto
 quiere decir que mandar un satélite de una órbita baja a una geoestacionaria ($\lambda = 6.3$)
 cuesta mas que enviar al vehículo fuera de la atracción terrestre
 
-Como podemos ver, ir super lejos no implica aumentar mucho Δ𝑉 porque hay un límite. Ese límite es la velocidad de Escape (Velocidad de Inyección en órbita Parabólica).
+Como podemos ver, ir super lejos no implica aumentar mucho Δ𝑉 porque hay un límite. Ese **límite es la velocidad de Escape** (Velocidad de Inyección en órbita Parabólica).
 
-Definimos $R^{*}=r_{b} / r_{init }$. Existen unos valores especiales:
+Definimos $R^{*}=r_{b} / r_{init }$. Existen unos **valores especiales**:
 
 - $R^{*}= \lambda = 15.58$:
 
-  Mínimo valor de $R^{*}$ que consigue orbita bieliptica mas barata que una Hohmann
+  **Mínimo valor** de $R^{*}$ que consigue **orbita bieliptica mas barata** que una Hohmann
 - $\lambda=11.94$ y $R^{*}=\infty$ :
 
-  En el mejor de los casos, en el que quiera gastar un tiempo infinito en la transferencia y me voy al infinito, necesito como mínimo para que la bieliptica me compense que $\lambda=11.94$
+  En el **mejor de los casos**, en el que quiera gastar un tiempo infinito en la transferencia y me voy al infinito, necesito **como mínimo para que la bieliptica me compense** que $\lambda=11.94$
 
 ![l](atts/tema_3/hohmann_vs_bielíptica.png)
 
 Por lo tanto, podemos llegar a estas conclusiones.
 
-1. $\lambda<$ 11. 94: Usar transferencia de Hohmann
-2. $\lambda>$ 11. 94: Habra que ver si renta más Hohmann o Bieliptica dependiendo de $\boldsymbol{R}^{*}$
+1. $\lambda<$ 11. 94: **Usar transferencia de Hohmann**
+2. $\lambda>$ 11. 94: **Habra que ver si compensa más Hohmann o Bieliptica** dependiendo de $\boldsymbol{R}^{*}$
 
 > A la hora de diseñar una órbita mirar el valor de $\lambda$, y ver si es mayor o menor que 11.94
 
 ### Restricción en ∆𝑉
 
-Si los thrusters que lleva el satélite son pequeños el valor de ∆𝑉 puede estar LIMITADO
+Si los thrusters que lleva el satélite son pequeños el valor de **∆𝑉 puede estar LIMITADO**
 
-- Bajo empuje químico $\rightarrow$ Hohmann segmentada
-  - Se dan muchos impulsos en el periapsis (punto de menor radio y mayor velocidad) hasta que el radio en el apoapsis es igual al radio de la órbita mayor
-  - Se da un impulso en el apoapsis para recircularizar la órbita
-- Bajo empuje eléctrico $\rightarrow$ Transferencia en espiral
-  - Se van dando impulsos progresivamente
+- **Bajo empuje químico** $\rightarrow$ **Hohmann segmentada**
+  - Se dan **muchos impulsos en el periapsis** (punto de menor radio y mayor velocidad) **hasta que el radio en el apoapsis es igual al radio de la órbita mayor**
+  - Se da un impulso en el apoapsis para **recircularizar la órbita**
+- **Bajo empuje eléctrico** $\rightarrow$ **Transferencia en espiral**
+  - Se van dando **impulsos progresivamente**
 
 ### Maniobra de cambio de plano
 
-Para cambiar el plano de la órbita necesitamos un impulso normal al plano. Al cambiar el plano de la órbita cambiamos la inclinación, $i$, y la ascensión del nodo ascendente, $\Omega$ (RAAN)
+Para cambiar el plano de la órbita necesitamos un **impulso normal al plano**. Al cambiar el plano de la órbita **cambiamos la inclinación**, $i$, y la **ascensión recta del nodo ascendente**, $\Omega$ (RAAN)
 
 Existen tres opciones:
 
-1) Solo cambiar la inclinación: $\Delta i=i_{f}-i_{i}$
-2) Solo cambiar RAAN: $\Delta \Omega=\Omega_{f}-\Omega_{i}$
-3) Cambiar inclinación y RAAN
+1) **Solo cambiar la inclinación:** $\Delta i=i_{f}-i_{i}$
+2) **Solo cambiar RAAN:** $\Delta \Omega=\Omega_{f}-\Omega_{i}$
+3) **Cambiar inclinación y RAAN**
 
 > Un cambio de plano orbital, sin modificación de la forma ni del tamaño de la órbita, requerirá un impulso que DEJE INVARIABLE EL MODULO DE LA VELOCIDAD del satélite y que sea perpendicular al radio vector del mismo (Giro a velocidad constante)
 
@@ -1308,7 +1307,7 @@ Existen tres opciones:
 
 #### Sólo cambia la inclinación
 
-El impulso debe darse en el paso del satélite por el ecuador (Línea de nodos). Si no tendríamos un cambio en la RAAN
+El **impulso** debe darse en el **paso del satélite por el ecuador** (Línea de nodos). Si no tendríamos un cambio en la RAAN
 
 Como no se modifica a, el módulo de la velocidad se debe conservar durante el impulso, $V_i = V_f \rightarrow \Delta V = 2 V_{i} sin \frac{\psi}{2}$:
 
@@ -1316,9 +1315,9 @@ Como no se modifica a, el módulo de la velocidad se debe conservar durante el i
 
 ![m](atts/tema_3/cambio_inclinación.png)
 
-- Para órbitas circulares: $\varphi=\Delta i \rightarrow \Delta V=2 V_{i} \sin \frac{\Delta i}{2}$
+- Para **órbitas circulares**: $\varphi=\Delta i \rightarrow \Delta V=2 V_{i} \sin \frac{\Delta i}{2}$
 
-- Para órbitas elípticas la componente de la velocidad normal al eje de giro (radiovector) es la que rota un ángulo ∆𝑖: $\Delta V=2 V_{i} \cos \gamma \sin \frac{\Delta i}{2}$
+- Para **órbitas elípticas** la componente de la velocidad normal al eje de giro (radiovector) es la que rota un ángulo ∆𝑖: $\Delta V=2 V_{i} \cos \gamma \sin \frac{\Delta i}{2}$
 
 > El coste de la maniobra es altísimo: $\Delta V=2 V_{i} \cos \gamma \sin \frac{\Delta i}{2} \rightarrow \mathrm{i} i \Delta V \sim V_{i} ! !$. En caso de hacerse esta maniobra, conviene que sea en el nodo en que la velocidad sea menor (apogeo).
 
@@ -1326,32 +1325,32 @@ Como no se modifica a, el módulo de la velocidad se debe conservar durante el i
 
 #### Sólo cambia RAAN
 
-> Igual que antes pero con $i_i = i_f$. DEBE HACERSE FUERA DEL ECUADOR    PORQUE SINO, NO LO CAMBIO.
+> Igual que antes pero con $i_i = i_f$. **DEBE HACERSE FUERA DEL ECUADOR**   PORQUE SINO, NO LO CAMBIO.
 
 El lanzamiento desde una base se puede hacer en cualquier instante si sólo se tiene como requisito la inclinación de la órbita
 
-Si hay un requisito para el valor de RAAN, será necesario esperar a tener una ventana de lanzamiento, o realizar una maniobra de cambio de RAAN
+Si hay un **requisito para el valor de RAAN**, será **necesario esperar a tener una ventana de lanzamiento**, o realizar una **maniobra de cambio de RAAN**
 
-Particularizando para $i_i = i_f$ (no debe cambiar la inclinación) los resultados obtenidos en el caso anterior…
+Particularizando para $i_i = i_f$ (**no debe cambiar la inclinación**) los resultados obtenidos en el caso anterior…
 
-Se determina la magnitud, dirección y punto de aplicación del impulso $\Delta V, \Delta A, u_{i}$ en función de $i_{i}$ y $\Delta \Omega$.
+Se determina la **magnitud, dirección y punto de aplicación del impulso** $\Delta V, \Delta A, u_{i}$ **en función de** $i_{i}$ y $\Delta \Omega$.
 $u_{i}$ es el argumento de latitud
 
-HIPOTESIS: ORBITA CIRCULAR
+**HIPOTESIS: ORBITA CIRCULAR**
 
-Aplicaremos el teorema del coseno para geometría esférica
+Aplicaremos el **teorema del coseno** para geometría esférica
 
-- Dirección del Impulso:
+- **Dirección del Impulso**:
   $$
   \cos \Delta A=\cos ^{2} i_{i}+\sin ^{2} i_{i} \cos \Delta \Omega
   $$
 
-- El impulso:
+- **El impulso**:
   $$
   \Delta V=2 V_{i} \sin \frac{\Delta A}{2}
   $$
 
-- El punto de aplicación del impulso se obtiene del teorema del coseno modificado, con $u = \omega + \nu$
+- **El punto de aplicación del impulso** se obtiene del teorema del coseno modificado, con $u = \omega + \nu$
   $$
   \cos u_{i}=\tan i_{i} \frac{\cos \Delta \Omega-\cos \Delta A}{\sin \Delta A}
   $$
@@ -1362,11 +1361,11 @@ Aplicaremos el teorema del coseno para geometría esférica
 
 Se debe determinar la magnitud, dirección y punto de aplicación del impulso ($\Delta V, \Delta A, u_{i}$) en función de $i_{i}, i_{f}, \Delta \Omega$
 
-HIPOTESIS: ORBITA CIRCULAR (Si no lo fuese cambiaria el argumento del perigeo $(\omega)$
+**HIPOTESIS: ORBITA CIRCULAR (Si no lo fuese cambiaria el argumento del perigeo** $(\omega)$
 
-Aplicando el teorema del coseno para geometría esférica tendremos que:
+Aplicando el **teorema del coseno** para geometría esférica tendremos que:
 
-- Dirección del Impulso
+- **Dirección del Impulso**
   $$
   \cos \Delta A = - \cos i_{f} \cdot \cos(\pi-i_{i}) + \sin i_{f} \cdot \sin(\pi - i_{i}) \cdot \cos \Delta \Omega
   $$
@@ -1374,11 +1373,11 @@ Aplicando el teorema del coseno para geometría esférica tendremos que:
   $$
   \cos \Delta A = \cos i_{f} \cos i_{i} + \sin i_{f} \sin i_{i} \cos \Delta \Omega
   $$
-- Impulso
+- **Impulso**
   $$
   \Delta V=2 V_{i} \sin \frac{\Delta A}{2}
   $$
-- Punto Aplicación Impulso
+- **Punto Aplicación Impulso**
   $$
   u = \omega + \nu
   $$
@@ -1391,29 +1390,29 @@ Aplicando el teorema del coseno para geometría esférica tendremos que:
 
 ### Maniobra combinada
 
-En este tipo de maniobras, el $\Delta \vec{V}$ tendrá componentes fuera del plano y dentro de él, por lo tanto, habrá un cambio de forma/tamaño de la órbita además de un cambio de plano orbital.
+En este tipo de maniobras, el $\Delta \vec{V}$ tendrá componentes **fuera del plano** y **dentro de él**, por lo tanto, habrá un **cambio de forma/tamaño de la órbita** además de un **cambio de plano orbital**.
 
-En general se trata de MINIMIZAR EL NUMERO DE IMPULSOS
+En general se trata de **MINIMIZAR EL NUMERO DE IMPULSOS**
 
 - Reducir el tiempo de la maniobra completa
 - Reducir la complejidad de la maniobra
 - Reducir el $\Delta V$ total
 
-HIPOTESIS: ORBITA CIRCULAR
+**HIPOTESIS: ORBITA CIRCULAR**
 
-> En principio el cambio de plano es el MÁS COSTOSO, por lo tanto será el que se trate de minimizar, por encima del cambio de forma/tamaño. Se minimiza el gasto debido al cambio de plano por encima del gasto debido al cambio de forma
+> En principio el cambio de plano es el **MÁS COSTOSO**, por lo tanto será el que se trate de minimizar, por encima del cambio de forma/tamaño. Se **minimiza el gasto debido al cambio de plano por encima del gasto debido al cambio de forma**
 
 ![](atts/tema_3/maniobra_combinada.png) ![](atts/tema_3/white.jpg)
 
-Una maniobra combinada, nos puede ayudar a reducir el $\Delta V$ necesario. En el ejemplo se puede ver, como para alcanzar $V_{f}$ hay dos opciones: Combinada (Roja), o primero impulso en plano y luego otro. Como se puede ver la roja implica menos $\Delta V$ que la suma de las otras dos
+Una **maniobra combinada**, nos puede ayudar a reducir el $\Delta V$ necesario. En el ejemplo se puede ver, como para alcanzar $V_{f}$ hay dos opciones: Combinada (Roja), o primero impulso en plano y luego otro. Como se puede ver **la roja** implica menos $\Delta V$ que la suma de las otras dos
 
 $$
 \Delta V_{Combi} < \Delta V_{Hoh, 1}+\Delta V_{Hoh, 2}
 $$
 
-Es mejor combinar impulsos para reducir complejidad, tiempo y $\Delta V$ de la maniobra
+Es **mejor combinar impulsos para reducir complejidad, tiempo y $\Delta V$ de la maniobra**
 
-En este tipo de maniobras son utilizadas por satélites para pasar de una órbita de aparcamiento LEO con inclinación $i_{i}$ a una orbita GEO. Para ello habrá que hacer un cambio de altitud y un cambio de inclinación.
+En este tipo de maniobras son utilizadas por satélites para pasar de una órbita de aparcamiento LEO con inclinación $i_{i}$ a una orbita GEO. Para ello habrá que hacer un **cambio de altitud y un cambio de inclinación**.
 
 > La optimización del problema no es lineal, aunque hay que tener claro unos conceptos, cuanto menor sea la velocidad del satélite, MEJOR PARA CAMBIAR LA INCLINACION. Cuanto más rápido vaya el satélite, mejor para aumentar la energía especifica de la orbita
 
@@ -1425,18 +1424,613 @@ $$
 \Delta V=\sqrt{V_{f}^{2}+V_{i}^{2}-2 V_{f} V_{i} \cos \phi} \geq V_{f}-V_{i}
 $$
 
-Donde $\phi$ será el ángulo que forman los vectores velocidad inicial y final. En el caso de que la órbita inicial sea circular, $\Delta \phi=\Delta i$
+Donde $\phi$ será el ángulo que forman los **vectores velocidad inicial y final**. En el caso de que la órbita inicial sea circular, $\Delta \phi=\Delta i$
 
 ### Maniobra Aeroasistida / Aerobraking
 
-Queremos pasar de una orbita a otra de MENOR ENERGIA.
+Queremos **pasar de una orbita a otra de MENOR ENERGIA.**
 
-En el caso de estar cerca de un planeta con atmosfera, nos aprovechamos de la resistencia AERODINAMICA para REDUCIR LA ENERGIA DE LA ORBITA. Esto nos ahorra una gran cantidad de combustible además de reducir los costes de la misión.
+En el caso de estar cerca de un planeta con atmosfera, nos **aprovechamos de la resistencia AERODINAMICA para REDUCIR LA ENERGIA DE LA ORBITA**. Esto nos ahorra una gran cantidad de combustible además de reducir los costes de la misión.
 
-¿Cómo se realiza?
+**¿Cómo se realiza?**
 
-1) El cohete reduce la altura del perigeo mediante un impulso y forma que pase por la atmosfera del planeta
-2) Cada vez que pasa el satélite por la atmosfera, este disminuirá su velocidad y altura del apogeo DISMINUIRA por lo tanto se producirá una circularización progresiva de la orbita
-3) Una vez tengo la altura del apogeo necesaria. Meto otro impulso para ALEJAR EL PERIGEO DE LA ATMOSFERA.
+1) **Mediante un impulso, el cohete reduce la altura del perigeo de forma que pase por la atmosfera** del planeta
+2) Cada vez que pasa el satélite por la atmosfera, **este disminuirá su velocidad y altura del apogeo DISMINUIRA por lo tanto se producirá una circularización progresiva** de la orbita
+3) Una vez tengo la altura del apogeo necesaria. **Meto otro impulso para ALEJAR EL PERIGEO DE LA ATMOSFERA.**
 
 > Este tipo de maniobras NO SON NADA SENCILLAS. Las condiciones atmosféricas NO SON CONSTANTES TEMPORALMENTE NI GEOGRAFICAMENTE. Por lo tanto, será necesario controlar las variables atmosféricas donde hago el frenado. La longitud será una variable importante a tener en cuenta debido a que la atmosfera rota con el planeta
+
+
+## Tema 4: Orbitas de Aplicación
+
+### Introducción
+
+Cada orbita presenta unas características que pueden ser aprovechadas para cumplir unos determinados objetivos de una misión, por lo tanto, debemos elegir la orbita que mejor cumple con los requisitos, incluyendo el COSTE.
+
+¿Qué define que sea útil? -> Que cumpla los objetivos. Estos implican unos requisitos. Como por ejemplo la cobertura con una cierta frecuencia o calidad. Esto impone unas ciertas restricciones
+
+Los parámetros orbitales sufren perturbaciones conocidas, lo que permite diseñar orbitas que tienen propiedades muy útiles para ciertas misiones
+
+- Orbitas de aplicación
+  - Geoestacionarias
+  - Helio síncronas
+  - Traza repetida
+  - Frozen
+  - Molniya
+
+- Características Importantes de las orbitas
+  - Duración de los Eclipses: Dimensionan el subsistema de potencia y control térmico
+  - Trazas
+  - Cobertura
+  - Visibilidad
+
+### Trazas / Ground Track
+
+La traza de un satélite es la figura que resulta de la intersección de la línea centro de la Tierra-Satélite (el punto "Subsatelite") con la superficie terrestre
+
+El hecho de que la Tierra gire con respecto a la referencia inercial según los Polos, convierte a la traza en una curva abierta donde cada nodo ascendente está separado respecto al anterior una cierta cantidad en longitud, $|\Delta \lambda|$ hacia el Oeste.
+
+![](atts/tema_4/ground_track.jpg)
+
+El movimiento de la Tierra no influye en los valores de las latitudes
+
+- Órbita Directa = $\pm i$
+- órbita Retrógrada = $\pm (180-i)$
+
+El desfase entre dos nodos ascendentes será:
+
+$$
+|\Delta \lambda|=\omega_{\text {Tierra }} \cdot 2 \pi \sqrt{\frac{a^{3}}{\mu}}
+$$
+
+### Cobertura
+
+La cobertura geográfica de un satélite es la zona de la Tierra visible por él en cada instante. Esa zona esta limitada por la circunferencia terrestre a lo largo de la cual el cono de vértice el satélite es tangente a la Tierra.
+
+El radio angular, $\Gamma$ sera:
+
+$$
+\cos \Gamma=\frac{R}{R+h}
+$$
+
+Pero ojo, una circunferencia sobra la superficie terrestre no corresponde con una circunferencia en un mapa mundo
+
+Sera por lo tanto la zona geografica a la que puedo dar servicio en un momento dado
+
+### Visibilidad
+
+Sera el arco de longitudes y latitudes que puedo cubrir de manera que cuando la traza del satélite pase por dentro podre comunicarme con este.
+
+La cobertura tendrá efectos sobre la misión. Mientras que la visibilidad estaré relacionada con recepción y descarga de datos provenientes de los satélites.
+
+![](atts/tema_4/visibilidad.png)
+
+### Órbita Geoestacionaria - GEO
+
+Con esta orbita el subsatelite siempre estará en el mismo punto de la superficie terrestre. Un observador en Tierra puede ver el satélite en todo momento con la misma línea de visión, es decir, con la misma elevación y azimut.
+
+> El satélite acompaña al planeta en su movimiento de rotación
+
+Esto favorece la instalación de antenas fijas en Tierra, no necesitaran movilidad para seguir al satélite. Además, simplifica el control de actitud y orientación de las antenas del propio satélite.
+
+Por lo tanto, es una órbita muy útil para misiones de comunicaciones en latitudes bajas.
+
+Parámetros orbitales:
+
+- GEOSINCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$
+- Ecuatorial Directa: $i=0$
+- Circular: $e=0$
+
+> No confundir geosíncrona con geoestacionaria
+
+Presentan una anchura angular de $17º,  24^{\prime}$.
+
+Las ventajas de esta orbita son:
+
+- Transmisión en tiempo real y sin interrupciones entre dos puntos de su cobertura geográfica
+- Ausencia de procesos de persecución en las antenas de las estaciones de seguimiento
+
+Las desventajas de esta orbita son:
+
+- No tienen cobertura sobre las zonas polares (Por encima de 810.3 de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)
+
+- Necesitan lanzadores muy potentes
+
+- Congestión física y de interferencias radioeléctricas
+
+- Cuando termina su tiempo de operación será necesario sacarlo de esa orbita y llevar el satélite a una órbita cementerio.
+
+#### Eclipses de Sol
+
+La determinación de los periodos de eclipse de un satélite es fundamental en el análisis de su misión.
+
+Cuando el satélite pasa de ser iluminado por el Sol a estar en la zona nocturna terrestre, sus paneles solares dejan de funcionar y la potencia eléctrica debe ser suministrada por las BATERIAS.
+
+Por otra parte, el paso del sol a sombra va acompañado de fuertes gradientes térmicos que pueden afectar al funcionamiento de algunos equipos.
+
+Los periodos de eclipse tienen ligar en los días alrededor de los equinoccios, en cuyas fechas tienen la máxima duración.
+
+En los días próximos a los solsticios, la sombra terrestre no intercepta la orbita geoestacionaria por lo que en esos días no hay eclipse.
+
+Supongamos que empezamos a considerar esta cuestión en el solsticio de verano.
+
+A medida que nos acercamos al equinoccio de otoño, la sombra terrestre se hace mas tendida y llega un momento en que el rayo del sol tangente a la Tierra también lo es a la órbita geoestacionaria.
+
+Se tratará por lo tanto del primer día del periodo de eclipses.
+
+- El primer día de eclipses tiene lugar 21 días antes del equinoceo y su duración es pequeña
+- El eclipse máximo ocurre en el equinoceo en el cual el tiempo de permanencia en sombra es de 70 minutos
+- A partir de ese momento el proceso se invierte hasta llegar al solsticio de invierno
+
+![](atts/tema_4/eclipses.png) ![](atts/tema_4/duración_eclipses.png)
+
+
+
+| Inicio               | 8º42' / 21 días antes del equinoceo   |
+| -------------------- | ------------------------------------- |
+| Tempo Máximo Eclipse | $\sim$ 70 minutos                     |
+| Fin                  | 8º41' / 21 días después del equinoceo |
+
+
+- INICIO
+
+  $$
+  \varepsilon_{\text {inicio }}=\operatorname{atan} \frac{a_{\text {geo }}}{R_{\text {tierra }}}
+  $$
+
+- DURACION MAXIMA ECLIPSE
+
+  $$
+  t_{\max }=2 \cdot \varepsilon_{\text {inicio }} \cdot \frac{T_{g e o}}{360}
+  $$
+
+  Donde $\varepsilon_{\text {inicio }}$ esta en grados
+
+#### Traza
+
+- Existe un cierto $\Delta i$ (Inclinación)
+  Se formará una traza en forma de ocho.
+  $$
+  h_{i}=\pm i \quad
+  w_{i}=\pm \frac{i}{4} \sin i
+  $$
+
+- Existe un cierto $\Delta e$ (Excentricidad)
+  Habrá un movimiento de este-oeste
+
+  $$
+  w_{i}=\pm 2e
+  $$
+
+- Existe un cierto $\Delta e$ y un $\Delta i$
+  Habrá una combinación de los dos efectos
+
+
+#### Perturbaciones
+
+Yo quiero el satélite fijo, pero el plano orbital no se va a quedar quieto. Habrá unos fenómenos que perturbaran la trayectoria
+
+- Luna-Sol
+
+  Variación de la inclinación de $\sim 0.9$ %/año
+
+  Es la fuente más fuerte de perturbaciones. El efecto principal será el de inclinar el plano orbital hacia el de la eclíptica. La Luna ejercerá una mayor perturbación que el sol (Luna $\sim$ $0.70$, Sol $\sim 0.3º$
+
+  - Largo Periodo: $\sim 55$ años
+
+  - Medio Periodo: $\sim 6$ meses (Debido al sol)
+
+  - Corto Periodo: $\sim 15$ dias (Debido a la luna)
+
+- Potencial Gravitatorio
+
+  Este provoca un movimiento de este-oeste en el plano ecuatorial y esta sincronizado con el de la tierra.
+
+  $J_{22}$ es el armónico sectorial que causa este efecto, el cual esta relacionado con la elipticidad ecuatorial
+
+  Debido a este termino aparecen DOS POSICIONES DE EQUILIBRIO ESTABLE Y DOS DE EQUILIBRIO INESTABLE.
+
+  En el caso de dejar un satélite en un pozo de potencial, este realizara un movimiento oscilatorio alrededor de estas posiciones estables 75º y 255º E.
+
+![Luna-Sol](atts/tema_4/perturbaciones_luna-sol.png) ![Potencial Gravitatorio](atts/tema_4/perturbaciones_potencial_gravitatorio.png)
+
+#### Maniobras de Mantenimiento
+
+Debido a las perturbaciones habrá que realizar ciertas maniobras de mantenimiento para mantener el satélite en una caja de aproximadamente 0.1º x 0.1º (Longitud y Latitud).
+
+El orden de magnitud de los $\Delta V$ aplicados serán:
+
+$$
+\frac{\Delta V_{\text {este-oeste }}}{\Delta V_{\text {norte-sur }}} \sim 0.1
+$$
+
+![](atts/tema_4/mantenimiento.png)
+
+Como se puede ver el $\Delta V_{\text {norte sur }}$ son más caros porque suponen un cambio de plano.
+
+A esas altitudes la resistencia aerodinámica es DESPRECIABLE. Por lo tanto, no se podrá aprovechar esta para desorbitar los satélites al final de su vida y harba que guardar algo de combustible para desorbitarlos y llevar los a una orbita cementerio a $500 km$ sobre GEO
+
+### Orbita Heliosincrona - SS
+
+![](atts/tema_4/órbita_heliosíncrona.png)
+
+Un plano orbital, definido por su inclinación $i$, y por la ascensión recta del nodo ascendente $\Omega$, esta sometido al fenómeno de regresión de los nodos, que origina una variación lineal de $\Omega$ con el tiempo, mientras que su inclinación permanece constante.
+
+> El heliosincronismo se define como aquellas orbitas que pueden mantener CONSTANTE EN PROMEDIO, el ángulo $\delta=\Omega-\alpha$. Es decir, el sol iluminara de la misma forma el plano orbital en promedio. El plano orbital girara en promedio con el sol.
+
+Se mantiene constante la orientación del plano orbital con respecto al meridiano solar.
+
+¿Qué ventajas nos proporciona esta orbita?
+
+Me da una forma fácil y sin gasto de combustible unas condiciones de iluminación muy estables y constantes. Esto me facilitara el diseño de los mecanismos de los paneles solares, además de facilitar el control térmico.
+
+> Y los más importante de todo nos permite OBERSERVACIONES A LA MISMA HORA de una zona.
+
+Esto implica que los sucesivos registros que un satélite de observación obtenga sorbe cada lugar del Ecuador serán realizados con las mismas o parecidas condiciones de iluminación.
+
+Además, esta propiedad es extensiva a todos los puntos geográficos sobrevolados.
+
+- $\dot{\Omega}=$ Regresion del Nodo Ascendente / Depende de la inclinación, excentricidad y del semieje mayor. Esta es causada por el armónico $J_{2}$
+- $\alpha=$ Define el meridiano en un instante $t$ del sol 1
+- $\dot{\alpha}=$ Translacion de la Tierra alrededor del sol $\sim 360$ %/ 365 dias
+
+Elegimos una órbita de inclinación $i$ y hacemos que $\delta=$ cte , ¿Cómo hacemos esto?
+
+Diseño la órbita de forma que:
+
+$$
+\dot{\Omega}=\dot{\alpha}
+$$
+
+$$
+\begin{aligned}
+& \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 36525}=\dot{\alpha}
+\end{aligned}
+$$
+
+$$
+\cos i=-\frac{2 \dot{\alpha}\left(1-e^{2}\right)^{2} a^{\frac{7}{2}}}{3 R_{\text {tierra }}^{2} J_{2} \sqrt{\mu}}<\mathbf{0}
+$$
+
+La inclinación tiene que estar en el segundo cuadrante (Orbita Retrograda).
+
+$$
+i \in\left[90-180^{\circ}\right]
+$$
+
+Al ser retrograda el satélite pasara por el Ecuador desde el Sur hacia el Norte
+
+> UNA ORBITA NO PUEDE SER HELIOSINCRONA SI ES DIRECTA
+
+$\delta$ será un parámetro de diseño y por lo tanto según sea el valor de este parámetro, la órbita recibirá una denominación u otra
+
+- LAN12 (High noon): 12h - 24 h
+
+  En esta orbita $\delta=0$, lo cual implica que el satélite cruzara los nodos ascendentes cuando los lugares terrestres sobrevolados estén en mediodía y atravesara los nodos descendentes cuando sea media noche bajo ellos
+
+  $12 h$ y $24 h$ indica la hora de paso por los nodo ascendente y nodo descendente
+
+- LAN18 (Dusk-dawn): 18h-6h
+
+  En esta orbita el valor de $\delta$ es igual a $90º$ y el satélite va sobrevolando, aproximadamente, la línea de separación entre el hemisferio iluminado y el oscuro.
+
+### Hora Local de Paso del Punto Subsatelite
+
+Ahora vamos a ver la relación entre la hora solar de paso de un satélite cualquiera por su nodo ascendente y la de paso por cualquier otro lugar
+
+$H$ sera la hora solar en el punto L. Hay que tener en cuenta que cuando defino la hora estoy definiendo la posición del satélite respecto del Sol, es decir, ANGULOS.
+
+> La hora en un punto será $\sigma$, es decir, la distancia angular entre el meridiano del satélite y el meridiano solar
+
+$$
+\begin{aligned}
+&\sigma=\Omega-\alpha+\beta \\
+&H=\frac{\sigma}{15}+12 \\
+&(\Omega-\alpha+\beta) \cdot \frac{1}{15}+12
+\end{aligned}
+$$
+
+El 12 es por qué cuando $\sigma=0$, son las 12 del mediodía (El satélite está en la eclíptica del Sol, por lo tanto, tendrá el Sol a su espalda). 15 es el factor de conversión entre grados y horas 15 grados /hora)
+
+![](atts/tema_4/hora_local_punto_subsatélite.png)
+
+Resolviendo el triángulo esférico obtengo que:
+
+$$
+\beta=\operatorname{asin}(\tan \phi \cot i)
+$$
+
+Donde $\phi$ es la latitud del satélite en un tiempo t, e $i$ es la inclinación del plano orbital
+
+$$
+H=H_{0}+\frac{1}{15} \operatorname{asin}(\tan \phi \cot i)
+$$
+
+Donde $H_{0}=[\Omega-\alpha] / 15+12$ es la Hora de paso por el nodo Ascendente.
+
+> Como $\delta=CTE, H_{0}$ no varía
+
+Hora en L = Hora de Paso Nodo Ascendente + Angulo $\beta$ Recorrido
+
+> Es importante destacar que la hora, $H$, depende solamente de $\phi$ (Latitud) y de $i$ (Inclinación). Esto significa que todas las observaciones realizadas en UN PARALELO van a ocurrir a la MISMA HORA SOLAR. Cada paralelo tendrá una hora solar asociada
+
+Esto implica que:
+
+- El satélite siempre pasara sobre cada punto a la misma hora
+- Se seleccionará la hora de paso sobre la zona a observar tal que proporciona buenas condiciones de iluminación en la zona de interés
+
+Una hora buena de observación puede ser las 10 de la mañana ya que a las 12 puedo tener reflejos al tener justo el sol detrás.
+
+> Como $\delta$ era el parámetro de diseño y este está relacionado con $H_{0}$, seleccionaremos este valor (la hora de paso por el nodo ascendente) de acuerdo a la hora de observación deseada en una cierta zona. ¿Qué implica seleccionar $H_{0}$ ? $\rightarrow$ Inyectar el satélite en un punto concreto a una hora determinada
+
+
+### Repeating Ground Track -RG
+
+> El objetivo de estas orbitas es que para $t \rightarrow \infty$, la traza sobre la superficie terrestre NO VARIE.
+
+El satélite vuelve a pasar sobre el mismo punto sobre la Tierra ($\lambda$ y $\phi$) después de un cierto número de días ($k_{day2rep}$). Por lo tanto, la traza se repetirá siempre a partir de ese punto.
+
+> NO TIENE NADA QUE VER CON LA HORA, EL SATELITE PASARA POR EL MISMO PUNTO CINEMATICAMENTE HABLANDO
+
+En teoría en un sistema inercial, con orbitas keplerianas, con el plano orbital fijo, y la Tierra Fija, NO ES NECESARIO REALIZAR ESTO.
+
+Sin embargo, la Tierra ROTA, por lo tanto, la traza formara una sinusoide que no se cierra. Cada paso por el ecuador se dará un poco mas al oeste que el anterior. El nodo ascendente es como si se desplazara hacia al Oeste.
+
+¿Cada cuánto tiempo quiero que pase por el mismo punto? Quiero repetición cada cierto número entero de días
+
+- $k_{orb2rep}$: Numero entero de orbitas recorridos en esos días. Depende del periodo orbital del satélite
+
+- $k_{day2rep}$: La Tierra habrá dado un numero entero de vueltas. Fijado por la velocidad de rotación de la tierra
+
+> Habrá que sincronizar: cada 8 orbitas pasa un día, cada 6 un día. Se tiene que dar un numero entero de orbitas en un numero entero de días
+
+Durante el tiempo hasta la repetición de la traza se recorre el diámetro ecuatorial $k_{day2rep}$ veces.
+
+$$
+\begin{gathered}
+\omega_{\text {tierra }} t_{0}=2 \pi k_{\text {day2rep }} \\
+\omega_{k} t_{0}=2 \pi k_{\text {orb } 2 \text { rep }}
+\end{gathered}
+$$
+
+$\omega_{k}$ será la velocidad angular MEDIA del satélite ya que si este realiza una orbita con excentricidad, esta velocidad variará.
+
+$$
+\frac{\omega_{\text {tierra }}}{\omega_{k}}=\frac{k_{\text {day2rep }}}{k_{\text {orb2rep }}} \rightarrow T_{k}=T_{\text {tierra }} \frac{k_{\text {day2rep }}}{k_{\text {orb } 2 \text { rep }}}=\frac{T_{\text {tierra }}}{k_{\text {orbPday }}}
+$$
+
+$$
+T_{k}=2 \pi \sqrt{\left(\frac{a_{k}}{\mu}\right)^{3}} \rightarrow a_{k}=\left[\mu\left(\frac{\frac{T_{\text {tierra }}}{2 \pi}}{k_{\text {orbPday }}}\right)^{2}\right]^{\frac{1}{3}}
+$$
+
+> Por lo tanto, podemos ver que si $k_{day2rep}$ y $k_{orb2rep}$ son DATO, el tamaño de la órbita, $a_{k}$, estará determinado por el sincronismo. El sincronismo nos determina $a$
+
+Sin embargo, puedo tener otros datos de entrada, como, por ejemplo, $k_{day2rep}$, es decir, que pase por el punto cada $k_{day2rep}$ días, y me pueden dar como dato también $a$, que es determinado por otros criterios de misión.
+
+Por lo tanto, puedo calcular $k_{orb2rep}$ y ver cuantas orbitas hago. Por lo general, este no será un número exacto.
+
+Ejemplo:
+
+En vez de darme un a necesario, me dan un margen, $a_{\min} y a_{\max }$. Para $a_{\min }$ calculo $k_{orb2rep}$ que puede ser $15.6$, y para $a_{max}$ al ser el periodo orbital menor, este disminuirá y podrá valer 13.2.
+
+$$
+\begin{aligned}
+a_{min} & \rightarrow k_{orb2rep}=15.6 \\
+a_{max} & \rightarrow k_{orb2rep}=13.2
+\end{aligned}
+$$
+
+Por lo tanto, el único valor que podemos coger de $k_{orb2rep}$ para que la órbita este sincronizada y este dentro del margen de $a$, será: 14 y 15.
+
+En el caso de coger 16 o 13, NO ESTAREMOS EN EL RANGO DE $a$ que nos han dicho
+
+> LO IMPORANTE ES QUE SEA UN NUMERO ENTERO
+
+### Efecto de las Perturbaciones
+
+El potencial gravitatorio, en especial, el achatamiento terrestre, $J_{2}$, provocara que el tiempo de paso entre dos nodos ascendentes no sea el periodo orbita, ya que este provocara regresión de los nodos.
+
+En este caso el periodo será $T_{\Omega}$ llamado tiempo nodal, que será el tiempo que transcurre entre dos pases consecutivos sobre el nodo ascendente
+
+$$
+n + \dot{M}_{0}+ \dot{\omega}= \frac{2 \pi}{T_{\Omega}}
+$$
+
+Si $\dot{M}_{0}$ y $\dot{\omega}$ son nulos, $T_{\Omega}=T$
+
+$$
+\frac{\omega_{\text {tierra }}-\dot{\Omega}}{\omega_{\Omega}}=\frac{k_{\text {day2rep }}}{k_{\text {orb2rep }}} \rightarrow\left(\omega_{\text {tierra }}-\dot{\Omega}\right) k_{\text {orb } 2 \text { rep }}=\frac{2 \pi}{T_{\Omega}} k_{\text {day2rep }}
+$$
+
+A la velocidad angular de la Tierra habrá que restar la regresión de los nodos.
+
+$$
+T_{\Omega}(a)=\frac{T_{\text {tierra }}}{k_{orbPday}}\left(\frac{1}{1-\frac{\dot{\Omega}(a, i)}{\omega_{\text {tierra }}}}\right)
+$$
+
+Es una ecuación implícita, por lo que no puedo despejar a directamente, habrá que resolverlo de forma iterativa.
+
+Eso se hará resolviendo primero el caso no perturbado como condición inicial, calculo el periodo y calculo a y voy iterando
+
+Estas orbitas son perfectas para comunicación y observación.
+
+### Orbitas Congeladas / Frozen Orbits
+
+> La misión de estas orbitas son minimizar los efectos de $J_{2}$ y $J_{3}$ que afectan a la excentricidad y al argumento del perigeo de largo periodo. Se anularán de manera simultanea
+
+Si no hacemos este diseño, una órbita inicialmente circular, tendrá variaciones de corto periodo y luego habrá otras de mayor periodo con una tendencia secular POSITIVA (aumenta la excentricidad).
+
+Sin embargo, con las orbitas frozen, estas variaciones se reducen. Habrá una variación de corto periodo, pero la variación secular ya NO ES ASCENDENTE.
+
+Por lo tanto, lo que se pretende es:
+
+$$
+\begin{aligned}
+&\dot{\omega}(e, i, \omega, a, n)=0 \\
+&\dot{e}(e, i, \omega, a, n)=0
+\end{aligned}
+$$
+
+A partir de las ecuaciones de Lagrange obtenemos, $\dot{e}$ y $\dot{\omega}$
+
+$$
+\begin{gathered}
+\dot{e}=-\frac{3}{2} \frac{n}{\left(1-e^{2}\right)^{2}} J_{3}\left(\frac{R_{\text {tierra }}}{a}\right)^{3}\left(1-\frac{5}{4} \sin ^{2} i\right) \sin i \cos \omega=0 \\
+\dot{\omega}=\frac{3 n}{\left(1-e^{2}\right)^{2}} J_{2}\left(\frac{R_{\text {tierra }}}{a}\right)^{2}\left(1-\frac{5}{4} \sin ^{2} i\right) \theta=0
+\end{gathered}
+$$
+
+Por lo tanto, tengo varias opciones a la hora de cancelar los parámetros
+
+|          | $\dot{e}=0$     | $\dot{\omega}=0$ |
+| -------- | --------------- | ---------------- |
+| $i$      | $0, i_{\omega}$ | $i_{\omega}$     |
+| $e$      | -               | $e_{f}$          |
+| $\omega$ | 90º, 270º       | -                |
+
+
+1. Elijo la inclinación critica, $i_{\omega}$
+
+    $$
+    \begin{gathered}
+    1-\frac{5}{4} \sin ^{2} i=0 \\
+    i_{\omega}=63.345 \circ
+    \end{gathered}
+    $$
+
+    Si elijo la inclinación critica se cancelarán los dos efectos.
+
+2. Para $i$ distinta que la crítica, juego con los demás parámetros
+
+    a. Si $\omega=90$ o 270 o tendremos que $\dot{e}=0$
+    b. Podemos elegir $e=e_{f}$ de forma que $\theta=0 \rightarrow \dot{\omega}=0$ y $\dot{e}=0$
+
+    Suponiendo una órbita en la que $e \ll 1$ (Casi circulares) y $\tan i \gg e$ (Lejos de los ecuadores)
+
+    $$
+    \begin{aligned}
+    & \theta=1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \frac{1}{1-e^{2}} \frac{\sin ^{2} i-e^{2} \cos ^{2} i}{\sin i} \frac{\sin \omega}{e} \\
+    & 0=1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \sin i \frac{\sin \omega}{e_{f}} \\
+    & e_{f} \sim 1+\frac{J_{3}}{2 J_{2}}\left(\frac{R_{\text {tierra }}}{a}\right) \sin i \sin \omega
+    \end{aligned}
+    $$
+
+    Donde $e_{f} \sim 0.0015 \ll 1$ (Ojo, no todas frozen tienen $e$ pequeño)
+
+    > Es decir, condiciono el argumento del perigeo y la excentricidad dejando libre la inclinación
+
+Ojo, estos "cumplimientos" pueden no cumplirse en ciertas condiciones o son débiles, es decir, pueden dejar de cumplirse con el tiempo.
+
+
+
+### Órbitas Molniya
+
+Las orbitas Molniya nacen de la necesidad de tener cobertura en zonas polares o cercanas a ellas, ya que las GEO tienen mala cobertura en esas zonas.
+
+¿Cómo se soluciona esto?
+
+1. Alta Inclinación para poder ver latitudes altas
+
+2. Alta Excentricidad ($e \sim 0.73-0.75$). El perigeo estará cerca de la Tierra y en el hemisferio sur. Con esto se pretende que el satélite este gran parte de su orbita en la zona del apogeo a altas latitudes (zona de baja velocidad), mientras que el paso por el perigeo que esta en el hemisferio sur (zona que no interesa) dure muy poco tiempo
+
+  $$
+  h_{p} \sim 300 \mathrm{Km}, \quad h_{a} \sim 40000 \mathrm{Km}
+  $$
+
+3. Repeat Ground Track Semisincrona ($T=12$ horas) para que la zona de interés está cubierta siempre
+
+> El principal interés aquí, es tener el apogeo justo encima de la zona de interés, y que no se mueva de ahí durante toda la misión del satélite. Es decir, se quiere traza repetida, ya que, si no lo es, el apogeo se movía. Esta condición de traza repetida se ha indicado al decir que es semisincrona.
+
+El ser semisincrona cada dos orbitas pasa un día terrestre. La cobertura en cada orbita es del orden de 8 horas. Por lo tanto, para tener cobertura en la zona las 24 horas, será necesario una constelación de 3 satélites que tendrán que estar desfasados en 8 horas en el paso por el perigeo y desfasados entre ellos $120º$ en RAAN
+
+
+Estas orbitas están genial para países en latitudes altas, además de que los requerimientos energéticos para conseguir esa orbita son menores sobre todo en bases en latitudes altas.
+
+Además, estar orbitas se utilizan para espionaje electromagnético ya que en la primera orbita doy cobertura, pero en la segunda orbita espió a EEUU.
+
+Sin embargo, presenta unos inconvenientes:
+
+- Tracking: El seguimiento del satélite es complejo. El satélite no esta fijo en el cielo por lo tanto requerirán antenas móviles. Además, tendré que reorientar estas antenas en el caso de que haya más satélites en la constelación ya que por lo general cuando uno salga del campo de visión, entrara otro
+
+- Apuntamiento de la antena del satélite: Tendrá que ir reapuntándose para tener una buena señal
+
+- Mantenimiento: Como pasa a muy baja altitud, la altura del apogeo puede ir reduciéndose. No es un gran problema por que el tiempo de paso por el perigeo es pequeño. Sin embargo, tendrá que dar impulsos en el perigeo para compensar esa caída
+
+Los parámetros orbitales necesarios para conseguir esta orbita será:
+
+- $i=i_{\omega}=63.4º$. Inclinación critica, con ello elimino las perturbaciones de $\dot{\omega}$ y $\dot{e}$ debidas a $J_{2}$ y $J_{3}$
+
+- $\omega=270º$. Se ha elegido este parámetro porque queremos que el apogeo (zona de menor velocidad) este justo encima de la zona de interés, es decir, en la zona de mayor latitud. El objetivo secundario es contribuir a la eliminación de la perturbación en la excentricidad debido a $J_{2}$
+
+¿Por qué han puesto un periodo de 12 horas en vez de unos de 24 horas, y porque no uno de 6?
+
+SOLUCION DE COMPROMISO
+
+- Tundra: Satélites con periodo de 24 horas. Solo necesitan una constelación de 2 satélites. Al tener un periodo de 24 horas, tendrán una órbita considerablemente más alta, además se bajará la excentricidad. Todo esto implicara un lanzador de mayor potencia y tendré menos señal del satélite al disminuir la excentricidad
+
+- 6 horas: Necesitare 4 satélites. Esta configuración ya no renta porque habrá que realizar mas lanzamientos y encima habrá que tener mas agilidad de maniobra de antenas. Además, la altura del perigeo seria muy pequeña al aumentar la excentricidad
+
+### Esquema final
+
+#### GEO & GSO
+- Geosíncrona: $T=24$ horas
+- Geoestacionaria: $T=24$ horas  + e=0 + i=0
+
+#### HELIOSINCRONA
+
+Obtener siempre la misma hora solar, en un punto determinado. Cada latitud tiene su hora solar
+
+$$
+\delta=cte \rightarrow \dot{\alpha}=\dot{\Omega}
+$$
+
+Output
+
+1. $i=i(a, e)$  ($i>90º$, Orbita Retrograda)
+
+#### GROUNDTRACK
+
+Se busca que cada cierto tiempo, el satélite siempre pase por el mismo punto. Traza constante para $t \rightarrow \infty$
+
+$$
+\begin{gathered}
+\omega_{\text {tierra }} t_{0}=2 \pi k_{\text {day } 2 \text { rep }} \\
+\omega_{k} t_{0}=2 \pi k_{\text {orb } 2 \text { rep }}
+\end{gathered}
+$$
+
+Output
+
+1. $a=a(k_{day2rep}, k_{orb2rep})$
+2. $k_{orb2rep}=k_{orb2rep} (k_{day2rep}, a)$
+
+$k_{orb2rep}$ y $k_{day2rep}$ deben ser enteros para que la órbita este sincronizada
+
+#### FROZEN
+
+Buscamos anular las perturbaciones $J_{2}$ y $J_{3}$
+
+$$
+\begin{aligned}
+&\dot{\omega}(e, i, \omega, a, n)=0 \\
+&\dot{e}(e, i, \omega, a, n)=0
+\end{aligned}
+$$
+
+Output
+
+1. Inclinación Critica, $i_{\omega}$
+
+2. Combinaciones de $\omega$ y $e$. $\rightarrow \omega, e = f(i, perturbaciones)$
+
+
+#### MOLNIYA
+
+> Frozen + GroundTrack
+
+- $i=i_{\omega}$
+- $\omega=270º$
+- Periodo de 12 horas
+
+> CONDICIONES NO EXCLUYENTES: Puedo tener una HELIOSINCRONA + FROZEN + TRAZA
+REPETIDA
