@@ -23,11 +23,11 @@ math: true
 
 ### Parámetros orbitales
 
-- Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El plano XY es el pplano ecuatorial.
+- Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El **plano XY** es el **plano ecuatorial**.
 
 
 
-Si el vehículo describiese la orbita a esa velocidad cte M seria el ángulo polar correspondiente.
+Si el vehículo describiese la órbita a esa velocidad cte M seria el ángulo polar correspondiente.
 
 ![Elementos orbitales](atts/dibujo_parámetros.png)
 
@@ -61,16 +61,20 @@ donde n es la velocidad orbital.
 
 - Definición de la anomalía excéntrica, $E$:
 
-![Dibujo anomalía excéntrica](atts/anomalia_excéntrica.png)
+  <details>
+  <summary>Dibujo anomalía excéntrica</summary>
+
+  ![Dibujo anomalía excéntrica](atts/anomalia_excéntrica.png)
+  </details>
 
 #### Órbitas keplerianas
 
-- Conservación de la energía:
+- **Conservación de la energía:**
 
   > Relaciona el módulo del radiovector con el módulo de la velocidad de manera que la relación es única para cada tamaño órbital.
 
 $$
-\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a}
+\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a} \rightarrow V = \sqrt{\frac{2\mu}{r} - \frac{\mu}{a}}
 $$
 
 - Conservación del momento:
@@ -97,7 +101,7 @@ $$
 
 - Ángulo de asiento del vector velocidad :
 
-	> ángulo entre la velocidad y  el vector director en la dirección polar (dirección angular, horizontal local).Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.
+	> Ángulo entre la velocidad y el vector director en la dirección polar (dirección angular, horizontal local). Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.
 
 $$
 \overbrace{\gamma}^{\text{ ángulo de asiento }} = \hat{\vec{u}_{v}, \vec{v}} = atan[(1- \frac{r}{\rho} \tan{\mu})]
@@ -378,7 +382,7 @@ Si me salgo de la esfera de influencia de la tierra
 
 ![](atts/tema_2/solar_influence.jpg)
 
-### EL Sol
+### El Sol
 
 |                    | Extension                      | Comment                                                      |
 | :----------------- | :----------------------------- | :----------------------------------------------------------- |
@@ -389,11 +393,7 @@ Si me salgo de la esfera de influencia de la tierra
 | 6. Chromosphere    |                                | Colored Surface, IR (sunspots, prominences) |
 | 7. Corona          |                                | X-rays, White light   |
 
-El medio interplanetario esta **dominado por los efectos del sol**, sobre todo por el gravitatorio. El
-Sol es un **reactor termonuclear** cuya emisión de energía se realiza en su mayor parte en forma
-de **RADIACION ELECTROMAGNETICA**, pero no solo, también **EMITE MASA QUE SE PIERDE**
-
-
+El medio interplanetario esta **dominado por los efectos del sol**, sobre todo por el gravitatorio. El Sol es un **reactor termonuclear** cuya emisión de energía se realiza en su mayor parte en forma de **RADIACIÓN ELECTROMAGNÉTICA**, pero no solo, también **EMITE MASA QUE SE PIERDE**
 
 **Efectos del Sol:**
 
@@ -602,7 +602,7 @@ $$
 U(r, \lambda, \phi)=\frac{\mu}{r} \sum_{n=0}^{\infty} \sum_{m=0}^{n} J_{n m}\left(\frac{R_{\oplus}}{r}\right)^{n} P_{n m}(\sin \phi) \cos \left(\lambda-\lambda_{n m}\right)
 $$
 
-Esto representa una **expansión en armónicos esféricos** y como se puede observar contempla variaciones **radiales** en **longitud** $(\lambda)$ y **latitud** $(\phi)$. Incluye los **polinomios de Legendre**, $P_{nm}$, de grado $n$ y orden $m$. $J_{mn}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el **radio del astro**.
+Esto representa una **expansión en armónicos esféricos** y como se puede observar contempla variaciones **radiales** en **longitud** $(\lambda)$ y **latitud** $(\phi)$. Incluye los **polinomios de Legendre**, $P_{nm}$, de grado $n$ y orden $m$. $J_{nm}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el **radio del astro**.
 
 > $$
   \text{Longitud } = 0 \leq \lambda \leq 2 \pi \quad \text{Latitud } = \frac{-\pi}{2} \leq \phi \leq \frac{\pi}{2}
@@ -1027,6 +1027,10 @@ $$
   i_{min} = \phi \quad i_{max} = \pi - \phi
 > $$
 
+> $$
+  \phi_{máx} = (i, \pi -i) \quad \phi_{mín} = (-i, - (\pi - i))
+> $$
+
 **$sin A$ nunca será mayor que la unidad**, por lo tanto, la inclinación estará limitada por la latitud
 de la base de lanzamiento y podemos comprobar cómo realizar un **lanzamiento desde el ecuador** es la mejor opción ya que abarca todos ángulos desde esa zona de lanzamiento.
 
@@ -1313,7 +1317,7 @@ Como no se modifica a, el módulo de la velocidad se debe conservar durante el i
 
 ​	$\Delta V=\sqrt{V_{f}^{2}+V_{i}^{2}-2 V_{f} V_{i} \cos \varphi}=2 V_{i} \sqrt{\frac{1-\cos \varphi}{2}}=2 V_{i} \sin \frac{\varphi}{2}$
 
-![m](atts/tema_3/cambio_inclinación.png)
+![](atts/tema_3/cambio_inclinación.png)
 
 - Para **órbitas circulares**: $\varphi=\Delta i \rightarrow \Delta V=2 V_{i} \sin \frac{\Delta i}{2}$
 
@@ -1475,7 +1479,7 @@ El hecho de que la Tierra gire con respecto a la referencia inercial según los 
 El movimiento de la Tierra no influye en los valores de las latitudes
 
 - Órbita Directa = $\pm i$
-- órbita Retrógrada = $\pm (180-i)$
+- Órbita Retrógrada = $\pm (180-i)$
 
 El desfase entre dos nodos ascendentes será:
 
@@ -1487,7 +1491,7 @@ $$
 
 La cobertura geográfica de un satélite es la zona de la Tierra visible por él en cada instante. Esa zona esta limitada por la circunferencia terrestre a lo largo de la cual el cono de vértice el satélite es tangente a la Tierra.
 
-El radio angular, $\Gamma$ sera:
+El radio angular, $\Gamma$ será:
 
 $$
 \cos \Gamma=\frac{R}{R+h}
@@ -1517,11 +1521,11 @@ Por lo tanto, es una órbita muy útil para misiones de comunicaciones en latitu
 
 Parámetros orbitales:
 
-- GEOSINCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$
+- GEOSÍNCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$
 - Ecuatorial Directa: $i=0$
 - Circular: $e=0$
 
-> No confundir geosíncrona con geoestacionaria
+> No confundir geosíncrona con geoestacionaria. **Una óbita geoestacionaria es una óbita geosíncrona que es circular y ecuatorial**.
 
 Presentan una anchura angular de $17º,  24^{\prime}$.
 
@@ -1532,7 +1536,7 @@ Las ventajas de esta orbita son:
 
 Las desventajas de esta orbita son:
 
-- No tienen cobertura sobre las zonas polares (Por encima de 810.3 de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)
+- No tienen cobertura sobre las zonas polares (Por encima de 81.3º de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)
 
 - Necesitan lanzadores muy potentes
 
@@ -1684,7 +1688,7 @@ $$
 
 $$
 \begin{aligned}
-& \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 36525}=\dot{\alpha}
+& \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 365.25}=\dot{\alpha}
 \end{aligned}
 $$
 
@@ -1858,7 +1862,7 @@ Eso se hará resolviendo primero el caso no perturbado como condición inicial, 
 
 Estas orbitas son perfectas para comunicación y observación.
 
-### Orbitas Congeladas / Frozen Orbits
+### Órbitas Congeladas / Frozen Orbits
 
 > La misión de estas orbitas son minimizar los efectos de $J_{2}$ y $J_{3}$ que afectan a la excentricidad y al argumento del perigeo de largo periodo. Se anularán de manera simultanea
 
@@ -2347,7 +2351,7 @@ $$
 
 Donde $T$ es el periodo orbital en HORAS.
 
-> NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ORBITA (Mayor T y menor velocidad), más grande será esa diferencia
+> NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ÓRBITA (Mayor T y menor velocidad), más grande será esa diferencia
 
 ![](atts/tema_5/trazas.png)
 
@@ -2382,7 +2386,7 @@ Con respecto a la imagen de la derecha, se observa que, si aumenta la altura (au
        2. No nos dan restricción
            Utilizamos el Meridiano de Greenwich $(\lambda=0)$
 
-     - En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180 y-180$
+     - En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180$ y $\lambda=-180$
 
         ¿De dónde sale esto del $\Delta \lambda / 2$ ?
 

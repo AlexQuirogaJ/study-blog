@@ -345,9 +345,9 @@
 </blockquote>
 <h3 id="parámetros-orbitales">Parámetros orbitales</h3>
 <ul>
-<li>Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El plano XY es el pplano ecuatorial.</li>
+<li>Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El <strong>plano XY</strong> es el <strong>plano ecuatorial</strong>.</li>
 </ul>
-<p>Si el vehículo describiese la orbita a esa velocidad cte M seria el ángulo polar correspondiente.</p>
+<p>Si el vehículo describiese la órbita a esa velocidad cte M seria el ángulo polar correspondiente.</p>
 <p><img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/dibujo_par%C3%A1metros.png"
 	width="1679"
 	height="1257"
@@ -406,8 +406,10 @@ $$</p>
 	
 ></p>
 <ul>
-<li>Definición de la anomalía excéntrica, $E$:</li>
-</ul>
+<li>
+<p>Definición de la anomalía excéntrica, $E$:</p>
+<details>
+<summary>Dibujo anomalía excéntrica</summary>
 <p><img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/anomalia_exc%C3%A9ntrica.png"
 	width="773"
 	height="425"
@@ -422,17 +424,20 @@ $$</p>
 		data-flex-basis="436px"
 	
 ></p>
+</details>
+</li>
+</ul>
 <h4 id="órbitas-keplerianas">Órbitas keplerianas</h4>
 <ul>
 <li>
-<p>Conservación de la energía:</p>
+<p><strong>Conservación de la energía:</strong></p>
 <blockquote>
 <p>Relaciona el módulo del radiovector con el módulo de la velocidad de manera que la relación es única para cada tamaño órbital.</p>
 </blockquote>
 </li>
 </ul>
 <p>$$
-\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a}
+\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a} \rightarrow V = \sqrt{\frac{2\mu}{r} - \frac{\mu}{a}}
 $$</p>
 <ul>
 <li>
@@ -475,7 +480,7 @@ $$</p>
 <li>
 <p>Ángulo de asiento del vector velocidad :</p>
 <blockquote>
-<p>ángulo entre la velocidad y  el vector director en la dirección polar (dirección angular, horizontal local).Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.</p>
+<p>Ángulo entre la velocidad y el vector director en la dirección polar (dirección angular, horizontal local). Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.</p>
 </blockquote>
 </li>
 </ul>
@@ -813,7 +818,7 @@ diferentes características:</p>
 		data-flex-basis="384px"
 	
 ></p>
-<h3 id="el-sol">EL Sol</h3>
+<h3 id="el-sol">El Sol</h3>
 <div class="table-wrapper"><table>
 <thead>
 <tr>
@@ -855,9 +860,7 @@ diferentes características:</p>
 </tr>
 </tbody>
 </table></div>
-<p>El medio interplanetario esta <strong>dominado por los efectos del sol</strong>, sobre todo por el gravitatorio. El
-Sol es un <strong>reactor termonuclear</strong> cuya emisión de energía se realiza en su mayor parte en forma
-de <strong>RADIACION ELECTROMAGNETICA</strong>, pero no solo, también <strong>EMITE MASA QUE SE PIERDE</strong></p>
+<p>El medio interplanetario esta <strong>dominado por los efectos del sol</strong>, sobre todo por el gravitatorio. El Sol es un <strong>reactor termonuclear</strong> cuya emisión de energía se realiza en su mayor parte en forma de <strong>RADIACIÓN ELECTROMAGNÉTICA</strong>, pero no solo, también <strong>EMITE MASA QUE SE PIERDE</strong></p>
 <p><strong>Efectos del Sol:</strong></p>
 <ul>
 <li><strong>Gravitación</strong></li>
@@ -1139,7 +1142,7 @@ Esta expresión la podemos representar como una sumatorio tal que:</p>
 <p>$$
 U(r, \lambda, \phi)=\frac{\mu}{r} \sum_{n=0}^{\infty} \sum_{m=0}^{n} J_{n m}\left(\frac{R_{\oplus}}{r}\right)^{n} P_{n m}(\sin \phi) \cos \left(\lambda-\lambda_{n m}\right)
 $$</p>
-<p>Esto representa una <strong>expansión en armónicos esféricos</strong> y como se puede observar contempla variaciones <strong>radiales</strong> en <strong>longitud</strong> $(\lambda)$ y <strong>latitud</strong> $(\phi)$. Incluye los <strong>polinomios de Legendre</strong>, $P_{nm}$, de grado $n$ y orden $m$. $J_{mn}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el <strong>radio del astro</strong>.</p>
+<p>Esto representa una <strong>expansión en armónicos esféricos</strong> y como se puede observar contempla variaciones <strong>radiales</strong> en <strong>longitud</strong> $(\lambda)$ y <strong>latitud</strong> $(\phi)$. Incluye los <strong>polinomios de Legendre</strong>, $P_{nm}$, de grado $n$ y orden $m$. $J_{nm}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el <strong>radio del astro</strong>.</p>
 <blockquote>
 <p>$$
 \text{Longitud } = 0 \leq \lambda \leq 2 \pi \quad \text{Latitud } = \frac{-\pi}{2} \leq \phi \leq \frac{\pi}{2}
@@ -1711,6 +1714,11 @@ $$</p>
 i_{min} = \phi \quad i_{max} = \pi - \phi
 $$</p>
 </blockquote>
+<blockquote>
+<p>$$
+\phi_{máx} = (i, \pi -i) \quad \phi_{mín} = (-i, - (\pi - i))
+$$</p>
+</blockquote>
 <p><strong>$sin A$ nunca será mayor que la unidad</strong>, por lo tanto, la inclinación estará limitada por la latitud
 de la base de lanzamiento y podemos comprobar cómo realizar un <strong>lanzamiento desde el ecuador</strong> es la mejor opción ya que abarca todos ángulos desde esa zona de lanzamiento.</p>
 <ul>
@@ -2101,8 +2109,6 @@ $$</p>
 	srcset="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_hue40123cb85cc679299e688971a015444_34075_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_hue40123cb85cc679299e688971a015444_34075_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="m"
-	
 	
 		class="gallery-image" 
 		data-flex-grow="171"
@@ -2314,7 +2320,7 @@ $$</p>
 <p>El movimiento de la Tierra no influye en los valores de las latitudes</p>
 <ul>
 <li>Órbita Directa = $\pm i$</li>
-<li>órbita Retrógrada = $\pm (180-i)$</li>
+<li>Órbita Retrógrada = $\pm (180-i)$</li>
 </ul>
 <p>El desfase entre dos nodos ascendentes será:</p>
 <p>$$
@@ -2322,7 +2328,7 @@ $$</p>
 $$</p>
 <h3 id="cobertura">Cobertura</h3>
 <p>La cobertura geográfica de un satélite es la zona de la Tierra visible por él en cada instante. Esa zona esta limitada por la circunferencia terrestre a lo largo de la cual el cono de vértice el satélite es tangente a la Tierra.</p>
-<p>El radio angular, $\Gamma$ sera:</p>
+<p>El radio angular, $\Gamma$ será:</p>
 <p>$$
 \cos \Gamma=\frac{R}{R+h}
 $$</p>
@@ -2352,12 +2358,12 @@ $$</p>
 <p>Por lo tanto, es una órbita muy útil para misiones de comunicaciones en latitudes bajas.</p>
 <p>Parámetros orbitales:</p>
 <ul>
-<li>GEOSINCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$</li>
+<li>GEOSÍNCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$</li>
 <li>Ecuatorial Directa: $i=0$</li>
 <li>Circular: $e=0$</li>
 </ul>
 <blockquote>
-<p>No confundir geosíncrona con geoestacionaria</p>
+<p>No confundir geosíncrona con geoestacionaria. <strong>Una óbita geoestacionaria es una óbita geosíncrona que es circular y ecuatorial</strong>.</p>
 </blockquote>
 <p>Presentan una anchura angular de $17º,  24^{\prime}$.</p>
 <p>Las ventajas de esta orbita son:</p>
@@ -2368,7 +2374,7 @@ $$</p>
 <p>Las desventajas de esta orbita son:</p>
 <ul>
 <li>
-<p>No tienen cobertura sobre las zonas polares (Por encima de 810.3 de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)</p>
+<p>No tienen cobertura sobre las zonas polares (Por encima de 81.3º de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)</p>
 </li>
 <li>
 <p>Necesitan lanzadores muy potentes</p>
@@ -2583,7 +2589,7 @@ $$</p>
 $$</p>
 <p>$$
 \begin{aligned}
-&amp; \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 36525}=\dot{\alpha}
+&amp; \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 365.25}=\dot{\alpha}
 \end{aligned}
 $$</p>
 <p>$$
@@ -2733,7 +2739,7 @@ $$</p>
 <p>Es una ecuación implícita, por lo que no puedo despejar a directamente, habrá que resolverlo de forma iterativa.</p>
 <p>Eso se hará resolviendo primero el caso no perturbado como condición inicial, calculo el periodo y calculo a y voy iterando</p>
 <p>Estas orbitas son perfectas para comunicación y observación.</p>
-<h3 id="orbitas-congeladas--frozen-orbits">Orbitas Congeladas / Frozen Orbits</h3>
+<h3 id="órbitas-congeladas--frozen-orbits">Órbitas Congeladas / Frozen Orbits</h3>
 <blockquote>
 <p>La misión de estas orbitas son minimizar los efectos de $J_{2}$ y $J_{3}$ que afectan a la excentricidad y al argumento del perigeo de largo periodo. Se anularán de manera simultanea</p>
 </blockquote>
@@ -3298,7 +3304,7 @@ $$</p>
 $$</p>
 <p>Donde $T$ es el periodo orbital en HORAS.</p>
 <blockquote>
-<p>NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ORBITA (Mayor T y menor velocidad), más grande será esa diferencia</p>
+<p>NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ÓRBITA (Mayor T y menor velocidad), más grande será esa diferencia</p>
 </blockquote>
 <p><img src="/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/trazas.png"
 	width="1390"
@@ -3364,7 +3370,7 @@ Utilizamos el Meridiano de Greenwich $(\lambda=0)$</li>
 </ol>
 </li>
 <li>
-<p>En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180 y-180$</p>
+<p>En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180$ y $\lambda=-180$</p>
 <p>¿De dónde sale esto del $\Delta \lambda / 2$ ?</p>
 <ul>
 <li>En una órbita circular, en $T / 2$ el nodo ascendente se habrá desplazado $\Delta T / 2$.</li>
@@ -3847,7 +3853,7 @@ $$</p>
     <li><a href="#tema-2-ambiente-espacial">Tema 2: Ambiente Espacial</a>
       <ol>
         <li><a href="#introducción">Introducción</a></li>
-        <li><a href="#el-sol">EL Sol</a>
+        <li><a href="#el-sol">El Sol</a>
           <ol>
             <li><a href="#radiación-electromagnética-solar">Radiación Electromagnética Solar</a></li>
             <li><a href="#actividad-solar">Actividad Solar</a></li>
@@ -3946,7 +3952,7 @@ $$</p>
             <li><a href="#efecto-de-las-perturbaciones">Efecto de las Perturbaciones</a></li>
           </ol>
         </li>
-        <li><a href="#orbitas-congeladas--frozen-orbits">Orbitas Congeladas / Frozen Orbits</a></li>
+        <li><a href="#órbitas-congeladas--frozen-orbits">Órbitas Congeladas / Frozen Orbits</a></li>
         <li><a href="#órbitas-molniya">Órbitas Molniya</a></li>
         <li><a href="#esquema-final">Esquema final</a>
           <ol>

@@ -23,9 +23,9 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;parámetros-orbitales&#34;&gt;Parámetros orbitales&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El plano XY es el pplano ecuatorial.&lt;/li&gt;
+&lt;li&gt;Sistema geocéntrico inercial: el eje x apunta al centro de Aries, el eje z es el eje de rotación y el eje y forma un triedro inercial. El &lt;strong&gt;plano XY&lt;/strong&gt; es el &lt;strong&gt;plano ecuatorial&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Si el vehículo describiese la orbita a esa velocidad cte M seria el ángulo polar correspondiente.&lt;/p&gt;
+&lt;p&gt;Si el vehículo describiese la órbita a esa velocidad cte M seria el ángulo polar correspondiente.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/dibujo_par%C3%A1metros.png&#34;
 	width=&#34;1679&#34;
 	height=&#34;1257&#34;
@@ -84,8 +84,10 @@ $$&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Definición de la anomalía excéntrica, $E$:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;Definición de la anomalía excéntrica, $E$:&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Dibujo anomalía excéntrica&lt;/summary&gt;
 &lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/anomalia_exc%C3%A9ntrica.png&#34;
 	width=&#34;773&#34;
 	height=&#34;425&#34;
@@ -100,17 +102,20 @@ $$&lt;/p&gt;
 		data-flex-basis=&#34;436px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;órbitas-keplerianas&#34;&gt;Órbitas keplerianas&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Conservación de la energía:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conservación de la energía:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Relaciona el módulo del radiovector con el módulo de la velocidad de manera que la relación es única para cada tamaño órbital.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;$$
-\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a}
+\frac{V^{2}}{2} - \frac{\mu}{r} = - \frac{\mu}{2a} \rightarrow V = \sqrt{\frac{2\mu}{r} - \frac{\mu}{a}}
 $$&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -153,7 +158,7 @@ $$&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Ángulo de asiento del vector velocidad :&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;ángulo entre la velocidad y  el vector director en la dirección polar (dirección angular, horizontal local).Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.&lt;/p&gt;
+&lt;p&gt;Ángulo entre la velocidad y el vector director en la dirección polar (dirección angular, horizontal local). Tiene puntos singulares que habrá que tratar de otra forma. $\gamma \in [-\pi/2, \pi/2]$ aunque no tiene definición estricta.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -491,7 +496,7 @@ diferentes características:&lt;/p&gt;
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;el-sol&#34;&gt;EL Sol&lt;/h3&gt;
+&lt;h3 id=&#34;el-sol&#34;&gt;El Sol&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -533,9 +538,7 @@ diferentes características:&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;El medio interplanetario esta &lt;strong&gt;dominado por los efectos del sol&lt;/strong&gt;, sobre todo por el gravitatorio. El
-Sol es un &lt;strong&gt;reactor termonuclear&lt;/strong&gt; cuya emisión de energía se realiza en su mayor parte en forma
-de &lt;strong&gt;RADIACION ELECTROMAGNETICA&lt;/strong&gt;, pero no solo, también &lt;strong&gt;EMITE MASA QUE SE PIERDE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El medio interplanetario esta &lt;strong&gt;dominado por los efectos del sol&lt;/strong&gt;, sobre todo por el gravitatorio. El Sol es un &lt;strong&gt;reactor termonuclear&lt;/strong&gt; cuya emisión de energía se realiza en su mayor parte en forma de &lt;strong&gt;RADIACIÓN ELECTROMAGNÉTICA&lt;/strong&gt;, pero no solo, también &lt;strong&gt;EMITE MASA QUE SE PIERDE&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Efectos del Sol:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Gravitación&lt;/strong&gt;&lt;/li&gt;
@@ -817,7 +820,7 @@ Esta expresión la podemos representar como una sumatorio tal que:&lt;/p&gt;
 &lt;p&gt;$$
 U(r, \lambda, \phi)=\frac{\mu}{r} \sum_{n=0}^{\infty} \sum_{m=0}^{n} J_{n m}\left(\frac{R_{\oplus}}{r}\right)^{n} P_{n m}(\sin \phi) \cos \left(\lambda-\lambda_{n m}\right)
 $$&lt;/p&gt;
-&lt;p&gt;Esto representa una &lt;strong&gt;expansión en armónicos esféricos&lt;/strong&gt; y como se puede observar contempla variaciones &lt;strong&gt;radiales&lt;/strong&gt; en &lt;strong&gt;longitud&lt;/strong&gt; $(\lambda)$ y &lt;strong&gt;latitud&lt;/strong&gt; $(\phi)$. Incluye los &lt;strong&gt;polinomios de Legendre&lt;/strong&gt;, $P_{nm}$, de grado $n$ y orden $m$. $J_{mn}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el &lt;strong&gt;radio del astro&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Esto representa una &lt;strong&gt;expansión en armónicos esféricos&lt;/strong&gt; y como se puede observar contempla variaciones &lt;strong&gt;radiales&lt;/strong&gt; en &lt;strong&gt;longitud&lt;/strong&gt; $(\lambda)$ y &lt;strong&gt;latitud&lt;/strong&gt; $(\phi)$. Incluye los &lt;strong&gt;polinomios de Legendre&lt;/strong&gt;, $P_{nm}$, de grado $n$ y orden $m$. $J_{nm}$ y $\lambda_{nm}$ son coeficientes característicos de la distribución de masa asociados a cada armónico $P_{n m}(q)$. $R$ será el &lt;strong&gt;radio del astro&lt;/strong&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;$$
 \text{Longitud } = 0 \leq \lambda \leq 2 \pi \quad \text{Latitud } = \frac{-\pi}{2} \leq \phi \leq \frac{\pi}{2}
@@ -1389,6 +1392,11 @@ $$&lt;/p&gt;
 i_{min} = \phi \quad i_{max} = \pi - \phi
 $$&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$
+\phi_{máx} = (i, \pi -i) \quad \phi_{mín} = (-i, - (\pi - i))
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;$sin A$ nunca será mayor que la unidad&lt;/strong&gt;, por lo tanto, la inclinación estará limitada por la latitud
 de la base de lanzamiento y podemos comprobar cómo realizar un &lt;strong&gt;lanzamiento desde el ecuador&lt;/strong&gt; es la mejor opción ya que abarca todos ángulos desde esa zona de lanzamiento.&lt;/p&gt;
 &lt;ul&gt;
@@ -1779,8 +1787,6 @@ $$&lt;/p&gt;
 	srcset=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_hue40123cb85cc679299e688971a015444_34075_480x0_resize_box_3.png 480w, /post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_3/cambio_inclinaci%C3%B3n_hue40123cb85cc679299e688971a015444_34075_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;m&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;171&#34;
@@ -1992,7 +1998,7 @@ $$&lt;/p&gt;
 &lt;p&gt;El movimiento de la Tierra no influye en los valores de las latitudes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Órbita Directa = $\pm i$&lt;/li&gt;
-&lt;li&gt;órbita Retrógrada = $\pm (180-i)$&lt;/li&gt;
+&lt;li&gt;Órbita Retrógrada = $\pm (180-i)$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;El desfase entre dos nodos ascendentes será:&lt;/p&gt;
 &lt;p&gt;$$
@@ -2000,7 +2006,7 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;h3 id=&#34;cobertura&#34;&gt;Cobertura&lt;/h3&gt;
 &lt;p&gt;La cobertura geográfica de un satélite es la zona de la Tierra visible por él en cada instante. Esa zona esta limitada por la circunferencia terrestre a lo largo de la cual el cono de vértice el satélite es tangente a la Tierra.&lt;/p&gt;
-&lt;p&gt;El radio angular, $\Gamma$ sera:&lt;/p&gt;
+&lt;p&gt;El radio angular, $\Gamma$ será:&lt;/p&gt;
 &lt;p&gt;$$
 \cos \Gamma=\frac{R}{R+h}
 $$&lt;/p&gt;
@@ -2030,12 +2036,12 @@ $$&lt;/p&gt;
 &lt;p&gt;Por lo tanto, es una órbita muy útil para misiones de comunicaciones en latitudes bajas.&lt;/p&gt;
 &lt;p&gt;Parámetros orbitales:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;GEOSINCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$&lt;/li&gt;
+&lt;li&gt;GEOSÍNCRONA / GSO: Periodo igual al de un día sidéreo. $T \sim 24 h, a=42164 km$&lt;/li&gt;
 &lt;li&gt;Ecuatorial Directa: $i=0$&lt;/li&gt;
 &lt;li&gt;Circular: $e=0$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;No confundir geosíncrona con geoestacionaria&lt;/p&gt;
+&lt;p&gt;No confundir geosíncrona con geoestacionaria. &lt;strong&gt;Una óbita geoestacionaria es una óbita geosíncrona que es circular y ecuatorial&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Presentan una anchura angular de $17º,  24^{\prime}$.&lt;/p&gt;
 &lt;p&gt;Las ventajas de esta orbita son:&lt;/p&gt;
@@ -2046,7 +2052,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Las desventajas de esta orbita son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;No tienen cobertura sobre las zonas polares (Por encima de 810.3 de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)&lt;/p&gt;
+&lt;p&gt;No tienen cobertura sobre las zonas polares (Por encima de 81.3º de latitud no se ven los satélites GEO, aunque en realidad la cobertura es algo menor ya que la cobertura tangencial no es buena)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Necesitan lanzadores muy potentes&lt;/p&gt;
@@ -2261,7 +2267,7 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-&amp;amp; \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 36525}=\dot{\alpha}
+&amp;amp; \dot{\Omega}=-\frac{3}{2} J_{2} \sqrt{\frac{\mu}{a^{3}}}\left[\frac{R}{a\left(1-e^{2}\right)}\right]^{2} \cos i=\frac{2 \pi}{24 \cdot 3600 \cdot 365.25}=\dot{\alpha}
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;$$
@@ -2411,7 +2417,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Es una ecuación implícita, por lo que no puedo despejar a directamente, habrá que resolverlo de forma iterativa.&lt;/p&gt;
 &lt;p&gt;Eso se hará resolviendo primero el caso no perturbado como condición inicial, calculo el periodo y calculo a y voy iterando&lt;/p&gt;
 &lt;p&gt;Estas orbitas son perfectas para comunicación y observación.&lt;/p&gt;
-&lt;h3 id=&#34;orbitas-congeladas--frozen-orbits&#34;&gt;Orbitas Congeladas / Frozen Orbits&lt;/h3&gt;
+&lt;h3 id=&#34;órbitas-congeladas--frozen-orbits&#34;&gt;Órbitas Congeladas / Frozen Orbits&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;La misión de estas orbitas son minimizar los efectos de $J_{2}$ y $J_{3}$ que afectan a la excentricidad y al argumento del perigeo de largo periodo. Se anularán de manera simultanea&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2976,7 +2982,7 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;Donde $T$ es el periodo orbital en HORAS.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ORBITA (Mayor T y menor velocidad), más grande será esa diferencia&lt;/p&gt;
+&lt;p&gt;NOTA: $\alpha$ será siempre MAYOR que 𝒊 y NO PUEDE SER NEGATIVO (La función arco tangente da dos soluciones, tener esto en cuenta). Además, cuanto MAS ALTA SEA LA ÓRBITA (Mayor T y menor velocidad), más grande será esa diferencia&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;/post/veh%C3%ADculos-espaciales-teor%C3%ADa/atts/tema_5/trazas.png&#34;
 	width=&#34;1390&#34;
@@ -3042,7 +3048,7 @@ Utilizamos el Meridiano de Greenwich $(\lambda=0)$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180 y-180$&lt;/p&gt;
+&lt;p&gt;En el caso de orbita circular. Ponemos $\frac{|\Delta \lambda|}{2}$ a un lado y a otro del meridiano. El nodo descendente al ser una órbita circular y empezar ahí la órbita terminara justo en $\lambda=180$ y $\lambda=-180$&lt;/p&gt;
 &lt;p&gt;¿De dónde sale esto del $\Delta \lambda / 2$ ?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;En una órbita circular, en $T / 2$ el nodo ascendente se habrá desplazado $\Delta T / 2$.&lt;/li&gt;
