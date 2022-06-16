@@ -5,7 +5,23 @@
         <link>/categories/</link>
         <description>Recent content in Categories on Blog de estudio</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Thu, 09 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Aerorreactores</title>
+        <link>/categories/aerorreactores/</link>
+        <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/aerorreactores/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Motores</title>
+        <link>/categories/motores/</link>
+        <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/motores/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Espacio</title>
         <link>/categories/espacio/</link>
         <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>

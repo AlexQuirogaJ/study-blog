@@ -10,7 +10,7 @@ categories:
     - "Vehículos Aeroespaciales"
 
 image: "satélite.jpg"
-math: true
+mathjax: true
 ---
 
 

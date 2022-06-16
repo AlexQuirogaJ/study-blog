@@ -43,7 +43,7 @@ params:
       src: img/avatar.png
 
   article:
-    math: true
+    math: false
     toc: true
     readingTime: true
     license:
@@ -91,6 +91,10 @@ markup:
     renderer:
       ## Set to true if you have HTML content inside Markdown
       unsafe: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: blackfriday
   tableOfContents:
     endLevel: 4
     ordered: true

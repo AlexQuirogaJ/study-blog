@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,11 +15,14 @@
                 href="/"
                 />
   </url><url>
+    <loc>/categories/aerorreactores/</loc>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/apuntes/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -31,11 +34,11 @@
                 href="/categories/"
                 />
   </url><url>
-    <loc>/categories/espacio/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <loc>/categories/motores/</loc>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -48,7 +51,7 @@
                 />
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -59,6 +62,15 @@
                 hreflang="es"
                 href="/tags/"
                 />
+  </url><url>
+    <loc>/post/aerorreactores-teor%C3%ADa-segundo-parcial/</loc>
+    <lastmod>2022-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/aerorreactores-teor%C3%ADa-primer-parcial/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/espacio/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/veh%C3%ADculos-espaciales-teor%C3%ADa/</loc>
     <lastmod>2022-06-09T00:00:00+00:00</lastmod>
