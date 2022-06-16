@@ -5,6 +5,8 @@ module:
     - path: github.com/CaiJimmy/hugo-theme-stack/v3
       disable: false
 
+timeout: 100s
+
 languages:
   es:
     languageName: Español
