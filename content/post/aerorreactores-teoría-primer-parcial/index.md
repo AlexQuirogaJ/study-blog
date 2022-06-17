@@ -49,9 +49,11 @@ Los sistemas se encuentran en medios resistivos $D(V)$ que se oponen al movimien
 
 `Segunda Ley de Newton:` ($\sum \vec{F}=\frac{d \vec{p}}{dt}$) se necesita una fuerza E para acelerarse o mantener el movimiento (V cte) en estos medios:
 
+<eq>
 $$
 \vec{E} = \vec{D}(\vec{V}) + \frac{d(M\vec{V})}{dt} \rightarrow \begin{matrix} \vec{D}(\vec{V})=0 \rightarrow \frac{d(M\vec{V})}{dt}=0 \rightarrow \vec{E}=0 \\ \vec{D}(\vec{V}) \neq 0 ,  \frac{d(M\vec{V})}{dt}=0 \;(\vec{V}=cte)\rightarrow \vec{E}=\vec{D}(\vec{V}) \end{matrix}
 $$
+</eq>
 
 `Tercera Ley de Newton:` Al generarse $\vec{E}$ se genera la reacción $\vec{R}$ igual y contraria a $\vec{E}$
 
@@ -155,7 +157,7 @@ La potencia interna puede ser grandísima y el empuje del motor pésimo, o vicev
 <details>
 <summary>¿De donde vinienen las fuerzas?:</summary>
 
-El aire que es un fluido, las fuerzas que el fluido ejerce sobre las paredes son de presión y fricción (Fuerzas fluidodinámicas). Lo más importante es la de presión
+El aire que es un fluido, las fuerzas que el fluido ejerce sobre las paredes son de presión y fricción (Fuerzas fluidodinámicas). La más importante es la de presión
 
 </details>
 

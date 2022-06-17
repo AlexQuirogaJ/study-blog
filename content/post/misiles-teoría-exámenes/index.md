@@ -17,6 +17,8 @@ math: true
 # Exámenes
 > **Fuente:** Exámenes de la parte V1 de la asignatura "Vehículos Aeroespaciales" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).
 
+{{< expand-details >}}
+
 ## Junio-7-2018
 
 1. Comparando dos misiles, el primero provisto de una sola etapa de propulsada y luego una etapa de planeo, con el segundo provisto de una etapa aceleración y otra de crucero, se puede concluir que:

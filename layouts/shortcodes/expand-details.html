@@ -1,0 +1,18 @@
+<script>
+
+    const expandElements = shouldExpand => {
+        let detailsElements = document.querySelectorAll("details");
+
+        detailsElements = [...detailsElements];
+
+        if (shouldExpand) {
+            detailsElements.map(item => item.setAttribute("open", shouldExpand));
+        } else {
+            detailsElements.map(item => item.removeAttribute("open"));
+        }
+    };
+
+</script>
+
+<button onClick="expandElements(true)">Expand</button>
+<button onClick="expandElements(false)">Collapse</button>

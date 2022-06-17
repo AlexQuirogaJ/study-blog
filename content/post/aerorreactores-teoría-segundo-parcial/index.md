@@ -9,7 +9,7 @@ categories:
     - "Motores"
     - "Aerorreactores"
 
-image: "motor.jpeg"
+image: "F100_F-15_engine.jpeg"
 mathjax: true
 ---
 
@@ -1074,6 +1074,919 @@ $$
 
 - Además, finalmente, se puede representar el funcionamiento del generador de gas de forma gráfica
 
+### Solución del Generador de Gas
+
+Eligiendo dos parámetros; en este caso el parámetro de vueltas del compresor y la temperatura máxima relativa a la de entrada se obtienen las soluciones estacionarias del sistema
+
+![](atts/10/image-20220617103754733.png)
+
+### Área de Salida Fija
+
+- Se puede observar que las soluciones "biparamétricas" del generador de gas exigen disponer de un área de salida, A8, variable
+- Si se fija el área de salida, se establece una relación entre $\frac{N}{\sqrt{T_{2 t}}}$ y  $\frac{T_{4 t}}{T_{2 t}}$ $y$ el sistema pierde un grado de libertad
+
+![](atts/10/image-20220617103928247.png)
+
+### Solución Analítica del Generador de Gas
+
+- En el caso de que la turbina trabaje en condiciones críticas, se puede obtener una solución analítica del acoplamiento interno que permite analizar el comportamiento del mismo y posteriormente del turborreactor
+
+$$
+\frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\frac{\Gamma(\gamma)}{R} A_{4} \text { si } A_{4}=\text { cte. } \Rightarrow \frac{G \sqrt{T_{4 t}}}{P_{4 t}}=k_{1}
+$$
+
+- Usando la ecuación de continuidad entre el compresor y la turbina
+
+$$
+\frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \sqrt{\frac{T_{2 t}}{T_{4 t}}}=k_{1} \pi_{34} \pi_{23} \sqrt{\frac{T_{2 t}}{T_{4 t}}}
+$$
+
+$$
+si \quad \pi_{34} \approx cte
+$$
+
+$$
+\pi_{23}=K \sqrt{\frac{T_{4 t}}{T_{2 t}}} \frac{G \sqrt{T_{2 t}}}{P_{2 t}}
+$$
+
+- Líneas `$\left(\mathrm{T}_{4 \mathrm{t}} / \mathrm{T}_{2 t}\right)=cte$`, rectas de pendiente creciente con $\left(\mathrm{T}_{4 \mathrm{t}} / \mathrm{T}_{2 t}\right)$
+
+![](atts/10/image-20220617104136260.png)
+
+#### Líneas de turbina crítica
+
+La turbina esta en condiciones críticas cuando:
+
+<eq>
+$$
+\begin{aligned}
+&\frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\left(\frac{G \sqrt{T_{4 t}}}{P_{4 t}}\right)_{\text {critico }} \\
+&\frac{T_{4 t}}{T_{5 t}} \geq\left(\frac{T_{4 t}}{T_{5 t}}\right)_{\text {critico }}
+\end{aligned}
+$$
+</eq>
+
+Cuando la turbina esta en condiciones criticas, el valor de $\left(T_{4} / T_{5 t}\right)$ no esta determinado por el mapa de la turbina. Su valor se determina por la ecuación de acoplamiento
+
+<eq>
+$$
+\begin{aligned}
+&\frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \sqrt{\frac{T_{2 t}}{T_{4 t}}} \\
+&\frac{\frac{T_{3 t}}{T_{2 t}}-1}{T_{2 t}}=\frac{\pi_{23}^{\gamma}-1}{1-\frac{T_{5 t}}{T_{4 t}}}=\eta_{23}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)
+\end{aligned}
+$$
+</eq>
+
+![](atts/10/image-20220617104335725.png)
+
+#### Sustituyendo en la ecuación de continuidad compresor - turbina
+
+$$
+\frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \sqrt{\eta_{23}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)} \frac{\pi_{23}}{\sqrt{\frac{\gamma-1}{\gamma}}-1}
+$$
+
+La turbina estará en condiciones críticas cuando
+
+<eq>
+$$
+\begin{aligned}
+& \frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\left(\frac{G \sqrt{T_{4 t}}}{P_{4 t}}\right)_{\text {critico }} \\
+& \frac{T_{4 t}}{T_{5 t}} \geq\left(\frac{T_{4 t}}{T_{5 t}}\right)_{\text {critico }} \Rightarrow \frac{T_{5 t}}{T_{4 t}} \leq\left(\frac{T_{5 t}}{T_{4 t}}\right)_{\text {critico }} \\
+& \frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \sqrt{\eta_{23}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)} \frac{\pi_{23}}{\sqrt{\pi_{23}^{\frac{\gamma \gamma}{\gamma}}-1}} \\
+& \frac{T_{5 t}}{T_{4 t}}=1-\frac{1}{\eta_{23}}\left[\frac{\sqrt{\frac{\gamma-1}{\gamma}}-1}{\pi_{23}} \frac{\frac{G \sqrt{T_{2 t}}}{P_{2 t}}}{\left(\frac{G \sqrt{T_{4 t}}}{P_{4 t}}\right)_{\text {criico }}} \frac{1}{P_{4 t} / P_{3 t}}\right]^{2} \leq\left(\frac{T_{5 t}}{T_{4 t}}\right)_{\text {critico }}
+\end{aligned}
+$$
+</eq>
+
+### Acoplamiento Externo
+
+Una vez resuelto el acoplamiento interno, añadimos el difusor y la tobera:
+
+- Variables (8):
+
+  $$
+  \frac{P_{2 t}}{P_{0}} ; \frac{T_{2 t}}{T_{0}} ; \frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{V_{0}}{\sqrt{T_{0}}} ; \frac{P_{s}}{P_{5 t}} ; \frac{T_{s}}{T_{5}} ; \frac{G \sqrt{T_{5 t}}}{P_{5 t}} ; \frac{V_{s}}{\sqrt{T_{5 t}}}
+  $$
+
+- Ecuaciones:
+
+  - Entrada 0-2 (2 ecs)
+
+    <eq>
+    $$
+    \begin{aligned}
+    &\frac{P_{2 t}}{P_{0}}=f_{1}\left(\frac{G \sqrt{T_{0}}}{P_{0}}, \frac{V_{0}}{\sqrt{T_{0}}}\right) \\
+    &\frac{T_{2 t}}{T_{0}}=f_{2}\left(\frac{G \sqrt{T_{0}}}{P_{0}}, \frac{V_{0}}{\sqrt{T_{0}}}\right)
+    \end{aligned}
+    $$
+    </eq>
+
+  - Tobera 5-s (3 ecs)
+
+    <eq>
+    $$
+    \begin{aligned}
+    &\frac{P_{s}}{P_{5 t}}=f_{9}\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right) \\
+    &\frac{T_{s}}{T_{5 t}}=f_{10}\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right) \\
+    &\frac{V_{s}}{\sqrt{T_{5 t}}}=f_{11}\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)
+    \end{aligned}
+    $$
+    </eq>
+
+- Continuidad (2 ecs):
+
+    <eq>
+    $$
+    \begin{aligned}
+    &G_{2}=G_{0} \quad \Rightarrow \quad \frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{0}}}{P_{0}} \frac{P_{0}}{P_{2 t}} \sqrt{\frac{T_{2 t}}{T_{0}}} \\
+    &G_{5}=G_{4} \quad \Rightarrow \frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{5 t}} \sqrt{\frac{T_{5 t}}{T_{4 t}}}
+    \end{aligned}
+    $$
+    </eq>
+
+- condición de contorno a la salida del turborreactor (1):
+
+  - tobera adaptada $P_{s}=P_{0} \Rightarrow \frac{P_{s}}{P_{5 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{2 t}}{P_{0}}=1$
+
+  - tobera crítica $M_{s}=1$
+
+    $$
+    \Rightarrow \frac{V_{s}}{\sqrt{T_{5 t}}}=\sqrt{\frac{2 \gamma R}{\gamma+1}}
+    $$
+
+> 8 variables y 8 ecuaciones, problema cerrado
+
+- Solución del acoplamiento externo:
+  A partir de la solución del acoplamiento interno calculamos el parámetro de gasto en la tobera
+
+  $$
+  \frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{T_{5 t}}{T_{4 t}} \frac{P_{4 t}}{P_{5 t}}
+  $$
+
+
+![](atts/10/image-20220617105535009.png)
+
+
+- Tres casos:
+
+	a) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}<\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$
+
+	b) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$
+
+	c) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}>\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$
+
+
+#### Caso a)
+
+![](atts/10/image-20220617105741304.png)
+
+$$
+\frac{V_{s}}{\sqrt{T_{5 t}}}=2 c_{P}\left[\frac{T_{5 t}}{T_{s}}-1\right]
+$$
+
+- Difusor:
+
+  <eq>
+  $$
+  \begin{aligned}
+  &\frac{T_{2 t}}{T_{0}}=1+\frac{1}{2 c_{P}}\left(\frac{V_{0}}{\sqrt{T_{0}}}\right)^{2} \\
+  &\frac{G \sqrt{T_{0}}}{P_{0}}=\frac{G \sqrt{T_{2 t}}}{P_{2 t}} \frac{P_{2 t}}{P_{0}} \sqrt{\frac{T_{0}}{T_{2 t}}} \\
+  &P_{s}=P_{0} \Rightarrow \frac{P_{2 t}}{P_{0}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{s}}{P_{5 t}}=1
+  \end{aligned}
+  $$
+  </eq>
+
+- 4 ecuaciones y 4 incógnitas
+- Se fija un valor de $V_{0} / \sqrt{T_{0}}$, se calcula $\left(T_{2 t} / T_{0}\right)$
+- De (2) se obtiene $\frac{P_{2 t}}{P_{0}}=K \frac{G \sqrt{T_{0}}}{P_{0}}$
+- Se obtiene $\left(P_{2 t} / P_{0}\right)$ y se comprueba si cumple (3), si no, se repite para otro punto del generador
+- Se repite el proceso para varios $\left(V_{0} / \sqrt{T_{0}}\right)$ y se obtiene una familia de líneas que se dibuja sobre el mapa del compresor
+
+> Las líneas $M_{0}=cte$ se dibujan sobre el mapa del compresor
+
+- Se dibuja sobre el mapa del compresor por que es interesante para analizar el comportamiento del compresor en el punto de funcionamiento
+- El compresor no impone el funcionamiento, se adapta a él
+- Las líneas `$\mathrm{M}_{0}=cte$`, se desplazan a valores menores de `$\pi_{23}$` al aumentar el número de mach
+
+$$
+\pi_{23}=\frac{1}{\frac{P_{2 t}}{P_{0 t}}\left(1+\frac{\gamma-1}{2} M_{0}^{2}\right)^{\frac{\gamma-1}{\frac{\gamma}{2}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{s}}{P_{5 t}}}}
+$$
+
+![](atts/10/image-20220617110126505.png)
+
+- La tobera funciona en condiciones sub-críticas a números de mach bajos y a bajo régimen
+
+#### Caso b)
+
+- Tobera crítica Al aumentar el régimen la tobera se hace crítica
+
+$$
+\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}
+$$
+
+<eq>
+$$
+\begin{aligned}
+&M_{8}=1 \Rightarrow \frac{V_{s}}{\sqrt{T_{5 t}}}=\sqrt{\frac{2 \gamma}{\gamma+1} R} \\
+&\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\frac{\Gamma(\gamma)}{\sqrt{R}} A_{8} \\
+&\frac{P_{5 t}}{P_{s}}=\left(\frac{\gamma+1}{2}\right)^{\frac{\gamma}{\gamma-1}} \\
+&\frac{T_{5 t}}{T_{s}}=\frac{\gamma+1}{2}
+\end{aligned}
+$$
+</eq>
+
+![](atts/10/image-20220617110355663.png)
+
+En este caso el generador de gas pierde un grado de libertad, se introduce una ecuación más
+
+$$
+\frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\frac{G \sqrt{T_{5 t}}}{P_{5 t}} \frac{P_{5 t}}{P_{4 t}} \sqrt{\frac{T_{4 t}}{T_{5 t}}}=\frac{\Gamma(\gamma)}{\sqrt{R}} A_{s} \frac{P_{5 t}}{P_{4 t}} \sqrt{\frac{T_{4 t}}{T_{5 t}}}
+$$
+
+Sin introducir ninguna nueva variable
+
+- El punto de funcionamiento del generador de gas esta determinado por una sola variable:
+
+$$
+N / \sqrt{T_{2 t}} \text { ó } T_{4 t} / T_{2 t}
+$$
+
+- Los puntos solución de funcionamiento en equilibrio forman una línea en el mapa del compresor
+
+> El punto de funcionamiento del generador de gas es independiente de $M_{0}$
+
+- El grado de libertad que se pierde en el generador de gas, se recupera en el difusor:
+
+<eq>
+$$
+\begin{aligned}
+&\frac{T_{2 t}}{T_{0}}=1+\frac{1}{2 C_{P}}\left(\frac{V_{0}}{\sqrt{T_{0}}}\right)^{2} \\
+&\frac{G \sqrt{T_{0}}}{P_{0}}=\frac{G \sqrt{T_{2 t}}}{P_{2 t}} \frac{P_{2 t}}{P_{0}} \sqrt{\frac{T_{0}}{T_{2 t}}}
+\end{aligned}
+$$
+</eq>
+
+![](atts/10/image-20220617110657401.png) ![](atts/10/image-20220617110807299.png)
+
+- Incógnitas:
+  $$
+  \frac{P_{2 t}}{P_{0}} ; \frac{T_{2 t}}{T_{0}} ; \frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{V_{0}}{\sqrt{T_{0}}}
+  $$
+
+Para determinar el funcionamiento del difusor necesitamos fijar un parámetro
+
+$$
+\Rightarrow V_{0} / \sqrt{T_{0}}
+$$
+
+#### Caso c)
+
+$$
+\frac{G \sqrt{T_{5 t}}}{P_{5 t}}>\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}
+$$
+
+- Punto de funcionamiento imposible, la tobera no admite el gasto que demanda el generador de gas
+
+![](atts/10/image-20220617111052096.png)
+
+#### Resumen
+
+- Funcionamiento completo:
+
+	a) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}<\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$
+
+	b) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$
+
+- Funcionamiento imposible:
+
+  c) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}>\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$
+
+#### Análisis del acoplamiento externo: solución analítica → línea de funcionameinto
+
+- Hipótesis:
+  - Funcionamiento crítico de la turbina (casi siempre) y tobera de salida (frecuentemente, sobre todo a régimenes altos)
+  - Rendiemintops y pérdidas constantes.
+
+**Desarrollo:**
+
+- Turbina crítica:
+  $$
+  \frac{(1-g)(1+f) G \sqrt{T_{4 t}}}{P_{4 t}}=\Gamma\left(\gamma_{e}\right) \frac{A_{4}}{\sqrt{R}}=k_{t}=\text { cte }
+  $$
+
+- Tobera crítica:
+  $$
+  \frac{(1-g)(1+f) G \sqrt{T_{5 t}}}{P_{5 t}}=\Gamma\left(\gamma_{e}\right) \frac{A_{8}}{\sqrt{R}}=k_{s}=c t e
+  $$
+
+
+g: sangrados en el compresor (suponemos no contribuye a dar potencia en la turbina) $f=c / G$, riqueza de funcionamiento y $\Gamma$
+
+$$
+\Gamma(\gamma)=\sqrt{\gamma}\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{2(\gamma-1)}}
+$$
+
+Dividiendo ambas expresiones: $\quad \sqrt{\frac{T_{4 t}}{T_{5 t}}} \frac{P_{5 t}}{P_{4 t}}=\frac{A_{d}}{A_{s}}=\frac{k_{t}}{k_{s}}=c t e$
+
+Teniendo en cuenta el rendimiento adiabático de la turbina (que suponemos constante)
+
+$$
+\eta_{t}=\frac{1-\left(T_{5 t} / T_{4 t}\right)}{1-\left(P_{5 t} / P_{4 t}\right)^{\frac{\gamma_{c}-1}{\gamma_{c}}}}=f\left(\frac{T_{5 t}}{T_{4 t}}, \frac{P_{5 t}}{P_{4 t}}\right)
+$$
+
+- De las ecuaciones (1) y (2):
+
+  $$
+  \frac{T_{5 t}}{T_{4 t}}=f_{1}\left(\frac{A_{d}}{A_{s}}, \eta_{t}\right)=c t e=\alpha \quad \frac{P_{5 t}}{P_{4 t}}=f_{2}\left(\frac{A_{d}}{A_{s}}, \eta_{t}\right)=c t e=\alpha_{p}
+  $$
+
+- evolución isentrópica en la turbina $\left(\eta_{\mathrm{t}}=1\right)$
+
+  $$
+  \alpha=\frac{T_{5 t}}{T_{4 t}}=\left(\frac{A_{d}}{A_{s}}\right)^{\frac{2\left(\gamma_{e}-1\right)}{\gamma_{e}+1}} \quad \alpha_{p}=\frac{P_{5 t}}{P_{4 t}}=\left(\frac{A_{d}}{A_{s}}\right)^{\frac{2 \gamma_{e}}{\gamma_{e}+1}}
+  $$
+
+- Ecuación de acoplamiento de potencia
+
+  $$
+  G C p c\left(T_{3 t}-T_{2 t}\right)=(1-g)(1+f) G C p e\left(T_{4 t}-T_{5 t}\right)=(1-g)(1+f) G C p e T_{4 t}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)
+  $$
+
+- Utilizando el rendimiento adiabático del compresor
+
+  $$
+  \tau_{c}=C_{p c} T_{2 t}\left(\frac{T_{3 t}}{T_{2 t}}-1\right)=C_{p c} T_{2 t} \frac{\pi_{c}^{\frac{\gamma_{c}-1}{\gamma_{c}}}-1}{\eta_{c}}=(1-g)(1+f) C_{p e} T_{4 t}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)=(1-g)(1+f) C_{p e} T_{4 t}(1-\alpha)
+  $$
+
+- Ordenando términos:
+
+  $$
+  \frac{\pi_{c}^{\frac{r_{c}-1}{r c}}-1}{\eta_{c}}=(1-g)(1+f)(1-\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}} \quad \Longrightarrow \quad \frac{T_{4 t}}{T_{2 t}}=f\left(\pi_{23}\right)
+  $$
+
+  Si f y $\eta_{23}$ son cte.
+
+- Para tener en cuenta el efecto de $f$
+
+  <eq>
+  $$
+  \begin{aligned}
+  &\eta_{q} c L=(1-g)(1+f) G C_{p e}\left(T_{4 t}-T_{3 t}\right) \\
+  &\eta_{c} f L=(1+f) C_{p e}\left(T_{4 t}-T_{3 t}\right)
+  \end{aligned}
+  $$
+  </eq>
+
+- Sumando y restando $T_{2t}$ → $+T_{2 t}-T_{2 t}$ y utilizando la ecuación de acoplameinto de potencia:
+
+  <eq>
+  $$
+  \sqrt{\eta}_{q} f L=(1+f) C_{p e}\left[T_{4 t}-T_{2 t}\left(1+(1-g)(1+f)(1-\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}}\right)\right]
+  $$
+  </eq>
+
+- Despreciando términos de orden $f^{2}$
+
+  $$
+  f=\frac{\frac{T_{4 t}}{T_{2 t}}-1-(1-g)(1+\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}}}{\frac{\eta_{q} L}{C_{p e} T_{2 t}}+1+2(1-g)(1-\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}}-\frac{T_{4 t}}{T_{2 t}}}
+  $$
+
+- Relaciona $f \operatorname{con} T_{4t} / T_{2t}$
+
+![](atts/10/image-20220617112541790.png) ![](atts/10/image-20220617112556169.png) ![](atts/10/image-20220617112608931.png)
+
+![](atts/10/image-20220617112624666.png) ![](atts/10/image-20220617112637303.png) ![](atts/10/image-20220617112649824.png)
+
+![](atts/10/image-20220617112705189.png) ![](atts/10/image-20220617112718574.png) ![](atts/10/image-20220617112731572.png)
+
+![](atts/10/image-20220617112746560.png) ![](atts/10/image-20220617112758817.png)
+
+
+### Curvas Características
+
+<eq>
+$$
+\begin{aligned}
+& \frac{E}{P_{0} D^{2}}=\varphi_{1}\left(\frac{V_{0}}{\sqrt{R T_{0}}}, \text { regimen adimensional }\right) \\
+& \frac{c L}{P_{0} D^{2} \sqrt{R T_{0}}}=\varphi_{2}\left(\frac{V_{0}}{\sqrt{R T_{0}}} \text {, regimen adimensional }\right) \\
+& \frac{G \sqrt{R T_{0}}}{P_{0} D^{2}}=\varphi_{3}\left(\frac{V_{0}}{\sqrt{R T_{0}}} \text {, regimen adimensional }\right) \\
+& \frac{C_{E} L}{\sqrt{R T_{0}}}=\varphi_{4}\left(\frac{V_{0}}{\sqrt{R T_{0}}}, \text { regimen adimensional }\right) \\
+& \frac{I_{s p}}{\sqrt{R T_{0}}}=\varphi_{5}\left(\frac{V_{0}}{\sqrt{R T_{0}}} \text {, regimen adimensional }\right)
+\end{aligned}
+$$
+</eq>
+
+- Parámetro de gasto:
+
+  $$
+  G \sqrt{T_{0}} / P_{0}
+  $$
+
+- Parámetro de empuje:
+
+  <eq>
+  $$
+  \begin{aligned}
+  &E=G\left(V_{s}-V_{0}\right)+A_{s}\left(P_{s}-P_{o}\right) \\
+  &\frac{E}{P_{0} A_{s}}=\frac{G \sqrt{T_{0}}}{P_{0} A_{s}}\left(\frac{V_{s}}{\sqrt{T_{0}}}-\frac{V_{0}}{\sqrt{T_{0}}}\right)+\frac{P_{s}}{P_{0}}-1= \\
+  &\quad=\frac{G \sqrt{T_{0}}}{P_{0} A_{s}}\left(\frac{V_{s}}{\sqrt{T_{5 t}}} \sqrt{\frac{T_{5 t}}{T_{4 t}} \frac{T_{4 t}}{T_{2 t}} \frac{T_{2 t}}{T_{0}}}-\frac{V_{0}}{\sqrt{T_{0}}}\right)+\frac{P_{s}}{P_{5 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{2 t}}{P_{0}}-1
+  \end{aligned}
+  $$
+  </eq>
+
+- Parámetro de combustible:
+
+  <eq>
+  $$
+  \begin{aligned}
+  &\eta_{q} c L=G C_{p}\left(T_{4 t}-T_{3 t}\right) \\
+  &\frac{\eta_{q} c L}{P_{0} \sqrt{T_{0}}}=\frac{G \sqrt{T_{3 t}}}{P_{3 t}} \sqrt{\frac{T_{2 t}}{T_{3 t}} \frac{T_{0}}{T_{2 t}}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{2 t}}{P_{0}} C_{p}\left(\frac{T_{4 t}}{T_{2 t}} \frac{T_{2 t}}{T_{3 t}}-1\right)
+  \end{aligned}
+  $$
+  </eq>
+
+- Parámetro de impulso:
+
+  $$
+  I_{s p}=\frac{E}{G} \Rightarrow \frac{I_{s p}}{\sqrt{T_{0}}}=\frac{E}{P_{0}} \frac{P_{0}}{G \sqrt{T_{0}}}
+  $$
+
+- Parámetro de c. específico:
+
+  $$
+  C_{E}=\frac{c}{E} \Rightarrow \frac{\eta_{q} C_{E} L}{\sqrt{T_{0}}}=\frac{\eta_{q} c L}{P_{0} \sqrt{T_{0}}} \frac{P_{0}}{E}
+  $$
+
+
+![](atts/10/image-20220617113312858.png) ![](atts/10/image-20220617113324105.png)
+
+![](atts/10/image-20220617113338999.png) ![](atts/10/image-20220617113352430.png) ![](atts/10/image-20220617113409825.png)
+
+
+### Línea de Funcionamiento
+
+$$
+\frac{E}{P_{0} D^{2}}=\phi_{1}(\text{ regimen adimensional })
+$$
+
+$$
+\frac{c L}{P_{0} D^{2} \sqrt{R T_{0}}}=\phi_{2}(\text{ regimen adimensional })
+$$
+
+$$
+\frac{G \sqrt{R T_{0}}}{P_{0} D^{2}}=\phi_{3}(\text{ regimen adimensional })
+$$
+
+$$
+\frac{C_{E} L}{\sqrt{R T_{0}}}=\phi_{4}(\text{ regimen adimensional })
+$$
+
+$$
+\frac{I_{s p}}{\sqrt{R T_{0}}}=\phi_{5}(\text{ regimen adimensional })
+$$
+
+![](atts/10/image-20220617113848876.png) ![](atts/10/image-20220617113859533.png) ![](atts/10/image-20220617113915294.png)
+
+![](atts/10/image-20220617113932332.png) ![](atts/10/image-20220617113948942.png) ![](atts/10/image-20220617114005962.png)
+
+- A cada nivel de empuje programado para llevar a cabo una condición de vuelo dada se lo denomina régimen.
+
+- La definición y control del régimen se realiza mediante el control de alguna de las variables del funcionamiento del aerorreactor, típicamente se usan como variables de control algunas de las siguientes: revoluciones de los ejes, temperatura fin de combustión, temperatura entre turbinas o en la salida de las mismas, relación entre las presiones de remanso en la salida y en la entrada, etc.
+
+- Las características de los aerorreactores cuyo conocimiento interesa son: el empuje, $E$, el consumo de combustible, $c$, y el gasto de aire que lo atraviesa, $G$; junto a estas variables extensivas son importantes también el conocimiento de las variables intensivas asociadas como el consumo específico, $C_{E}$, y el impulso específico, Isp.
+
+<eq>
+$$
+\begin{aligned}
+&E=E\left(a, V_{0}, \text { regimen }\right)=E\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&c=c\left(a, V_{0}, \text { regimen }\right)=c\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&G=G\left(a, V_{0}, \text { regimen }\right)=G\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&C_{E}=C_{E}\left(a, V_{0}, \text { regimen }\right) C_{E}=C_{E}\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&I_{s p}=I_{s p}\left(a, V_{0}, \text { regimen }\right) I_{s p}=I_{s p}\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&\text { regimen }=\left\{\begin{array}{l}
+f(N) \\
+f\left(T_{4 t}\right) \\
+f\left(P_{5 t} / P_{2 t}\right)
+\end{array}\right\} \Rightarrow \text { segun el sistema de control }
+\end{aligned}
+$$
+</eq>
+
+![](atts/10/image-20220617114110503.png) ![](atts/10/image-20220617114123232.png)
+
+![](atts/10/image-20220617114138909.png) ![](atts/10/image-20220617114154321.png) ![](atts/10/image-20220617114208123.png)
+
+- Las relaciones que definen las actuaciones del aerorreactor se daban antiguamente en forma de tablas o gráficas que el piloto usaba para poner el régimen deseado en función de la altura y velocidad de vuelo.
+- En los sistemas actuales, el fabricante del motor proporciona un programa que permite al ordenador de a bordo obtener esa información de forma computerizada .
+- Para cada altitud, a, de forma estandarizada, se corresponden dos parámetros ambientales la temperatura y presión ambientes, a esa correspondencia se la denomina atmósfera estándar.
+- La presión siempre define la altitud de vuelo, pero a veces interesa conocer el comportamiento del aerorreactor para otras temperaturas distintas a las de la atmósfera estándar, definidas por distintas desviaciones de la temperatura ambiente, $\Delta$ Tamb. Por tanto, las actuaciones, definidas anteriormente, en forma general, también, dependerán de dicha desviación.
+
+### Corrección de Datos
+
+Las curvas características
+
+$$
+\frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{E}{P_{0} A_{s}} ; \frac{\eta_{q} C L}{P_{3 t} \sqrt{T_{3 t}}} ; \frac{I_{s p}}{\sqrt{T_{0}}} ; \frac{\eta_{q} C_{E} L}{\sqrt{T_{0}}}=f\left(M_{0}, \frac{N}{\sqrt{T_{0}}}\left(T_{4 t} / T_{2 t}\right)\right)
+$$
+
+no dependen del día en que se han obtenido, pero los variables físicas:
+
+$$
+G, E, C, I_{s p} \mathrm{y} C_{E}
+$$
+
+sí. Así pues, en un banco de ensayos, para que los valores de las variables físicas tengan sentido hay que informar en que se han medido. Hay que dar la $P_{0}$ y $T_{0}$ .
+
+Sería interesante que de los bancos de ensayo se pudiera obtener información sobre las variable físicas de los aerorreactores que no dependiesen del día en que se ha realizado el ensayo. Esto sería fácil si con los valores medidos se fuera capaz de obtener los valores que se tendrían en un día dado, conocido por todos. Esto es lo que se hace. El día elegido es el día tipo o estándar y se corresponde con el día que se obtiene de la atmósfera internacional ISA a altitud cero:
+
+$$
+P_{0}=101,325 \mathrm{kPa} ; T_{0}=288,15 \mathrm{~K}
+$$
+En un ensayo realizado un día cualquiera con $T_{0}, P_{0}$, para un régimen dado $N$, se han obtenido los siguientes valores de las curvas características del sistema
+
+$G, E, C, I_{s p} \mathrm{y} C_{E}$
+
+Se sabe que los parámetros casi-adimensionales
+
+$$
+\frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{E}{P_{0} A_{s}} ; \frac{\eta_{q} C L}{P_{3 t} \sqrt{T_{3 t}}} ; \frac{I_{s p}}{\sqrt{T_{0}}} ; \frac{\eta_{q} C_{E} L}{\sqrt{T_{0}}}=f\left(M_{0}, \frac{N}{\sqrt{T_{0}}}\left(T_{4 t} / T_{2 t}\right)\right)
+$$
+
+no dependen de las condiciones ambientales; por tanto, si en se tuviera un día tipo `$\left(T_{0}^{*}, P_{0}^{*}\right)$` y se eligiese un régimen, $N^{*}$ tal que
+
+<eq>
+$$
+\frac{N^{*}}{\sqrt{T_{0}^{*}}}=\frac{N}{\sqrt{T_{0}}} \Rightarrow N^{*}=N \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{N}{\sqrt{\delta}}
+$$
+</eq>
+
+se cumpliría
+
+<eq>
+$$
+\frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{E}{P_{0}} ; \frac{\eta_{q} c L}{P_{0} \sqrt{T_{0}}} ; \frac{I_{s p}}{\sqrt{T_{0}}} ; \frac{\eta_{q} C_{E}}{\sqrt{T_{0}}} \equiv f\left(\frac{N}{\sqrt{T_{0}}}\right)=f\left(\frac{N^{*}}{\sqrt{T_{0}^{*}}}\right)=\frac{G^{*} \sqrt{T_{0}^{*}}}{P_{0}^{*}} ; \frac{E}{P_{0}^{*}} ; \frac{\eta_{q} c L}{P_{0}^{*} \sqrt{T_{0}^{*}}} ; \frac{I_{s p}}{\sqrt{T_{0}^{*}}} ; \frac{\eta_{q} C_{E}}{\sqrt{T_{0}^{*}}}
+$$
+</eq>
+
+donde $*$ son los valores que se hubieran obtenido en un ensayo realizado en un día tipo
+
+Los valores referidos (o corregidos) al día tipo son
+
+<eq>
+$$
+\frac{G^{*} \sqrt{T_{0}^{*}}}{P_{0}^{*}}=\frac{G \sqrt{T_{0}}}{P_{0}} \Rightarrow G^{*}=G \frac{\sqrt{T_{0}}}{\sqrt{T_{0}^{*}}} \frac{P_{0}^{*}}{P_{0}}=\frac{G \sqrt{\theta}}{\delta}
+$$
+</eq>
+
+<eq>
+$$
+\frac{E^{*}}{P_{0}^{*}}=\frac{E}{P_{0}} \Rightarrow E^{*}=E \frac{P_{0}^{*}}{P_{0}}=\frac{E}{\delta}
+$$
+</eq>
+
+<eq>
+$$
+\frac{\eta_{q} C^{*} L}{P_{0}^{*} \sqrt{T_{0}^{*}}}=\frac{\eta_{q} C L}{P_{0} \sqrt{T_{0}}} \Rightarrow C^{*}=C \frac{P_{0}^{*}}{P_{0}} \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{C}{\delta \sqrt{\theta}}
+$$
+</eq>
+
+<eq>
+$$
+\frac{I_{s p}^{*}}{\sqrt{T_{0}^{*}}}=\frac{I_{s p}}{\sqrt{T_{0}}} \Rightarrow I_{s p}^{*}=I_{s p} \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{I_{s p}}{\sqrt{\theta}}
+$$
+</eq>
+
+<eq>
+$$
+\frac{C_{E}^{*}}{\sqrt{T_{0}^{*}}}=\frac{C_{E}}{\sqrt{T_{0}}} \Rightarrow C_{E}^{*}=C_{E} \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{C_{E}}{\sqrt{\theta}}
+$$
+</eq>
+
+Donde $\delta$ y $\theta$ son la relaciones universalmente usadas en la atmósfera estándar
+
+<eq>
+$$
+\delta=\frac{P_{0}}{P_{0}^{*}} ; \quad \theta=\frac{T_{0}}{T_{0}^{*}}
+$$
+</eq>
+
+![](atts/10/image-20220617114714347.png) ![](atts/10/image-20220617114729069.png)
+
+
+AVIONES CIVILES
+
+- REGÍMENES
+
+  - Máximo de Despegue MTO: limitado a 5 minutos
+
+  - Máximo Continuo
+
+  - Ralentí Otros Regímenes Usados en Aviación Civil ꞏ Máximo de Subida ꞏ Máximo de Crucero
+
+AVIONES MILITARES
+
+- REGÍMENES
+
+  - Combate (o de Contingencia) (‘Combat or Contingency Rating’): lim. a 2,5 min.
+
+  - Máximo Sin Postcombustor (‘Maximum Dry Rating’): lim. de 10 a 15 min.
+
+  - Intermedio (o Militar) (‘Intermediate or Military Rating’): lim. hasta 30 min.
+
+  - Máximo Continuo ('Maximum Continuous Rating').
+
+  - Ralentí (“Idle”): normalmente solo uno
+
+INDICADORES EN CABINA
+
+El piloto es el árbitro final de la posición de la palanca
+
+En todos los aviones, aún en los más sofisticados, que disponen de la más alta tecnología, con sistemas de control computarizados, el piloto tiene que poder satisfacer su necesidad de saber que el motor funciona de forma segura y produciendo el empuje requerido.
+
+Para ello, es necesario presentar al piloto una serie de parámetros de funcionamiento que le permitan operar el motor de forma segura y eficientemente.
+
+La autoridades de certificación de aviones civiles exigen una mínima presentación de:
+
+- la temperatura en el tubo de salida “jet pipe” o algo similar (TGT o EGT)
+- las revoluciones de los ejes
+- una indicación del empuje
+
+Normalmente, esta mínima presentación se aumenta con:
+
+- medición del consumo de combustible
+- cantidad de combustible usada
+- indicador del área de tobera (en sistemas con PC)
+
+Las Autoridades de Certificación imponen una Temperatura Límite basada en los ensayos
+
+###  Influencia de la $T_{0}$ en el Empuje de Despegue
+
+Del estudio analítico y de los ensayos de los aerorreactores, se obtiene que el empuje corregido se comporta como una función potencial de las vueltas corregidas
+
+<eq>
+$$
+E^{*}=\left(N^{*}\right)^{n} \quad \Rightarrow \quad \frac{E}{\delta} \propto\left(\frac{N}{\sqrt{\theta}}\right)^{n}
+$$
+</eq>
+
+Para ver el efecto de la $\mathrm{T}_{0}$, se calcula el cociente incremental de la función anterior
+
+<eq>
+$$
+\begin{aligned}
+& \Delta\left(\frac{E}{\delta}\right) \propto n\left(\frac{N}{\sqrt{\theta}}\right)^{n-1} \Delta\left(\frac{N}{\sqrt{\theta}}\right) \Rightarrow \frac{\Delta(E / \delta)}{E / \delta}=n \frac{\Delta(N / \sqrt{\theta})}{N / \sqrt{\theta}} \\ & \text{ Para } P_{0}=cte \rightarrow \rightarrow
+ \frac{\Delta E}{E}=n \frac{\frac{\Delta N}{\sqrt{\theta}}-\frac{1}{2} \frac{N}{\sqrt{\theta}}}{\frac{N}{\sqrt{\theta}}} \\
+& \text { Para } N=\text { cte } \Rightarrow \otimes N=0 \Rightarrow \frac{\Delta E}{E}=-\frac{n}{2} \frac{\Delta \theta}{\theta}=-\frac{n}{2} \frac{\Delta T_{0}}{T_{0}}
+\end{aligned}
+$$
+</eq>
+
+### Motores de Empuje Constante: "Thrust Rated Engine"
+
+El concepto es controlar el motor de forma que se obtenga, en despegue, siempre que sea posible (hasta la temperatura ambiente que haya sido seleccionada en diseño), un empuje constante (garantizado) independientemente de la temperatura
+
+![](atts/10/image-20220617115902974.png)
+
+El empuje constante (garantizado) es el empuje que tiene el motor a vueltas máximas y a la temperatura ambiente: $T_{\text {diseño }}$.
+
+Para temperaturas ambiente por debajo de la de diseño, el empuje garantizado se obtiene con vueltas mas bajas que las máximas.
+
+Para temperatura ambiente igual a la de diseño, el empuje garantizado se obtiene con las vueltas máximas.
+
+Para temperaturas más altas que las de diseño, no es posible obtener el empuje garantizado y el motor dará el empuje correspondiente a vueltas máximas.
+
+Con este concepto de control, se consigue que, siempre que la temperatura este por debajo de la de diseño, el motor trabaje en condiciones por debajo de las de máximo funcionamiento con el consiguiente ahorro en la vida del motor.
+
+**Concepto para aviación militar**
+
+En este caso, lo importante no es garantizar el empuje en condiciones de despegue independientemente de la temperatura ambiente, sino garantizar un empuje máximo durante toda la vida de funcionamiento del motor. Para ello se define el empuje garantizado como el que se obtendría al final de la vida del mismo.
+
+![](atts/10/image-20220617120037354.png)
+
+El empuje máximo garantizado en este caso es $E_{0}$ que es el que se obtendría al final de la vida. El motor antes de llegar al final de la vida funcionará con una temperatura, $T_{4t}$, más baja de la máxima cuando se le requiera $E_{0}$ y al final de la vida, para tener $E_{0}$, el motor funcionará con la máxima temperatura de funcionamiento $T_{4t}$.
+
+
+### EPR: "Engine Pressure Ratio
+
+Es la relación entre las presiones de remanso en la salida y entrada del motor
+
+$$
+E P R=P_{5 t} / P_{2 t}
+$$
+
+Sirve como medidor del empuje cuando el $\mathrm{A}_{8}$ es fija.
+
+Empuje Bruto:
+
+$$
+E_{b}=G_{S} V_{S}+A_{S}\left(P_{S}-P_{0}\right)
+$$
+
+Tobera crítica:
+
+$$
+G_{S}=\Gamma_{e} \frac{P_{5 t} A_{8}}{\sqrt{R T_{5 t}}} \text{ donde } \Gamma_{e}=\sqrt{\gamma}\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}+1}{2\left(\gamma_{e}-1\right)}}
+$$
+
+$$
+E_{b h}=\Gamma_{e} \frac{P_{5 t} A_{8}}{\sqrt{R T_{5 t}}} M_{8} \sqrt{\gamma_{e} R T_{S}}+A_{s}\left(P_{S}-P_{0}\right)
+$$
+
+$$
+\frac{E_{b}}{A_{8} P_{0}}=\sqrt{\gamma_{e}} \Gamma_{e} \sqrt{T_{S} / T_{5 t}} M_{S} \frac{P_{5 t}}{P_{0}}+\frac{A_{S}}{A_{8}}\left(\frac{P_{S}}{P_{5 t}} \frac{P_{5 t}}{P_{0}}-1\right)
+$$
+
+$$
+M_{8} \sqrt{T_{S} / T_{5 t}}=f_{1}\left(\gamma_{e}, \frac{A_{S}}{A_{8}}\right), \frac{P_{S}}{P_{5 t}}=f_{2}\left(\gamma_{e}, \frac{A_{S}}{A_{8}}\right)
+$$
+
+<eq>
+$$
+\begin{aligned}
+\frac{E_{b}}{A_{8} P_{0}} &=\left(\sqrt{\gamma_{e}} \Gamma_{e} f_{1}+\frac{A_{S}}{A_{8}} f_{2}\right) \frac{P_{5 t}}{P_{0}}-\frac{A_{S}}{A_{8}}=\\
+&=F\left(\gamma_{e} \frac{A_{S}}{A_{8}}\right) \frac{P_{2 t}}{P_{0}} E P R-\frac{A_{S}}{A_{8}}
+\end{aligned}
+$$
+</eq>
+
+<eq>
+$$
+\frac{A_{S}}{A_{8}}=1 \Rightarrow\left\{\begin{array}{l}
+f_{1}=\left(\frac{2}{\gamma_{e}+1}\right)^{1 / 2} \\
+f_{2}=\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}}
+\end{array}\right.
+$$
+</eq>
+
+<eq>
+$$
+\Rightarrow
+\begin{aligned}
+\frac{E_{b}}{A_{8} P_{0}} &=\left(1+\gamma_{e}\right)\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}} \frac{P_{2 t}}{P_{0}} E P R-1=\\
+&=f\left(\gamma_{e}\right) \frac{P_{2 t}}{P_{0}} E P R-1
+\end{aligned}
+$$
+</eq>
+
+A la vista del resultado anterior, es fácil tener una característica relacionada con el empuje bruto que sea homogénea
+
+$$
+\frac{E_{b}-A_{8} P_{0}}{A_{8} P_{0}}=\left(1+\gamma_{e}\right)\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}} \frac{P_{2 t}}{P_{0}} E P R=f\left(\gamma_{e}\right) \frac{P_{2 t}}{P_{0}} E P R
+$$
+
+Como se puede apreciar el empuje bruto menos la presión ambiente por el área de salida es función del parámetro de régimen adimensional $(E P R)$ y de la velocidad de vuelo $\left(P_{2 t} / P_{0}\right)$
+
+<eq>
+$$
+\begin{array}{ll}
+\text { Para } \gamma=1,33 & ->f\left(\gamma_{e}\right)=1,259 \\
+\text { Para } \gamma=1,4 & ->f\left(\gamma_{e}\right)=1,268
+\end{array}
+$$
+</eq>
+
+**Efecto RAM**
+
+$$
+R A M=G V_{0}=\frac{G_{S}}{(1-g)(1+f)} V_{0}=\frac{\Gamma_{e}}{(1-g)(1+f)} \frac{P_{5 t} A_{8}}{\sqrt{R T_{5 t}}} M_{0} \sqrt{\gamma R T_{0}}
+$$
+
+$$
+\frac{R A M}{A_{8} P_{0}}=\frac{\Gamma_{e} \sqrt{\gamma}}{(1-g)(1+f)} M_{0} \sqrt{\frac{T_{0}}{T_{5 t}}} \frac{P_{2 t}}{P_{0}} E P R
+$$
+
+$$
+\frac{T_{0}}{T_{5 t}}=\frac{T_{0}}{T_{2 t}} \frac{T_{2 t}}{T_{4 t}} \frac{T_{4 t}}{T_{5 t}}=\frac{T_{0}}{T_{2 t}} \frac{T_{2 t}}{T_{4 t}} \frac{1}{\alpha}
+$$
+
+$$
+\frac{T_{4 t}}{T_{2 t}}=\frac{C_{p c}}{C_{p e}} \frac{1}{(1-g)(1+f)} \frac{1}{1-\alpha} \frac{1}{\eta_{c}}\left(\pi_{c}^{\frac{\gamma-1}{\gamma}}-1\right)
+$$
+
+$$
+E P R=\frac{P_{5 t}}{P_{2 t}}=\frac{P_{5 t}}{P_{4 t}} \quad \frac{P_{4 t}}{P_{3 t}} \quad \frac{P_{3 T}}{P_{2 t}}=\alpha_{p} \quad \pi_{c c} \quad \pi_{c} \quad \Rightarrow \quad \pi_{c}=\frac{E P R}{\alpha_{p} \pi_{c c}}
+$$
+
+$$
+\frac{R A M}{A_{8} P_{0}}=\Gamma_{e} \sqrt{\gamma} M_{0} \sqrt{\frac{T_{0}}{T_{2 t}}} \frac{P_{2 t}}{P_{0}} E P R \sqrt{\frac{C_{p c} \eta_{c}(1-\alpha)}{C_{p e}(1-g)(1+f) \alpha}} \frac{1}{\sqrt{\left(\frac{E P R}{\alpha_{p} \pi_{o c}}\right)^{\frac{\gamma-1}{\gamma}}-1}}
+$$
+
+**Empuje Neto**
+
+<eq>
+$$
+\begin{aligned}
+\frac{E}{A_{8} P_{0}} &=\frac{E_{b}}{A_{8} P_{0}}-\frac{R A M}{A_{8} P_{0}}=\\
+&=F\left(\gamma_{e} \frac{A_{s}}{A_{8}}\right) \frac{P_{2 t}}{P_{0}} E P R-\frac{A_{s}}{A_{8}}-\\
+&-\Gamma_{e} \sqrt{\gamma} M_{0} \sqrt{\frac{T_{0}}{T_{2 t}}} \frac{P_{2 t}}{P_{0}} E P R \sqrt{\frac{C_{p c} \eta_{c}(1-\alpha)}{C_{p e}(1-g)(1+f) \alpha}} \frac{1}{\sqrt{\left(\frac{E P R}{\alpha_{p} \pi_{\infty}}\right)^{\frac{\gamma-1}{\gamma}}}-1}
+\end{aligned}
+$$
+</eq>
+
+Con tobera convergente:
+
+<eq>
+$$
+\begin{array}{rl}
+\frac{E}{A_{8} P_{0}}=f & f\left(\gamma_{e}\right) \frac{P_{2 t}}{P_{0}} E P R-1- \\
+& -\Gamma_{e} \sqrt{\gamma} M_{0} \sqrt{\frac{T_{0}}{T_{2 t}}} \frac{P_{2 t}}{P_{0}} E P R \sqrt{\frac{C_{p c} \eta_{c}(1-\alpha)}{C_{p e}(1-g)(1+f) \alpha}} \frac{1}{\sqrt{\left(\frac{E P R}{\left.\alpha_{p} \pi_{c c}\right)^{\frac{\gamma-1}{\gamma}}}-1\right.}}
+\end{array}
+$$
+</eq>
+
+En despegue:
+
+<eq>
+$$
+\frac{E}{A_{8} P_{0}}=\left\{\begin{array}{l}
+F\left(\gamma_{e}, \frac{A_{S}}{A_{8}}\right) E P R-\frac{A_{S}}{A_{8}} \\
+f\left(\gamma_{e}\right) E P R-1
+\end{array}\right.
+$$
+</eq>
+
+Empuje en Despegue de Turbofanes de Flujos Separados
+
+$$
+E=G_{\pi} V_{8}+G_{\sigma} V_{18}+A_{\pi}\left(P_{8}-P_{0}\right)+A_{\sigma}\left(P_{18}-P_{0}\right)
+$$
+
+$$
+\frac{E}{P_{0}}=\left(1+\gamma_{e}\right)\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}} A_{\pi} \frac{P_{5 t}}{P_{0}}+(1+\gamma)\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} A_{\sigma} \frac{P_{15 t}}{P_{0}}-A_{\pi}-A_{\sigma}
+$$
+
+<eq>
+$$
+\begin{aligned}
+\frac{E}{\left(A_{\pi}+A_{\sigma}\right) P_{0}} &=(1+\gamma)\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} \frac{A_{\pi} P_{5 t}+A_{\sigma} P_{15 t}}{P_{2 t}}-1 \\
+&=(1+\gamma)\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} \text { IEPR-1 }
+\end{aligned}
+$$
+</eq>
+
+$$
+IEPR=\frac{A_{\pi} P_{5 t}+A_{\sigma} P_{15 t}}{P_{2 t}}
+$$
+
+**Indicador de Empuje**
+
+Para toberas de área fija, E_bruto $=\mathrm{f}($ Relación de Presiones en la Tobera, P_amb)
+
+Relación de Presiones en la Tobera: $P_{5 t} / P_{0}$ (NPR: “Nozzle Pressure Ratio”) $P_{5 t} / P_{2 t}$ (EPR: “Engine Pressure Ratio”)
+
+En los modernos turbofanes de gran relación de derivación con dos toberas se usan:
+
+- Área de tobera media ponderada, IEPR, "Integrated Engine Pressure Ratio"
+
+  $$
+  =\frac{A_{\sigma} P_{15 t}+A_{\pi} P_{5 t}}{P_{2 t}\left(A_{\sigma}+A_{\pi}\right)}
+  $$
+
+- EPR basado en la presión de la tobera del generador de gas (también usado en Turborreactores de flujo único)
+
+  $$
+  =P_{5 t} / P_{2 t}
+  $$
+
+  (preferida por razones de seguridad)
+
+- EPR basado en la presión de la tobera de la corriente del fan (usado, principalmente, en sistemas con flujo mezclado) $\quad=P_{15 t} / P_{2 t}$
+
+**VIDA DE LOS ÁLABES DE LA TURBINA**
+
+Los niveles de empuje ofrecidos a los constructores de aeronaves implican niveles de temperatura de turbina que se certifican en los ensayos de Aprobación Tipo. La velocidad de los álabes de turbina, sus propiedades mecánicas y el grado de refrigeración afectan a la vida de la turbina (tiempo hasta el fallo). La turbina sufre de fluencia térmica en servicio y durante los ensayos de certificación. También se produce fatiga de bajo ciclo debida a los ciclos en los esfuerzos desde cero a los máximos permisibles ( 'low cycle fatigue' ).
+
+- Fluencia térmica
+
+  La fluencia térmica del material de los álabes de la turbina en un punto de funcionamiento y para un motor dado se puede calcular, por ejemplo, de la siguiente forma:
+
+  a) Temperatura media a la entrada del rotor $=1410 \mathrm{~K}$
+
+  b) Pico perfil temperatura media radial $=60 \mathrm{~K} .$
+
+  Por consiguiente temperatura pico $=1470 \mathrm{~K}$
+
+  c) La temperatura real de la corriente que ven los álabes debido a la rotación y por efecto de la velocidad relativa es más baja que la de los gases en un factor de aproximadamente 0,9 (esto se puede obtener de los triángulos de velocidades diseñados).
+
+  Por consiguiente temperatura metálica sin refrigeración
+
+  <eq>
+  $$
+  \begin{aligned}
+  &=1323 \mathrm{~K} \\
+  &=1050^{\circ} \mathrm{C} \\
+  &=250^{\circ} \mathrm{C} & \\
+  &=800^{\circ} \mathrm{C}
+  \end{aligned}
+  $$
+  </eq>
+
+  d) Efecto calculado de la refrigeración en esta condición e) Esfuerzos medios en esta condición, $\sigma=123,5$ Mpal.
+
+  f) Vida por fluencia según las características del material, para $\sigma$ y $T_{\text {metal }}=1000$ horas Ya que, para los materiales utilizados en álabes de turbina, un aumento de TET de unos 20 ${ }^{\circ} \mathrm{C}$ reduce la vida por fluencia a la mitad, hay un gran interés e incentivo en la mejora de materiales y tecnologías de refrigeración. Nota: un incremento de $20^{\circ} \mathrm{C}$ produce un incremento de empuje típico del 3 al $4 \%$.
+
+
+> Faltan las últimas diapositivas
 
 ## Tema 11: Actuaciones de Componentes
 

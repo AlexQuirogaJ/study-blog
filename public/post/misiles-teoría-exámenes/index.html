@@ -337,6 +337,24 @@
 <blockquote>
 <p><strong>Fuente:</strong> Exámenes de la parte V1 de la asignatura &ldquo;Vehículos Aeroespaciales&rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).</p>
 </blockquote>
+<script>
+
+    const expandElements = shouldExpand => {
+        let detailsElements = document.querySelectorAll("details");
+
+        detailsElements = [...detailsElements];
+
+        if (shouldExpand) {
+            detailsElements.map(item => item.setAttribute("open", shouldExpand));
+        } else {
+            detailsElements.map(item => item.removeAttribute("open"));
+        }
+    };
+
+</script>
+
+<button onClick="expandElements(true)">Expand</button>
+<button onClick="expandElements(false)">Collapse</button>
 <h2 id="junio-7-2018">Junio-7-2018</h2>
 <ol>
 <li>

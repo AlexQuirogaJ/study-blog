@@ -15,6 +15,24 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt; Exámenes de la parte V1 de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;script&gt;
+
+    const expandElements = shouldExpand =&gt; {
+        let detailsElements = document.querySelectorAll(&#34;details&#34;);
+
+        detailsElements = [...detailsElements];
+
+        if (shouldExpand) {
+            detailsElements.map(item =&gt; item.setAttribute(&#34;open&#34;, shouldExpand));
+        } else {
+            detailsElements.map(item =&gt; item.removeAttribute(&#34;open&#34;));
+        }
+    };
+
+&lt;/script&gt;
+
+&lt;button onClick=&#34;expandElements(true)&#34;&gt;Expand&lt;/button&gt;
+&lt;button onClick=&#34;expandElements(false)&#34;&gt;Collapse&lt;/button&gt;
 &lt;h2 id=&#34;junio-7-2018&#34;&gt;Junio-7-2018&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;

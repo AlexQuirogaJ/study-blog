@@ -6,12 +6,649 @@
         <description>Recent content in Posts on Blog de estudio</description>
         <generator>Hugo -- gohugo.io</generator>
         <lastBuildDate>Thu, 16 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Exámenes Teoría Aerorreactores</title>
+        <link>/post/aerorreactores-teor%C3%ADa-ex%C3%A1menes/</link>
+        <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/post/aerorreactores-teor%C3%ADa-ex%C3%A1menes/</guid>
+        <description>&lt;img src="/post/aerorreactores-teor%C3%ADa-ex%C3%A1menes/Turbofan_operation_lbp.png" alt="Featured image of post Exámenes Teoría Aerorreactores" /&gt;&lt;h1 id=&#34;exámenes&#34;&gt;Exámenes&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt; Exámenes de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;script&gt;
+
+    const expandElements = shouldExpand =&gt; {
+        let detailsElements = document.querySelectorAll(&#34;details&#34;);
+
+        detailsElements = [...detailsElements];
+
+        if (shouldExpand) {
+            detailsElements.map(item =&gt; item.setAttribute(&#34;open&#34;, shouldExpand));
+        } else {
+            detailsElements.map(item =&gt; item.removeAttribute(&#34;open&#34;));
+        }
+    };
+
+&lt;/script&gt;
+
+&lt;button onClick=&#34;expandElements(true)&#34;&gt;Expand&lt;/button&gt;
+&lt;button onClick=&#34;expandElements(false)&#34;&gt;Collapse&lt;/button&gt;
+&lt;h2 id=&#34;enero-20-2022-parte-1&#34;&gt;Enero-20-2022 Parte 1&lt;/h2&gt;
+&lt;h3 id=&#34;test&#34;&gt;Test&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;En un turborreactor de doble flujo optimizado, cuya velocidad de salida del turborreactor base vale $V_{t b}=600 \mathrm{~m} / \mathrm{s}$, supuesto ciclo ideal y velocidad de vuelo $V_{0}=270 \mathrm{~m} / \mathrm{s}$, cuánto sería la potencia específica por unidad de gasto primario aproximadamente que consumiría el fan&lt;/p&gt;
+&lt;p&gt;a) $180000 \mathrm{~m}^{2} / \mathrm{s}^{2}$&lt;/p&gt;
+&lt;p&gt;b) $287000 \mathrm{~m}^{2} / \mathrm{s}^{2}$&lt;/p&gt;
+&lt;p&gt;c) $143500 \mathrm{~m}^{2} / \mathrm{s}^{2}$&lt;/p&gt;
+&lt;p&gt;d) $360000 \mathrm{~m}^{2} / \mathrm{s}^{2}$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-ex%C3%A1menes/atts/image-20220616234443114.png&#34;
+	width=&#34;320&#34;
+	height=&#34;494&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-ex%C3%A1menes/atts/image-20220616234443114_hu91575b417c767abcc9b163636bfdc0c0_241653_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-ex%C3%A1menes/atts/image-20220616234443114_hu91575b417c767abcc9b163636bfdc0c0_241653_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;64&#34;
+		data-flex-basis=&#34;155px&#34;
+	
+&gt;&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En el banco de ensayos de la figura se pretende medir el empuje no instalado del motor. Suponiendo que el efecto de la corriente por el exterior es despreciable en las fuerzas sobre la célula de carga, para obtener el empuje mencionado&lt;/p&gt;
+&lt;p&gt;a) La toma A tiene que ir unida al motor y a la fuerza sobre la célula de carga debe añadirse el término $G V_{2}+A_{2}\left(P_{2}-P_{0}\right)$&lt;/p&gt;
+&lt;p&gt;b) El efecto de la toma A es despreciable.&lt;/p&gt;
+&lt;p&gt;c) La toma A debe estar separada del motor y a la fuerza sobre la célula de carga debe añadirse el término $G V_{2}+A_{2}\left(P_{2}-P_{0}\right)$&lt;/p&gt;
+&lt;p&gt;d) Es independiente de como se instale la toma A.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El exceso de potencia especifica $P_{\mathrm{s}}$ para una velocidad de vuelo dada representa&lt;/p&gt;
+&lt;p&gt;a) Las posibilidades de subir el valor de la carga alar del avión.&lt;/p&gt;
+&lt;p&gt;b) Una medida del peso del avión.&lt;/p&gt;
+&lt;p&gt;c) El exceso de empuje por unidad de peso del avión disponible para incrementar el nivel de energía del avión.&lt;/p&gt;
+&lt;p&gt;d) Siempre es nula.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se dispone de dos turborreactores de flujo único, el $\mathrm{A}$ con $V_{S} / V_{0}=2$ y el B con $V_{S} / V_{0}=4$. De ellos se pude decir&lt;/p&gt;
+&lt;p&gt;a) Que el A siempre tendrá mayor rendimiento motor.&lt;/p&gt;
+&lt;p&gt;b) Que el A tendrá mayor rendimiento de propulsión.&lt;/p&gt;
+&lt;p&gt;c) Que no hay diferencias en cuanto a rendimientos.&lt;/p&gt;
+&lt;p&gt;d) Nada en cuanto a los rendimientos del sistema (motor, propulsión y global).&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para vuelo equilibrado, exceso de potencia específica de la aeronave nula, representan condiciones de&lt;/p&gt;
+&lt;p&gt;a) Vuelo a velocidad constante.&lt;/p&gt;
+&lt;p&gt;b) Subida con velocidad ascensional y de vuelo constantes y no nulas.&lt;/p&gt;
+&lt;p&gt;c) Vuelo a altura constante.&lt;/p&gt;
+&lt;p&gt;d) Nivel de energía de la aeronave constante.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para un $\Lambda$ dado, se optimiza la relación de presiones del fan, $\pi_{f}$, para tener un turbofan con $C_{\mathrm{E}}$ mínimo. Se puede decir que la $\pi_{f}$ resultante&lt;/p&gt;
+&lt;p&gt;a) Disminuye al subir $T_{4 t}$&lt;/p&gt;
+&lt;p&gt;b) Aumenta al mejorar la calidad de la turbina.&lt;/p&gt;
+&lt;p&gt;c) Es independiente de la relación de compresión del compresor, $\pi_{c}$.&lt;/p&gt;
+&lt;p&gt;d) Aumenta con la $V_{0}$&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se están estudiando dos góndolas para equipar un aerorreactor que proporciona $22000 \mathrm{~N}$ a nivel del mar y $M_{0}=0,5$ con un gasto de aire $G=41,75 \mathrm{~kg} / \mathrm{s}$. La primera (1), tiene un área de entrada $A_{e}=0,2 \mathrm{~m}^{2}$ y la segunda (2) un área de entrada $A_{e}=0,26 \mathrm{~m}^{2}$. Suponiendo que ambas góndolas tienen la misma resistencia externa en esa condición de vuelo, ¿cuál es la más conveniente para esa condición de vuelo?&lt;/p&gt;
+&lt;p&gt;a) La $2 .$&lt;/p&gt;
+&lt;p&gt;b) Depende de los parámetros del ciclo.&lt;/p&gt;
+&lt;p&gt;c) Depende de la presión de salida del chorro.&lt;/p&gt;
+&lt;p&gt;d) La 1.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un motor se ha diseñado en crucero $\left(h=11 \mathrm{~km}\right.$ y $\left.M_{0}=0,7\right)$ con la condición máximo rendimiento motor. Posteriormente, manteniendo la relación de presiones del compresor y la temperatura máxima, se ha cambiado el Mach vuelo de diseño a $M_{0}=0,8$. ¿A qué altitud tendría que volar ahora para seguir manteniendo el máximo rendimiento motor en la condición de diseño nueva?&lt;/p&gt;
+&lt;p&gt;a) A ninguna altitud se podría recuperar el rendimiento motor máximo.&lt;/p&gt;
+&lt;p&gt;b) A una altitud menor.&lt;/p&gt;
+&lt;p&gt;c) A la misma altitud.&lt;/p&gt;
+&lt;p&gt;d) A una altitud mayor.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si el impulso de un turborreactor de flujo único es $800 \mathrm{~m} / \mathrm{s}$, su rendimiento propulsivo sería&lt;/p&gt;
+&lt;p&gt;a) 0,3 si la velocidad de vuelo fuera $250 \mathrm{~m} / \mathrm{s}$.&lt;/p&gt;
+&lt;p&gt;b) 0,33 si la velocidad de vuelo fuera $150 \mathrm{~m} / \mathrm{s}$.&lt;/p&gt;
+&lt;p&gt;c) 0,58 si la velocidad de vuelo fuera $200 \mathrm{~m} / \mathrm{s}$.&lt;/p&gt;
+&lt;p&gt;d) 0,43 si la velocidad de vuelo fuera $300 \mathrm{~m} / \mathrm{s}.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Típicamente, la hélice de barco presenta un rendimiento de propulsión&lt;/p&gt;
+&lt;p&gt;a) Más bajo que la hélice de un avión.&lt;/p&gt;
+&lt;p&gt;b) Más alto que la hélice de un avión.&lt;/p&gt;
+&lt;p&gt;c) No se sabe, depende de la hélice.&lt;/p&gt;
+&lt;p&gt;d) Parecido a la hélice de un avión.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un turbofan ideal, con $\Lambda$ y $\tau_{f}$ optimizados para tener $C_{\mathrm{E}}$ mínimo se cumple que&lt;/p&gt;
+&lt;p&gt;a) $\Lambda$ es finita.&lt;/p&gt;
+&lt;p&gt;b) La velocidad de salida de los flujos primario, $V_{9}$, y secundario, $V_{19}$, son iguales.&lt;/p&gt;
+&lt;p&gt;c) $\mathrm{El} \tau_{f}$ es igual a &lt;code&gt;$V_{9}^{**} \cdot V_{19}^{**}$&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;d) $\mathrm{El} \tau_{f}$ crece al aumentar $\Lambda$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un turbofan optimizado, supuesto ideal, el trabajo específico del fan&lt;/p&gt;
+&lt;p&gt;a) Es independiente de la altura y velocidad de vuelo.&lt;/p&gt;
+&lt;p&gt;b) Depende de la temperatura máxima del ciclo del turborreactor base.&lt;/p&gt;
+&lt;p&gt;c) No depende de la velocidad de vuelo pero si de la altura de optimización.&lt;/p&gt;
+&lt;p&gt;d) Sube cuando sube la velocidad de vuelo.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El empuje neto instalado y el empuje neto solo coinciden si se supone que&lt;/p&gt;
+&lt;p&gt;a) El fluido que se mueve alrededor del aerorreactor es ideal y la tobera está adaptada.&lt;/p&gt;
+&lt;p&gt;b) La tobera está adaptada&lt;/p&gt;
+&lt;p&gt;c) Por simplificación, que son iguales.&lt;/p&gt;
+&lt;p&gt;d) El fluido que se mueve alrededor del aerorreactor es ideal.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para una polar del tipo $C_{\mathrm{D}}=K_{1} \cdot C_{\mathrm{L}}^{2}+K_{2} \cdot C_{\mathrm{L}}+C_{\mathrm{D} 0}$, con coeficientes constantes, el empuje / peso mínimo necesario para un vuelo de crucero&lt;/p&gt;
+&lt;p&gt;a) Es constante para cualquier velocidad de vuelo.&lt;/p&gt;
+&lt;p&gt;b) Es mayor a mayor velocidad de vuelo.&lt;/p&gt;
+&lt;p&gt;c) Es menor a mayor velocidad de vuelo.&lt;/p&gt;
+&lt;p&gt;d) Es menor a mayor altura.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El rendimiento motor de un turbohélice es&lt;/p&gt;
+&lt;p&gt;a) Siempre son iguales.&lt;/p&gt;
+&lt;p&gt;b) Igual al del turborreactor de flujo único base si son ideales los procesos involucrados en la transferencia de potencia a la hélice y es ideal el ciclo del turborreactor base.&lt;/p&gt;
+&lt;p&gt;c) Igual al del turborreactor de flujo único base si son ideales los procesos involucrados en la transferencia de potencia a la hélice, independientemente de que el ciclo del turborreactor base sea ideal o no.&lt;/p&gt;
+&lt;p&gt;d) Siempre mayor que el de su turborreactor de flujo único base.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un turbohélice diseñado a partir de un turborreactor con una velocidad de salida, $V_{t b}$, de 580 $\mathrm{m} / \mathrm{s}$, con un $\eta_{m}=0,98$ y un $\eta_{h}=0,8$; se optimiza para la condición de vuelo $h=5000 \mathrm{~m}$ y $V_{0}$ $=170 \mathrm{~m} / \mathrm{s} .$ ¿Cuál sería su valor de $\lambda^{*}$ ?&lt;/p&gt;
+&lt;p&gt;a) Aproximadamente $0,62 .$&lt;/p&gt;
+&lt;p&gt;b) Aproximadamente de $1 .$&lt;/p&gt;
+&lt;p&gt;c) Aproximadamente 0,3 .&lt;/p&gt;
+&lt;p&gt;d) Aproximadamente $0,14$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El rendimiento global de un motor de reacción es una medida de&lt;/p&gt;
+&lt;p&gt;a) Su eficiencia como sistema generador de potencia.&lt;/p&gt;
+&lt;p&gt;b) El consumo de combustible, independientemente del empuje.&lt;/p&gt;
+&lt;p&gt;c) Su eficiencia como sistema motor.&lt;/p&gt;
+&lt;p&gt;d) El consumo específico para una velocidad de vuelo dada.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para turbohélices típicos, optimizados para bajas velocidades de vuelo $\left(M_{0} \approx 0,55\right)$, desde el punto de vista de obtener mínimo tamaño y mínimo consumo especifico de combustible, interesa&lt;/p&gt;
+&lt;p&gt;a) Subir la temperatura máxima para mínimo tamaño a costa de subir el consumo específico.&lt;/p&gt;
+&lt;p&gt;b) Subir la temperatura máxima y bajar la relación de presiones.&lt;/p&gt;
+&lt;p&gt;c) Subir siempre la temperatura máxima del motor.&lt;/p&gt;
+&lt;p&gt;d) Subir siempre la relación global de presiones del ciclo.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;De un aerorreactor, funcionando con tobera adaptada y moviéndose en un fluido ideal, se conoce su resistencia adicional o de entrada $D a d c=60 \mathrm{kN}$. ¿Cuál sería su resistencia externa?&lt;/p&gt;
+&lt;p&gt;a) $0 \mathrm{kN}$&lt;/p&gt;
+&lt;p&gt;b) $60 \mathrm{kN}$ en el sentido contrario de la Dadc.&lt;/p&gt;
+&lt;p&gt;c) $60 \mathrm{kN}$ en el sentido de la Dadc.&lt;/p&gt;
+&lt;p&gt;d) Menor que $60 \mathrm{kN}$ y en sentido contrario de la Dadc.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se tiene un turborreactor con una relación de presiones que optimiza el impulso específico para un Mach de vuelo $\left(M_{0, \text { diseño }}\right)$. Si se desea rediseñar el aerorreactor para mejorar su $C_{\mathrm{E}}$ para el mismo $M_{0, \text { diseño }} T_{4 t}$, habría que&lt;/p&gt;
+&lt;p&gt;a) Bajar la relación de presiones del compresor.&lt;/p&gt;
+&lt;p&gt;b) Subir el gasto de aire que entra al motor.&lt;/p&gt;
+&lt;p&gt;c) Necesariamente modificar la $T_{4 t}$&lt;/p&gt;
+&lt;p&gt;d) Subir la relación de presiones del compresor.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;ejercicios&#34;&gt;Ejercicios&lt;/h3&gt;
+&lt;p&gt;Se obtendrá un punto por pregunta si la solución numérica indicada se corresponde con la solución correcta $\pm 1 %$, excepto cuando la solución numérica se corresponda con un hecho térico, en cuyo caso no se aceptará error alguno; por ejemplo, el rendimiento adiabático de un compresor en una evolución ideal es $=1 .$&lt;/p&gt;
+&lt;p&gt;Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K} y \gamma=1,4 ; y$ que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$. Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 \mathrm{~K} ; P_{0}=101325 \mathrm{~Pa}\right)$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;21&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;La polar parabólica de un avión de combate, con un peso al despegue de 20 toneladas, y carga alar de $4,5 \mathrm{kPa}$ es&lt;/p&gt;
+&lt;p&gt;$$
+C_{\mathrm{D}}=K_{1} \cdot C_{\mathrm{L}}^{2}+C_{\mathrm{D} 0} \quad\left[K_{1}=0,22 ; C_{\mathrm{D} 0}=0,011\right]
+$$&lt;/p&gt;
+&lt;p&gt;En la condición de crucero subsónico $M_{0}=0,75, h=6000 \mathrm{~m}\left[P_{0}=47,18 \mathrm{kPa} ; T_{0}=249,2 \mathrm{~K}\right]$, cuánto debe ser la fracción de combustible gastado respecto del peso en despegue, $(1-\beta)$, para que la relación de empuje / peso sea mínima.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: 0,0769&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un avión, volando en vuelo equilibrado, con un nivel de energía de $10000 \mathrm{~m}$, decide subir su altura de vuelo manteniendo un ángulo constante de subida de $15^{\circ}$ así como su nivel de energía.&lt;/p&gt;
+&lt;p&gt;¿Cuál sería su velocidad de vuelo, en $\mathrm{km} / \mathrm{h}$, si se estabiliza a una altura de $9000 \mathrm{~m}$?&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $504,2 \mathrm{~km} / \mathrm{h}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El peso de combustible de un avión de gran autonomía es el $40 %$ del peso máximo de despegue. Si se quiere que el radio de acción del avión sea $13000 \mathrm{~km}$, volando a $M_{0}=0,85 ; h=11000 \mathrm{~m}\left(T_{0}\right.$ $=216,7 \mathrm{~K} ; P_{0}=22,63 \mathrm{kPa}$, cuánto tendría que ser como máximo el consumo específico de sus motores, en $\mathrm{g} /(\mathrm{kN} \cdot \mathrm{s})$. Suponga que se puede considerar la eficiencia aerodinámica constante e igual a 18 y que el consumo en las fases de despegue y ascenso se puedan considerar despreciables frente al consumo de crucero.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $18,09 \mathrm{~g} /(\mathrm{kN} \cdot \mathrm{s})$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;De la sección de entrada de un aerorreactor en vuelo subsónico se conoce la presión estática $\left(P_{e}=P_{\text {ambiente }}=60 \mathrm{kPa}\right)$, así como la sección de paso de dicha sección $\left(A_{e}=4,35 \mathrm{~m}^{2}\right)$. En dichas condiciones de vuelo, cuánto vale la resistencia adicional, en kN.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $0 \mathrm{kN}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El empuje no instalado de un motor es $70 \mathrm{kN}$, funcionando con una gasto de $50 \mathrm{~kg} / \mathrm{s}$. Cuanto sería la fuerza, en $\mathrm{kN}$, sobre la célula de carga de un banco de ensayos de este motor al mismo régimen y condiciones, si se hubiese medido un Mach en la sección de entrada del motor en el banco de Me $=0,35$ y son despreciables los efectos del aire sobre las superficies exteriores del motor. Suponga siempre condiciones de entrada correspondientes a nivel del mar.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $67,15 \mathrm{kN}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un motor en régimen de crucero $\left(V_{0}=250 \mathrm{~m} / \mathrm{s}\right)$ proporciona un impulso de $800 \mathrm{~m} / \mathrm{s}$ (tobera adaptada) con un rendimiento motor de 0,40 . ¿Cuál sería su consumo específico de combustible $C_{\mathrm{E}}$, en $\mathrm{g} /(\mathrm{kN} \cdot \mathrm{s}) ? \quad$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $38,69 \mathrm{~g} /(\mathrm{kN} \cdot \mathrm{s})$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se tiene un turborreactor con $\pi_{23}$ de diseño de $10: 1$ y $T_{4 t}=1550 \mathrm{~K}\left(V_{0}=0 \mathrm{~m} / \mathrm{s}, \mathrm{SLS}\right)$. Cuánto valdría el rendimiento motor ideal volando a un Mach de 0,80 y $5000 \mathrm{~m}\left(P_{0}=54,02 \mathrm{kPa}, T_{0}=\right.$ $255,7 \mathrm{~K})$, y con una $T_{4 t}=1400 \mathrm{~K} . \quad$ Sol: 0,5180 28. Un turborreactor de flujo único, con $V_{0} / V_{t b}=0,5$, se ha transformado en un turbohélice. Suponiendo una transferencia de potencia ideal, que el rendimiento de la hélice es la unidad, y que se quiere obtener consumo específico mínimo, qué potencia por unidad de gasto habrá transferir a la hélice referida a la potencia disponible $\left(V_{t b}^{2} / 2\right)$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: 0,75&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un turbofan ideal con una relación de derivación de 8, funciona con un trabajo específico del fan optimizado a una velocidad de $250 \mathrm{~m} / \mathrm{s}$. Si a esa condición de vuelo la velocidad de salida del turborreactor base es de $875 \mathrm{~m} / \mathrm{s}$, la velocidad de salida del primario (flujo caliente) sería, en $\mathrm{m} / \mathrm{s} . \quad$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $375,0 \mathrm{~m} / \mathrm{s}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;enero-20-2022-parte-2&#34;&gt;Enero-20-2022 Parte 2&lt;/h2&gt;
+&lt;h3 id=&#34;test-1&#34;&gt;Test&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;El ángulo girado por la corriente tanto en el rotor como en el estator en un escalón de compresor $\mathrm{es}$&lt;/p&gt;
+&lt;p&gt;a) Igual al girado en álabes de turbinas.&lt;/p&gt;
+&lt;p&gt;b) Algo mayor que el girado en álabes de turbinas.&lt;/p&gt;
+&lt;p&gt;c) Bastante menor que el girado en álabes de turbinas.&lt;/p&gt;
+&lt;p&gt;d) Siempre del orden de $60^{\circ}$&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un turbofán de flujos mezclados:&lt;/p&gt;
+&lt;p&gt;a) La ganancia de empuje aumenta cuando las temperaturas de los chorros frío y caliente tiende a igualarse, independientemente de las presiones de remanso.&lt;/p&gt;
+&lt;p&gt;b) La ganancia de empuje es independiente de las temperaturas de los chorros.&lt;/p&gt;
+&lt;p&gt;c) La ganancia de empuje mayor ocurre cuando las presiones de remanso del chorro frío y caliente son similares.&lt;/p&gt;
+&lt;p&gt;d) Si las presiones de remanso de los chorros es la misma, la presión de remanso después de la mezcla será la misma.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un motor de empuje constante, la $T_{0}$ (temperatura ambiente) hasta la que puede mantener empuje constante sin sobrepasar el régimen máximo (Nmax; $\left.T_{4 t}, \max \right)$ :&lt;/p&gt;
+&lt;p&gt;a) Aumenta si aumenta $P_{0}$&lt;/p&gt;
+&lt;p&gt;b) Disminuye si aumenta $P_{0}$&lt;/p&gt;
+&lt;p&gt;c) Es independiente de $P_{0}$&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El tamaño del difusor a la entrada del postcombustor viene fijado básicamente por&lt;/p&gt;
+&lt;p&gt;a) La temperatura de salida del postcombustor.&lt;/p&gt;
+&lt;p&gt;b) La condición de mantener constante el gasto del motor.&lt;/p&gt;
+&lt;p&gt;c) La condición de bloqueo térmico.&lt;/p&gt;
+&lt;p&gt;d) La estabilización de la llama con pérdidas de presión de remanso razonables.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cuando en un turborreactor mono-eje funcionando con turbina y tobera en condiciones críticas se aumenta el área de la garganta de la tobera manteniendo $T_{4 t} / T_{2 t}$ constante&lt;/p&gt;
+&lt;p&gt;a) El parámetro de gasto de la turbina baja.&lt;/p&gt;
+&lt;p&gt;b) El parámetro de gasto del compresor sube.&lt;/p&gt;
+&lt;p&gt;c) La relación combustible/aire sube.&lt;/p&gt;
+&lt;p&gt;d) La relación de presión del compresor baja.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Al aumentar el área de salida de la tobera (A8) de un turborreactor de flujo único funcionando con la turbina y la tobera en condiciones críticas, la línea de funcionamiento:&lt;/p&gt;
+&lt;p&gt;a) Se desplaza a valores inferiores de la relación de compresión.&lt;/p&gt;
+&lt;p&gt;b) No se desplaza puesto que los parámetros de gasto de la turbina y la tobera son constantes.&lt;/p&gt;
+&lt;p&gt;c) Se desplaza a valores mayores de la relación de compresión.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Manteniendo la temperatura fin de combustión constante, el efecto de la inyección de agua en el compresor hace que el aumento de temperaturas en el mismo sea menor, pero la relación de compresión aumenta. Esto es debido a que&lt;/p&gt;
+&lt;p&gt;a) El parámetro de gasto del compresor ha disminuido.&lt;/p&gt;
+&lt;p&gt;b) Aumenta la entropía de la fase gaseosa por la inyección de agua.&lt;/p&gt;
+&lt;p&gt;c) La inyección de agua produce el efecto de una compresión refrigerada, que permite con la misma potencia obtener mayor relación de compresión.&lt;/p&gt;
+&lt;p&gt;d) Las pérdidas por fricción han disminuido.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Normalmente, en un compresor, funcionando a vueltas constantes, si se sobrepasa la línea de estabilidad funcional se originarían:&lt;/p&gt;
+&lt;p&gt;a) Vibraciones longitudinales de baja frecuencia y baja amplitud.&lt;/p&gt;
+&lt;p&gt;b) Oscilaciones de gran amplitud y baja frecuencia en el gasto del compresor.&lt;/p&gt;
+&lt;p&gt;c) Importantes subidas del rendimiento del compresor.&lt;/p&gt;
+&lt;p&gt;d) Vibraciones transversales de alta frecuencia y gran amplitud.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un difusor supersónico, la relación de presiones de remanso $P_{2 t} / P_{0 t}$ en el mismo, funcionando en régimen supersónico $\left(M_{0}&amp;gt;1\right)$&lt;/p&gt;
+&lt;p&gt;a) Disminuye de forma apreciable siempre al disminuir el parámetro de gasto.&lt;/p&gt;
+&lt;p&gt;b) Disminuye de forma apreciable siempre al aumentar el parámetro de gasto.&lt;/p&gt;
+&lt;p&gt;c) Disminuye de forma apreciable siempre al disminuir el número de Mach.&lt;/p&gt;
+&lt;p&gt;d) Disminuye de forma apreciable siempre al aumentar el número de Mach.&lt;/p&gt;
+ &lt;details&gt;
+ &lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+ &lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En actuaciones de compresores, el parámetro $G \sqrt{\theta_{2 t}} / \delta_{2 t}$ representa&lt;/p&gt;
+&lt;p&gt;a) El gasto que pasaría por el compresor si las condiciones de entrada fueran las de un día ISA a nivel del mar.&lt;/p&gt;
+&lt;p&gt;b) El gasto que puede admitir la turbina.&lt;/p&gt;
+&lt;p&gt;c) El mínimo gasto que pasa por el compresor a unas vueltas dada.&lt;/p&gt;
+&lt;p&gt;d) El máximo gasto que pasa por el compresor a unas vueltas dadas.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La línea del &amp;ldquo;surge&amp;rdquo; de un compresor:&lt;/p&gt;
+&lt;p&gt;a) Se debe a incidencias negativas en los álabes del compresor.&lt;/p&gt;
+&lt;p&gt;b) Se debe a efectos de entrada en pérdida de los álabes del compresor.&lt;/p&gt;
+&lt;p&gt;c) Se debe a problemas metalúrgicos que aparecen cuando se aumenta la temperatura de entrada del compresor.&lt;/p&gt;
+&lt;p&gt;d) Se debe a problemas de bloqueo sónico en la entrada del compresor.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En turbomáquinas, la deflexión de la corriente en los rotores produce cambios en el momento cinético que dan lugar a pares en los álabes. Estas deflexiones&lt;/p&gt;
+&lt;p&gt;a) Al disminuir la deflexión aumenta el trabajo específico de la turbomáquina.&lt;/p&gt;
+&lt;p&gt;b) Deben ser mayores en los radios exteriores de los álabes si se quiere mantener un trabajo específico constante en todo el radio del álabe.&lt;/p&gt;
+&lt;p&gt;c) Son mayores en los álabes de los compresores que en los de las turbinas.&lt;/p&gt;
+&lt;p&gt;d) Son las causantes de que se produzcan desprendimientos si son muy elevadas.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un turbofán de flujos mezclados, con un mezclador de área constante y suponiendo flujo ideal y propiedades del gas constantes, con los siguientes valores: $\Lambda=5, T_{5 t}=600 \mathrm{~K}, T_{15 t}=$ $320 \mathrm{~K}, P_{15 t}=P_{5 t}$, se cumple&lt;/p&gt;
+&lt;p&gt;a) $P_{6 t}=P_{15 t}$.&lt;/p&gt;
+&lt;p&gt;b) $M_{6}=M_{5}$&lt;/p&gt;
+&lt;p&gt;c) $M_{15}=M_{6}$.&lt;/p&gt;
+&lt;p&gt;d) $M_{15}=M_{5}$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La línea de funcionamiento de puntos en equilibrio de un turborreactor de flujo único sobre el mapa del compresor es una línea&lt;/p&gt;
+&lt;p&gt;a) $\left(T_{5 t} / T_{2 t}\right)=$ cte.&lt;/p&gt;
+&lt;p&gt;b) $\left(T_{4 t} / T_{2 t}\right)=$ cte.&lt;/p&gt;
+&lt;p&gt;c) $\left(T_{5 t} / T_{4 t}\right)=$ cte.&lt;/p&gt;
+&lt;p&gt;d) $\left(T_{5 t} / T_{3 t}\right)=$ cte.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;c&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un compresor de un solo escalón, con un radio medio $\mathrm{r}=1 \mathrm{~m}$ y una velocidad de giro de 10000 rpm, se ha comprobado que en el estátor se ha producido un giro de la corriente con $\left(V_{\theta 2}-V_{\theta 1}\right)=100 \mathrm{~m} / \mathrm{s}$. ¿Cuánto valdría el trabajo específico medio del escalón?&lt;/p&gt;
+&lt;p&gt;a) No se sabe.&lt;/p&gt;
+&lt;p&gt;b) $159154,90(\mathrm{~m} / \mathrm{s})^{2}$&lt;/p&gt;
+&lt;p&gt;c) $79577,45(\mathrm{~m} / \mathrm{s})^{2}$.&lt;/p&gt;
+&lt;p&gt;d) $59154,90(\mathrm{~m} / \mathrm{s})^{2}$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tras analizar los efectos reales en postcombustores, se puede afirmar del $M_{6}$ que&lt;/p&gt;
+&lt;p&gt;a) El valor de $M_{7}$ disminuye al aumentar $M_{6}$.&lt;/p&gt;
+&lt;p&gt;b) Tiene valores rondando $0,45-0,50$&lt;/p&gt;
+&lt;p&gt;c) Si es pequeño, aumentan las pérdidas de presión de remanso.&lt;/p&gt;
+&lt;p&gt;d) El parámetro de combustible límite disminuye al aumentar $M_{6}$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;d&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A nivel del mar, un motor de empuje constante hasta $30^{\circ} \mathrm{C}$; tiene una $T_{4 t}$ máxima de despegue de $1650 \mathrm{~K}$. Cuál sería la $T_{4 t}$ de despegue si la temperatura ambiente fuera de $20^{\circ} \mathrm{C}$ y la presión $101,325 \mathrm{kPa}$&lt;/p&gt;
+&lt;p&gt;a) Alrededor de $1595 \mathrm{~K}$.&lt;/p&gt;
+&lt;p&gt;b) Alrededor de $1628 \mathrm{~K}$.&lt;/p&gt;
+&lt;p&gt;c) Alrededor de $1543 \mathrm{~K}$.&lt;/p&gt;
+&lt;p&gt;d) Alrededor de $1673 \mathrm{~K}$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El límite aerodinámico del funcionamiento de los álabes de un compresor está relacionado con&lt;/p&gt;
+&lt;p&gt;a) La diferencia de las velocidades tangenciales en la salida y la entrada del álabe.&lt;/p&gt;
+&lt;p&gt;b) La velocidad de giro del compresor.&lt;/p&gt;
+&lt;p&gt;c) Con la velocidad absoluta de entrada.&lt;/p&gt;
+&lt;p&gt;d) La diferencia de las velocidades axiales en la salida y la entrada del álabe.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;a&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La cantidad de agua que puede ser inyectada en la cámara de combustión, para incrementar el empuje, está limitada por&lt;/p&gt;
+&lt;p&gt;a) Fenómenos de bloqueo térmico.&lt;/p&gt;
+&lt;p&gt;b) La línea de estabilidad del compresor.&lt;/p&gt;
+&lt;p&gt;c) La saturación del aire.&lt;/p&gt;
+&lt;p&gt;d) Problemas de corrosión.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El incremento de empuje, $\Delta E / E$, de un postcombustor a velocidad de vuelo nula es del $35 %$, cuánto tendría que ser el aumento de área, $A_{8, p c} / A_{8}$&lt;/p&gt;
+&lt;p&gt;a) Del orden de $1,35^{2}$&lt;/p&gt;
+&lt;p&gt;b) Del orden de $1,35$.&lt;/p&gt;
+&lt;p&gt;c) Del orden de $\ln (0,35)$.&lt;/p&gt;
+&lt;p&gt;d) Del orden de $1,35^{0,5}$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;ejercicios-1&#34;&gt;Ejercicios&lt;/h3&gt;
+&lt;p&gt;Se obtendrá un punto por pregunta si la solución numérica indicada se corresponde con la solución correcta $\pm 1 %$, excepto cuando la solución numérica se corresponda con un hecho térico, en cuyo caso no se aceptará error alguno; por ejemplo, el rendimiento adiabático de un compresor en una evolución ideal es $=1.$&lt;/p&gt;
+&lt;p&gt;Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K} y \gamma=1,4 ; y$ que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$. Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 \mathrm{~K} ; P_{0}=101325 \mathrm{~Pa}\right)$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;21&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Un turborreactor monoeje, volando dentro de la troposfera, dispone de un sistema de control que funciona limitando la temperatura máxima de funcionamiento, $T_{4 t, \max }$, o las máximas vueltas aerodinámicas del compresor, $\left(N / \sqrt{T_{2 t}}\right) \max$.&lt;/p&gt;
+&lt;p&gt;Para una altura dada, al ir aumentando el Mach de vuelo, $M_{0}$, el sistema pasa de controlar por $\left(N / \sqrt{T_{2 t}}\right)&lt;em&gt;{\max }$ a controlar por $T&lt;/em&gt;{4 t, \max }$&lt;/p&gt;
+&lt;p&gt;Para una atmósfera estándar, a qué altura, en metros, el Mach de vuelo que exige el cambio de control es máximo.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $11000 \mathrm{~m}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;Un turborreactor de flujo único de empuje constante puede alcanzar su empuje nominal de 164 kN hasta una temperatura ambiente de $30^{\circ} \mathrm{C}$ cuando la presión ambiente es de 101325 Pa. En esas condiciones, se sabe que funciona con su máxima temperatura fin de combustión, $T_{4 t}=1900 \mathrm{~K}$, y que su $\mathrm{EPR}=9,87$&lt;/p&gt;
+&lt;p&gt;Despegando con la misma temperatura ambiente, $30^{\circ} \mathrm{C}$, y con una presión de $85000 \mathrm{~Pa}$, se pide:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cuál sería su temperatura de funcionamiento, en $\mathrm{K} . \quad$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $1900 \mathrm{~K}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cuál sería su EPR.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: 9,87&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cuál sería su empuje de despegue, en $\mathrm{kN}$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $137,6 \mathrm{kN}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un turborreactor, en condiciones de despegue ISA $\left(T_{0}=15^{\circ} \mathrm{C}\right)$, funciona con su máxima temperatura fin de combustión, $T_{4 t}=1550 \mathrm{~K}$, y una $\pi_{c}=26: 1$. Suponiendo ciclo ideal y que la turbina y tobera del motor anterior trabajasen en condiciones críticas, calcular el EPR si el despegue se produjese con la máxima temperatura fin de combustión, $1550 \mathrm{~K}$, y una temperatura ambiente de $40^{\circ} \mathrm{C}$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: 6,733&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;De un generador de gas, en el cual la turbina funciona en condiciones críticas, se conocen, para un día ISA $\left(P_{0}=101,325 \mathrm{kPa}, T_{0}=288 \mathrm{~K}\right)$, la relación de presiones de funcionamiento del compresor $\pi_{c}=18: 1$, el gasto $G=32 \mathrm{~kg} / \mathrm{s}, \mathrm{y} T_{4 t} / T_{2 t}=5,7$. Cuál sería la nueva relación de presiones de funcionamiento del compresor $\pi_{c}$ si se mantienen las condiciones de funcionamiento del generador de gas $\left(P_{0}=101,325 \mathrm{kPa}, T_{0}=288 \mathrm{~K}, G=32 \mathrm{~kg} / \mathrm{s}\right.$, y $\left.T_{4 t} / T_{2 t}=5,7\right)$ y se aumenta el área de la directriz de la turbina en un $15 %$&lt;/p&gt;
+&lt;p&gt;$A_{\text {turbina nueva }}=A_{\text {turbina }} \cdot 1,15 \quad$&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: 15,65&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se tiene una cámara de combustión funcionado con una $T_{3 t}=890 \mathrm{~K} ; P_{3 t}=2500 \mathrm{kPa} ; G=20 \mathrm{~kg} / \mathrm{s}$; y $c=0,6 \mathrm{~kg} / \mathrm{s}$. Cuánto debe ser la cantidad de combustible inyectado en la cámara, en $\mathrm{kg} / \mathrm{s}$, si se quiere obtener la misma relación $T_{4 t} / T_{3 t}$, con las siguientes condiciones: $T_{3 t}=700 \mathrm{~K} ; P_{3 t}=$ $1500 \mathrm{kPa} ; G=15 \mathrm{~kg} / \mathrm{s} . \quad$ Sol: $0,3539 \mathrm{~kg} / \mathrm{s}$ 28. Una turbina de un aerorreactor ensayada en banco $\left(T_{0}=288 \mathrm{~K}, P_{0}=101,325 \mathrm{kPa}\right)$ y funcionado en condiciones críticas, proporciona un gasto de $100 \mathrm{~kg} / \mathrm{s}$. ¿Qué gasto, en $\mathrm{kg} / \mathrm{s}$, proporcionaría, si manteniendo la temperatura de entrada se baja la presión en un $20 %$ ?&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $80 \mathrm{~kg} / \mathrm{s}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un compresor funcionando en condiciones ISA $\left(T_{0}=288 \mathrm{~K}, P_{0}=101,325 \mathrm{kPa}\right)$ proporciona un gasto de $50 \mathrm{~kg} / \mathrm{s}$ para unas vueltas dadas. Si se mantienen las vueltas aerodinámicas y la relación de presiones del compresor, cuál sería el nuevo gasto, en $\mathrm{kg} / \mathrm{s}$, para $P_{0}=90 \mathrm{kPa}, T_{0}=288 \mathrm{~K}$.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Solución&lt;/summary&gt;
+&lt;p&gt;Sol: $44,41 \mathrm{~kg} / \mathrm{s}$&lt;/p&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;plantillas&#34;&gt;Plantillas&lt;/h2&gt;
+&lt;h3 id=&#34;test-2&#34;&gt;Test&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;details&amp;gt;
+&amp;lt;summary&amp;gt;Solución&amp;lt;/summary&amp;gt;
+
+****
+&amp;lt;/details&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;ejercicios-2&#34;&gt;Ejercicios&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;details&amp;gt;
+&amp;lt;summary&amp;gt;Solución&amp;lt;/summary&amp;gt;
+
+
+&amp;lt;/details&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        <item>
         <title>Teoría Aerorreactores Segundo Parcial</title>
         <link>/post/aerorreactores-teor%C3%ADa-segundo-parcial/</link>
         <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>/post/aerorreactores-teor%C3%ADa-segundo-parcial/</guid>
-        <description>&lt;img src="/post/aerorreactores-teor%C3%ADa-segundo-parcial/motor.jpeg" alt="Featured image of post Teoría Aerorreactores Segundo Parcial" /&gt;&lt;h1 id=&#34;apuntes&#34;&gt;Apuntes&lt;/h1&gt;
+        <description>&lt;img src="/post/aerorreactores-teor%C3%ADa-segundo-parcial/F100_F-15_engine.jpeg" alt="Featured image of post Teoría Aerorreactores Segundo Parcial" /&gt;&lt;h1 id=&#34;apuntes&#34;&gt;Apuntes&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1782,6 +2419,1281 @@ $$&lt;/p&gt;
 &lt;p&gt;Además, finalmente, se puede representar el funcionamiento del generador de gas de forma gráfica&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;solución-del-generador-de-gas&#34;&gt;Solución del Generador de Gas&lt;/h3&gt;
+&lt;p&gt;Eligiendo dos parámetros; en este caso el parámetro de vueltas del compresor y la temperatura máxima relativa a la de entrada se obtienen las soluciones estacionarias del sistema&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617103754733.png&#34;
+	width=&#34;1128&#34;
+	height=&#34;878&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617103754733_hub700d6ca40c7fbeb5d6e8811906bbf3b_381200_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617103754733_hub700d6ca40c7fbeb5d6e8811906bbf3b_381200_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;128&#34;
+		data-flex-basis=&#34;308px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;área-de-salida-fija&#34;&gt;Área de Salida Fija&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Se puede observar que las soluciones &amp;ldquo;biparamétricas&amp;rdquo; del generador de gas exigen disponer de un área de salida, A8, variable&lt;/li&gt;
+&lt;li&gt;Si se fija el área de salida, se establece una relación entre $\frac{N}{\sqrt{T_{2 t}}}$ y  $\frac{T_{4 t}}{T_{2 t}}$ $y$ el sistema pierde un grado de libertad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617103928247.png&#34;
+	width=&#34;1404&#34;
+	height=&#34;492&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617103928247_hu1745cfc89d61f66061c7939e79dcc7f8_219532_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617103928247_hu1745cfc89d61f66061c7939e79dcc7f8_219532_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;285&#34;
+		data-flex-basis=&#34;684px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;solución-analítica-del-generador-de-gas&#34;&gt;Solución Analítica del Generador de Gas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;En el caso de que la turbina trabaje en condiciones críticas, se puede obtener una solución analítica del acoplamiento interno que permite analizar el comportamiento del mismo y posteriormente del turborreactor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\frac{\Gamma(\gamma)}{R} A_{4} \text { si } A_{4}=\text { cte. } \Rightarrow \frac{G \sqrt{T_{4 t}}}{P_{4 t}}=k_{1}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Usando la ecuación de continuidad entre el compresor y la turbina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \sqrt{\frac{T_{2 t}}{T_{4 t}}}=k_{1} \pi_{34} \pi_{23} \sqrt{\frac{T_{2 t}}{T_{4 t}}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+si \quad \pi_{34} \approx cte
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\pi_{23}=K \sqrt{\frac{T_{4 t}}{T_{2 t}}} \frac{G \sqrt{T_{2 t}}}{P_{2 t}}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Líneas &lt;code&gt;$\left(\mathrm{T}_{4 \mathrm{t}} / \mathrm{T}_{2 t}\right)=cte$&lt;/code&gt;, rectas de pendiente creciente con $\left(\mathrm{T}&lt;em&gt;{4 \mathrm{t}} / \mathrm{T}&lt;/em&gt;{2 t}\right)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617104136260.png&#34;
+	width=&#34;1522&#34;
+	height=&#34;696&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617104136260_hu8c954534b9619a4be472ab6a377d42d3_766269_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617104136260_hu8c954534b9619a4be472ab6a377d42d3_766269_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;218&#34;
+		data-flex-basis=&#34;524px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;líneas-de-turbina-crítica&#34;&gt;Líneas de turbina crítica&lt;/h4&gt;
+&lt;p&gt;La turbina esta en condiciones críticas cuando:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\left(\frac{G \sqrt{T_{4 t}}}{P_{4 t}}\right)_{\text {critico }} \\
+&amp;\frac{T_{4 t}}{T_{5 t}} \geq\left(\frac{T_{4 t}}{T_{5 t}}\right)_{\text {critico }}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;Cuando la turbina esta en condiciones criticas, el valor de $\left(T_{4} / T_{5 t}\right)$ no esta determinado por el mapa de la turbina. Su valor se determina por la ecuación de acoplamiento&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \sqrt{\frac{T_{2 t}}{T_{4 t}}} \\
+&amp;\frac{\frac{T_{3 t}}{T_{2 t}}-1}{T_{2 t}}=\frac{\pi_{23}^{\gamma}-1}{1-\frac{T_{5 t}}{T_{4 t}}}=\eta_{23}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617104335725.png&#34;
+	width=&#34;420&#34;
+	height=&#34;468&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617104335725_hu6a6a9a029b24f04712942b0261bd6678_71281_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617104335725_hu6a6a9a029b24f04712942b0261bd6678_71281_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;89&#34;
+		data-flex-basis=&#34;215px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sustituyendo-en-la-ecuación-de-continuidad-compresor-turbina&#34;&gt;Sustituyendo en la ecuación de continuidad compresor - turbina&lt;/h4&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \sqrt{\eta_{23}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)} \frac{\pi_{23}}{\sqrt{\frac{\gamma-1}{\gamma}}-1}
+$$&lt;/p&gt;
+&lt;p&gt;La turbina estará en condiciones críticas cuando&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp; \frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\left(\frac{G \sqrt{T_{4 t}}}{P_{4 t}}\right)_{\text {critico }} \\
+&amp; \frac{T_{4 t}}{T_{5 t}} \geq\left(\frac{T_{4 t}}{T_{5 t}}\right)_{\text {critico }} \Rightarrow \frac{T_{5 t}}{T_{4 t}} \leq\left(\frac{T_{5 t}}{T_{4 t}}\right)_{\text {critico }} \\
+&amp; \frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \sqrt{\eta_{23}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)} \frac{\pi_{23}}{\sqrt{\pi_{23}^{\frac{\gamma \gamma}{\gamma}}-1}} \\
+&amp; \frac{T_{5 t}}{T_{4 t}}=1-\frac{1}{\eta_{23}}\left[\frac{\sqrt{\frac{\gamma-1}{\gamma}}-1}{\pi_{23}} \frac{\frac{G \sqrt{T_{2 t}}}{P_{2 t}}}{\left(\frac{G \sqrt{T_{4 t}}}{P_{4 t}}\right)_{\text {criico }}} \frac{1}{P_{4 t} / P_{3 t}}\right]^{2} \leq\left(\frac{T_{5 t}}{T_{4 t}}\right)_{\text {critico }}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;h3 id=&#34;acoplamiento-externo&#34;&gt;Acoplamiento Externo&lt;/h3&gt;
+&lt;p&gt;Una vez resuelto el acoplamiento interno, añadimos el difusor y la tobera:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Variables (8):&lt;/p&gt;
+&lt;p&gt;$$
+\frac{P_{2 t}}{P_{0}} ; \frac{T_{2 t}}{T_{0}} ; \frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{V_{0}}{\sqrt{T_{0}}} ; \frac{P_{s}}{P_{5 t}} ; \frac{T_{s}}{T_{5}} ; \frac{G \sqrt{T_{5 t}}}{P_{5 t}} ; \frac{V_{s}}{\sqrt{T_{5 t}}}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ecuaciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Entrada 0-2 (2 ecs)&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\frac{P_{2 t}}{P_{0}}=f_{1}\left(\frac{G \sqrt{T_{0}}}{P_{0}}, \frac{V_{0}}{\sqrt{T_{0}}}\right) \\
+&amp;\frac{T_{2 t}}{T_{0}}=f_{2}\left(\frac{G \sqrt{T_{0}}}{P_{0}}, \frac{V_{0}}{\sqrt{T_{0}}}\right)
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tobera 5-s (3 ecs)&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\frac{P_{s}}{P_{5 t}}=f_{9}\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right) \\
+&amp;\frac{T_{s}}{T_{5 t}}=f_{10}\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right) \\
+&amp;\frac{V_{s}}{\sqrt{T_{5 t}}}=f_{11}\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuidad (2 ecs):&lt;/p&gt;
+  &lt;eq&gt;
+  $$
+  \begin{aligned}
+  &amp;G_{2}=G_{0} \quad \Rightarrow \quad \frac{G \sqrt{T_{2 t}}}{P_{2 t}}=\frac{G \sqrt{T_{0}}}{P_{0}} \frac{P_{0}}{P_{2 t}} \sqrt{\frac{T_{2 t}}{T_{0}}} \\
+  &amp;G_{5}=G_{4} \quad \Rightarrow \frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{P_{4 t}}{P_{5 t}} \sqrt{\frac{T_{5 t}}{T_{4 t}}}
+  \end{aligned}
+  $$
+  &lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;condición de contorno a la salida del turborreactor (1):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;tobera adaptada $P_{s}=P_{0} \Rightarrow \frac{P_{s}}{P_{5 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{2 t}}{P_{0}}=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tobera crítica $M_{s}=1$&lt;/p&gt;
+&lt;p&gt;$$
+\Rightarrow \frac{V_{s}}{\sqrt{T_{5 t}}}=\sqrt{\frac{2 \gamma R}{\gamma+1}}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;8 variables y 8 ecuaciones, problema cerrado&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Solución del acoplamiento externo:
+A partir de la solución del acoplamiento interno calculamos el parámetro de gasto en la tobera&lt;/p&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\frac{G \sqrt{T_{4 t}}}{P_{4 t}} \frac{T_{5 t}}{T_{4 t}} \frac{P_{4 t}}{P_{5 t}}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617105535009.png&#34;
+	width=&#34;1136&#34;
+	height=&#34;974&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617105535009_hu16c5681376c5b7be1f35d99b9527fef4_303712_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617105535009_hu16c5681376c5b7be1f35d99b9527fef4_303712_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;116&#34;
+		data-flex-basis=&#34;279px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tres casos:&lt;/p&gt;
+&lt;p&gt;a) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}&amp;lt;\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$&lt;/p&gt;
+&lt;p&gt;b) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$&lt;/p&gt;
+&lt;p&gt;c) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}&amp;gt;\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;caso-a&#34;&gt;Caso a)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617105741304.png&#34;
+	width=&#34;1022&#34;
+	height=&#34;398&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617105741304_hub9b019abb3e69d6dd220c26325b83ebd_154543_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617105741304_hub9b019abb3e69d6dd220c26325b83ebd_154543_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;256&#34;
+		data-flex-basis=&#34;616px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;$$
+\frac{V_{s}}{\sqrt{T_{5 t}}}=2 c_{P}\left[\frac{T_{5 t}}{T_{s}}-1\right]
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Difusor:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\frac{T_{2 t}}{T_{0}}=1+\frac{1}{2 c_{P}}\left(\frac{V_{0}}{\sqrt{T_{0}}}\right)^{2} \\
+&amp;\frac{G \sqrt{T_{0}}}{P_{0}}=\frac{G \sqrt{T_{2 t}}}{P_{2 t}} \frac{P_{2 t}}{P_{0}} \sqrt{\frac{T_{0}}{T_{2 t}}} \\
+&amp;P_{s}=P_{0} \Rightarrow \frac{P_{2 t}}{P_{0}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{s}}{P_{5 t}}=1
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;4 ecuaciones y 4 incógnitas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se fija un valor de $V_{0} / \sqrt{T_{0}}$, se calcula $\left(T_{2 t} / T_{0}\right)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;De (2) se obtiene $\frac{P_{2 t}}{P_{0}}=K \frac{G \sqrt{T_{0}}}{P_{0}}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se obtiene $\left(P_{2 t} / P_{0}\right)$ y se comprueba si cumple (3), si no, se repite para otro punto del generador&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se repite el proceso para varios $\left(V_{0} / \sqrt{T_{0}}\right)$ y se obtiene una familia de líneas que se dibuja sobre el mapa del compresor&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Las líneas $M_{0}=cte$ se dibujan sobre el mapa del compresor&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Se dibuja sobre el mapa del compresor por que es interesante para analizar el comportamiento del compresor en el punto de funcionamiento&lt;/li&gt;
+&lt;li&gt;El compresor no impone el funcionamiento, se adapta a él&lt;/li&gt;
+&lt;li&gt;Las líneas &lt;code&gt;$\mathrm{M}_{0}=cte$&lt;/code&gt;, se desplazan a valores menores de &lt;code&gt;$\pi_{23}$&lt;/code&gt; al aumentar el número de mach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\pi_{23}=\frac{1}{\frac{P_{2 t}}{P_{0 t}}\left(1+\frac{\gamma-1}{2} M_{0}^{2}\right)^{\frac{\gamma-1}{\frac{\gamma}{2}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{s}}{P_{5 t}}}}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110126505.png&#34;
+	width=&#34;534&#34;
+	height=&#34;552&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110126505_hubc7302d5393b413a88bc581fe424dcb4_108946_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110126505_hubc7302d5393b413a88bc581fe424dcb4_108946_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;232px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La tobera funciona en condiciones sub-críticas a números de mach bajos y a bajo régimen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;caso-b&#34;&gt;Caso b)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Tobera crítica Al aumentar el régimen la tobera se hace crítica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}
+$$&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;M_{8}=1 \Rightarrow \frac{V_{s}}{\sqrt{T_{5 t}}}=\sqrt{\frac{2 \gamma}{\gamma+1} R} \\
+&amp;\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\frac{\Gamma(\gamma)}{\sqrt{R}} A_{8} \\
+&amp;\frac{P_{5 t}}{P_{s}}=\left(\frac{\gamma+1}{2}\right)^{\frac{\gamma}{\gamma-1}} \\
+&amp;\frac{T_{5 t}}{T_{s}}=\frac{\gamma+1}{2}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110355663.png&#34;
+	width=&#34;806&#34;
+	height=&#34;352&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110355663_hu561ca66f9d49a433c70715ab9329a634_117277_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110355663_hu561ca66f9d49a433c70715ab9329a634_117277_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;228&#34;
+		data-flex-basis=&#34;549px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;En este caso el generador de gas pierde un grado de libertad, se introduce una ecuación más&lt;/p&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{4 t}}}{P_{4 t}}=\frac{G \sqrt{T_{5 t}}}{P_{5 t}} \frac{P_{5 t}}{P_{4 t}} \sqrt{\frac{T_{4 t}}{T_{5 t}}}=\frac{\Gamma(\gamma)}{\sqrt{R}} A_{s} \frac{P_{5 t}}{P_{4 t}} \sqrt{\frac{T_{4 t}}{T_{5 t}}}
+$$&lt;/p&gt;
+&lt;p&gt;Sin introducir ninguna nueva variable&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El punto de funcionamiento del generador de gas esta determinado por una sola variable:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+N / \sqrt{T_{2 t}} \text { ó } T_{4 t} / T_{2 t}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Los puntos solución de funcionamiento en equilibrio forman una línea en el mapa del compresor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El punto de funcionamiento del generador de gas es independiente de $M_{0}$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;El grado de libertad que se pierde en el generador de gas, se recupera en el difusor:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\frac{T_{2 t}}{T_{0}}=1+\frac{1}{2 C_{P}}\left(\frac{V_{0}}{\sqrt{T_{0}}}\right)^{2} \\
+&amp;\frac{G \sqrt{T_{0}}}{P_{0}}=\frac{G \sqrt{T_{2 t}}}{P_{2 t}} \frac{P_{2 t}}{P_{0}} \sqrt{\frac{T_{0}}{T_{2 t}}}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110657401.png&#34;
+	width=&#34;568&#34;
+	height=&#34;578&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110657401_hua2737925436aaa8ad1d0b34f3bcadf89_111631_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110657401_hua2737925436aaa8ad1d0b34f3bcadf89_111631_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;235px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110807299.png&#34;
+	width=&#34;458&#34;
+	height=&#34;386&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110807299_hue1ae0fde1dc1172a686a6092c902810d_54944_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617110807299_hue1ae0fde1dc1172a686a6092c902810d_54944_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;284px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incógnitas:
+$$
+\frac{P_{2 t}}{P_{0}} ; \frac{T_{2 t}}{T_{0}} ; \frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{V_{0}}{\sqrt{T_{0}}}
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para determinar el funcionamiento del difusor necesitamos fijar un parámetro&lt;/p&gt;
+&lt;p&gt;$$
+\Rightarrow V_{0} / \sqrt{T_{0}}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;caso-c&#34;&gt;Caso c)&lt;/h4&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{5 t}}}{P_{5 t}}&amp;gt;\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Punto de funcionamiento imposible, la tobera no admite el gasto que demanda el generador de gas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617111052096.png&#34;
+	width=&#34;618&#34;
+	height=&#34;574&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617111052096_hu5c0dda87d0aa20fde5c9b243dd0071e8_130132_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617111052096_hu5c0dda87d0aa20fde5c9b243dd0071e8_130132_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;107&#34;
+		data-flex-basis=&#34;258px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;resumen&#34;&gt;Resumen&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Funcionamiento completo:&lt;/p&gt;
+&lt;p&gt;a) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}&amp;lt;\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$&lt;/p&gt;
+&lt;p&gt;b) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}=\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Funcionamiento imposible:&lt;/p&gt;
+&lt;p&gt;c) $\frac{G \sqrt{T_{5 t}}}{P_{5 t}}&amp;gt;\left(\frac{G \sqrt{T_{5 t}}}{P_{5 t}}\right)_{\text {crítico }}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;análisis-del-acoplamiento-externo-solución-analítica-línea-de-funcionameinto&#34;&gt;Análisis del acoplamiento externo: solución analítica → línea de funcionameinto&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Hipótesis:
+&lt;ul&gt;
+&lt;li&gt;Funcionamiento crítico de la turbina (casi siempre) y tobera de salida (frecuentemente, sobre todo a régimenes altos)&lt;/li&gt;
+&lt;li&gt;Rendiemintops y pérdidas constantes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Desarrollo:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Turbina crítica:
+$$
+\frac{(1-g)(1+f) G \sqrt{T_{4 t}}}{P_{4 t}}=\Gamma\left(\gamma_{e}\right) \frac{A_{4}}{\sqrt{R}}=k_{t}=\text { cte }
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tobera crítica:
+$$
+\frac{(1-g)(1+f) G \sqrt{T_{5 t}}}{P_{5 t}}=\Gamma\left(\gamma_{e}\right) \frac{A_{8}}{\sqrt{R}}=k_{s}=c t e
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;g: sangrados en el compresor (suponemos no contribuye a dar potencia en la turbina) $f=c / G$, riqueza de funcionamiento y $\Gamma$&lt;/p&gt;
+&lt;p&gt;$$
+\Gamma(\gamma)=\sqrt{\gamma}\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{2(\gamma-1)}}
+$$&lt;/p&gt;
+&lt;p&gt;Dividiendo ambas expresiones: $\quad \sqrt{\frac{T_{4 t}}{T_{5 t}}} \frac{P_{5 t}}{P_{4 t}}=\frac{A_{d}}{A_{s}}=\frac{k_{t}}{k_{s}}=c t e$&lt;/p&gt;
+&lt;p&gt;Teniendo en cuenta el rendimiento adiabático de la turbina (que suponemos constante)&lt;/p&gt;
+&lt;p&gt;$$
+\eta_{t}=\frac{1-\left(T_{5 t} / T_{4 t}\right)}{1-\left(P_{5 t} / P_{4 t}\right)^{\frac{\gamma_{c}-1}{\gamma_{c}}}}=f\left(\frac{T_{5 t}}{T_{4 t}}, \frac{P_{5 t}}{P_{4 t}}\right)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;De las ecuaciones (1) y (2):&lt;/p&gt;
+&lt;p&gt;$$
+\frac{T_{5 t}}{T_{4 t}}=f_{1}\left(\frac{A_{d}}{A_{s}}, \eta_{t}\right)=c t e=\alpha \quad \frac{P_{5 t}}{P_{4 t}}=f_{2}\left(\frac{A_{d}}{A_{s}}, \eta_{t}\right)=c t e=\alpha_{p}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;evolución isentrópica en la turbina $\left(\eta_{\mathrm{t}}=1\right)$&lt;/p&gt;
+&lt;p&gt;$$
+\alpha=\frac{T_{5 t}}{T_{4 t}}=\left(\frac{A_{d}}{A_{s}}\right)^{\frac{2\left(\gamma_{e}-1\right)}{\gamma_{e}+1}} \quad \alpha_{p}=\frac{P_{5 t}}{P_{4 t}}=\left(\frac{A_{d}}{A_{s}}\right)^{\frac{2 \gamma_{e}}{\gamma_{e}+1}}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ecuación de acoplamiento de potencia&lt;/p&gt;
+&lt;p&gt;$$
+G C p c\left(T_{3 t}-T_{2 t}\right)=(1-g)(1+f) G C p e\left(T_{4 t}-T_{5 t}\right)=(1-g)(1+f) G C p e T_{4 t}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Utilizando el rendimiento adiabático del compresor&lt;/p&gt;
+&lt;p&gt;$$
+\tau_{c}=C_{p c} T_{2 t}\left(\frac{T_{3 t}}{T_{2 t}}-1\right)=C_{p c} T_{2 t} \frac{\pi_{c}^{\frac{\gamma_{c}-1}{\gamma_{c}}}-1}{\eta_{c}}=(1-g)(1+f) C_{p e} T_{4 t}\left(1-\frac{T_{5 t}}{T_{4 t}}\right)=(1-g)(1+f) C_{p e} T_{4 t}(1-\alpha)
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ordenando términos:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\pi_{c}^{\frac{r_{c}-1}{r c}}-1}{\eta_{c}}=(1-g)(1+f)(1-\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}} \quad \Longrightarrow \quad \frac{T_{4 t}}{T_{2 t}}=f\left(\pi_{23}\right)
+$$&lt;/p&gt;
+&lt;p&gt;Si f y $\eta_{23}$ son cte.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para tener en cuenta el efecto de $f$&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\eta_{q} c L=(1-g)(1+f) G C_{p e}\left(T_{4 t}-T_{3 t}\right) \\
+&amp;\eta_{c} f L=(1+f) C_{p e}\left(T_{4 t}-T_{3 t}\right)
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sumando y restando $T_{2t}$ → $+T_{2 t}-T_{2 t}$ y utilizando la ecuación de acoplameinto de potencia:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\sqrt{\eta}_{q} f L=(1+f) C_{p e}\left[T_{4 t}-T_{2 t}\left(1+(1-g)(1+f)(1-\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}}\right)\right]
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Despreciando términos de orden $f^{2}$&lt;/p&gt;
+&lt;p&gt;$$
+f=\frac{\frac{T_{4 t}}{T_{2 t}}-1-(1-g)(1+\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}}}{\frac{\eta_{q} L}{C_{p e} T_{2 t}}+1+2(1-g)(1-\alpha) \frac{C_{p e} T_{4 t}}{C_{p c} T_{2 t}}-\frac{T_{4 t}}{T_{2 t}}}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Relaciona $f \operatorname{con} T_{4t} / T_{2t}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112541790.png&#34;
+	width=&#34;1564&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112541790_hu745f53489305a4a2c908c85254231f2c_238489_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112541790_hu745f53489305a4a2c908c85254231f2c_238489_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;366px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112556169.png&#34;
+	width=&#34;1444&#34;
+	height=&#34;916&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112556169_hu7d2b7402632408cae000f22bb90c49a5_244076_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112556169_hu7d2b7402632408cae000f22bb90c49a5_244076_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112608931.png&#34;
+	width=&#34;1384&#34;
+	height=&#34;892&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112608931_huf1f22dd6363a926b838ee0fecfef9a2b_126723_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112608931_huf1f22dd6363a926b838ee0fecfef9a2b_126723_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;372px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112624666.png&#34;
+	width=&#34;1416&#34;
+	height=&#34;890&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112624666_hu15060ea860d41626954ed2a4eb83079a_198086_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112624666_hu15060ea860d41626954ed2a4eb83079a_198086_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;381px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112637303.png&#34;
+	width=&#34;1220&#34;
+	height=&#34;920&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112637303_huc638b5ef139f1c14591749673657394c_962179_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112637303_huc638b5ef139f1c14591749673657394c_962179_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;318px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112649824.png&#34;
+	width=&#34;1330&#34;
+	height=&#34;958&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112649824_hu35ec14d5363719710b364b89262b9a65_156232_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112649824_hu35ec14d5363719710b364b89262b9a65_156232_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;333px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112705189.png&#34;
+	width=&#34;1426&#34;
+	height=&#34;926&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112705189_hufef718ed7ab28880d34f668e65c0b3e7_61162_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112705189_hufef718ed7ab28880d34f668e65c0b3e7_61162_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;369px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112718574.png&#34;
+	width=&#34;1526&#34;
+	height=&#34;858&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112718574_hudbc7f95b5eda122e75eb76d9babfd256_159554_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112718574_hudbc7f95b5eda122e75eb76d9babfd256_159554_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112731572.png&#34;
+	width=&#34;1476&#34;
+	height=&#34;826&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112731572_huae0b5c3c13568c74d57e819571f73dc6_56397_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112731572_huae0b5c3c13568c74d57e819571f73dc6_56397_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;428px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112746560.png&#34;
+	width=&#34;1462&#34;
+	height=&#34;824&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112746560_hub5cc7a00fd63f25aa2c66fcdbd707eea_54773_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112746560_hub5cc7a00fd63f25aa2c66fcdbd707eea_54773_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;425px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112758817.png&#34;
+	width=&#34;1452&#34;
+	height=&#34;818&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112758817_hu8ea56b59ed267ae428d1accb07fa6716_146323_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617112758817_hu8ea56b59ed267ae428d1accb07fa6716_146323_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;curvas-características-1&#34;&gt;Curvas Características&lt;/h3&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp; \frac{E}{P_{0} D^{2}}=\varphi_{1}\left(\frac{V_{0}}{\sqrt{R T_{0}}}, \text { regimen adimensional }\right) \\
+&amp; \frac{c L}{P_{0} D^{2} \sqrt{R T_{0}}}=\varphi_{2}\left(\frac{V_{0}}{\sqrt{R T_{0}}} \text {, regimen adimensional }\right) \\
+&amp; \frac{G \sqrt{R T_{0}}}{P_{0} D^{2}}=\varphi_{3}\left(\frac{V_{0}}{\sqrt{R T_{0}}} \text {, regimen adimensional }\right) \\
+&amp; \frac{C_{E} L}{\sqrt{R T_{0}}}=\varphi_{4}\left(\frac{V_{0}}{\sqrt{R T_{0}}}, \text { regimen adimensional }\right) \\
+&amp; \frac{I_{s p}}{\sqrt{R T_{0}}}=\varphi_{5}\left(\frac{V_{0}}{\sqrt{R T_{0}}} \text {, regimen adimensional }\right)
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Parámetro de gasto:&lt;/p&gt;
+&lt;p&gt;$$
+G \sqrt{T_{0}} / P_{0}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parámetro de empuje:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;E=G\left(V_{s}-V_{0}\right)+A_{s}\left(P_{s}-P_{o}\right) \\
+&amp;\frac{E}{P_{0} A_{s}}=\frac{G \sqrt{T_{0}}}{P_{0} A_{s}}\left(\frac{V_{s}}{\sqrt{T_{0}}}-\frac{V_{0}}{\sqrt{T_{0}}}\right)+\frac{P_{s}}{P_{0}}-1= \\
+&amp;\quad=\frac{G \sqrt{T_{0}}}{P_{0} A_{s}}\left(\frac{V_{s}}{\sqrt{T_{5 t}}} \sqrt{\frac{T_{5 t}}{T_{4 t}} \frac{T_{4 t}}{T_{2 t}} \frac{T_{2 t}}{T_{0}}}-\frac{V_{0}}{\sqrt{T_{0}}}\right)+\frac{P_{s}}{P_{5 t}} \frac{P_{5 t}}{P_{4 t}} \frac{P_{4 t}}{P_{3 t}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{2 t}}{P_{0}}-1
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parámetro de combustible:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;\eta_{q} c L=G C_{p}\left(T_{4 t}-T_{3 t}\right) \\
+&amp;\frac{\eta_{q} c L}{P_{0} \sqrt{T_{0}}}=\frac{G \sqrt{T_{3 t}}}{P_{3 t}} \sqrt{\frac{T_{2 t}}{T_{3 t}} \frac{T_{0}}{T_{2 t}}} \frac{P_{3 t}}{P_{2 t}} \frac{P_{2 t}}{P_{0}} C_{p}\left(\frac{T_{4 t}}{T_{2 t}} \frac{T_{2 t}}{T_{3 t}}-1\right)
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parámetro de impulso:&lt;/p&gt;
+&lt;p&gt;$$
+I_{s p}=\frac{E}{G} \Rightarrow \frac{I_{s p}}{\sqrt{T_{0}}}=\frac{E}{P_{0}} \frac{P_{0}}{G \sqrt{T_{0}}}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parámetro de c. específico:&lt;/p&gt;
+&lt;p&gt;$$
+C_{E}=\frac{c}{E} \Rightarrow \frac{\eta_{q} C_{E} L}{\sqrt{T_{0}}}=\frac{\eta_{q} c L}{P_{0} \sqrt{T_{0}}} \frac{P_{0}}{E}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113312858.png&#34;
+	width=&#34;1404&#34;
+	height=&#34;912&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113312858_hub32d5a5a3281d6e586ae2c41f5d0b64f_146254_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113312858_hub32d5a5a3281d6e586ae2c41f5d0b64f_146254_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;369px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113324105.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;886&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113324105_hu73b765d8929b04a155f06089c796441e_146634_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113324105_hu73b765d8929b04a155f06089c796441e_146634_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;370px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113338999.png&#34;
+	width=&#34;1416&#34;
+	height=&#34;912&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113338999_hu9a61197d1caad7e620b19ce0fc46eaa7_182592_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113338999_hu9a61197d1caad7e620b19ce0fc46eaa7_182592_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;372px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113352430.png&#34;
+	width=&#34;1410&#34;
+	height=&#34;898&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113352430_hu6511900fc72477d47b14cea53d7e0d3e_163891_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113352430_hu6511900fc72477d47b14cea53d7e0d3e_163891_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;376px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113409825.png&#34;
+	width=&#34;1382&#34;
+	height=&#34;888&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113409825_huf9e5ad061a407418dfe45b50a4ba9280_150525_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113409825_huf9e5ad061a407418dfe45b50a4ba9280_150525_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;373px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;línea-de-funcionamiento&#34;&gt;Línea de Funcionamiento&lt;/h3&gt;
+&lt;p&gt;$$
+\frac{E}{P_{0} D^{2}}=\phi_{1}(\text{ regimen adimensional })
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{c L}{P_{0} D^{2} \sqrt{R T_{0}}}=\phi_{2}(\text{ regimen adimensional })
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{R T_{0}}}{P_{0} D^{2}}=\phi_{3}(\text{ regimen adimensional })
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{C_{E} L}{\sqrt{R T_{0}}}=\phi_{4}(\text{ regimen adimensional })
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{I_{s p}}{\sqrt{R T_{0}}}=\phi_{5}(\text{ regimen adimensional })
+$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113848876.png&#34;
+	width=&#34;1312&#34;
+	height=&#34;840&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113848876_hu57737260aa37ae01582a1d8c350ea09f_259521_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113848876_hu57737260aa37ae01582a1d8c350ea09f_259521_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113859533.png&#34;
+	width=&#34;1294&#34;
+	height=&#34;848&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113859533_hu31fa18572c6ee01122ccf99790c3ca18_242605_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113859533_hu31fa18572c6ee01122ccf99790c3ca18_242605_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;366px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113915294.png&#34;
+	width=&#34;1234&#34;
+	height=&#34;834&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113915294_hua8e30ef8d555b2c5f7712d508895e345_268243_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113915294_hua8e30ef8d555b2c5f7712d508895e345_268243_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;355px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113932332.png&#34;
+	width=&#34;1368&#34;
+	height=&#34;860&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113932332_hu716c74911dc6cba423e5db929ed34c29_285574_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113932332_hu716c74911dc6cba423e5db929ed34c29_285574_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;381px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113948942.png&#34;
+	width=&#34;1292&#34;
+	height=&#34;828&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113948942_hu9a85c325c528748ff40e096959137daf_251211_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617113948942_hu9a85c325c528748ff40e096959137daf_251211_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114005962.png&#34;
+	width=&#34;1372&#34;
+	height=&#34;870&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114005962_hu53f4130ed01dd516a50fb75e202af078_316303_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114005962_hu53f4130ed01dd516a50fb75e202af078_316303_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A cada nivel de empuje programado para llevar a cabo una condición de vuelo dada se lo denomina régimen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La definición y control del régimen se realiza mediante el control de alguna de las variables del funcionamiento del aerorreactor, típicamente se usan como variables de control algunas de las siguientes: revoluciones de los ejes, temperatura fin de combustión, temperatura entre turbinas o en la salida de las mismas, relación entre las presiones de remanso en la salida y en la entrada, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Las características de los aerorreactores cuyo conocimiento interesa son: el empuje, $E$, el consumo de combustible, $c$, y el gasto de aire que lo atraviesa, $G$; junto a estas variables extensivas son importantes también el conocimiento de las variables intensivas asociadas como el consumo específico, $C_{E}$, y el impulso específico, Isp.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;E=E\left(a, V_{0}, \text { regimen }\right)=E\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&amp;c=c\left(a, V_{0}, \text { regimen }\right)=c\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&amp;G=G\left(a, V_{0}, \text { regimen }\right)=G\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&amp;C_{E}=C_{E}\left(a, V_{0}, \text { regimen }\right) C_{E}=C_{E}\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&amp;I_{s p}=I_{s p}\left(a, V_{0}, \text { regimen }\right) I_{s p}=I_{s p}\left(T_{0}, P_{0}, V_{0}, \text { regimen }\right) \\
+&amp;\text { regimen }=\left\{\begin{array}{l}
+f(N) \\
+f\left(T_{4 t}\right) \\
+f\left(P_{5 t} / P_{2 t}\right)
+\end{array}\right\} \Rightarrow \text { segun el sistema de control }
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114110503.png&#34;
+	width=&#34;1420&#34;
+	height=&#34;918&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114110503_hu4ef4fcdf2fdae5fc8b65eef6a9dbade0_1439688_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114110503_hu4ef4fcdf2fdae5fc8b65eef6a9dbade0_1439688_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;371px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114123232.png&#34;
+	width=&#34;1434&#34;
+	height=&#34;920&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114123232_hu3c9e95cb1ab325c8052811f740ecf76a_1455887_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114123232_hu3c9e95cb1ab325c8052811f740ecf76a_1455887_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114138909.png&#34;
+	width=&#34;1412&#34;
+	height=&#34;906&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114138909_hu5fd5fa88fc8f2c86c66b16655175f983_755060_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114138909_hu5fd5fa88fc8f2c86c66b16655175f983_755060_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114154321.png&#34;
+	width=&#34;1414&#34;
+	height=&#34;904&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114154321_huc4b82afaca410b40f392c69e7f03110f_663563_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114154321_huc4b82afaca410b40f392c69e7f03110f_663563_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;375px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114208123.png&#34;
+	width=&#34;1418&#34;
+	height=&#34;906&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114208123_hue0224526b9562aab6a0a17a0cd78511c_509450_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114208123_hue0224526b9562aab6a0a17a0cd78511c_509450_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;375px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Las relaciones que definen las actuaciones del aerorreactor se daban antiguamente en forma de tablas o gráficas que el piloto usaba para poner el régimen deseado en función de la altura y velocidad de vuelo.&lt;/li&gt;
+&lt;li&gt;En los sistemas actuales, el fabricante del motor proporciona un programa que permite al ordenador de a bordo obtener esa información de forma computerizada .&lt;/li&gt;
+&lt;li&gt;Para cada altitud, a, de forma estandarizada, se corresponden dos parámetros ambientales la temperatura y presión ambientes, a esa correspondencia se la denomina atmósfera estándar.&lt;/li&gt;
+&lt;li&gt;La presión siempre define la altitud de vuelo, pero a veces interesa conocer el comportamiento del aerorreactor para otras temperaturas distintas a las de la atmósfera estándar, definidas por distintas desviaciones de la temperatura ambiente, $\Delta$ Tamb. Por tanto, las actuaciones, definidas anteriormente, en forma general, también, dependerán de dicha desviación.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;corrección-de-datos&#34;&gt;Corrección de Datos&lt;/h3&gt;
+&lt;p&gt;Las curvas características&lt;/p&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{E}{P_{0} A_{s}} ; \frac{\eta_{q} C L}{P_{3 t} \sqrt{T_{3 t}}} ; \frac{I_{s p}}{\sqrt{T_{0}}} ; \frac{\eta_{q} C_{E} L}{\sqrt{T_{0}}}=f\left(M_{0}, \frac{N}{\sqrt{T_{0}}}\left(T_{4 t} / T_{2 t}\right)\right)
+$$&lt;/p&gt;
+&lt;p&gt;no dependen del día en que se han obtenido, pero los variables físicas:&lt;/p&gt;
+&lt;p&gt;$$
+G, E, C, I_{s p} \mathrm{y} C_{E}
+$$&lt;/p&gt;
+&lt;p&gt;sí. Así pues, en un banco de ensayos, para que los valores de las variables físicas tengan sentido hay que informar en que se han medido. Hay que dar la $P_{0}$ y $T_{0}$ .&lt;/p&gt;
+&lt;p&gt;Sería interesante que de los bancos de ensayo se pudiera obtener información sobre las variable físicas de los aerorreactores que no dependiesen del día en que se ha realizado el ensayo. Esto sería fácil si con los valores medidos se fuera capaz de obtener los valores que se tendrían en un día dado, conocido por todos. Esto es lo que se hace. El día elegido es el día tipo o estándar y se corresponde con el día que se obtiene de la atmósfera internacional ISA a altitud cero:&lt;/p&gt;
+&lt;p&gt;$$
+P_{0}=101,325 \mathrm{kPa} ; T_{0}=288,15 \mathrm{~K}
+$$
+En un ensayo realizado un día cualquiera con $T_{0}, P_{0}$, para un régimen dado $N$, se han obtenido los siguientes valores de las curvas características del sistema&lt;/p&gt;
+&lt;p&gt;$G, E, C, I_{s p} \mathrm{y} C_{E}$&lt;/p&gt;
+&lt;p&gt;Se sabe que los parámetros casi-adimensionales&lt;/p&gt;
+&lt;p&gt;$$
+\frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{E}{P_{0} A_{s}} ; \frac{\eta_{q} C L}{P_{3 t} \sqrt{T_{3 t}}} ; \frac{I_{s p}}{\sqrt{T_{0}}} ; \frac{\eta_{q} C_{E} L}{\sqrt{T_{0}}}=f\left(M_{0}, \frac{N}{\sqrt{T_{0}}}\left(T_{4 t} / T_{2 t}\right)\right)
+$$&lt;/p&gt;
+&lt;p&gt;no dependen de las condiciones ambientales; por tanto, si en se tuviera un día tipo &lt;code&gt;$\left(T_{0}^{*}, P_{0}^{*}\right)$&lt;/code&gt; y se eligiese un régimen, $N^{*}$ tal que&lt;/p&gt;
+&lt;eq&gt;
+$$
+\frac{N^{*}}{\sqrt{T_{0}^{*}}}=\frac{N}{\sqrt{T_{0}}} \Rightarrow N^{*}=N \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{N}{\sqrt{\delta}}
+$$
+&lt;/eq&gt;
+&lt;p&gt;se cumpliría&lt;/p&gt;
+&lt;eq&gt;
+$$
+\frac{G \sqrt{T_{0}}}{P_{0}} ; \frac{E}{P_{0}} ; \frac{\eta_{q} c L}{P_{0} \sqrt{T_{0}}} ; \frac{I_{s p}}{\sqrt{T_{0}}} ; \frac{\eta_{q} C_{E}}{\sqrt{T_{0}}} \equiv f\left(\frac{N}{\sqrt{T_{0}}}\right)=f\left(\frac{N^{*}}{\sqrt{T_{0}^{*}}}\right)=\frac{G^{*} \sqrt{T_{0}^{*}}}{P_{0}^{*}} ; \frac{E}{P_{0}^{*}} ; \frac{\eta_{q} c L}{P_{0}^{*} \sqrt{T_{0}^{*}}} ; \frac{I_{s p}}{\sqrt{T_{0}^{*}}} ; \frac{\eta_{q} C_{E}}{\sqrt{T_{0}^{*}}}
+$$
+&lt;/eq&gt;
+&lt;p&gt;donde $*$ son los valores que se hubieran obtenido en un ensayo realizado en un día tipo&lt;/p&gt;
+&lt;p&gt;Los valores referidos (o corregidos) al día tipo son&lt;/p&gt;
+&lt;eq&gt;
+$$
+\frac{G^{*} \sqrt{T_{0}^{*}}}{P_{0}^{*}}=\frac{G \sqrt{T_{0}}}{P_{0}} \Rightarrow G^{*}=G \frac{\sqrt{T_{0}}}{\sqrt{T_{0}^{*}}} \frac{P_{0}^{*}}{P_{0}}=\frac{G \sqrt{\theta}}{\delta}
+$$
+&lt;/eq&gt;
+&lt;eq&gt;
+$$
+\frac{E^{*}}{P_{0}^{*}}=\frac{E}{P_{0}} \Rightarrow E^{*}=E \frac{P_{0}^{*}}{P_{0}}=\frac{E}{\delta}
+$$
+&lt;/eq&gt;
+&lt;eq&gt;
+$$
+\frac{\eta_{q} C^{*} L}{P_{0}^{*} \sqrt{T_{0}^{*}}}=\frac{\eta_{q} C L}{P_{0} \sqrt{T_{0}}} \Rightarrow C^{*}=C \frac{P_{0}^{*}}{P_{0}} \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{C}{\delta \sqrt{\theta}}
+$$
+&lt;/eq&gt;
+&lt;eq&gt;
+$$
+\frac{I_{s p}^{*}}{\sqrt{T_{0}^{*}}}=\frac{I_{s p}}{\sqrt{T_{0}}} \Rightarrow I_{s p}^{*}=I_{s p} \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{I_{s p}}{\sqrt{\theta}}
+$$
+&lt;/eq&gt;
+&lt;eq&gt;
+$$
+\frac{C_{E}^{*}}{\sqrt{T_{0}^{*}}}=\frac{C_{E}}{\sqrt{T_{0}}} \Rightarrow C_{E}^{*}=C_{E} \frac{\sqrt{T_{0}^{*}}}{\sqrt{T_{0}}}=\frac{C_{E}}{\sqrt{\theta}}
+$$
+&lt;/eq&gt;
+&lt;p&gt;Donde $\delta$ y $\theta$ son la relaciones universalmente usadas en la atmósfera estándar&lt;/p&gt;
+&lt;eq&gt;
+$$
+\delta=\frac{P_{0}}{P_{0}^{*}} ; \quad \theta=\frac{T_{0}}{T_{0}^{*}}
+$$
+&lt;/eq&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114714347.png&#34;
+	width=&#34;1358&#34;
+	height=&#34;772&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114714347_hufd30c975a4f45ffc84658efe5f1863bd_160952_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114714347_hufd30c975a4f45ffc84658efe5f1863bd_160952_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;422px&#34;
+	
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114729069.png&#34;
+	width=&#34;1244&#34;
+	height=&#34;912&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114729069_huf4bba5ecd3a2ea76a4fd3332b036dad7_755135_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617114729069_huf4bba5ecd3a2ea76a4fd3332b036dad7_755135_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;327px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;AVIONES CIVILES&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;REGÍMENES&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Máximo de Despegue MTO: limitado a 5 minutos&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Máximo Continuo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ralentí Otros Regímenes Usados en Aviación Civil ꞏ Máximo de Subida ꞏ Máximo de Crucero&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AVIONES MILITARES&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;REGÍMENES&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Combate (o de Contingencia) (‘Combat or Contingency Rating’): lim. a 2,5 min.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Máximo Sin Postcombustor (‘Maximum Dry Rating’): lim. de 10 a 15 min.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Intermedio (o Militar) (‘Intermediate or Military Rating’): lim. hasta 30 min.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Máximo Continuo (&amp;lsquo;Maximum Continuous Rating&amp;rsquo;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ralentí (“Idle”): normalmente solo uno&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;INDICADORES EN CABINA&lt;/p&gt;
+&lt;p&gt;El piloto es el árbitro final de la posición de la palanca&lt;/p&gt;
+&lt;p&gt;En todos los aviones, aún en los más sofisticados, que disponen de la más alta tecnología, con sistemas de control computarizados, el piloto tiene que poder satisfacer su necesidad de saber que el motor funciona de forma segura y produciendo el empuje requerido.&lt;/p&gt;
+&lt;p&gt;Para ello, es necesario presentar al piloto una serie de parámetros de funcionamiento que le permitan operar el motor de forma segura y eficientemente.&lt;/p&gt;
+&lt;p&gt;La autoridades de certificación de aviones civiles exigen una mínima presentación de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;la temperatura en el tubo de salida “jet pipe” o algo similar (TGT o EGT)&lt;/li&gt;
+&lt;li&gt;las revoluciones de los ejes&lt;/li&gt;
+&lt;li&gt;una indicación del empuje&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Normalmente, esta mínima presentación se aumenta con:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;medición del consumo de combustible&lt;/li&gt;
+&lt;li&gt;cantidad de combustible usada&lt;/li&gt;
+&lt;li&gt;indicador del área de tobera (en sistemas con PC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Las Autoridades de Certificación imponen una Temperatura Límite basada en los ensayos&lt;/p&gt;
+&lt;h3 id=&#34;influencia-de-la-t-0-en-el-empuje-de-despegue&#34;&gt;Influencia de la $T_{0}$ en el Empuje de Despegue&lt;/h3&gt;
+&lt;p&gt;Del estudio analítico y de los ensayos de los aerorreactores, se obtiene que el empuje corregido se comporta como una función potencial de las vueltas corregidas&lt;/p&gt;
+&lt;eq&gt;
+$$
+E^{*}=\left(N^{*}\right)^{n} \quad \Rightarrow \quad \frac{E}{\delta} \propto\left(\frac{N}{\sqrt{\theta}}\right)^{n}
+$$
+&lt;/eq&gt;
+&lt;p&gt;Para ver el efecto de la $\mathrm{T}_{0}$, se calcula el cociente incremental de la función anterior&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp; \Delta\left(\frac{E}{\delta}\right) \propto n\left(\frac{N}{\sqrt{\theta}}\right)^{n-1} \Delta\left(\frac{N}{\sqrt{\theta}}\right) \Rightarrow \frac{\Delta(E / \delta)}{E / \delta}=n \frac{\Delta(N / \sqrt{\theta})}{N / \sqrt{\theta}} \\ &amp; \text{ Para } P_{0}=cte \rightarrow \rightarrow
+ \frac{\Delta E}{E}=n \frac{\frac{\Delta N}{\sqrt{\theta}}-\frac{1}{2} \frac{N}{\sqrt{\theta}}}{\frac{N}{\sqrt{\theta}}} \\
+&amp; \text { Para } N=\text { cte } \Rightarrow \otimes N=0 \Rightarrow \frac{\Delta E}{E}=-\frac{n}{2} \frac{\Delta \theta}{\theta}=-\frac{n}{2} \frac{\Delta T_{0}}{T_{0}}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;h3 id=&#34;motores-de-empuje-constante-thrust-rated-engine&#34;&gt;Motores de Empuje Constante: &amp;ldquo;Thrust Rated Engine&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;El concepto es controlar el motor de forma que se obtenga, en despegue, siempre que sea posible (hasta la temperatura ambiente que haya sido seleccionada en diseño), un empuje constante (garantizado) independientemente de la temperatura&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617115902974.png&#34;
+	width=&#34;744&#34;
+	height=&#34;504&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617115902974_huaf3e41faafdd28cbe6ac77c882765c78_52755_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617115902974_huaf3e41faafdd28cbe6ac77c882765c78_52755_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;El empuje constante (garantizado) es el empuje que tiene el motor a vueltas máximas y a la temperatura ambiente: $T_{\text {diseño }}$.&lt;/p&gt;
+&lt;p&gt;Para temperaturas ambiente por debajo de la de diseño, el empuje garantizado se obtiene con vueltas mas bajas que las máximas.&lt;/p&gt;
+&lt;p&gt;Para temperatura ambiente igual a la de diseño, el empuje garantizado se obtiene con las vueltas máximas.&lt;/p&gt;
+&lt;p&gt;Para temperaturas más altas que las de diseño, no es posible obtener el empuje garantizado y el motor dará el empuje correspondiente a vueltas máximas.&lt;/p&gt;
+&lt;p&gt;Con este concepto de control, se consigue que, siempre que la temperatura este por debajo de la de diseño, el motor trabaje en condiciones por debajo de las de máximo funcionamiento con el consiguiente ahorro en la vida del motor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Concepto para aviación militar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;En este caso, lo importante no es garantizar el empuje en condiciones de despegue independientemente de la temperatura ambiente, sino garantizar un empuje máximo durante toda la vida de funcionamiento del motor. Para ello se define el empuje garantizado como el que se obtendría al final de la vida del mismo.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617120037354.png&#34;
+	width=&#34;1242&#34;
+	height=&#34;458&#34;
+	srcset=&#34;/post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617120037354_hu232c8d5ea9081eeeeb75529551dea185_51126_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-segundo-parcial/atts/10/image-20220617120037354_hu232c8d5ea9081eeeeb75529551dea185_51126_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;271&#34;
+		data-flex-basis=&#34;650px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;El empuje máximo garantizado en este caso es $E_{0}$ que es el que se obtendría al final de la vida. El motor antes de llegar al final de la vida funcionará con una temperatura, $T_{4t}$, más baja de la máxima cuando se le requiera $E_{0}$ y al final de la vida, para tener $E_{0}$, el motor funcionará con la máxima temperatura de funcionamiento $T_{4t}$.&lt;/p&gt;
+&lt;h3 id=&#34;epr-engine-pressure-ratio&#34;&gt;EPR: &amp;ldquo;Engine Pressure Ratio&lt;/h3&gt;
+&lt;p&gt;Es la relación entre las presiones de remanso en la salida y entrada del motor&lt;/p&gt;
+&lt;p&gt;$$
+E P R=P_{5 t} / P_{2 t}
+$$&lt;/p&gt;
+&lt;p&gt;Sirve como medidor del empuje cuando el $\mathrm{A}_{8}$ es fija.&lt;/p&gt;
+&lt;p&gt;Empuje Bruto:&lt;/p&gt;
+&lt;p&gt;$$
+E_{b}=G_{S} V_{S}+A_{S}\left(P_{S}-P_{0}\right)
+$$&lt;/p&gt;
+&lt;p&gt;Tobera crítica:&lt;/p&gt;
+&lt;p&gt;$$
+G_{S}=\Gamma_{e} \frac{P_{5 t} A_{8}}{\sqrt{R T_{5 t}}} \text{ donde } \Gamma_{e}=\sqrt{\gamma}\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}+1}{2\left(\gamma_{e}-1\right)}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+E_{b h}=\Gamma_{e} \frac{P_{5 t} A_{8}}{\sqrt{R T_{5 t}}} M_{8} \sqrt{\gamma_{e} R T_{S}}+A_{s}\left(P_{S}-P_{0}\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{E_{b}}{A_{8} P_{0}}=\sqrt{\gamma_{e}} \Gamma_{e} \sqrt{T_{S} / T_{5 t}} M_{S} \frac{P_{5 t}}{P_{0}}+\frac{A_{S}}{A_{8}}\left(\frac{P_{S}}{P_{5 t}} \frac{P_{5 t}}{P_{0}}-1\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+M_{8} \sqrt{T_{S} / T_{5 t}}=f_{1}\left(\gamma_{e}, \frac{A_{S}}{A_{8}}\right), \frac{P_{S}}{P_{5 t}}=f_{2}\left(\gamma_{e}, \frac{A_{S}}{A_{8}}\right)
+$$&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+\frac{E_{b}}{A_{8} P_{0}} &amp;=\left(\sqrt{\gamma_{e}} \Gamma_{e} f_{1}+\frac{A_{S}}{A_{8}} f_{2}\right) \frac{P_{5 t}}{P_{0}}-\frac{A_{S}}{A_{8}}=\\
+&amp;=F\left(\gamma_{e} \frac{A_{S}}{A_{8}}\right) \frac{P_{2 t}}{P_{0}} E P R-\frac{A_{S}}{A_{8}}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;eq&gt;
+$$
+\frac{A_{S}}{A_{8}}=1 \Rightarrow\left\{\begin{array}{l}
+f_{1}=\left(\frac{2}{\gamma_{e}+1}\right)^{1 / 2} \\
+f_{2}=\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}}
+\end{array}\right.
+$$
+&lt;/eq&gt;
+&lt;eq&gt;
+$$
+\Rightarrow
+\begin{aligned}
+\frac{E_{b}}{A_{8} P_{0}} &amp;=\left(1+\gamma_{e}\right)\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}} \frac{P_{2 t}}{P_{0}} E P R-1=\\
+&amp;=f\left(\gamma_{e}\right) \frac{P_{2 t}}{P_{0}} E P R-1
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;A la vista del resultado anterior, es fácil tener una característica relacionada con el empuje bruto que sea homogénea&lt;/p&gt;
+&lt;p&gt;$$
+\frac{E_{b}-A_{8} P_{0}}{A_{8} P_{0}}=\left(1+\gamma_{e}\right)\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}} \frac{P_{2 t}}{P_{0}} E P R=f\left(\gamma_{e}\right) \frac{P_{2 t}}{P_{0}} E P R
+$$&lt;/p&gt;
+&lt;p&gt;Como se puede apreciar el empuje bruto menos la presión ambiente por el área de salida es función del parámetro de régimen adimensional $(E P R)$ y de la velocidad de vuelo $\left(P_{2 t} / P_{0}\right)$&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{array}{ll}
+\text { Para } \gamma=1,33 &amp; -&gt;f\left(\gamma_{e}\right)=1,259 \\
+\text { Para } \gamma=1,4 &amp; -&gt;f\left(\gamma_{e}\right)=1,268
+\end{array}
+$$
+&lt;/eq&gt;
+&lt;p&gt;&lt;strong&gt;Efecto RAM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$$
+R A M=G V_{0}=\frac{G_{S}}{(1-g)(1+f)} V_{0}=\frac{\Gamma_{e}}{(1-g)(1+f)} \frac{P_{5 t} A_{8}}{\sqrt{R T_{5 t}}} M_{0} \sqrt{\gamma R T_{0}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{R A M}{A_{8} P_{0}}=\frac{\Gamma_{e} \sqrt{\gamma}}{(1-g)(1+f)} M_{0} \sqrt{\frac{T_{0}}{T_{5 t}}} \frac{P_{2 t}}{P_{0}} E P R
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{T_{0}}{T_{5 t}}=\frac{T_{0}}{T_{2 t}} \frac{T_{2 t}}{T_{4 t}} \frac{T_{4 t}}{T_{5 t}}=\frac{T_{0}}{T_{2 t}} \frac{T_{2 t}}{T_{4 t}} \frac{1}{\alpha}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{T_{4 t}}{T_{2 t}}=\frac{C_{p c}}{C_{p e}} \frac{1}{(1-g)(1+f)} \frac{1}{1-\alpha} \frac{1}{\eta_{c}}\left(\pi_{c}^{\frac{\gamma-1}{\gamma}}-1\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+E P R=\frac{P_{5 t}}{P_{2 t}}=\frac{P_{5 t}}{P_{4 t}} \quad \frac{P_{4 t}}{P_{3 t}} \quad \frac{P_{3 T}}{P_{2 t}}=\alpha_{p} \quad \pi_{c c} \quad \pi_{c} \quad \Rightarrow \quad \pi_{c}=\frac{E P R}{\alpha_{p} \pi_{c c}}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{R A M}{A_{8} P_{0}}=\Gamma_{e} \sqrt{\gamma} M_{0} \sqrt{\frac{T_{0}}{T_{2 t}}} \frac{P_{2 t}}{P_{0}} E P R \sqrt{\frac{C_{p c} \eta_{c}(1-\alpha)}{C_{p e}(1-g)(1+f) \alpha}} \frac{1}{\sqrt{\left(\frac{E P R}{\alpha_{p} \pi_{o c}}\right)^{\frac{\gamma-1}{\gamma}}-1}}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Empuje Neto&lt;/strong&gt;&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+\frac{E}{A_{8} P_{0}} &amp;=\frac{E_{b}}{A_{8} P_{0}}-\frac{R A M}{A_{8} P_{0}}=\\
+&amp;=F\left(\gamma_{e} \frac{A_{s}}{A_{8}}\right) \frac{P_{2 t}}{P_{0}} E P R-\frac{A_{s}}{A_{8}}-\\
+&amp;-\Gamma_{e} \sqrt{\gamma} M_{0} \sqrt{\frac{T_{0}}{T_{2 t}}} \frac{P_{2 t}}{P_{0}} E P R \sqrt{\frac{C_{p c} \eta_{c}(1-\alpha)}{C_{p e}(1-g)(1+f) \alpha}} \frac{1}{\sqrt{\left(\frac{E P R}{\alpha_{p} \pi_{\infty}}\right)^{\frac{\gamma-1}{\gamma}}}-1}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;Con tobera convergente:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{array}{rl}
+\frac{E}{A_{8} P_{0}}=f &amp; f\left(\gamma_{e}\right) \frac{P_{2 t}}{P_{0}} E P R-1- \\
+&amp; -\Gamma_{e} \sqrt{\gamma} M_{0} \sqrt{\frac{T_{0}}{T_{2 t}}} \frac{P_{2 t}}{P_{0}} E P R \sqrt{\frac{C_{p c} \eta_{c}(1-\alpha)}{C_{p e}(1-g)(1+f) \alpha}} \frac{1}{\sqrt{\left(\frac{E P R}{\left.\alpha_{p} \pi_{c c}\right)^{\frac{\gamma-1}{\gamma}}}-1\right.}}
+\end{array}
+$$
+&lt;/eq&gt;
+&lt;p&gt;En despegue:&lt;/p&gt;
+&lt;eq&gt;
+$$
+\frac{E}{A_{8} P_{0}}=\left\{\begin{array}{l}
+F\left(\gamma_{e}, \frac{A_{S}}{A_{8}}\right) E P R-\frac{A_{S}}{A_{8}} \\
+f\left(\gamma_{e}\right) E P R-1
+\end{array}\right.
+$$
+&lt;/eq&gt;
+&lt;p&gt;Empuje en Despegue de Turbofanes de Flujos Separados&lt;/p&gt;
+&lt;p&gt;$$
+E=G_{\pi} V_{8}+G_{\sigma} V_{18}+A_{\pi}\left(P_{8}-P_{0}\right)+A_{\sigma}\left(P_{18}-P_{0}\right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{E}{P_{0}}=\left(1+\gamma_{e}\right)\left(\frac{2}{\gamma_{e}+1}\right)^{\frac{\gamma_{e}}{\gamma_{e}-1}} A_{\pi} \frac{P_{5 t}}{P_{0}}+(1+\gamma)\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} A_{\sigma} \frac{P_{15 t}}{P_{0}}-A_{\pi}-A_{\sigma}
+$$&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+\frac{E}{\left(A_{\pi}+A_{\sigma}\right) P_{0}} &amp;=(1+\gamma)\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} \frac{A_{\pi} P_{5 t}+A_{\sigma} P_{15 t}}{P_{2 t}}-1 \\
+&amp;=(1+\gamma)\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}} \text { IEPR-1 }
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;$$
+IEPR=\frac{A_{\pi} P_{5 t}+A_{\sigma} P_{15 t}}{P_{2 t}}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Indicador de Empuje&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para toberas de área fija, E_bruto $=\mathrm{f}($ Relación de Presiones en la Tobera, P_amb)&lt;/p&gt;
+&lt;p&gt;Relación de Presiones en la Tobera: $P_{5 t} / P_{0}$ (NPR: “Nozzle Pressure Ratio”) $P_{5 t} / P_{2 t}$ (EPR: “Engine Pressure Ratio”)&lt;/p&gt;
+&lt;p&gt;En los modernos turbofanes de gran relación de derivación con dos toberas se usan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Área de tobera media ponderada, IEPR, &amp;ldquo;Integrated Engine Pressure Ratio&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;$$
+=\frac{A_{\sigma} P_{15 t}+A_{\pi} P_{5 t}}{P_{2 t}\left(A_{\sigma}+A_{\pi}\right)}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EPR basado en la presión de la tobera del generador de gas (también usado en Turborreactores de flujo único)&lt;/p&gt;
+&lt;p&gt;$$
+=P_{5 t} / P_{2 t}
+$$&lt;/p&gt;
+&lt;p&gt;(preferida por razones de seguridad)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EPR basado en la presión de la tobera de la corriente del fan (usado, principalmente, en sistemas con flujo mezclado) $\quad=P_{15 t} / P_{2 t}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;VIDA DE LOS ÁLABES DE LA TURBINA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Los niveles de empuje ofrecidos a los constructores de aeronaves implican niveles de temperatura de turbina que se certifican en los ensayos de Aprobación Tipo. La velocidad de los álabes de turbina, sus propiedades mecánicas y el grado de refrigeración afectan a la vida de la turbina (tiempo hasta el fallo). La turbina sufre de fluencia térmica en servicio y durante los ensayos de certificación. También se produce fatiga de bajo ciclo debida a los ciclos en los esfuerzos desde cero a los máximos permisibles ( &amp;rsquo;low cycle fatigue&amp;rsquo; ).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fluencia térmica&lt;/p&gt;
+&lt;p&gt;La fluencia térmica del material de los álabes de la turbina en un punto de funcionamiento y para un motor dado se puede calcular, por ejemplo, de la siguiente forma:&lt;/p&gt;
+&lt;p&gt;a) Temperatura media a la entrada del rotor $=1410 \mathrm{~K}$&lt;/p&gt;
+&lt;p&gt;b) Pico perfil temperatura media radial $=60 \mathrm{~K} .$&lt;/p&gt;
+&lt;p&gt;Por consiguiente temperatura pico $=1470 \mathrm{~K}$&lt;/p&gt;
+&lt;p&gt;c) La temperatura real de la corriente que ven los álabes debido a la rotación y por efecto de la velocidad relativa es más baja que la de los gases en un factor de aproximadamente 0,9 (esto se puede obtener de los triángulos de velocidades diseñados).&lt;/p&gt;
+&lt;p&gt;Por consiguiente temperatura metálica sin refrigeración&lt;/p&gt;
+&lt;eq&gt;
+$$
+\begin{aligned}
+&amp;=1323 \mathrm{~K} \\
+&amp;=1050^{\circ} \mathrm{C} \\
+&amp;=250^{\circ} \mathrm{C} &amp; \\
+&amp;=800^{\circ} \mathrm{C}
+\end{aligned}
+$$
+&lt;/eq&gt;
+&lt;p&gt;d) Efecto calculado de la refrigeración en esta condición e) Esfuerzos medios en esta condición, $\sigma=123,5$ Mpal.&lt;/p&gt;
+&lt;p&gt;f) Vida por fluencia según las características del material, para $\sigma$ y $T_{\text {metal }}=1000$ horas Ya que, para los materiales utilizados en álabes de turbina, un aumento de TET de unos 20 ${ }^{\circ} \mathrm{C}$ reduce la vida por fluencia a la mitad, hay un gran interés e incentivo en la mejora de materiales y tecnologías de refrigeración. Nota: un incremento de $20^{\circ} \mathrm{C}$ produce un incremento de empuje típico del 3 al $4 %$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Faltan las últimas diapositivas&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;tema-11-actuaciones-de-componentes&#34;&gt;Tema 11: Actuaciones de Componentes&lt;/h2&gt;
 &lt;p&gt;Un motor dado volará a $M_{0}, h$ y tiene una palanca de gas. Lo que queremos es ver como cambia.&lt;/p&gt;
 &lt;h3 id=&#34;actuaciones-de-compresores-1&#34;&gt;Actuaciones de Compresores&lt;/h3&gt;
@@ -2774,9 +4686,11 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Propulsarse no es moverse por uno mismo&lt;/code&gt;, ya que se necesita obligatoriamente de un &lt;strong&gt;segundo cuerpo&lt;/strong&gt;. En todo caso, este segundo cuerpo podrá o no estar en el propio vehículo.&lt;/p&gt;
 &lt;p&gt;Los sistemas se encuentran en medios resistivos $D(V)$ que se oponen al movimiento. En nuestro caso el aire.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Segunda Ley de Newton:&lt;/code&gt; ($\sum \vec{F}=\frac{d \vec{p}}{dt}$) se necesita una fuerza E para acelerarse o mantener el movimiento (V cte) en estos medios:&lt;/p&gt;
-&lt;p&gt;$$
-\vec{E} = \vec{D}(\vec{V}) + \frac{d(M\vec{V})}{dt} \rightarrow \begin{matrix} \vec{D}(\vec{V})=0 \rightarrow \frac{d(M\vec{V})}{dt}=0 \rightarrow \vec{E}=0 \ \vec{D}(\vec{V}) \neq 0 ,  \frac{d(M\vec{V})}{dt}=0 ;(\vec{V}=cte)\rightarrow \vec{E}=\vec{D}(\vec{V}) \end{matrix}
-$$&lt;/p&gt;
+&lt;eq&gt;
+$$
+\vec{E} = \vec{D}(\vec{V}) + \frac{d(M\vec{V})}{dt} \rightarrow \begin{matrix} \vec{D}(\vec{V})=0 \rightarrow \frac{d(M\vec{V})}{dt}=0 \rightarrow \vec{E}=0 \\ \vec{D}(\vec{V}) \neq 0 ,  \frac{d(M\vec{V})}{dt}=0 \;(\vec{V}=cte)\rightarrow \vec{E}=\vec{D}(\vec{V}) \end{matrix}
+$$
+&lt;/eq&gt;
 &lt;p&gt;&lt;code&gt;Tercera Ley de Newton:&lt;/code&gt; Al generarse $\vec{E}$ se genera la reacción $\vec{R}$ igual y contraria a $\vec{E}$&lt;/p&gt;
 &lt;p&gt;Para conseguir que solo la fuerza $\vec{E}$  se aplique al móvil es necesario que $\vec{R}$ se aplique a otros. No se pueden aplicar ambas fuerzas sobre el móvil, ya que solo se deformaría. Esto lleva a la existencia de dos estados de movimiento (un movimiento al que se aplica $\vec{E}$ y otro al que se aplica $\vec{R}$&lt;/p&gt;
 &lt;p&gt;Suponiendo un universo compuesto por n cuerpos, este no tiene fuerzas exteriores por lo que la cantidad de movimiento permanece constante. Partiendo del reposo la Cte será 0&lt;/p&gt;
@@ -2903,7 +4817,7 @@ $$
 &lt;p&gt;La potencia interna puede ser grandísima y el empuje del motor pésimo, o viceversa esa potencia de dentro puede ser pequeña pero el empuje grandísimo. En un aerorreactor solo se puede medir el empuje. Solo podemos decir que un motor derivado (turbina de gas) la potencia sería x. Sin embargo, hay que ponerle otra turbina que saque potencia al exterior y no empuje (o menos empuje) sacándolo al exterior con un eje. Los empujes necesarios son pequeños las potencias son enormes.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;¿De donde vinienen las fuerzas?:&lt;/summary&gt;
-&lt;p&gt;El aire que es un fluido, las fuerzas que el fluido ejerce sobre las paredes son de presión y fricción (Fuerzas fluidodinámicas). Lo más importante es la de presión&lt;/p&gt;
+&lt;p&gt;El aire que es un fluido, las fuerzas que el fluido ejerce sobre las paredes son de presión y fricción (Fuerzas fluidodinámicas). La más importante es la de presión&lt;/p&gt;
 &lt;/details&gt;
 &lt;h3 id=&#34;empuje&#34;&gt;Empuje&lt;/h3&gt;
 &lt;h4 id=&#34;evaluación-del-empuje&#34;&gt;Evaluación del empuje&lt;/h4&gt;
@@ -11916,6 +13830,24 @@ $$&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt; Exámenes de la parte V1 de la asignatura &amp;ldquo;Vehículos Aeroespaciales&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;script&gt;
+
+    const expandElements = shouldExpand =&gt; {
+        let detailsElements = document.querySelectorAll(&#34;details&#34;);
+
+        detailsElements = [...detailsElements];
+
+        if (shouldExpand) {
+            detailsElements.map(item =&gt; item.setAttribute(&#34;open&#34;, shouldExpand));
+        } else {
+            detailsElements.map(item =&gt; item.removeAttribute(&#34;open&#34;));
+        }
+    };
+
+&lt;/script&gt;
+
+&lt;button onClick=&#34;expandElements(true)&#34;&gt;Expand&lt;/button&gt;
+&lt;button onClick=&#34;expandElements(false)&#34;&gt;Collapse&lt;/button&gt;
 &lt;h2 id=&#34;junio-7-2018&#34;&gt;Junio-7-2018&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
