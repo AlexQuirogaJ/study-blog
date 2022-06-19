@@ -15,7 +15,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Diapositivas y notas de la asignatura &amp;ldquo;Aerorreactores&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/li&gt;
+&lt;li&gt;Diapositivas del profesor José L. Montañés de la asignatura &amp;ldquo;Aerorreactores&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I. Aeronaútica y del Espacio (UPM).&lt;/li&gt;
 &lt;li&gt;Wikipedia&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
@@ -3995,7 +3995,7 @@ $$&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Fuente:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Diapositivas y notas de la asignatura &amp;ldquo;Aerorreactores&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).&lt;/li&gt;
+&lt;li&gt;Diapositivas del profesor José L. Montañés de la asignatura &amp;ldquo;Aerorreactores&amp;rdquo; del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I. Aeronaútica y del Espacio (UPM).&lt;/li&gt;
 &lt;li&gt;Wikipedia&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
@@ -4013,8 +4013,7 @@ $$&lt;/p&gt;
 		data-flex-grow=&#34;153&#34;
 		data-flex-basis=&#34;368px&#34;
 	
-&gt;
-&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled1.png&#34;
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled1.png&#34;
 	width=&#34;1670&#34;
 	height=&#34;1042&#34;
 	srcset=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled1_hu96a39ae5d428717d2f0d54c52287ec84_1555501_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled1_hu96a39ae5d428717d2f0d54c52287ec84_1555501_1024x0_resize_box_3.png 1024w&#34;
@@ -4025,8 +4024,7 @@ $$&lt;/p&gt;
 		data-flex-grow=&#34;160&#34;
 		data-flex-basis=&#34;384px&#34;
 	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled2.png&#34;
+&gt; &lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled2.png&#34;
 	width=&#34;1650&#34;
 	height=&#34;1156&#34;
 	srcset=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled2_huecddd1e9da28ef357b00d8ad3167b0a8_1991654_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled2_huecddd1e9da28ef357b00d8ad3167b0a8_1991654_1024x0_resize_box_3.png 1024w&#34;
@@ -4075,7 +4073,7 @@ M \vec{V} = -m \vec{v} \rightarrow \vec{v} = - \frac{M \vec{V}}{m}
 $$&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;energía-necesaria&#34;&gt;Energía necesaria&lt;/h3&gt;
-&lt;p&gt;Es necesario &lt;code&gt;evaluar la energía necesaria para la propulsión&lt;/code&gt;, ya que esta energía tendrá que venir de algún lado, en nuestro caso del combustible. Para obtener los estados de movimiento requeridos por la propulsión, es necesario aportar al menos la energía cinética de ambos movimientos (el vehículo y el medio propulsor o cuerpo invitado)&lt;/p&gt;
+&lt;p&gt;Es necesario &lt;code&gt;evaluar la energía necesaria para la propulsión&lt;/code&gt;, ya que esta energía tendrá que venir de algún lado, en nuestro caso del combustible. Para obtener los estados de movimiento requeridos por la propulsión, es necesario aportar al menos la &lt;code&gt;energía cinética de ambos movimientos&lt;/code&gt; (el vehículo y el medio propulsor o cuerpo invitado)&lt;/p&gt;
 &lt;p&gt;
 $$
   \Delta E_{min}=E_{cin}= \underbrace{\frac{1}{2}MV^{2}}_{EV_{0} (E. útil)}+\frac{1}{2}mv^{2}=\frac{1}{2}MV^{2} (1+\frac{v}{V}) \rightarrow \{ \begin{matrix} \textrm{v: vel del chorro} \\ \textrm{V: vel del vehículo}\end{matrix}
@@ -4232,10 +4230,10 @@ $$&lt;/p&gt;
 &lt;li&gt;Por consiguiente, con la propulsión por chorro, un vehículo puede propulsarse a velocidades mayores que la velocidad de salida del chorro.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;generación-de-empuje&#34;&gt;Generación de empuje&lt;/h4&gt;
-&lt;p&gt;Si el sistema adquiere aire con el &lt;code&gt;efecto dinámico de la velocidad de vuelo&lt;/code&gt;, es decir, si el sistema en lugar de ser como un motor cohete lo que entra es aire del exterior desde la entrada entonces existe una velocidad de vuelo y el empuje será:&lt;/p&gt;
+&lt;p&gt;Si el sistema adquiere aire con el &lt;code&gt;efecto dinámico de la velocidad de vuelo&lt;/code&gt;, es decir, si el sistema en lugar de ser como un motor cohete lo que entra como oxidante es aire del exterior desde la entrada entonces existe una velocidad de vuelo y el empuje adaptado será:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;$$
-E=G(V_s -V_0)
+E = G(V_{s} - V_{0})
 $$&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;De forma que para tener empuje, la &lt;code&gt;velocidad de salida debe ser mayor que la velocidad de vuelo&lt;/code&gt;. No podemos tener velocidades de vuelo mayores que la velocidad de salida. Cosa que en un motor cohete sí puede. La cantidad de movimiento tiene la dirección de la velocidad. Las fuerzas realizadas son incrementos en cantidad de movimiento, por ello hay que restar la cantidad de movimiento en la entrada. La ventaja es que la velocidad de vuelo se encarga de llenar de aire el aerorreactor&lt;/p&gt;
@@ -4450,7 +4448,7 @@ $$&lt;/p&gt;
 		data-flex-basis=&#34;321px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h4 id=&#34;turborreactor-de-flujo-único&#34;&gt;Turborreactor de flujo único&lt;/h4&gt;
+&lt;h3 id=&#34;turborreactor-de-flujo-único&#34;&gt;Turborreactor de flujo único&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/1/Untitled11.png&#34;
 	width=&#34;1366&#34;
 	height=&#34;966&#34;
@@ -4464,7 +4462,7 @@ $$&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Como $c \ll G$, se suele simplificar a que $c+G$, el gasto que sale es el gasto que entra.&lt;/p&gt;
-&lt;h3 id=&#34;hélices&#34;&gt;Hélices&lt;/h3&gt;
+&lt;h4 id=&#34;hélices&#34;&gt;Hélices&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Para propulsión aérea, la ventaja de utilizar una hélice es que la mayoría de la masa a eyectar no hay que llevarla en el vehiculo. El flujo másico utilizado con las hélices puede ser 2 o 3 órdenes de magnitud mayor que el flujo másico de combustible utilizado (que es lo que hay que Ilevar).&lt;/li&gt;
 &lt;li&gt;Al llevar menos masa eyectada (lo que se denomina propulsante en cohetes) se puede viajar a muchas más grandes distancias sin repostar.&lt;/li&gt;
@@ -4507,7 +4505,7 @@ $$
 &lt;p&gt;$$
 E_{M C}=G \cdot V_{s}
 $$&lt;/p&gt;
-&lt;h3 id=&#34;flujos-isentrópicos-funciones-unidimensionales&#34;&gt;Flujos Isentrópicos: Funciones Unidimensionales&lt;/h3&gt;
+&lt;h4 id=&#34;flujos-isentrópicos-funciones-unidimensionales&#34;&gt;Flujos Isentrópicos: Funciones Unidimensionales&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;Movimiento unidimensional&lt;/code&gt;, suponemos despreciable la variación de velocidad radial&lt;/p&gt;
 &lt;eq&gt;
 $$
@@ -4541,9 +4539,8 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Parámetro de gasto máximo $\approx 0.68$&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;ciclo-termodinámico-de-los-aerorreactores&#34;&gt;Ciclo Termodinámico de los Aerorreactores&lt;/h3&gt;
-&lt;p&gt;En los motores, la energía mecánica se obtiene principalmente de la &lt;code&gt;energía interna de los combustibles&lt;/code&gt;, mediante un proceso de combustión. En este proceso se produce calor, que después se transforma en energía
-mecánica.&lt;/p&gt;
+&lt;h4 id=&#34;ciclo-termodinámico-de-los-aerorreactores&#34;&gt;Ciclo Termodinámico de los Aerorreactores&lt;/h4&gt;
+&lt;p&gt;En los motores, la energía mecánica se obtiene principalmente de la &lt;code&gt;energía interna de los combustibles&lt;/code&gt;, mediante un proceso de combustión. En este proceso se produce calor, que después se transforma en energía mecánica.&lt;/p&gt;
 &lt;p&gt;Esta &lt;code&gt;transformación&lt;/code&gt; se realiza por medio de un &lt;code&gt;ciclo termodinámico&lt;/code&gt;, en el cual una sustancia evoluciona, interaccionando con el exterior, absorbiendo y liberando calor y trabajo, según los principios de la termodinámica.&lt;/p&gt;
 &lt;p&gt;Entre los ciclos más utilizados y conocidos se encuentran los utilizados por los motores, tanto diesel, como los de gasolina (ciclo Otto) que se utilizan en vehículos, barcos y aviones.&lt;/p&gt;
 &lt;p&gt;Otro de los motores existentes es la &lt;code&gt;“TURBINA DE GAS”&lt;/code&gt;. Este sistema utiliza el &lt;code&gt;ciclo termodinámico Brayton&lt;/code&gt;. En él, un gas (aire) se comprime en un compresor, se mezcla con el combustible y se quema en una cámara de combustión, formándose productos de combustión que se expansionan en una turbina, y salen al exterior a través de una tobera de salida.&lt;/p&gt;
@@ -4650,7 +4647,7 @@ mecánica.&lt;/p&gt;
 &lt;p&gt;Las superaleaciones son propiedad de los fabricantes de motores.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;relaciones-entre-rendimiento-térmico-η-m-rendimiento-de-propulsión-η-p-y-consumo-específico-c-e&#34;&gt;Relaciones entre Rendimiento Térmico, $η_{M}$, Rendimiento de Propulsión, $η_{P}$, y Consumo Específico, $C_{E}$&lt;/h3&gt;
+&lt;h4 id=&#34;relaciones-entre-rendimiento-térmico-η-m-rendimiento-de-propulsión-η-p-y-consumo-específico-c-e&#34;&gt;Relaciones entre Rendimiento Térmico, $η_{M}$, Rendimiento de Propulsión, $η_{P}$, y Consumo Específico, $C_{E}$&lt;/h4&gt;
 &lt;p&gt;Se va a ilustrar las relaciones entre estos rendimientos y el consumo específico de combustible en un turborreactor de flujo único. Considérense las velocidades relativas a un turborreactor dadas en la Fig.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -5383,7 +5380,7 @@ $$
 	srcset=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/2/Untitled_9_hu2070c1a3e7e89e8ce6e15df5e644fa9e_113575_480x0_resize_box_3.png 480w, /post/aerorreactores-teor%C3%ADa-primer-parcial/atts/2/Untitled_9_hu2070c1a3e7e89e8ce6e15df5e644fa9e_113575_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;q vs $M_0$&#34;
+		alt=&#34;q vs $M_{0}$&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -5547,7 +5544,7 @@ $$
 &lt;p&gt;Consiste en &lt;code&gt;calcular el empuje/peso necesario en las misiones consideradas más restrictivas&lt;/code&gt; (de mayor E/ W necesario, referiso a SLS).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Para ello, se utiliza la carga alar (Wto/S) y el tipo de vuelo especificado.&lt;/p&gt;
+&lt;p&gt;Para ello, se utiliza la carga alar ($W_{to}/S$) y el tipo de vuelo especificado.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Los distintos tipos de vuelo bajo condiciones dadas a lo largo del trayecto total de la aeronave es lo que se denomina misión. Esta se divide a su vez en fases.&lt;/p&gt;
@@ -5664,7 +5661,7 @@ $$&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$P_s$ vs $M_0$&lt;/p&gt;
+&lt;p&gt;$P_{s}$ vs $M_{0}$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/2/Untitled_20.png&#34;
 	width=&#34;1358&#34;
 	height=&#34;1056&#34;
@@ -5708,7 +5705,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Grados vs M_0&lt;/p&gt;
+&lt;p&gt;Grados vs $M_{0}$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/2/Untitled_23.png&#34;
 	width=&#34;1218&#34;
 	height=&#34;926&#34;
@@ -5751,14 +5748,10 @@ P_{s}=\frac{d z_{e}}{d t} \Rightarrow d t=\frac{d z_{e}}{P_{s}} \Rightarrow \Del
 $$&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;El &lt;code&gt;camino para ir de un nivel energético $z_{e1}$ a otro superior $z_{e2}$ en el mínimo tiempo posible&lt;/code&gt;, se corresponde con aquel en &lt;code&gt;donde el exceso en potencia específica es máximo para cada nivel de energía&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;En la figura de $P_s$ constantes, &lt;code&gt;ese máximo se produce en los puntos de tangencia entre las líneas de nivel de energía constante con las líneas $P_s$ constante&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dimensionado del Avión&lt;/p&gt;
+&lt;li&gt;El &lt;code&gt;camino para ir de un nivel energético $z_{e1}$ a otro superior $z_{e2}$ en el mínimo tiempo posible&lt;/code&gt;, se corresponde con aquel en &lt;code&gt;donde el exceso en potencia específica es máximo para cada nivel de energía&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;En la figura de $P_s$ constantes, &lt;code&gt;ese máximo se produce en los puntos de tangencia entre las líneas de nivel de energía constante con las líneas $P_s$ constante&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dimensionado-del-avión&#34;&gt;Dimensionado del Avión&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Una vez conocidas las necesidades de empuje específico (Tsl/Wto) para realizar una misión dada, se necesita conocer el peso al despegue para obtener el empuje necesario del motor.&lt;/li&gt;
 &lt;li&gt;El peso al despegue se tiene como suma de los pesos especificados para la aeronave en función de lo que de ella se quiere (no de pasajeros, carga, munición&amp;hellip;) más el combustible necesario para realizar la misión prevista.&lt;/li&gt;
@@ -5801,7 +5794,7 @@ $$&lt;/p&gt;
 &lt;li&gt;Nos interesa saber el combustible que se consume en cada etapa del vuelo, para eso habrá que integrar la ecuación, lo que &lt;code&gt;requiere&lt;/code&gt; el conocimiento de &lt;code&gt;$T / W=(\alpha / \beta)(T s l / W t o)$ como función del tiempo&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Para integrar la ecuación es conveniente utilizar distintos métodos según Ps sea &amp;gt; ó = a cero.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;caso-ps-0&#34;&gt;CASO Ps &amp;gt; 0&lt;/h4&gt;
+&lt;h4 id=&#34;caso-p-s-0&#34;&gt;Caso $P_{s} &amp;gt; 0$&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;En estos casos se conoce el empuje aplicado, así como los cambios en la altitud, h, y velocidad, V, que se producen, pero ni la distancia ni el tiempo están involucrados.&lt;/p&gt;
@@ -5819,8 +5812,6 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \frac{d W}{W}=-g C_{E} \frac{T}{W} d t
 $$&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;eq&gt;
 $$
   \frac{T}{W}=\frac{d\left(h+\frac{V^{2}}{2 g}\right)}{dt V} + \underbrace{\frac{D+R}{T}}_{u} \frac{T}{W} \rightarrow \frac{T}{W}= \frac{dz_{e}}{(1-u)\cdot V \cdot dt}
@@ -5842,7 +5833,7 @@ $$&lt;/p&gt;
 \frac{W_{f}}{W_{i}}=\exp \left[-\frac{g C_{E}}{V(1-u)} \Delta\left(h+\frac{V^{2}}{2 g}\right)\right]=\exp \left(-\frac{g C_{E}}{V(1-u)} \Delta z_{e}\right)
 $$&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;caso-p-s-0&#34;&gt;CASO $P_{s} = 0$&lt;/h4&gt;
+&lt;h4 id=&#34;caso-p-s-0-1&#34;&gt;Caso $P_{s} = 0$&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;En estos casos &lt;code&gt;$z_e$ es constante y u = 1&lt;/code&gt;, por lo que la expresión anterior está indeterminada y el combustible consumido habrá que obtenerlo por el conocimiento del espacio o del tiempo involucrados en la misión. En estos casos &lt;code&gt;el empuje es totalmente disipado&lt;/code&gt; no se conoce a priori y se regula para igualarlo a la resistencia, así que &lt;code&gt;T = D+R&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;De la ecuación del empuje se sigue inmediatamente que&lt;/li&gt;
@@ -6055,7 +6046,7 @@ $$
 &lt;p&gt;Interesa ver los flujos de entalpía, la temperatura de remanso ve la temperatura estática y la energía cinética. $h_0 = h + \frac{v^2}{2} \rightarrow(h=C_P T) \rightarrow  T_0 = T + \frac{v^2}{2C_P}$&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Supondremos viscosidad despreciable ($Re&amp;raquo;1$):  $\iint_{\Sigma_{i} e, s}(\overline{\bar{T}} \cdot \vec{v}-\vec{q}) \cdot \vec{n} d\sigma = 0$&lt;/p&gt;
+&lt;p&gt;Supondremos viscosidad despreciable ($Re \gg 1$):  $\iint_{\Sigma_{i} e, s}(\overline{\bar{T}} \cdot \vec{v}-\vec{q}) \cdot \vec{n} d\sigma = 0$&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hay una velocidad característica y un tiempo asociado al movimiento (residencia, que no tiene que ver con que hayan cambiado las cosas).&lt;/p&gt;
@@ -6150,16 +6141,14 @@ $$
 &lt;p&gt;&lt;code&gt;La resultante de las fuerzas de presión y fricción que el fluido ejerce sobre las paredes internas y externas del motor menos las fuerzas de fricción sobre la externa&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;En la ecuación de cantidad de movimiento solo aparece las internas&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
 &lt;p&gt;Se restan las fuerzas viscosas externas. Los efectos de presión por fuera se sabe que son despreciables. Es decir, la forma de la góndola que tiene que ver con esto se asume como resistencia del avión. Se asume que estas fuerzas de presión sobre la carcasa son del avión. Por ejemplo al hacer un ensayo en túnel se pone todo el avión (con la góndola).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
 &lt;p&gt;Fuerzas del fluido sobre las paredes (signo -), $\vec{n}$ apunta al culpable.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;eq&gt;
 $$
+\begin{matrix}
 \vec{E}_{i n s}=-\left[\iint_{\Sigma_{i}, \Sigma_{e}}(-p \overline{\bar{I}}+\overline{\bar{T}}) \cdot \vec{n} d \sigma-\iint_{\Sigma_{e}}(\bar{T}) \cdot \vec{n} d \sigma\right] \quad \Rightarrow \\ \iint_{\Sigma_{i}}(-p \bar{I}+\bar{T}) \cdot \vec{n} d \sigma=-\vec{E}_{\text {ins }}-\iint_{\Sigma_{e}}(-p \bar{I}) \cdot \vec{n} d \sigma
+\end{matrix}
 $$
 &lt;/eq&gt;
 &lt;h3 id=&#34;empujes-y-resistencias-kerrebrock&#34;&gt;Empujes y Resistencias (Kerrebrock)&lt;/h3&gt;
@@ -6195,39 +6184,27 @@ F-D_{e}-A_{e}\left(P_{e}-P_{0}\right)-\int_{S_{b}}\left(P-P_{0}\right) d S=\int_
 $$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Dividiendo la ecuación anterior en dos
-$$
-\begin{array}{l}F-A_{e}\left(P_{e}-P_{0}\right)=\int_{A_{e}} \rho u(\vec{u} \cdot \vec{n}) d S+\int_{A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S \D_{e}+\int_{S_{b}}\left(P-P_{0}\right) d S=-\int_{S-A_{e}-A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S\end{array}
-$$&lt;/p&gt;
+&lt;p&gt;Dividiendo la ecuación anterior en dos:&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Si la densidad y la velocidad son uniformes en el plano de salida “e”
+&lt;/ul&gt;
+&lt;eq&gt;
+$$
+\begin{array}{l}F-A_{e}\left(P_{e}-P_{0}\right)=\int_{A_{e}} \rho u(\vec{u} \cdot \vec{n}) d S+\int_{A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S \\ D_{e}+\int_{S_{b}}\left(P-P_{0}\right) d S=-\int_{S-A_{e}-A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S\end{array}
+$$
+&lt;/eq&gt;
+&lt;ul&gt;
+&lt;li&gt;Si la densidad y la velocidad son uniformes en el plano de salida “e”
 $$
 F=G_{s} u_{e}-G_{0} u_{0}+A_{e}\left(P_{e}-P_{0}\right)
-$$&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Si el plano de salida se hubiera puesto muy aguas abajo donde la presión hubiera sido la presión ambiente, el término de presiones hubiera sido cero, pero se hubiera tenido que tener en cuenta la mezcla del chorro con el aire exterior para conocer la velocidad en ese plano.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para vuelo subsónico, la teoría de flujo potencial nos dice que la fuerza de presión sobre la góndola es nula. La resistencia es debida por entero a las fuerzas debido a los esfuerzos viscosos sobre la superficie externa de la góndola, siempre que los diseños respondan a “aerodinámica ideal”&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;En vuelo supersónico, la presencia de ondas de choque en el flujo externo conduce a incrementos de entropía, que aparecen, en parte, como un “defecto” de presión en el plano de salida y, en parte, como un “defecto” de velocidad en el mismo plano. Ambos efectos producen un incremento de resistencia.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Parte de las deflexiones de la corriente exterior son causadas por el motor.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Así que, parte del aumento de la resistencia, en supersónico, es debida al motor.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Los ingenieros de la célula y del motor son reacios a aceptar las responsabilidades de esta “interface” (interconexión) de ahí la necesidad 
-de dejar las cosas claras.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;La resistencia de rebosamiento (“spillage”) en la entrada y la resistencia base en la salida son ejemplos de este problema de interacción.&lt;/p&gt;
-&lt;/li&gt;
+$$&lt;/li&gt;
+&lt;li&gt;Si el plano de salida se hubiera puesto muy aguas abajo donde la presión hubiera sido la presión ambiente, el término de presiones hubiera sido cero, pero se hubiera tenido que tener en cuenta la mezcla del chorro con el aire exterior para conocer la velocidad en ese plano.&lt;/li&gt;
+&lt;li&gt;Para vuelo subsónico, la teoría de flujo potencial nos dice que la fuerza de presión sobre la góndola es nula. La resistencia es debida por entero a las fuerzas debido a los esfuerzos viscosos sobre la superficie externa de la góndola, siempre que los diseños respondan a “aerodinámica ideal”&lt;/li&gt;
+&lt;li&gt;En vuelo supersónico, la presencia de ondas de choque en el flujo externo conduce a incrementos de entropía, que aparecen, en parte, como un “defecto” de presión en el plano de salida y, en parte, como un “defecto” de velocidad en el mismo plano. Ambos efectos producen un incremento de resistencia.&lt;/li&gt;
+&lt;li&gt;Parte de las deflexiones de la corriente exterior son causadas por el motor.&lt;/li&gt;
+&lt;li&gt;Así que, parte del aumento de la resistencia, en supersónico, es debida al motor.&lt;/li&gt;
+&lt;li&gt;Los ingenieros de la célula y del motor son reacios a aceptar las responsabilidades de esta “interface” (interconexión) de ahí la necesidad 
+de dejar las cosas claras.&lt;/li&gt;
+&lt;li&gt;La resistencia de rebosamiento (“spillage”) en la entrada y la resistencia base en la salida son ejemplos de este problema de interacción.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;/post/aerorreactores-teor%C3%ADa-primer-parcial/atts/3/Untitled_1.png&#34;
 	width=&#34;816&#34;
@@ -6371,7 +6348,7 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Hasta no hace mucho tiempo, el empuje se utilizaba como una cantidad escalar, ya que sólo se utilizaba para propulsar a las aeronaves y estaba asumida su dirección y sentido (de avance) por lo que únicamente su magnitud era lo definitorio (con la excepción de su aplicación para despegue vertical en donde también se sabía su sentido)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;En la actualidad, se está utilizando el vector empuje, además de para propulsarse, para crear momentos&lt;/strong&gt; que puedan controlar el avión.&lt;/li&gt;
-&lt;li&gt;La ventaja principal es que no entran en pérdida, como puede suceder con el control aerodinámico que ha sido el utilizado hasta ahora.&lt;/li&gt;
+&lt;li&gt;La ventaja principal es que no entran en pérdida, como puede suceder con el control aerodinámico que ha sido el utilizado hasta ahora.&lt;/li&gt;
 &lt;li&gt;Los fuerzas utilizadas para el control no son muy significativas por lo que la pérdida de fuerza propulsiva es asumible. Control → M = F x d&lt;/li&gt;
 &lt;li&gt;Las fuerzas se producen con pequeñas deflexiones del área de salida, consiguiendo que el vector “velocidad de salida” y el vector “área de salida” tenga componentes distintas al eje del motor.&lt;/li&gt;
 &lt;/ul&gt;

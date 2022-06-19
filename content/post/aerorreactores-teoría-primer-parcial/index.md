@@ -16,7 +16,7 @@ mathjax: true
 
 # Apuntes
 > **Fuente:**
-> - Diapositivas y notas de la asignatura "Aerorreactores" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).
+> - Diapositivas del profesor José L. Montañés de la asignatura "Aerorreactores" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I. Aeronaútica y del Espacio (UPM).
 > - Wikipedia
 
 ## Tema 1: Introducción a la propulsión
@@ -24,10 +24,7 @@ mathjax: true
 <details>
 <summary>Imágenes</summary>
 
-![](atts/1/Untitled.png)
-![](atts/1/Untitled1.png)
-
-![](atts/1/Untitled2.png)
+![](atts/1/Untitled.png) ![](atts/1/Untitled1.png) ![](atts/1/Untitled2.png)
 </details>
 
 ### Contexto
@@ -83,7 +80,7 @@ Suponiendo que solo interviene un cuerpo de los n-1, de masa m (cuerpo invitado)
 
 ### Energía necesaria
 
-Es necesario `evaluar la energía necesaria para la propulsión`, ya que esta energía tendrá que venir de algún lado, en nuestro caso del combustible. Para obtener los estados de movimiento requeridos por la propulsión, es necesario aportar al menos la energía cinética de ambos movimientos (el vehículo y el medio propulsor o cuerpo invitado)
+Es necesario `evaluar la energía necesaria para la propulsión`, ya que esta energía tendrá que venir de algún lado, en nuestro caso del combustible. Para obtener los estados de movimiento requeridos por la propulsión, es necesario aportar al menos la `energía cinética de ambos movimientos` (el vehículo y el medio propulsor o cuerpo invitado)
 
 <p>
 $$
@@ -200,10 +197,10 @@ El empuje está determinado por la cantidad de movimiento a la salida e independ
 
 #### Generación de empuje
 
-Si el sistema adquiere aire con el `efecto dinámico de la velocidad de vuelo`, es decir, si el sistema en lugar de ser como un motor cohete lo que entra es aire del exterior desde la entrada entonces existe una velocidad de vuelo y el empuje será:
+Si el sistema adquiere aire con el `efecto dinámico de la velocidad de vuelo`, es decir, si el sistema en lugar de ser como un motor cohete lo que entra como oxidante es aire del exterior desde la entrada entonces existe una velocidad de vuelo y el empuje adaptado será:
 
 > $$
-E=G(V_s -V_0)
+  E = G(V_{s} - V_{0})
 > $$
 
 De forma que para tener empuje, la `velocidad de salida debe ser mayor que la velocidad de vuelo`. No podemos tener velocidades de vuelo mayores que la velocidad de salida. Cosa que en un motor cohete sí puede. La cantidad de movimiento tiene la dirección de la velocidad. Las fuerzas realizadas son incrementos en cantidad de movimiento, por ello hay que restar la cantidad de movimiento en la entrada. La ventaja es que la velocidad de vuelo se encarga de llenar de aire el aerorreactor
@@ -336,13 +333,13 @@ Mayor consumo pero mucho menos peso. La ventaja es que $\eta_{P}$ aumenta mucho 
 ![](atts/1/Untitled10.png)
 
 
-#### Turborreactor de flujo único
+### Turborreactor de flujo único
 
 ![](atts/1/Untitled11.png)
 
 Como $c \ll G$, se suele simplificar a que $c+G$, el gasto que sale es el gasto que entra.
 
-### Hélices
+#### Hélices
 
 - Para propulsión aérea, la ventaja de utilizar una hélice es que la mayoría de la masa a eyectar no hay que llevarla en el vehiculo. El flujo másico utilizado con las hélices puede ser 2 o 3 órdenes de magnitud mayor que el flujo másico de combustible utilizado (que es lo que hay que Ilevar).
 - Al llevar menos masa eyectada (lo que se denomina propulsante en cohetes) se puede viajar a muchas más grandes distancias sin repostar.
@@ -376,7 +373,7 @@ $$
 E_{M C}=G \cdot V_{s}
 $$
 
-### Flujos Isentrópicos: Funciones Unidimensionales
+#### Flujos Isentrópicos: Funciones Unidimensionales
 
 `Movimiento unidimensional`, suponemos despreciable la variación de velocidad radial
 
@@ -393,10 +390,9 @@ $T_t = cte \quad P_t = cte$
 - Parámetro de gasto máximo $\approx 0.68$
 
 
-### Ciclo Termodinámico de los Aerorreactores
+#### Ciclo Termodinámico de los Aerorreactores
 
-En los motores, la energía mecánica se obtiene principalmente de la `energía interna de los combustibles`, mediante un proceso de combustión. En este proceso se produce calor, que después se transforma en energía
-  mecánica.
+En los motores, la energía mecánica se obtiene principalmente de la `energía interna de los combustibles`, mediante un proceso de combustión. En este proceso se produce calor, que después se transforma en energía mecánica.
 
 Esta `transformación` se realiza por medio de un `ciclo termodinámico`, en el cual una sustancia evoluciona, interaccionando con el exterior, absorbiendo y liberando calor y trabajo, según los principios de la termodinámica.
 
@@ -447,7 +443,7 @@ No todo el aire se quema, se forman relaciones estequiométricas con una fracci�
 
 - Las superaleaciones son propiedad de los fabricantes de motores.
 
-### Relaciones entre Rendimiento Térmico, $η_{M}$, Rendimiento de Propulsión, $η_{P}$, y Consumo Específico, $C_{E}$
+#### Relaciones entre Rendimiento Térmico, $η_{M}$, Rendimiento de Propulsión, $η_{P}$, y Consumo Específico, $C_{E}$
 
 Se va a ilustrar las relaciones entre estos rendimientos y el consumo específico de combustible en un turborreactor de flujo único. Considérense las velocidades relativas a un turborreactor dadas en la Fig.
 
@@ -920,7 +916,7 @@ $$
 
 - En supersónico alrededor de 70 y más
 
-	![q vs $M_0$](atts/2/Untitled_9.png)
+	![q vs $M_{0}$](atts/2/Untitled_9.png)
 
 - En condiciones de `baja presión dinámica q`, como el `despegue`, el término dominante de la polar parabólica es el primero
 
@@ -1016,7 +1012,7 @@ $$
 ### Análisis de restricciones
 
 - Consiste en `calcular el empuje/peso necesario en las misiones consideradas más restrictivas` (de mayor E/ W necesario, referiso a SLS).
-- Para ello, se utiliza la carga alar (Wto/S) y el tipo de vuelo especificado.
+- Para ello, se utiliza la carga alar ($W_{to}/S$) y el tipo de vuelo especificado.
 - Los distintos tipos de vuelo bajo condiciones dadas a lo largo del trayecto total de la aeronave es lo que se denomina misión. Esta se divide a su vez en fases.
 - Dependiendo el uso que se vaya a hacer del avión nos encontraremos con unos u otros tipos de misiones.
 - Las necesidades de empuje/peso son tan diferentes, dependiendo de las misiones, que es imposible que con solo un tipo de motor se puedan realizar todas de forma satisfactoria.
@@ -1052,7 +1048,7 @@ $$
 
 	![](atts/2/Untitled_19.png)
 
-- $P_s$ vs $M_0$
+- $P_{s}$ vs $M_{0}$
 
 	![](atts/2/Untitled_20.png)
 
@@ -1066,7 +1062,7 @@ $$
 
 	- A 400 nudos y 5000 m el avión debería tener una velocidad ascensional de 2600 ft/min si la palanca está al máximo. El piloto debe bajar la palanca si no quiere ascender.
 
-- Grados vs M_0
+- Grados vs $M_{0}$
 
 	![](atts/2/Untitled_23.png)
 
@@ -1089,57 +1085,58 @@ $$
 - El `camino para ir de un nivel energético $z_{e1}$ a otro superior $z_{e2}$ en el mínimo tiempo posible`, se corresponde con aquel en `donde el exceso en potencia específica es máximo para cada nivel de energía`.
 - En la figura de $P_s$ constantes, `ese máximo se produce en los puntos de tangencia entre las líneas de nivel de energía constante con las líneas $P_s$ constante`.
 
-- Dimensionado del Avión
-	- Una vez conocidas las necesidades de empuje específico (Tsl/Wto) para realizar una misión dada, se necesita conocer el peso al despegue para obtener el empuje necesario del motor.
-	- El peso al despegue se tiene como suma de los pesos especificados para la aeronave en función de lo que de ella se quiere (no de pasajeros, carga, munición...) más el combustible necesario para realizar la misión prevista.
-	- El `combustible necesario` es el que se va a consumir en los motores y será por tanto función del consumo específico de estos.
-	- Este se calculará como `suma del combustible gastado en los distintos tramos de la misión`.
-	- La velocidad con que una aeronave pierde peso debido al consumo de combustible es
+### Dimensionado del Avión
 
-	> $$
-	  \frac{d W}{d t}=-\frac{d W_{f}}{d t}=-g \frac{d M_{f}}{d t}=-g c=-g C_{E} T
-	> $$
+- Una vez conocidas las necesidades de empuje específico (Tsl/Wto) para realizar una misión dada, se necesita conocer el peso al despegue para obtener el empuje necesario del motor.
+- El peso al despegue se tiene como suma de los pesos especificados para la aeronave en función de lo que de ella se quiere (no de pasajeros, carga, munición...) más el combustible necesario para realizar la misión prevista.
+- El `combustible necesario` es el que se va a consumir en los motores y será por tanto función del consumo específico de estos.
+- Este se calculará como `suma del combustible gastado en los distintos tramos de la misión`.
+- La velocidad con que una aeronave pierde peso debido al consumo de combustible es
 
-	> Hablar de distancia en términos de combustible gastado
-	- `El combustible gastado en un intervalo de tiempo` realizando un segmento de la misión es
+> $$
+ \frac{d W}{d t}=-\frac{d W_{f}}{d t}=-g \frac{d M_{f}}{d t}=-g c=-g C_{E} T
+> $$
 
-	> $$
-	  \frac{d W}{W}=-g C_{E} \frac{T}{W} d t
-	> $$
+> Hablar de distancia en términos de combustible gastado
+- `El combustible gastado en un intervalo de tiempo` realizando un segmento de la misión es
 
-	- En la última parte de la expresión se representa el trabajo que realiza el empuje del motor por unidad de peso y velocidad, cuando se consume una cantidad de combustible dWf.
+> $$
+ \frac{d W}{W}=-g C_{E} \frac{T}{W} d t
+> $$
 
-	$$
-	\frac{T}{W} d t=\frac{T}{W} \frac{d t}{d s} d s=\frac{T}{W V} d s
-	$$
+- En la última parte de la expresión se representa el trabajo que realiza el empuje del motor por unidad de peso y velocidad, cuando se consume una cantidad de combustible dWf.
 
-	- Como en cualquier otra situación termodinámica ese trabajo del empuje se invertirá parcialmente en energía mecánica (cinética + potencial) de la masa del avión y parcialmente será disipada en energía no mecánica debida a la fricción entre la atmósfera y el avión.
-	- La relación entre energía mecánica y disipada dependerá del tipo de vuelo considerado.
-	- Si `llamamos u = $\frac{(D+R)}{T}$`.
+$$
+\frac{T}{W} d t=\frac{T}{W} \frac{d t}{d s} d s=\frac{T}{W V} d s
+$$
 
-	$$
-	\frac{d W}{W}=-g C_{E} \frac{T}{W} d t
-	$$
+- Como en cualquier otra situación termodinámica ese trabajo del empuje se invertirá parcialmente en energía mecánica (cinética + potencial) de la masa del avión y parcialmente será disipada en energía no mecánica debida a la fricción entre la atmósfera y el avión.
+- La relación entre energía mecánica y disipada dependerá del tipo de vuelo considerado.
+- Si `llamamos u = $\frac{(D+R)}{T}$`.
 
-	- `“u” será la fracción de empuje que se disipa en fricción` (se emplea para vencer la resistencia) y `“1‐u” será la fracción del empuje que se invierte en aumentar el nivel energético`.
-	- Nos interesa saber el combustible que se consume en cada etapa del vuelo, para eso habrá que integrar la ecuación, lo que `requiere` el conocimiento de `$T / W=(\alpha / \beta)(T s l / W t o)$ como función del tiempo`.
-	- Para integrar la ecuación es conveniente utilizar distintos métodos según Ps sea > ó = a cero.
+$$
+\frac{d W}{W}=-g C_{E} \frac{T}{W} d t
+$$
 
-	#### CASO Ps > 0
+- `“u” será la fracción de empuje que se disipa en fricción` (se emplea para vencer la resistencia) y `“1‐u” será la fracción del empuje que se invierte en aumentar el nivel energético`.
+- Nos interesa saber el combustible que se consume en cada etapa del vuelo, para eso habrá que integrar la ecuación, lo que `requiere` el conocimiento de `$T / W=(\alpha / \beta)(T s l / W t o)$ como función del tiempo`.
+- Para integrar la ecuación es conveniente utilizar distintos métodos según Ps sea > ó = a cero.
 
-	- En estos casos se conoce el empuje aplicado, así como los cambios en la altitud, h, y velocidad, V, que se producen, pero ni la distancia ni el tiempo están involucrados.
+#### Caso $P_{s} > 0$
 
-	- `Normalmente el empuje aplicado será el máximo $T = αT_{sl}$`.
+- En estos casos se conoce el empuje aplicado, así como los cambios en la altitud, h, y velocidad, V, que se producen, pero ni la distancia ni el tiempo están involucrados.
 
-	- La ecuación de potencias nos dará el valor de $T/W$
+- `Normalmente el empuje aplicado será el máximo $T = αT_{sl}$`.
 
-	$$
-	\frac{T-D}{W}=\frac{1}{V} \frac{d}{d t}\left(h+\frac{V^{2}}{2 g}\right)=\frac{1}{V} \frac{d z_{e}}{d t}=0
-	$$
+- La ecuación de potencias nos dará el valor de $T/W$
 
-	$$
-	\frac{d W}{W}=-g C_{E} \frac{T}{W} d t
-	$$
+$$
+\frac{T-D}{W}=\frac{1}{V} \frac{d}{d t}\left(h+\frac{V^{2}}{2 g}\right)=\frac{1}{V} \frac{d z_{e}}{d t}=0
+$$
+
+$$
+\frac{d W}{W}=-g C_{E} \frac{T}{W} d t
+$$
 
 <eq>
 $$
@@ -1159,7 +1156,7 @@ $$
 \frac{W_{f}}{W_{i}}=\exp \left[-\frac{g C_{E}}{V(1-u)} \Delta\left(h+\frac{V^{2}}{2 g}\right)\right]=\exp \left(-\frac{g C_{E}}{V(1-u)} \Delta z_{e}\right)
 > $$
 
-#### CASO $P_{s} = 0$
+#### Caso $P_{s} = 0$
 
 - En estos casos `$z_e$ es constante y u = 1`, por lo que la expresión anterior está indeterminada y el combustible consumido habrá que obtenerlo por el conocimiento del espacio o del tiempo involucrados en la misión. En estos casos `el empuje es totalmente disipado` no se conoce a priori y se regula para igualarlo a la resistencia, así que `T = D+R`.
 - De la ecuación del empuje se sigue inmediatamente que
@@ -1302,7 +1299,7 @@ $$
 > Interesa ver los flujos de entalpía, la temperatura de remanso ve la temperatura estática y la energía cinética. $h_0 = h + \frac{v^2}{2} \rightarrow(h=C_P T) \rightarrow  T_0 = T + \frac{v^2}{2C_P}$
 
 
-> Supondremos viscosidad despreciable ($Re>>1$):  $\iint_{\Sigma_{i} e, s}(\overline{\bar{T}} \cdot \vec{v}-\vec{q}) \cdot \vec{n} d\sigma = 0$
+> Supondremos viscosidad despreciable ($Re \gg 1$):  $\iint_{\Sigma_{i} e, s}(\overline{\bar{T}} \cdot \vec{v}-\vec{q}) \cdot \vec{n} d\sigma = 0$
 
 > Hay una velocidad característica y un tiempo asociado al movimiento (residencia, que no tiene que ver con que hayan cambiado las cosas).
 
@@ -1391,15 +1388,15 @@ $$
 
 > En la ecuación de cantidad de movimiento solo aparece las internas
 >
-
 > Se restan las fuerzas viscosas externas. Los efectos de presión por fuera se sabe que son despreciables. Es decir, la forma de la góndola que tiene que ver con esto se asume como resistencia del avión. Se asume que estas fuerzas de presión sobre la carcasa son del avión. Por ejemplo al hacer un ensayo en túnel se pone todo el avión (con la góndola).
 >
-
 > Fuerzas del fluido sobre las paredes (signo -), $\vec{n}$ apunta al culpable.
 
 <eq>
 $$
+\begin{matrix}
 \vec{E}_{i n s}=-\left[\iint_{\Sigma_{i}, \Sigma_{e}}(-p \overline{\bar{I}}+\overline{\bar{T}}) \cdot \vec{n} d \sigma-\iint_{\Sigma_{e}}(\bar{T}) \cdot \vec{n} d \sigma\right] \quad \Rightarrow \\ \iint_{\Sigma_{i}}(-p \bar{I}+\bar{T}) \cdot \vec{n} d \sigma=-\vec{E}_{\text {ins }}-\iint_{\Sigma_{e}}(-p \bar{I}) \cdot \vec{n} d \sigma
+\end{matrix}
 $$
 </eq>
 
@@ -1419,10 +1416,15 @@ $$
 $$
 F-D_{e}-A_{e}\left(P_{e}-P_{0}\right)-\int_{S_{b}}\left(P-P_{0}\right) d S=\int_{S} \rho u(\vec{u} \cdot \vec{n}) d S
 $$
-- Dividiendo la ecuación anterior en dos
+
+- Dividiendo la ecuación anterior en dos:
+
+<eq>
 $$
-\begin{array}{l}F-A_{e}\left(P_{e}-P_{0}\right)=\int_{A_{e}} \rho u(\vec{u} \cdot \vec{n}) d S+\int_{A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S \\D_{e}+\int_{S_{b}}\left(P-P_{0}\right) d S=-\int_{S-A_{e}-A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S\end{array}
+\begin{array}{l}F-A_{e}\left(P_{e}-P_{0}\right)=\int_{A_{e}} \rho u(\vec{u} \cdot \vec{n}) d S+\int_{A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S \\ D_{e}+\int_{S_{b}}\left(P-P_{0}\right) d S=-\int_{S-A_{e}-A_{0}} \rho u(\vec{u} \cdot \vec{n}) d S\end{array}
 $$
+</eq>
+
 - Si la densidad y la velocidad son uniformes en el plano de salida “e”
 $$
 F=G_{s} u_{e}-G_{0} u_{0}+A_{e}\left(P_{e}-P_{0}\right)
@@ -1568,7 +1570,7 @@ $$
 
 -  Hasta no hace mucho tiempo, el empuje se utilizaba como una cantidad escalar, ya que sólo se utilizaba para propulsar a las aeronaves y estaba asumida su dirección y sentido (de avance) por lo que únicamente su magnitud era lo definitorio (con la excepción de su aplicación para despegue vertical en donde también se sabía su sentido)
 - **En la actualidad, se está utilizando el vector empuje, además de para propulsarse, para crear momentos** que puedan controlar el avión.
-- La ventaja principal es que no entran en pérdida, como puede suceder con el control aerodinámico que ha sido el utilizado hasta ahora.
+- La ventaja principal es que no entran en pérdida, como puede suceder con el control aerodinámico que ha sido el utilizado hasta ahora.
 - Los fuerzas utilizadas para el control no son muy significativas por lo que la pérdida de fuerza propulsiva es asumible. Control → M = F x d
 - Las fuerzas se producen con pequeñas deflexiones del área de salida, consiguiendo que el vector “velocidad de salida” y el vector “área de salida” tenga componentes distintas al eje del motor.
 
@@ -1577,7 +1579,6 @@ $$
 - Aunque la vectorización del empuje se puede hacer tridimensional, vamos a calcular, por simplicidad, las componentes que aparecen con una deflexión del área de salida solamente en el plano del papel. El área de entrada sigue siendo perpendicular al eje del motor (dirección i)
 
 ![](atts/3/Untitled_3.png)
-
 
 <eq>
 $$

@@ -16,7 +16,7 @@ mathjax: true
 
 # Apuntes
 > **Fuente:**
-> - Diapositivas y notas de la asignatura "Aerorreactores" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I.Aeronaútica y del Espacio (UPM).
+> - Diapositivas del profesor José L. Montañés de la asignatura "Aerorreactores" del Grado en Ingeniería Aeroespacial impartida por la E.T.S.I. Aeronaútica y del Espacio (UPM).
 > - Wikipedia
 
 
