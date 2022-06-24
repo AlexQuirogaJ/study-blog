@@ -161,7 +161,7 @@ mathjax: true
 
     c) 0,58 si la velocidad de vuelo fuera $200 \mathrm{~m} / \mathrm{s}$.
 
-    d) 0,43 si la velocidad de vuelo fuera $300 \mathrm{~m} / \mathrm{s}.
+    d) 0,43 si la velocidad de vuelo fuera $300 \mathrm{~m} / \mathrm{s}$.
 
     <details>
     <summary>Solución</summary>
@@ -349,7 +349,7 @@ mathjax: true
 
 Se obtendrá un punto por pregunta si la solución numérica indicada se corresponde con la solución correcta $\pm 1 \%$, excepto cuando la solución numérica se corresponda con un hecho térico, en cuyo caso no se aceptará error alguno; por ejemplo, el rendimiento adiabático de un compresor en una evolución ideal es $=1 .$
 
-Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K} y \gamma=1,4 ; y$ que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$. Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 \mathrm{~K} ; P_{0}=101325 \mathrm{~Pa}\right)$.
+Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y $\gamma=1,4$; y que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$. Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 \mathrm{~K} ; P_{0}=101325 \mathrm{~Pa}\right)$.
 
 ---
 
@@ -409,7 +409,15 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     Sol: $38,69 \mathrm{~g} /(\mathrm{kN} \cdot \mathrm{s})$
     </details>
 
-27. Se tiene un turborreactor con $\pi_{23}$ de diseño de $10: 1$ y $T_{4 t}=1550 \mathrm{~K}\left(V_{0}=0 \mathrm{~m} / \mathrm{s}, \mathrm{SLS}\right)$. Cuánto valdría el rendimiento motor ideal volando a un Mach de 0,80 y $5000 \mathrm{~m}\left(P_{0}=54,02 \mathrm{kPa}, T_{0}=\right.$ $255,7 \mathrm{~K})$, y con una $T_{4 t}=1400 \mathrm{~K} . \quad$ Sol: 0,5180 28. Un turborreactor de flujo único, con $V_{0} / V_{t b}=0,5$, se ha transformado en un turbohélice. Suponiendo una transferencia de potencia ideal, que el rendimiento de la hélice es la unidad, y que se quiere obtener consumo específico mínimo, qué potencia por unidad de gasto habrá transferir a la hélice referida a la potencia disponible $\left(V_{t b}^{2} / 2\right)$
+27. Se tiene un turborreactor con $\pi_{23}$ de diseño de $10: 1$ y $T_{4 t}=1550 \mathrm{~K}\left(V_{0}=0 \mathrm{~m} / \mathrm{s}, \mathrm{SLS}\right)$. Cuánto valdría el rendimiento motor ideal volando a un Mach de 0,80 y $5000 \mathrm{~m}\left(P_{0}=54,02 \mathrm{kPa}, T_{0}=\right.$ $255,7 \mathrm{~K})$, y con una $T_{4 t}=1400 \mathrm{~K} . \quad$
+
+    <details>
+    <summary>Solución</summary>
+
+    Sol: 0,5180
+    </details>
+
+28. Un turborreactor de flujo único, con $V_{0} / V_{t b}=0,5$, se ha transformado en un turbohélice. Suponiendo una transferencia de potencia ideal, que el rendimiento de la hélice es la unidad, y que se quiere obtener consumo específico mínimo, qué potencia por unidad de gasto habrá transferir a la hélice referida a la potencia disponible $\left(V_{t b}^{2} / 2\right)$
 
     <details>
     <summary>Solución</summary>
@@ -417,7 +425,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     Sol: 0,75
     </details>
 
-28. Un turbofan ideal con una relación de derivación de 8, funciona con un trabajo específico del fan optimizado a una velocidad de $250 \mathrm{~m} / \mathrm{s}$. Si a esa condición de vuelo la velocidad de salida del turborreactor base es de $875 \mathrm{~m} / \mathrm{s}$, la velocidad de salida del primario (flujo caliente) sería, en $\mathrm{m} / \mathrm{s} . \quad$
+29. Un turbofan ideal con una relación de derivación de 8, funciona con un trabajo específico del fan optimizado a una velocidad de $250 \mathrm{~m} / \mathrm{s}$. Si a esa condición de vuelo la velocidad de salida del turborreactor base es de $875 \mathrm{~m} / \mathrm{s}$, la velocidad de salida del primario (flujo caliente) sería, en $\mathrm{m} / \mathrm{s} . \quad$
 
     <details>
     <summary>Solución</summary>
@@ -880,10 +888,14 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     **b**
     </details>
 
-4. Aplicando las ecuaciones simplificadas, en un turborreactor con una $T_{4 t}=1600 \mathrm{~K}$ y $\pi_{c}=30: 1$, qué diferencia porcentual aproximadamente existe, en despegue, entre el rendimiento motor real e ideal, $\left[100^{*}\left(\eta_{M}\right.\right.$, real- $\eta_{M}$, ideal $) / \eta_{M}$, ideal $]$
+4. <mark>Aplicando</mark> las ecuaciones simplificadas, en un turborreactor con una $T_{4 t}=1600 \mathrm{~K}$ y $\pi_{c}=30: 1$, qué diferencia porcentual aproximadamente existe, en despegue, entre el rendimiento motor real e ideal, $\left[100^{*}\left(\eta_{M}\right.\right.$, real- $\eta_{M}$, ideal $) / \eta_{M}$, ideal $]$
+
     a) $-25 \%$
+
     b) $-39 \%$
+
     c) $-59 \%$
+
     d) $-47 \%$
 
     <details>
@@ -908,7 +920,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     **c**
     </details>
 
-6. Un turborreactor de flujo único, diseñado para máximo impulso especifico del primario, se quiere transformar en turbofán óptimo. En la transformación se decide subir la relación global de presiones del turborreactor base para $T_{4 t}=$ cte. Si se quiere seguir obteniendo un turbofán óptimo para la misma velocidad de vuelo, ello se traduce, comparando con el diseño inicial del turbofán, en:
+6. <mark>Un turborreactor</mark> de flujo único, diseñado para máximo impulso especifico del primario, se quiere transformar en turbofán óptimo. En la transformación se decide subir la relación global de presiones del turborreactor base para $T_{4 t}=$ cte. Si se quiere seguir obteniendo un turbofán óptimo para la misma velocidad de vuelo, ello se traduce, comparando con el diseño inicial del turbofán, en:
 
     a) Disminuir la relación de derivación del fan.
 
@@ -956,7 +968,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     **c**
     </details>
 
-9. La potencia neta adimensional de un turborreactor suponiendo ciclo ideal
+9.  La potencia neta adimensional de un turborreactor suponiendo ciclo ideal
 
     a) Tiene un máximo con $\pi_{23}$ y un máximo con $T_{4 t}$.
 
@@ -988,7 +1000,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     **c**
     </details>
 
-11. Al aumentar la característica del ciclo $\theta_{t}$
+11. <mark>Al aumentar</mark> la característica del ciclo $\theta_{t}$
 
     a) Aumenta ligeramente la potencia mecánica neta específica adimensional.
 
@@ -1004,7 +1016,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     **c**
     </details>
 
-12. Para un $\Lambda$ dado, se optimiza la relación de presiones del fan, $\pi_{f}$, para tener un turbofan con $C_{\mathrm{E}}$ mínimo. Se puede decir que la $\pi_{f}$ resultante
+12. <mark>Para un</mark> $\Lambda$ dado, se optimiza la relación de presiones del fan, $\pi_{f}$, para tener un turbofan con $C_{\mathrm{E}}$ mínimo. Se puede decir que la $\pi_{f}$ resultante
 
     a) Aumenta con la $V_{0}$
 
@@ -1028,7 +1040,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
 
     c) $1155 \mathrm{~m} / \mathrm{s}$
 
-    d) $1320 \mathrm{~m} / \mathrm{s}$$.
+    d) $1320 \mathrm{~m} / \mathrm{s}$.
 
     <details>
     <summary>Solución</summary>
@@ -1130,7 +1142,7 @@ Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mat
     **a**
     </details>
 
-19. Se tiene un motor en un banco de ensayos; la fuerza $\mathrm{F}$ que se ejerce sobre el soporte de sujeción es:
+19. <mark>Se tiene</mark> un motor en un banco de ensayos; la fuerza $\mathrm{F}$ que se ejerce sobre el soporte de sujeción es:
 
     a) Mayor que el empuje no instalado en banco.
 
@@ -1180,7 +1192,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: $3,1101 \mathrm{~m} / \mathrm{s}$
     </details>
 
-22. Un avión, de peso al despegue 200 ton, está aterrizando con una fracción de peso al despegue, $\beta=0,60$. El aterrizaje lo está realizando equilibrado $(L=W)$, a una velocidad de $70 \mathrm{~m} / \mathrm{s}$, siguiendo una senda de planeo de $3^{\circ}$ con la horizontal.
+22. <mark>Un avión</mark>, de peso al despegue 200 ton, está aterrizando con una fracción de peso al despegue, $\beta=0,60$. El aterrizaje lo está realizando equilibrado $(L=W)$, a una velocidad de $70 \mathrm{~m} / \mathrm{s}$, siguiendo una senda de planeo de $3^{\circ}$ con la horizontal.
 
     Por problemas en la pista debe abortar el aterrizaje, para ello selecciona máxima potencia, manteniendo la configuración aerodinámica. El Empuje/Peso al despegue en la condición de máxima potencia es $E / W_{\text {to }}=0,25$
 
@@ -1192,7 +1204,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: $7,8440 \mathrm{~m} / \mathrm{s}$
     </details>
 
-23. Cuál es la relación entre la Velocidad de salida/Velocidad de vuelo de un turborreactor que sigue un ciclo ideal optimizado para obtener potencia mecánica específica máxima para una temperatura fin de combustión/temperatura ambiente $=6$ y $M_{0}=0,80 \quad$
+23. <mark>Cuál es la relación</mark> entre la Velocidad de salida/Velocidad de vuelo de un turborreactor que sigue un ciclo ideal optimizado para obtener potencia mecánica específica máxima para una temperatura fin de combustión/temperatura ambiente $=6$ y $M_{0}=0,80 \quad$
 
     <details>
     <summary>Solución</summary>
@@ -1200,7 +1212,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: 4,1730
     </details>
 
-24. En crucero, $\mathrm{a}=10000 \mathrm{~m}\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26437 \mathrm{~Pa}\right), M_{0}=0,85 ;$ un turborreactor proporciona una velocidad de salida, $V_{t b}$, de $970 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán; suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimiento adiabáticos de la turbina que mueve el fan, $\eta_{t} ;$ y del fan, $\eta_{f}$, son iguales a 0,9 . Calcular, para obtener un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada, el impulso específico referido al gasto primario en $\mathrm{m} / \mathrm{s}$.
+24. <mark>En crucero</mark>, $\mathrm{a}=10000 \mathrm{~m}\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26437 \mathrm{~Pa}\right), M_{0}=0,85 ;$ un turborreactor proporciona una velocidad de salida, $V_{t b}$, de $970 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán; suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimiento adiabáticos de la turbina que mueve el fan, $\eta_{t} ;$ y del fan, $\eta_{f}$, son iguales a 0,9 . Calcular, para obtener un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada, el impulso específico referido al gasto primario en $\mathrm{m} / \mathrm{s}$.
 
     <details>
     <summary>Solución</summary>
@@ -1208,7 +1220,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: $1399,6 \mathrm{~m} / \mathrm{s}$
     </details>
 
-25. Un turborreactor de flujo único, con un rendimiento de propulsión de 0,20 , se ha transformado en un turbohélice, optimizado para una condición de vuelo típica. Cuál sería la relación aproximada de consumos específicos de combustible $C_{\mathrm{E}, \mathrm{TB}} /\left(V_{0} \cdot C_{\mathrm{E}, \mathrm{TH}}\right)$, donde los $C_{\mathrm{E}}$ son los usados habitualmente en cada sistema.
+25. <mark>Un turborreactor</mark> de flujo único, con un rendimiento de propulsión de 0,20 , se ha transformado en un turbohélice, optimizado para una condición de vuelo típica. Cuál sería la relación aproximada de consumos específicos de combustible $C_{\mathrm{E}, \mathrm{TB}} /\left(V_{0} \cdot C_{\mathrm{E}, \mathrm{TH}}\right)$, donde los $C_{\mathrm{E}}$ son los usados habitualmente en cada sistema.
 
     <details>
     <summary>Solución</summary>
@@ -1216,7 +1228,15 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: 5,00
     </details>
 
-26. A una velocidad de vuelo de $260 \mathrm{~m} / \mathrm{s}$, un turborreactor tiene una velocidad de salida de $580 \mathrm{~m} / \mathrm{s}$. Si transformamos el sistema en turbofan, calcular la potencia por unidad de gasto primario, en $\mathrm{kJ} / \mathrm{kg}$, que hay que extraer al primario para optimizarlo a dicha velocidad suponiendo ciclo ideal. $\quad 134,40 \mathrm{~kJ} / \mathrm{kg}$ 27. La resistencia adicional, en despegue, de un motor de $260 \mathrm{kN}$ de empuje no instalado es $23 \mathrm{kN}$, cuando su Mach de entrada, $M_{e}$, es 0,45 .
+26. A una velocidad de vuelo de $260 \mathrm{~m} / \mathrm{s}$, un turborreactor tiene una velocidad de salida de $580 \mathrm{~m} / \mathrm{s}$. Si transformamos el sistema en turbofan, calcular la potencia por unidad de gasto primario, en $\mathrm{kJ} / \mathrm{kg}$, que hay que extraer al primario para optimizarlo a dicha velocidad suponiendo ciclo ideal.
+
+    <details>
+    <summary>Solución</summary>
+
+    $134,40 \mathrm{~kJ} / \mathrm{kg}$
+    </details>
+
+27. La resistencia adicional, en despegue, de un motor de $260 \mathrm{kN}$ de empuje no instalado es $23 \mathrm{kN}$, cuando su Mach de entrada, $M_{e}$, es 0,45 .
 
     A $11000 \mathrm{~m}(\theta=0,7519 ; \delta=0,2234)$, a qué Mach de vuelo la resistencia adicional es nula sabiendo que el gasto en despegue es 3,0 veces el de crucero.
 
@@ -1226,7 +1246,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: 0,51698
     </details>
 
-27. Al realizar una prueba de gases de salida a un aerorreactor, funcionando con un relación combustible / aire, $f$, de 0,030 , no se ha detectado H2 y se ha detectado un índice de emisión de 25 de hidrocarburo sin quemar $(\mathrm{HC})$ por segundo. Si el poder calorífico de las reacciones de oxidación del CO y HC, $L_{\mathrm{CO}}$ y $L_{\mathrm{HC}}$, es $10,1 \mathrm{MJ} / \mathrm{kg}$ y $42 \mathrm{MJ} / \mathrm{kg}$ respectivamente, y el rendimiento de combustión es 0,96 , cuántas deben ser las partes por millón de CO presente en los gases.
+28. Al realizar una prueba de gases de salida a un aerorreactor, funcionando con un relación combustible / aire, $f$, de 0,030 , no se ha detectado H2 y se ha detectado un índice de emisión de 25 de hidrocarburo sin quemar $(\mathrm{HC})$ por segundo. Si el poder calorífico de las reacciones de oxidación del CO y HC, $L_{\mathrm{CO}}$ y $L_{\mathrm{HC}}$, es $10,1 \mathrm{MJ} / \mathrm{kg}$ y $42 \mathrm{MJ} / \mathrm{kg}$ respectivamente, y el rendimiento de combustión es 0,96 , cuántas deben ser las partes por millón de CO presente en los gases.
 
     HIPÓTESIS: para los cálculos suponga que todo está a la temperatura de referencia y que la masa molar media de los productos es igual a la del aire $(28,96 \mathrm{~g} / \mathrm{mol})$
 
@@ -1240,7 +1260,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: $1816,8 \mathrm{ppm}$
     </details>
 
-28. Un motor con un Consumo Espefífico de $0,80 \mathrm{~kg} /(\mathrm{kgh})$, en condiciones de crucero $\left(T_{0}=226,7 \mathrm{~K}\right.$; $\left.P_{0}=28700 \mathrm{~Pa} ; M_{0}=0,85\right)$ tienen una velocidad de salida de $700 \mathrm{~m} / \mathrm{s}$. Suponiendo que el fluido que evoluciona es simplemente aire que recibe calor en la cámara de combustión, cuánto será aproximadamente la temperatura del chorro de salida, en $\mathrm{K}$.
+29. Un motor con un Consumo Espefífico de $0,80 \mathrm{~kg} /(\mathrm{kgh})$, en condiciones de crucero $\left(T_{0}=226,7 \mathrm{~K}\right.$; $\left.P_{0}=28700 \mathrm{~Pa} ; M_{0}=0,85\right)$ tienen una velocidad de salida de $700 \mathrm{~m} / \mathrm{s}$. Suponiendo que el fluido que evoluciona es simplemente aire que recibe calor en la cámara de combustión, cuánto será aproximadamente la temperatura del chorro de salida, en $\mathrm{K}$.
 
     <details>
     <summary>Solución</summary>
@@ -1248,7 +1268,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     Sol: $435,72 \mathrm{~K}$
     </details>
 
-29. Se tiene un turborreactor funcionando a $M_{0}=1,5$ y a una altitud de $9000 \mathrm{~m}\left(T_{0}=229,7 \mathrm{~K}\right.$; $P_{0}=30744 \mathrm{~Pa}$. Se sabe que, en esa condición de vuelo, la potencia útil por unidad de gasto, relativa a $V_{s}^{2}\left(\mathrm{Wu} / \mathrm{G} / V_{s}^{2}\right)$ es máxima. Si, además, se sabe que, a la temperatura de funcionamiento en esa condición, la relación de compresión global es la que maximiza la potencia mecánica por unidad de gasto, suponiendo ciclo ideal (tobera adaptada), se pide:
+30. <mark>Se tiene un turborreactor</mark> funcionando a $M_{0}=1,5$ y a una altitud de $9000 \mathrm{~m}\left(T_{0}=229,7 \mathrm{~K}\right.$; $P_{0}=30744 \mathrm{~Pa}$. Se sabe que, en esa condición de vuelo, la potencia útil por unidad de gasto, relativa a $V_{s}^{2}\left(\mathrm{Wu} / \mathrm{G} / V_{s}^{2}\right)$ es máxima. Si, además, se sabe que, a la temperatura de funcionamiento en esa condición, la relación de compresión global es la que maximiza la potencia mecánica por unidad de gasto, suponiendo ciclo ideal (tobera adaptada), se pide:
 
     La temperatura fin de combustión, $T_{4 t}$, en $\mathrm{K} . \quad$
 
@@ -1624,15 +1644,16 @@ Se dispone de un generador de gas, formado por compresor + cámara de combustió
 
 Si para convertir el anterior generador de gas en turborreactor, se le incorpora una entrada isentrópica y una tobera convergente de árae de salida igual a 0,025 y se sigue manteniendo la temperatura fin de combustión igual a $1650 \mathrm{~K}$, calcular:
 
-25.  La velocidad de salida en $\mathrm{m} / \mathrm{s}. 601,3 \mathrm{~m} / \mathrm{s}$
+25. La velocidad de salida en $\mathrm{m} / \mathrm{s}$.
 
     <details>
     <summary>Solución</summary>
 
     $601,3 \mathrm{~m} / \mathrm{s}$
+
     </details>
 
-26.  El empuje que daría el motor en $\mathrm{kN}.
+26. El empuje que daría el motor en $\mathrm{kN}$.
 
     <details>
     <summary>Solución</summary>
@@ -1642,7 +1663,7 @@ Si para convertir el anterior generador de gas en turborreactor, se le incorpora
 
 Manteniendo el punto de funcionamiento constante (régimen adimensional fijo), se asciende a consdiciones de crucero $\left(a=12000 \mathrm{~m} ; T_{0}=216,7 ; P_{0}=19330 \mathrm{~Pa} ; M_{0}=0,9\right)$; calcular, para dichas condiciones y funcionamiento, y manteniendo constantes los rendimientos de compresor y turbina:
 
-27.  La temperatura fin de combustión de funcionamiento en $\mathrm{K}$.
+27. La temperatura fin de combustión de funcionamiento en $\mathrm{K}$.
 
     <details>
     <summary>Solución</summary>
@@ -1652,7 +1673,7 @@ Manteniendo el punto de funcionamiento constante (régimen adimensional fijo), s
 
 Si el sistema tuviera instalado un postcombustor ideal con una tobera convergente de área de salida variable, y en las condiciones de crucero anteriores con la temperatura fin de combustión cálculada en el apartado anterior, se enciende el postcombustor a una temperatura de $2100 \mathrm{~K}$ y se abre la tobera convergente hasta un $A_{8 p c}=0,03 \mathrm{~m}^{2}$; calcular:
 
-28.  La relación de compresión del compresor.
+28. La relación de compresión del compresor.
 
     <details>
     <summary>Solución</summary>
@@ -1662,7 +1683,7 @@ Si el sistema tuviera instalado un postcombustor ideal con una tobera convergent
 
 Si se instala una tobera convergente divergente para adaptar el flujo de salida del postcombustor, calcular:
 
-29.  El empuje adaptado, en $\mathrm{kN}$, que daría el turborreactor con el postcombustor encendido en las condiciones de crucero y funcionamiento anteriores.
+29. El empuje adaptado, en $\mathrm{kN}$, que daría el turborreactor con el postcombustor encendido en las condiciones de crucero y funcionamiento anteriores.
 
     <details>
     <summary>Solución</summary>
@@ -1670,7 +1691,7 @@ Si se instala una tobera convergente divergente para adaptar el flujo de salida 
     $6,95 \mathrm{kN}$
     </details>
 
-30.  Cuanto tendría que valer $A_{9} / A_{8}$ para conseguir el anterior flujo adaptado.
+30. Cuanto tendría que valer $A_{9} / A_{8}$ para conseguir el anterior flujo adaptado.
 
     <details>
     <summary>Solución</summary>
@@ -2069,7 +2090,6 @@ En condiciones de crucero $\left(M_{0}=0,82 ; T_{0}=216,7 \mathrm{~K} ; P_{0}=19
 
 27. Calcular el valor de la relación de compresión del compresor, $\pi_{23}$.
 
-
     <details>
     <summary>Solución</summary>
 
@@ -2204,13 +2224,13 @@ En condiciones de crucero $\left(M_{0}=0,82 ; T_{0}=216,7 \mathrm{~K} ; P_{0}=19
 
 7. Dos turborreactores de flujo único, que utilizan el mismo combustible, volando a $M_{0}=0,5$ a nivel del mar, tienen el mismo rendimiento motor, $\eta_{M}=0,4$. En esas condiciones, el primer turborreactor (1) presenta un rendimiento global de $0,16 \mathrm{y}$ el segundo turborreactor (2) de 0,12 . A la vista de estos datos, se puede afirmar que en la citada condición de vuelo se cumple: (Suponga ciclo ideal)
 
-    a) $\left(T_{4 t}\right)_{1}>\left(T_{4 t}\right)_{2}$
+    a) `$\left(T_{4 t}\right)_{1} > \left(T_{4 t} \right)_{2}$`
 
-    b) $\left(V_{s}\right)_{1}>\left(V_{s}\right)_{2}$
+    b) `$\left(V_{s} \right)_{1} > \left(V_{s} \right)_{2}$`
 
-    c) $f_{1}<f_{2}$
+    c) `$f_{1}<f_{2}$`
 
-    d) $\left(\pi_{c}\right)_{1}<\left(\pi_{c}\right)_{2} \pi_{c}$ es la relación de compresión del compresor
+    d) `$\left(\pi_{c} \right)_{1} < \left(\pi_{c} \right)_{2} \quad \pi_{c}$` es la relación de compresión del compresor
 
     <details>
     <summary>Solución</summary>
@@ -2474,7 +2494,7 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     18,40
     </details>
 
-26. En una cámara de combustión se está quemando un combustible, cuyo poder calorífico es $L=$ $43 \mathrm{MJ} / \mathrm{kg}$, funcionando con una relación combustible/aire estequiométrica $\left(f_{s t}=0,065\right), \mathrm{y}$ condiciones de entrada estándar $\left(25^{\circ} \mathrm{C}\right)$ tanto de combustible como de aire. Sea $\Delta T_{i}$ el aumento de temperatura que tendría si en la salida solo hubiera $\mathrm{CO}_{2}, \mathrm{H}_{2} \mathrm{O}$ y los inertes del aire (sin oxígeno). Si por efecto de disociaciones en los gases de salida existe una fracción molar de $\mathrm{H}_{2}$ del $5 \%$ y el índice de emisión del monóxido de carbono $(C O)$ es 100 , ¿cuál sería la relación entre el incremento de temperatura en este caso real, $\Delta T_{\text {real }}$, donde existe disociación respecto al $\Delta_{T i}$ ideal $\left(\Delta T_{\text {real }} / \Delta T_{i}\right) ? $
+26. En una cámara de combustión se está quemando un combustible, cuyo poder calorífico es $L=$ $43 \mathrm{MJ} / \mathrm{kg}$, funcionando con una relación combustible/aire estequiométrica `$\left(f_{s t}=0,065\right), \mathrm{y}$` condiciones de entrada estándar `$\left(25^{\circ} \mathrm{C}\right)$` tanto de combustible como de aire. Sea $\Delta T_{i}$ el aumento de temperatura que tendría si en la salida solo hubiera `$\mathrm{CO}_{2}, \mathrm{H}_{2} \mathrm{O}$` y los inertes del aire (sin oxígeno). Si por efecto de disociaciones en los gases de salida existe una fracción molar de `$\mathrm{H}_{2}$ del $5 \%$` y el índice de emisión del monóxido de carbono $(C O)$ es 100 , ¿cuál sería la relación entre el incremento de temperatura en este caso real, $\Delta T_{\text {real }}$, donde existe disociación respecto al $\Delta_{T i}$ ideal `$\left(\Delta T_{\text {real }} / \Delta T_{i}\right)$`?
 
     <details>
     <summary>Solución</summary>
@@ -2482,11 +2502,11 @@ Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 
     $0,96$
     </details>
 
-    NOTA: El gas resultante de la combustión, tanto con $\mathrm{CO}$ e $\mathrm{H}_{2}$ como sin ellos, se puede suponer perfecto y con un $C_{p}=1200 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y una masa molar de $28,96 \mathrm{~g} / \mathrm{mol}$; además, las energías cinéticas a la entrada y salida de la cámara de combustión son despreciables.
+    NOTA: El gas resultante de la combustión, tanto con $\mathrm{CO}$ e `$\mathrm{H}_{2}$` como sin ellos, se puede suponer perfecto y con un `$C_{p}=1200 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$` y una masa molar de `$28,96 \mathrm{~g} / \mathrm{mol}$`; además, las energías cinéticas a la entrada y salida de la cámara de combustión son despreciables.
 
     DATOS: El poder calorífico del $C O$ es $L_{C O}=10,1 \mathrm{MJ} / \mathrm{kg}$, el del $H_{2}$ es $L_{H_{2}=121} \mathrm{MJ} / \mathrm{kg}$ y el del hidrocarburo es $L_{H C}=43 \mathrm{MJ} / \mathrm{kg}$.
 
-27.  En crucero, a $11000 \mathrm{~m}\left(T_{0}=216,7 \mathrm{~K} ; P_{0}=22,632 \mathrm{kPa}\right), M_{0}=0,8$, un turborreactor proporciona una velocidad de salida $V_{t b}$ de $1175 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán. Suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimiento adiabáticos de la turbina que mueve el fan $\eta_{t}$, y del fan $\eta_{f}$, son iguales a 0,9 , calcular, para un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada, el impulso específico referido al gasto primario, en $\mathrm{m} / \mathrm{s}$.
+27. En crucero, a $11000 \mathrm{~m}\left(T_{0}=216,7 \mathrm{~K} ; P_{0}=22,632 \mathrm{kPa}\right), M_{0}=0,8$, un turborreactor proporciona una velocidad de salida $V_{t b}$ de $1175 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán. Suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimiento adiabáticos de la turbina que mueve el fan $\eta_{t}$, y del fan $\eta_{f}$, son iguales a 0,9 , calcular, para un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada, el impulso específico referido al gasto primario, en $\mathrm{m} / \mathrm{s}$.
 
     NOTA: Use las expresiones simplificadas (NO IDEALES) para obtener las velocidades del primario y secundario.
 
@@ -2890,7 +2910,7 @@ Se pretende emplear dicho generador de gas para una turbina de gas. Para ello, s
 
 Si a la anterior turbina de gas se le incorpora un cambiador de calor ideal (sin pérdidas de presión de remanso) con efectividad (fracción de la entalpía total disponible que se transfiere de la corriente caliente a la corriente fría) $\varepsilon=0,8$, para recuperar el calor residual de los gases de salida de la turbina de potencia, aguas arriba de la cámara de combustión; y, por motivos del re-diseño de la geometría, se le cambia el compresor por uno de relación de compresión de $10: 1$, manteniendo la temperatura fin de combustión de $1325 \mathrm{~K}$, calcular:
 
-25.  La cantidad de calor por unidad de gasto recuperada en el cambiador, en $\mathrm{kJ} / \mathrm{kg}$.
+25. La cantidad de calor por unidad de gasto recuperada en el cambiador, en $\mathrm{kJ} / \mathrm{kg}$.
 
     <details>
     <summary>Solución</summary>
@@ -2898,7 +2918,7 @@ Si a la anterior turbina de gas se le incorpora un cambiador de calor ideal (sin
     $104,7 \mathrm{~kJ} / \mathrm{kg}$
     </details>
 
-26.  Su rendimiento motor.
+26. Su rendimiento motor.
 
     <details>
     <summary>Solución</summary>
@@ -2908,7 +2928,7 @@ Si a la anterior turbina de gas se le incorpora un cambiador de calor ideal (sin
 
 Si a la anterior turbina de gas con cambiador de calor se le incorpora un intercooler (sin pérdidas de presión de remanso), de modo que el proceso de compresión se divide ahora en dos etapas, ambas con idéntica relación de compresión (la relación de compresión global se mantiene constante), con el intercooler entre medias; y asumiendo que la temperatura de remanso a la salida del intercooler vuelve a ser la temperatura ambiente, calcular ahora:
 
-27.  La cantidad de calor por unidad de gasto recuperada en el cambiador, en $\mathrm{kJ} / \mathrm{kg}$.
+27. La cantidad de calor por unidad de gasto recuperada en el cambiador, en $\mathrm{kJ} / \mathrm{kg}$.
 
     <details>
     <summary>Solución</summary>
@@ -2916,7 +2936,7 @@ Si a la anterior turbina de gas con cambiador de calor se le incorpora un interc
     $229,9 \mathrm{~kJ} / \mathrm{kg}$
     </details>
 
-28.  Su rendimiento motor.
+28. Su rendimiento motor.
 
     <details>
     <summary>Solución</summary>
@@ -2926,7 +2946,7 @@ Si a la anterior turbina de gas con cambiador de calor se le incorpora un interc
 
 Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le incorpora un postquemador, justo entre medias de la turbina del compresor y la turbina libre de generación de potencia, que vuelve a elevar la temperatura de remanso de los gases hasta el mismo valor que se alcanza en la cámara de combustión principal, calcular ahora:
 
-29.   La potencia mecánica entregada por unidad de gasto, en $\mathrm{kJ} / \mathrm{kg}$.
+29. La potencia mecánica entregada por unidad de gasto, en $\mathrm{kJ} / \mathrm{kg}$.
 
     <details>
     <summary>Solución</summary>
@@ -2934,7 +2954,7 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     $501,1 \mathrm{~kJ} / \mathrm{kg}$
     </details>
 
-30.   Su rendimiento motor.
+30. Su rendimiento motor.
 
     <details>
     <summary>Solución</summary>
@@ -2956,6 +2976,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) Debe subir la relación empuje/peso.
 
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
 2. En un banco de ensayos se pretende medir el empuje no instalado del motor. Por motivos de instalación se ha tenido que unir rígidamente el medidor de aire al motor. La relación de áreas del medidor de aire $\left(A_{0} / A_{e}\right)$ es de $5: 1$. Suponiendo que el efecto de la corriente por el exterior del motor es despreciable en las fuerzas sobre la célula de carga, y que la fuerza medida en dicha celda ha sido de $150 \mathrm{kN}$ cuando el gasto del motor es de $60 \mathrm{~kg} / \mathrm{s}$, se puede decir que
 
     a) El empuje neto no instalado es aproximadamente igual a $150 \mathrm{kN}$
@@ -2965,6 +2991,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     c) El empuje instalado es mayor que $150 \mathrm{kN}$ en una cantidad apreciable.
 
     d) Se tendría que calcular la velocidad de entrada, $V_{e}($ en $\mathrm{m} / \mathrm{s})$, y sería igual a $150000+G \cdot V_{e}$.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 3. Se tiene un avión con una eficiencia aerodinámica de $L / D=22$, cuyos motores tienen un rendimiento motopropulsivo de 0,4 . Si el poder calorífico del combustible es $42 \mathrm{MJ} / \mathrm{kg}$, calcular su autonomía cuando ha consumido una cantidad de combustible del $35 \%$ de su peso inicial, si su velocidad de vuelo son $250 \mathrm{~m} / \mathrm{s}$
 
@@ -2976,6 +3008,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     $d) \approx 13$ horas.
 
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
+
 4. Un avión con polar parabólica del tipo $C_{D}=K_{1} \cdot C_{L}^{2}+K_{2} \cdot C_{L}+C_{D 0}$, volando por debajo de la tropopausa, quiere mantener la eficiencia aerodinámica constante e igual a su valor óptimo. Si decide mantener la altura de vuelo constante, cómo variaría la potencia específica en exceso disponible, si el empuje máximo del motor, $\alpha$, es directamente proporcional a la presión ambiente e inversamente proporcional a la velocidad de vuelo $\left(\alpha \sim P_{0} / V_{0}\right)$
 
     a) Disminuye.
@@ -2985,6 +3023,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     c) Se mantiene constante.
 
     d) No se sabe.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 5. Un turborreactor de flujo único, diseñado para máximo rendimiento motor, se ha transformado en un turbofán óptimo para una velocidad de vuelo de $M_{0}=0,8$ a $10000 \mathrm{~m}$ de altitud. Después, aumentando la relación de compresión y manteniendo $T_{4 t}$ y calidades constantes, se decide que la optimización se realice para una velocidad de vuelo mayor ( $M_{0}=0,85$ a la misma altitud). Para esta nueva optimización habrá que
 
@@ -2996,6 +3040,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) Disminuir la relación de compresión del fan.
 
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
 6. Para tener mejor rendimiento de combustión, es mejor
 
     a) Disminuir un $1 \%$ el índice de emisión del hidrocarburo sin quemar, aunque aumente un $1 \%$ el índice de emisión del hidrógeno.
@@ -3006,12 +3056,24 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) Disminuir el poder calorífico, manteniendo los índices de emisión constantes.
 
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
+
 7. El empuje declarado de un motor de $300 \mathrm{~kg} / \mathrm{s}$ es de $100 \mathrm{kN}$. Al principio del despegue $\left(M_{0}=0\right)$, si el único efecto de la góndola a tener en cuenta fuera la succión de borde de ataque, cuánta fuerza tendría que producir dicha succión, para que la fuerza propulsiva fuera de $90 \mathrm{kN}$ con un $M_{e}=0,6 .(\gamma \mathrm{y} R$ del aire son $1,4 \mathrm{y} \mathrm{} 287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ respectivamente)
 
    a) $\approx 8,24 \mathrm{kN}$
    b) $\approx 11,32 \mathrm{kN}$
    c) $\approx 13,70 \mathrm{kN}$
    d) $\approx 16,81 \mathrm{kN}$
+
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
 
 8. Para una velocidad de vuelo dada, en un turbohélice optimizado, completamente ideal, la potencia útil para el vuelo
 
@@ -3023,6 +3085,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) Es igual a la potencia mecánica neta que proporciona el ciclo Brayton.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 9. En todos los turbofanes optimizados a relación derivación constante, se tiene que cumplir
 
     a) Que el trabajo específico del fan debe ser mayor al optimizar a velocidades de vuelo mayores.
@@ -3032,6 +3100,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     c) Que si los rendimientos del compresor y turbina del sistema son mayores, menor debe ser el trabajo específico del fan.
 
     d) Que la velocidad del primario debe ser superior a la del secundario.
+
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
 
 10. La relación de derivación óptima que se obtiene suponiendo ciclo ideal para un turbofán militar es función de
 
@@ -3043,6 +3117,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) Ninguna de las anteriores.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 11. El punto de funcionamiento de un turborreactor funcionando con la turbina y tobera en condiciones críticas
 
     a) Es independiente de la geometría de la turbina.
@@ -3052,6 +3132,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     c) Es independiente del Mach de vuelo.
 
     d) Es independiente del régimen adimensional.
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 12. Para el diseño de un turbofán de flujo mezclado, donde las presiones de remanso de las corrientes fría y caliente antes de mezclarse sean las mismas, hay que conocer
 
@@ -3063,6 +3149,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) La condición de vuelo de diseño, el régimen del motor $\left(T_{4 t}\right)$, y 3 parámetros de funcionamiento, aparte de las calidades.
 
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
 13. Para que la línea de equilibrio de un turborreactor con geometría fija sobre el mapa del compresor sea única, independiente del Mach de vuelo, debe cumplirse como mínimo que
 
     a) La turbina funcione en condiciones críticas.
@@ -3072,6 +3164,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     c) La tobera funcione en condiciones críticas y el turborreactor funcione a régimen constante.
 
     d) La turbina y la tobera funcionen en condiciones críticas.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 14. En un banco con una $P_{0}=95 \mathrm{kPa} \mathrm{y} \mathrm{} T_{0}=310 \mathrm{~K}$, se ha medido, para $N=10000 \mathrm{rpm}$, un consumo de combustible de $0,8 \mathrm{~kg} / \mathrm{s}$. En otro ensayo con una $P_{0}=98 \mathrm{kPa}$ y $T_{0}=279 \mathrm{~K}$, se ha medido, para $N=10000 \mathrm{rpm}$, un consumo de combustible de $0,8 \mathrm{~kg} / \mathrm{s}$. A la vista de los ensayos, se puede decir que
 
@@ -3083,6 +3181,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) No se sabe.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 15. En los turbofanes militares de flujo mezclado, típicamente se cumple que
 
     a) No existen pérdidas de presión en el mezclado cuando se supone que los fluidos son ideales.
@@ -3090,6 +3194,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     b) El número de Mach de la corriente fría es subsónico pero cercano a la unidad para que las áreas de mezcla sean pequeñas.
 
     c) Los números de Mach de las corrientes al mezclarse son muy similares.
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 16. Si el parámetro de combustible en un postcombustor, PC, supera el parámetro límite para conseguir bloqueo
 
@@ -3101,6 +3211,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) El Mach de entrada permanecerá constante.
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 17. En un motor de empuje constante en despegue, la $T_{0}$ (temperatura ambiente) hasta la que puede mantener empuje constante sin sobrepasar el régimen máximo $\left(N_{\max }\right.$ o $\left.\left(T_{4 t}\right)_{\max }\right)$
 
     a) Aumenta si aumenta la altitud del aeropuerto.
@@ -3108,6 +3224,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     b) Disminuye si aumenta la altitud del aeropuerto.
 
     c) Es independiente de la altitud del aeropuerto.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 18. En un motor-mono eje provisto con tobera convergente-divergente y funcionando con la turbina y tobera en condiciones críticas, se tienen distintas áreas de directriz de la turbina para mantener la relación de compresión máxima independientemente de la temperatura y presión ambiente. Para ello, si la presión ambiente ha aumentado
 
@@ -3119,6 +3241,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) Se debe aumentar el área de la directriz y disminuir el área de la garganta de la tobera, $A_{8}$, junto con el área de salida de la tobera, $A_{9}$.
 
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
+
 19. Cuando en un turborreactor mono-eje, funcionando con turbina y tobera en condiciones críticas, se aumenta el área de la garganta de la tobera manteniendo $T_{4 t}$ constante
 
     a) La relación de presión del compresor sube.
@@ -3128,6 +3256,12 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
     c) El parámetro de gasto del compresor baja.
 
     d) No se sabe lo que pasa ya que depende de las condiciones ambientales.
+
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
 
 20. Se tiene un turborreactor de flujo único con tobera convergente-divergente (CONDI) funcionando en condiciones críticas. ¿Qué le ocurriría al punto de funcionamiento sobre el diagrama del compresor si se varía área de salida de la tobera y se mantienen constantes la relación $T_{4 t} / T_{2 t}$ y el área de la garganta de la tobera?
 
@@ -3139,39 +3273,107 @@ Si a la anterior turbina de gas, con cambiador de calor e intercooling, se le in
 
     d) No se sabe.
 
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
+
 ### Ejercicios
 
 Se obtendrá un punto por pregunta si la solución numérica indicada se corresponde con la solución correcta $\pm 1 \%$, excepto cuando la solución numérica se corresponda con un hecho térico, en cuyo caso no se aceptará error alguno; por ejemplo, el rendimiento adiabático de un compresor en una evolución ideal es $=1 .$
 
-Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K} y \gamma=1,4 ; y$ que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$.
+Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y $\gamma=1,4$; y que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$.
 
 Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 \mathrm{~K} ; P_{0}=101325 \mathrm{~Pa}\right)$.
 
-21. Las características en banco de un turboeje son $\pi_{c}=15: 1, T_{4 t}=1500 \mathrm{~K}$. Instalado en un helicóptero, ¿cuál sería su relación de compresión volando a punto fijo sobre el Everest (8848 m; $\left.T_{0}=231 \mathrm{~K} ; P_{0}=31,5 \mathrm{kPa}\right)$ con una $T_{4 t}=1450 \mathrm{~K}$, suponiendo ciclo ideal $? \quad 21,65: 1$
+21. Las características en banco de un turboeje son $\pi_{c}=15: 1, T_{4 t}=1500 \mathrm{~K}$. Instalado en un helicóptero, ¿cuál sería su relación de compresión volando a punto fijo sobre el Everest (8848 m; $\left.T_{0}=231 \mathrm{~K} ; P_{0}=31,5 \mathrm{kPa}\right)$ con una $T_{4 t}=1450 \mathrm{~K}$, suponiendo ciclo ideal?
 
-22. Si el turboeje de la pregunta anterior, con las condiciones anteriores en banco $\left(\pi_{c}=15: 1\right.$, $\left.T_{4 t}=1500 \mathrm{~K}\right)$, tiene, también en banco, un gasto de $20 \mathrm{~kg} / \mathrm{s}$, ¿cuál sería su gasto, en kg/s, volando a punto fijo sobre el Everest con una $T_{4 t}=1450 \mathrm{~K} ? \quad 9,13 \mathrm{~kg} / \mathrm{s}$
+    <details>
+    <summary>Solución</summary>
 
-23. A un turborreactor que volando a una velocidad de $250 \mathrm{~m} / \mathrm{s}$ tiene un chorro con una velocidad de salida de $800 \mathrm{~m} / \mathrm{s}$, se le quiere mejorar propulsivamente. Para ello, se le incorpora un propulsor de rendimiento propulsivo 0,9 , alimentado con parte de la potencia mecánica del chorro. Suponiendo que la transferencia de potencia se realiza sin pérdidas, ¿qué potencia por unidad de gasto, en $\mathrm{kJ} / \mathrm{kg}$, habría que extraer del chorro para optimizar el sistema? $281,4 \mathrm{~kJ} / \mathrm{kg}$
+    $21,65: 1$
+    </details>
 
-24. ¿Cuánto vale el rendimiento motor ideal de un turborreactor con $\pi_{23}$ de diseño $=10: 1\left(V_{0}=0\right.$, $\mathrm{SLS}: T_{0}=288,15 \mathrm{~K}$ y $\left.P_{0}=101,316 \mathrm{kPa}\right)$, volando a un $\mathrm{Mach}=0,8$ y $5000 \mathrm{~m}\left(P_{0}=54,020 \mathrm{kPa}\right.$ $\left.\mathrm{y} T_{0}=255,65 \mathrm{~K}\right) ?(\gamma=1,4) . \quad 0,541$
+22. Si el turboeje de la pregunta anterior, con las condiciones anteriores en banco $\left(\pi_{c}=15: 1\right.$, $\left.T_{4 t}=1500 \mathrm{~K}\right)$, tiene, también en banco, un gasto de $20 \mathrm{~kg} / \mathrm{s}$, ¿cuál sería su gasto, en kg/s, volando a punto fijo sobre el Everest con una $T_{4 t}=1450 \mathrm{~K}$?
 
-25. En condiciones de vuelo, $M_{0}=0,85, h=10000 \mathrm{~m}\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26,437 \mathrm{kPa}\right)$, con una temperatura fin de combustión $T_{4 t}=1450 \mathrm{~K}$, ¿cuál es el valor de $\pi_{23}$ que maximiza la potencia neta ideal de un turborreactor? $16,48: 1$
+    <details>
+    <summary>Solución</summary>
 
-26. En una cámara de combustión se está quemando un combustible, cuyo poder calorífico es $L=43 \mathrm{MJ} / \mathrm{kg}$, funcionando con una relación combustible/aire estequiométrica $\left(f_{s t}=0,068\right), \mathrm{y}$ condiciones de entrada estándar $\left(25^{\circ} \mathrm{C}\right)$ tanto de combustible como de aire. Sea $\Delta T_{i}$ el aumento de temperatura que tendría si en la salida solo hubiera $\mathrm{CO}_{2}, \mathrm{H}_{2} \mathrm{O}$ y los inertes del aire (sin oxígeno). Si por efecto de disociaciones en los gases de salida existe una fracción molar de $\mathrm{H}_{2}$ del $2 \%$ y el índice de emisión del monóxido de carbono (CO) es 75 , ¿cuál sería la relación entre el incremento de temperatura en este caso real, $\Delta T_{\text {real }}$, donde existe disociación respecto al $\Delta T_{i}$ ideal $\left(\Delta T_{\text {real }} / \Delta T_{i}\right) ? \quad 0,976$
+    $9,13 \mathrm{~kg} / \mathrm{s}$
+    </details>
 
-NOTA: El gas resultante de la combustión, tanto con $\mathrm{CO}$ e $\mathrm{H}_{2}$ como sin ellos, se puede suponer perfecto $\mathrm{y}$ con un $C_{p}=1100 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y una masa molar de $28,96 \mathrm{~g} / \mathrm{mol}$; además, las energías cinéticas a la entrada y salida de la cámara de combustión son despreciables.
+23. A un turborreactor que volando a una velocidad de $250 \mathrm{~m} / \mathrm{s}$ tiene un chorro con una velocidad de salida de $800 \mathrm{~m} / \mathrm{s}$, se le quiere mejorar propulsivamente. Para ello, se le incorpora un propulsor de rendimiento propulsivo 0,9 , alimentado con parte de la potencia mecánica del chorro. Suponiendo que la transferencia de potencia se realiza sin pérdidas, ¿qué potencia por unidad de gasto, en $\mathrm{kJ} / \mathrm{kg}$, habría que extraer del chorro para optimizar el sistema?
 
-DATOS: El poder calorífico del $\mathrm{CO}$ es $L_{\mathrm{CO}}=10,1 \mathrm{MJ} / \mathrm{kg}$, el del $\mathrm{H}_{2}$ es $L_{\mathrm{H}_{2}}=121 \mathrm{MJ} / \mathrm{kg}$ y el del hidrocarburo es $L_{\mathrm{HC}}=43 \mathrm{MJ} / \mathrm{kg}$. 27. En crucero, a $11000 \mathrm{~m}\left(T_{0}=216,7 \mathrm{~K} ; P_{0}=22,632 \mathrm{kPa}\right), M_{0}=0,85$, un turborreactor proporciona una velocidad de salida $V_{t b}$ de $1050 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán. Suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimiento adiabáticos de la turbina que mueve el fan $\eta_{t}$, y del fan $\eta_{f}$, son iguales a 0,9 , calcular, para obtener un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada, el impulso específico referido al gasto primario, en $\mathrm{m} / \mathrm{s} . \quad 1684,3 \mathrm{~m} / \mathrm{s}$
+    <details>
+    <summary>Solución</summary>
 
-NOTA: Use las expresiones simplificadas (NO IDEALES) para obtener las velocidades del primario y secundario.
+    $281,4 \mathrm{~kJ} / \mathrm{kg}$
+    </details>
 
-28. Un turbofán ideal con una relación de derivación dada, funciona con un trabajo específico del fan optimizado a una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$. Si en esa condición de vuelo la velocidad de salida del turborreactor base es de $800 \mathrm{~m} / \mathrm{s}$ y la velocidad de salida del primario $\left(V_{9}\right)$ del turbofán es $350 \mathrm{~m} / \mathrm{s}$, ¿cuál será su relación de derivación? $8,625: 1$
+24. ¿Cuánto vale el rendimiento motor ideal de un turborreactor con $\pi_{23}$ de diseño $=10: 1\left(V_{0}=0\right.$, $\mathrm{SLS}: T_{0}=288,15 \mathrm{~K}$ y $\left.P_{0}=101,316 \mathrm{kPa}\right)$, volando a un $\mathrm{Mach}=0,8$ y $5000 \mathrm{~m}\left(P_{0}=54,020 \mathrm{kPa}\right.$ $\left.\mathrm{y} T_{0}=255,65 \mathrm{~K}\right) ?(\gamma=1,4)$.
+
+    <details>
+    <summary>Solución</summary>
+
+    $0,541$
+    </details>
+
+25. En condiciones de vuelo, $M_{0}=0,85, h=10000 \mathrm{~m}\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26,437 \mathrm{kPa}\right)$, con una temperatura fin de combustión $T_{4 t}=1450 \mathrm{~K}$, ¿cuál es el valor de $\pi_{23}$ que maximiza la potencia neta ideal de un turborreactor?
+
+    <details>
+    <summary>Solución</summary>
+
+    $16,48: 1$
+    </details>
+
+26. En una cámara de combustión se está quemando un combustible, cuyo poder calorífico es `$L=43 \mathrm{MJ} / \mathrm{kg}$`, funcionando con una relación combustible/aire estequiométrica `$\left(f_{s t}=0,068\right), \mathrm{y}$` condiciones de entrada estándar `$\left(25^{\circ} \mathrm{C}\right)$` tanto de combustible como de aire. Sea $\Delta T_{i}$ el aumento de temperatura que tendría si en la salida solo hubiera `$\mathrm{CO}_{2}, \mathrm{H}_{2} \mathrm{O}$` y los inertes del aire (sin oxígeno). Si por efecto de disociaciones en los gases de salida existe una fracción molar de `$\mathrm{H}_{2}$` del $2 \%$ y el índice de emisión del monóxido de carbono (CO) es 75 , ¿cuál sería la relación entre el incremento de temperatura en este caso real, `$\Delta T_{\text {real }}$`, donde existe disociación respecto al $\Delta T_{i}$ ideal `$\left(\Delta T_{\text {real }} / \Delta T_{i}\right)$`?
+
+    <details>
+    <summary>Solución</summary>
+
+    $0,976$
+    </details>
+
+    NOTA: El gas resultante de la combustión, tanto con $\mathrm{CO}$ e `$\mathrm{H}_{2}$` como sin ellos, se puede suponer perfecto $\mathrm{y}$ con un `$C_{p}=1100 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$` y una masa molar de $28,96 \mathrm{~g} / \mathrm{mol}$; además, las energías cinéticas a la entrada y salida de la cámara de combustión son despreciables.
+
+    DATOS: El poder calorífico del $\mathrm{CO}$ es `$L_{\mathrm{CO}}=10,1 \mathrm{MJ} / \mathrm{kg}$`, el del `$\mathrm{H}_{2}$` es `$L_{\mathrm{H}_{2}}=121 \mathrm{MJ} / \mathrm{kg}$` y el del hidrocarburo es `$L_{\mathrm{HC}}=43 \mathrm{MJ} / \mathrm{kg}$`.
+
+27. En crucero, a $11000 \mathrm{~m}\left(T_{0}=216,7 \mathrm{~K} ; P_{0}=22,632 \mathrm{kPa}\right), M_{0}=0,85$, un turborreactor proporciona una velocidad de salida $V_{t b}$ de $1050 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán. Suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimiento adiabáticos de la turbina que mueve el fan $\eta_{t}$, y del fan $\eta_{f}$, son iguales a 0,9 , calcular, para obtener un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada, el impulso específico referido al gasto primario, en $\mathrm{m} / \mathrm{s}$.
+
+    <details>
+    <summary>Solución</summary>
+
+    $1684,3 \mathrm{~m} / \mathrm{s}$
+    </details>
+
+    NOTA: Use las expresiones simplificadas (NO IDEALES) para obtener las velocidades del primario y secundario.
+
+28. Un turbofán ideal con una relación de derivación dada, funciona con un trabajo específico del fan optimizado a una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$. Si en esa condición de vuelo la velocidad de salida del turborreactor base es de $800 \mathrm{~m} / \mathrm{s}$ y la velocidad de salida del primario $\left(V_{9}\right)$ del turbofán es $350 \mathrm{~m} / \mathrm{s}$, ¿cuál será su relación de derivación?
+
+    <details>
+    <summary>Solución</summary>
+
+    $8,625: 1$
+    </details>
 
 29. Se dispone de un generador de gas, formado por compresor + cámara de combustión + turbina, del que se sabe que el área de directriz de la turbina, que se supondrá siempre en condiciones críticas, es $A_{4 d}=0,015 \mathrm{~m}^{2}$.
 
-Se pretende emplear dicho generador de gas para obtener empuje mediante la expansión de los gases del generador en una tobera convergente-divergente (CONDI) con un área de garganta $A_{8}=0,03 \mathrm{~m}^{2}$, también en condiciones críticas en todo momento. Si se supone ciclo ideal, y se sabe que la relación de compresión del sistema en condiciones de despegue es $15: 1$, ¿qué temperatura fin de combustión, $T_{4 t}$, tendría el generador de gas, en $\mathrm{K} ? \quad 1630,3 \mathrm{~K}$
+    Se pretende emplear dicho generador de gas para obtener empuje mediante la expansión de los gases del generador en una tobera convergente-divergente (CONDI) con un área de garganta $A_{8}=0,03 \mathrm{~m}^{2}$, también en condiciones críticas en todo momento. Si se supone ciclo ideal, y se sabe que la relación de compresión del sistema en condiciones de despegue es $15: 1$, ¿qué temperatura fin de combustión, $T_{4 t}$, tendría el generador de gas, en $\mathrm{K}$?
 
-30. ¿Cuánto sería el empuje del motor anterior, expresado en kN, suponiendo que la tobera está adaptada? $23,81 \mathrm{kN}$
+    <details>
+    <summary>Solución</summary>
+
+    $1630,3 \mathrm{~K}$
+    </details>
+
+30. ¿Cuánto sería el empuje del motor anterior, expresado en kN, suponiendo que la tobera está adaptada?
+
+    <details>
+    <summary>Solución</summary>
+
+    $23,81 \mathrm{kN}$
+    </details>
 
 ## Noviembre-21-2018 Parte 1
 
@@ -3187,6 +3389,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Disminuye el rendimiento propulsivo.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 2. Al aumentar la relación de compresión de un turborreactor
 
     a) Siempre aumentará el impulso específico.
@@ -3196,6 +3404,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) Siempre aumentará el rendimiento motor.
 
     d) Aumentará la temperatura fin de combustión.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 3. Un avión con una polar parabólica del tipo $C_{D}=K_{1} \cdot C_{L}^{2}+K_{2} \cdot C_{L}+C_{D 0}$ con coeficientes constantes, en crucero, quiere volar con eficiencia aerodinámica constante y manteniendo la velocidad de vuelo constante. Para ello
 
@@ -3207,6 +3421,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Debe aumentar la relación Empuje/Peso.
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 4. Se dispone de un turbohélice optimizado a una velocidad de vuelo. Si se aumenta el rendimiento motor del sistema, para que el turbohélice siga estando optimizado
 
     a) Se tendrá que enviar menos potencia a la hélice.
@@ -3216,6 +3436,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) Se tendrá que volar a una altitud más elevada.
 
     d) Se tendrá que disminuir el rendimiento de la hélice.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 5. Lo que influye en el valor de la relación de compresión existente entre el infinito aguas arriba del inlet y la entrada del compresor del motor es
 
@@ -3227,6 +3453,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Todas las anteriores.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 6. El valor del rendimiento adiabático de un compresor de $N$ etapas, comparado con el valor dado del rendimiento politrópico del proceso de compresión, será
 
     a) Siempre mayor.
@@ -3236,6 +3468,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) Siempre menor.
 
     d) No puede determinarse a priori.
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 7. En un banco de ensayos se pretende medir el empuje no instalado del motor. Por motivos de instalación se ha tenido que unir rígidamente el medidor de aire al motor. La relación de áreas del medidor de aire $\left(A_{0} / A_{e}\right)$ es de $5: 1$. Suponiendo que el efecto de la corriente por el exterior del motor es despreciable en las fuerzas sobre la célula de carga y que en la sección de entrada del medidor de aire (sección $A_{0}$ ) se puede suponer que la velocidad es despreciable, cuánto valdría el empuje neto no instalado si la fuerza medida en la célula de carga del banco ha sido de $150 \mathrm{kN}$ cuando el gasto del motor es de $60 \mathrm{~kg} / \mathrm{s}$
 
@@ -3247,6 +3485,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Se tendría que calcular la velocidad de entrada, $V_{e}(\mathrm{en} \mathrm{m} / \mathrm{s})$, y sería igual a $150000+G \cdot V_{e}$.
 
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
+
 8. Un turborreactor, diseñado para máximo impulso específico a una velocidad de vuelo dada $V_{0}$, se ha transformado en un turbohélice optimizado a esa velocidad. Si aumentamos la relación de presiones del compresor, $\pi_{c}$, y seguimos manteniendo la misma potencia que va a la hélice, el turbohélice resultante
 
     a) Tendrá un consumo específico mínimo a una mayor velocidad de vuelo, solo si se mantiene la altura constante.
@@ -3256,6 +3500,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) Tendrá un consumo específico mínimo a una mayor velocidad de vuelo.
 
     d) Tendrá un consumo específico mínimo a una menor velocidad de vuelo.
+
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
 
 9. Un avión con polar parabólica del tipo $C_{D}=K_{1} \cdot C_{L}^{2}+K_{2} \cdot C_{L}+C_{D 0}$, volando por debajo de la tropopausa, quiere mantener la eficiencia aerodinámica constante e igual a su valor óptimo. Si decide mantener el Mach de vuelo constante, cómo variaría la potencia específica en exceso disponible, si el empuje máximo del motor, $\alpha$, es directamente proporcional a la presión ambiente e inversamente proporcional a la velocidad de vuelo $\left(\alpha \sim P_{0} / V_{0}\right)$
 
@@ -3267,6 +3517,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) No se sabe.
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 10. Indique hasta qué valor de entre los siguientes se pueden considerar condiciones de adaptación en la tobera convergente de un aerorreactor que vuela a $10000 \mathrm{~m}$ de altitud $\left(P_{0}=26,437 \mathrm{kPa}\right)$
 
     a) $P_{5 t} \sim 50 \mathrm{kPa}$
@@ -3276,6 +3532,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) $P_{5 t} \sim 40 \mathrm{kPa}$
 
     d) $P_{5 t} \sim 70 \mathrm{kPa}$
+
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
 
 11. Desde el punto de vista de necesidades propulsivas, si se quiere que un avión, de polar parabólica de coeficientes constantes, tenga buenas características a muy altas altitudes
 
@@ -3287,6 +3549,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Debería tener una superficie alar pequeña, más pequeña si se quiere tener buenas características a una menor velocidad de vuelo.
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 12. Se tiene un avión con una eficiencia aerodinámica $L / D=20$, cuyos motores tienen un rendimiento motopropulsivo de 0,35 . Si el poder calorífico del combustible es $42 \mathrm{MJ} / \mathrm{kg}$, calcular su radio de acción cuando ha consumido una cantidad de combustible del $30 \%$ de su peso inicial, si su velocidad de vuelo son $250 \mathrm{~m} / \mathrm{s}$
 
     a) $\approx 4642 \mathrm{~km}$
@@ -3296,6 +3564,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) $\approx 8483 \mathrm{~km}$.
 
     d) $\approx 14475 \mathrm{~km} .$
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 13. El crucero para un avión tetramotor dado comienza a $31000 \mathrm{ft}\left(T_{0}=227 \mathrm{~K} ; P_{0}=28,7 \mathrm{kPa}\right) \mathrm{y}$ deberá llegar a esa altitud con empuje suficiente para que le fuera posible tener una velocidad ascensional de $300 \mathrm{ft} / \mathrm{min}(1,5 \mathrm{~m} / \mathrm{s})$ con un Mach de vuelo de 0,87 . Suponiendo una relación $L / D=20$ y que la masa al inicio de crucero es 500 ton: A) Hallar el empuje necesario de cada motor; B) Cuánto sería el empuje necesario si no tuviera que tener el margen de la velocidad ascensional. ( $\gamma$ y $R$ del aire son $1,4 \mathrm{y} \mathrm{} 287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ respectivamente)
 
@@ -3307,6 +3581,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) A) $E=68,4 \mathrm{kN} ; \quad$ B) $E=66,4 \mathrm{kN}$.
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 14. El empuje declarado de un motor de $400 \mathrm{~kg} / \mathrm{s}$ es de $150 \mathrm{kN}$. Al principio del despegue $\left(M_{0}=0\right)$, si el único efecto de la góndola a tener en cuenta fuera la succión de borde de ataque, cuánta fuerza tendría que producir dicha succión, para que la fuerza propulsiva fuera de $140 \mathrm{kN}$ con un $M_{e}=0,55 .(\gamma$ y $R$ del aire son 1,4 y $287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ respectivamente)
 
     a) Aproximadamente $23,5 \mathrm{kN}$.
@@ -3316,6 +3596,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) Aproximadamente $44,4 \mathrm{kN}$
 
     d) Aproximadamente $53,5 \mathrm{kN}$
+
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
 
 15. Un motor con un Consumo Espefífico de $0,7 \mathrm{~kg} / \mathrm{kg} \cdot \mathrm{h}$, en condiciones de crucero $\left(T_{0}=226,7 \mathrm{~K}\right.$; $\left.P_{0}=28,7 \mathrm{kPa} ; M_{0}=0,82\right)$ tienen una velocidad de salida de $750 \mathrm{~m} / \mathrm{s}$. Suponiendo que el fluido que evoluciona es simplemente aire que recibe calor en la cámara de combustión, cuánto será aproximadamente la temperatura del chorro de salida, si el poder calorífico del combustible es $43 \mathrm{MJ} / \mathrm{kg} .(\gamma$ y $R$ del aire son 1,4 y $287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ respectivamente)
 
@@ -3327,6 +3613,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) $403 \mathrm{~K}$
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 16. En un motor con un rendimiento motor $\eta_{M}=0,47$ y un rendimiento propulsivo $\eta_{P}=0,75$, cuánto es aproximadamente la energía mecánica no utilizada para volar respecto de $c L$, si $\eta_{q}=1$
 
     a) $6,30 \%$
@@ -3336,6 +3628,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) $11,75 \%$
 
     d) $12,85 \%$
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 17. Para aumentar el rendimiento de combustión, es mejor
 
@@ -3347,6 +3645,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Disminuir el poder calorífico, manteniendo los índices de emisión constantes.
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 18. Un turborreactor de flujo único, diseñado para máximo rendimiento motor, se ha transformado en un turbofán óptimo para una velocidad de vuelo de $M_{0}=0,8$ a $10000 \mathrm{~m}$ de altitud. Después, disminuyendo la relación de compresión y manteniendo $T_{4 t}$ y calidades constantes, se decide que la optimización se realice para una velocidad de vuelo mayor ( $M_{0}=0,85$ a la misma altitud). Para esta nueva optimización habrá que
 
     a) Aumentar la relación de derivación.
@@ -3356,6 +3660,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
     c) Mantener la relación de derivación.
 
     d) Disminuir la relación de compresión del fan.
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 19. Se dispone de dos turborreactores de flujo único con las mismas calidades, el turborreactor $A$ $\operatorname{con} V_{0} / V_{t b}=0,2$ y el $B$ con $V_{0} / V_{t b}=0,5$. Para la misma velocidad de vuelo, en una hipotética conversión optimizada de ambos turborreactores en los turbofanes $A$ y $B$ respectivamente, y suponiendo que la transformación fuera ideal, ¿cuál de ellos tendría una mayor relación de derivación?
 
@@ -3367,6 +3677,12 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Ambos tendrían la misma relación de derivación.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 20. Para optimizar un turbofán militar, la relación de derivación debe ser menor que la necesaria para optimizar un turbofán civil porque
 
     a) Son motores con alta temperatura fin de combustión y baja relación de compresión.
@@ -3377,37 +3693,105 @@ Se pretende emplear dicho generador de gas para obtener empuje mediante la expan
 
     d) Son motores que se optimizan para condiciones de vuelo donde la potencia mecánica neta es baja.
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 ### Ejercicios
 
 Se obtendrá un punto por pregunta si la solución numérica indicada se corresponde con la solución correcta $\pm 1 \%$, excepto cuando la solución numérica se corresponda con un hecho térico, en cuyo caso no se aceptará error alguno; por ejemplo, el rendimiento adiabático de un compresor en una evolución ideal es $=1 .$
 
-Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K} y \gamma=1,4 ; y$ que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$.
+Suponga, siempre que no se indique lo contrario, que para el aire es $R=287 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y $\gamma=1,4$; y que el poder calorífico inferior del combustible utilizado es $L=42 \mathrm{MJ} / \mathrm{kg}$.
 
 Condiciones de despegue: $M_{0}=0 \boldsymbol{y} h=0 \mathrm{~m}\left(T_{0}=288 \mathrm{~K} ; P_{0}=101325 \mathrm{~Pa}\right)$.
 
-21. Con la condición de crucero $M_{0}=0,85 \mathrm{y}$ altitud $35000 \mathrm{ft}(\theta=0,7594 ; \delta=0,2353)$, un avión tiene una autonomía de $13 \mathrm{~h}$ cuando lleva una fracción de combustible del 0,4 de su peso total al despegue. Con las mismas condiciones de crucero, se quiere tener un radio de acción de $13000 \mathrm{mn}$. Para ello, cuánto tendría que ser su fracción de combustible respecto del peso total al despegue. 0,6475
+21. Con la condición de crucero $M_{0}=0,85 \mathrm{y}$ altitud $35000 \mathrm{ft}(\theta=0,7594 ; \delta=0,2353)$, un avión tiene una autonomía de $13 \mathrm{~h}$ cuando lleva una fracción de combustible del 0,4 de su peso total al despegue. Con las mismas condiciones de crucero, se quiere tener un radio de acción de $13000 \mathrm{mn}$. Para ello, cuánto tendría que ser su fracción de combustible respecto del peso total al despegue.
 
-22. Un turborreactor de área de entrada $0,5 \mathrm{~m}^{2}$, volando a $10000 \mathrm{~m}\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26437 \mathrm{~Pa}\right)$ tiene un gasto de $30 \mathrm{~kg} / \mathrm{s}$. Cuál sería la resistencia adicional en banco, en $\mathrm{kN}$, cuando la velocidad de entrada fuera la misma que la velocidad de entrada que produce resistencia adicional nula en la condición de crucero. $\quad 5,617 \mathrm{kN}$
+    <details>
+    <summary>Solución</summary>
 
-23. Se tiene un turborreactor funcionando a una altitud de $11000 \mathrm{~m}\left(T_{0}=216,7 \mathrm{~K} ; P_{0}=22632 \mathrm{kPa}\right)$. En esa condición de vuelo, la potencia mecánica útil por unidad de gasto es máxima. Si la temperatura fin de combustión fuera de $1600 \mathrm{~K}$, cuál sería el Mach de vuelo para que la potencia útil por unidad de gasto relativa a $V_{s}{ }^{2}, W_{u} /\left(G \cdot V_{s}{ }^{2}\right)$, fuera máxima, suponiendo ciclo ideal y tobera adaptada. $\quad 2,217$
+    0,6475
+    </details>
 
-24. Una cámara de combustión, funcionando con una relación combustible/aire estequiométrica $\left(f_{s t}=0,068\right)$ y condiciones de entrada estándar $\left(25^{\circ} \mathrm{C}\right)$ tanto de combustible como de aire, presentaría una temperatura fin de combustión de $2580 \mathrm{~K}$ si en la salida solo hubiera $\mathrm{CO}_{2}$, $\mathrm{H}_{2} \mathrm{O}$ y los inertes del aire (sin oxígeno). A esa temperatura y por efecto de disociaciones están presentes una fracción molar de CO del $9 \%$ y una fracción molar de $\mathrm{H}_{2}$ del $1 \%$. ¿uál sería la temperatura fin de combustión, en $\mathrm{K}$, en este caso real, donde existe disociación? El gas resultante de la combustión, tanto con $\mathrm{CO}$ y $\mathrm{H}_{2}$ como $\sin$ ellos, se puede suponer perfecto y con un $C_{p}=1100 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y una masa molar de $28,96 \mathrm{~g} / \mathrm{mol}$; además, las energías cinéticas a la entrada y salida de la cámara de combustión son despreciables. $\quad 2492,5 \mathrm{~K}$
+22. Un turborreactor de área de entrada $0,5 \mathrm{~m}^{2}$, volando a $10000 \mathrm{~m}\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26437 \mathrm{~Pa}\right)$ tiene un gasto de $30 \mathrm{~kg} / \mathrm{s}$. Cuál sería la resistencia adicional en banco, en $\mathrm{kN}$, cuando la velocidad de entrada fuera la misma que la velocidad de entrada que produce resistencia adicional nula en la condición de crucero.
 
-NOTA: el poder calorífico del $\mathrm{CO}$ es $L_{\mathrm{CO}}=10,1 \mathrm{MJ} / \mathrm{kg}$, el del $\mathrm{H}_{2}$ es $L_{\mathrm{H}_{2}}=121 \mathrm{MJ} / \mathrm{kg}$, y el del hidrocarburo puede calcularse a partir de los datos del enunciado.
+    <details>
+    <summary>Solución</summary>
 
-25. Para la cámara de combustión del ejercicio anterior, cuánto sería el Índice de Emisión del CO. 136,67 Un turborreactor de flujo único está diseñado para obtener máxima potencia mecánica neta con una temperatura fin de combustión de $1450 \mathrm{~K}$ y en la condición de vuelo: $h=8000 \mathrm{~m}\left(T_{0}=236,2 \mathrm{~K}\right.$; $\left.P_{0}=35,601 \mathrm{kPa} ; M_{0}=0,9\right)$. Suponiendo un rendimiento global de la compresión $\eta_{c}^{\prime}=0,85($ con entrada isentrópica), un rendimiento global de la expansión $\eta_{t}^{\prime}=1$, y tobera adaptada:
+    $5,617 \mathrm{kN}$
+    </details>
 
-26. Cuánto sería la relación de compresión del compresor. $\quad 10,65: 1$
+23. Se tiene un turborreactor funcionando a una altitud de $11000 \mathrm{~m}\left(T_{0}=216,7 \mathrm{~K} ; P_{0}=22632 \mathrm{kPa}\right)$. En esa condición de vuelo, la potencia mecánica útil por unidad de gasto es máxima. Si la temperatura fin de combustión fuera de $1600 \mathrm{~K}$, cuál sería el Mach de vuelo para que la potencia útil por unidad de gasto relativa a $V_{s}{ }^{2}, W_{u} /\left(G \cdot V_{s}{ }^{2}\right)$, fuera máxima, suponiendo ciclo ideal y tobera adaptada.
 
-27. Manteniendo los rendimientos globales constantes, y suponiendo que los trabajos específicos del compresor son proporcionales a la $T_{4 t}$, cuánto sería la relación de compresión del compresor despegando con una temperatura fin de combustión de $1600 \mathrm{~K}$. $12,08: 1$
+    <details>
+    <summary>Solución</summary>
 
-28. Para el caso anterior, calcular la relación de gastos entre crucero y despegue $\left(G_{\text {crucero }} / G_{\text {despegue }}\right)$. 0,5506
+    $2,217$
+    </details>
 
-29. En crucero, a $10000 \mathrm{~m}$ de altitud $\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26,437 \mathrm{kPa}\right)$ y $M_{0}=0,85$, un turborreactor proporciona una velocidad de salida $V_{t b}$ de $970 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán. Suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimientos adiabáticos de la turbina que mueve el fan, $\eta_{t}$, y del fan, $\eta_{f}$, son iguales a 0,9 , calcular, en m/s, el impulso específico referido al gasto primario para obtener un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada. $1399,6 \mathrm{~m} / \mathrm{s}$
+24. Una cámara de combustión, funcionando con una relación combustible/aire estequiométrica $\left(f_{s t}=0,068\right)$ y condiciones de entrada estándar $\left(25^{\circ} \mathrm{C}\right)$ tanto de combustible como de aire, presentaría una temperatura fin de combustión de $2580 \mathrm{~K}$ si en la salida solo hubiera $\mathrm{CO}_{2}$, $\mathrm{H}_{2} \mathrm{O}$ y los inertes del aire (sin oxígeno). A esa temperatura y por efecto de disociaciones están presentes una fracción molar de CO del $9 \%$ y una fracción molar de $\mathrm{H}_{2}$ del $1 \%$. ¿uál sería la temperatura fin de combustión, en $\mathrm{K}$, en este caso real, donde existe disociación? El gas resultante de la combustión, tanto con $\mathrm{CO}$ y $\mathrm{H}_{2}$ como $\sin$ ellos, se puede suponer perfecto y con un $C_{p}=1100 \mathrm{~J} / \mathrm{kg} \cdot \mathrm{K}$ y una masa molar de $28,96 \mathrm{~g} / \mathrm{mol}$; además, las energías cinéticas a la entrada y salida de la cámara de combustión son despreciables.
 
-NOTA: Use las expresiones simplificadas (NO IDEALES) para obtener las velocidades del primario y secundario.
+    <details>
+    <summary>Solución</summary>
 
-30. Un turbofán ideal con una relación de derivación de 8, funciona con un trabajo específico del fan optimizado a una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$. Si a esa condición de vuelo la velocidad de salida del turborreactor base es de $800 \mathrm{~m} / \mathrm{s}$, calcular, en $\mathrm{m} / \mathrm{s}$, la velocidad de salida del primario $\left(V_{9}^{\star}\right)$ del turbofán optimizado. $\quad 355,9 \mathrm{~m} / \mathrm{s}$
+    $2492,5 \mathrm{~K}$
+    </details>
+
+    NOTA: el poder calorífico del $\mathrm{CO}$ es $L_{\mathrm{CO}}=10,1 \mathrm{MJ} / \mathrm{kg}$, el del $\mathrm{H}_{2}$ es $L_{\mathrm{H}_{2}}=121 \mathrm{MJ} / \mathrm{kg}$, y el del hidrocarburo puede calcularse a partir de los datos del enunciado.
+
+25. Para la cámara de combustión del ejercicio anterior, cuánto sería el Índice de Emisión del CO.
+
+    <details>
+    <summary>Solución</summary>
+
+    136,67
+    </details>
+
+Un turborreactor de flujo único está diseñado para obtener máxima potencia mecánica neta con una temperatura fin de combustión de $1450 \mathrm{~K}$ y en la condición de vuelo: $h=8000 \mathrm{~m}\left(T_{0}=236,2 \mathrm{~K}\right.$; $\left.P_{0}=35,601 \mathrm{kPa} ; M_{0}=0,9\right)$. Suponiendo un rendimiento global de la compresión $\eta_{c}^{\prime}=0,85($ con entrada isentrópica), un rendimiento global de la expansión $\eta_{t}^{\prime}=1$, y tobera adaptada:
+
+26. Cuánto sería la relación de compresión del compresor.
+
+    <details>
+    <summary>Solución</summary>
+
+    $10,65: 1$
+    </details>
+
+27. Manteniendo los rendimientos globales constantes, y suponiendo que los trabajos específicos del compresor son proporcionales a la $T_{4 t}$, cuánto sería la relación de compresión del compresor despegando con una temperatura fin de combustión de $1600 \mathrm{~K}$.
+
+    <details>
+    <summary>Solución</summary>
+
+    $12,08: 1$
+    </details>
+
+28. Para el caso anterior, calcular la relación de gastos entre crucero y despegue $\left(G_{\text {crucero }} / G_{\text {despegue }}\right)$.
+
+    <details>
+    <summary>Solución</summary>
+
+    0,5506
+    </details>
+
+29. En crucero, a $10000 \mathrm{~m}$ de altitud $\left(T_{0}=223,2 \mathrm{~K} ; P_{0}=26,437 \mathrm{kPa}\right)$ y $M_{0}=0,85$, un turborreactor proporciona una velocidad de salida $V_{t b}$ de $970 \mathrm{~m} / \mathrm{s}$. Dicho sistema se transforma en turbofán. Suponiendo que la evolución en la toma dinámica es isentrópica y que los rendimientos adiabáticos de la turbina que mueve el fan, $\eta_{t}$, y del fan, $\eta_{f}$, son iguales a 0,9 , calcular, en m/s, el impulso específico referido al gasto primario para obtener un turbofán que dé el mínimo consumo específico en la condición de vuelo mencionada.
+
+    <details>
+    <summary>Solución</summary>
+
+    $1399,6 \mathrm{~m} / \mathrm{s}$
+    </details>
+
+    NOTA: Use las expresiones simplificadas (NO IDEALES) para obtener las velocidades del primario y secundario.
+
+30. Un turbofán ideal con una relación de derivación de 8, funciona con un trabajo específico del fan optimizado a una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$. Si a esa condición de vuelo la velocidad de salida del turborreactor base es de $800 \mathrm{~m} / \mathrm{s}$, calcular, en $\mathrm{m} / \mathrm{s}$, la velocidad de salida del primario $\left(V_{9}^{\star}\right)$ del turbofán optimizado.
+
+    <details>
+    <summary>Solución</summary>
+
+    $355,9 \mathrm{~m} / \mathrm{s}$
+    </details>
 
 ## Enero-15-2018
 
@@ -3415,7 +3799,7 @@ NOTA: Use las expresiones simplificadas (NO IDEALES) para obtener las velocidade
 
 Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K}, \gamma=1.4, R_{g}=286.87 \mathrm{~J} / \mathrm{kg} \mathrm{K}, \mathrm{c}<<\mathrm{G}$
 
-1.- Una aeronave inicia una subida partiendo de una altura de vuelo de $9 \mathrm{~km}$ y una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$ manteniendo su nivel de energía. En esta maniobra
+1. Una aeronave inicia una subida partiendo de una altura de vuelo de $9 \mathrm{~km}$ y una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$ manteniendo su nivel de energía. En esta maniobra
 
     a) El exceso de potencia específica es de $250 \mathrm{~m} / \mathrm{s}$
 
@@ -3425,7 +3809,13 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) La velocidad de vuelo sube
 
-2.- El objetivo de las necesidades propulsivas consiste en el dimensionado del motor, la obtención del empuje $T_{S L}$, lo que exige el cálculo del peso de combustible consumido en la misión. En dicho cálculo el régimen del motor a utilizar, en cada fase de la misión, corresponderá a
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
+2. El objetivo de las necesidades propulsivas consiste en el dimensionado del motor, la obtención del empuje $T_{S L}$, lo que exige el cálculo del peso de combustible consumido en la misión. En dicho cálculo el régimen del motor a utilizar, en cada fase de la misión, corresponderá a
 
     a) Aquel que proporcione el máximo empuje neto
 
@@ -3435,7 +3825,13 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Al máximo permitido por el motor
 
-3.- De un avión volando en crucero con máxima eficiencia aerodinámica, se conoce su polar $\left(C_{D}=0.056 C_{L}^{2}+0.014\right)$ y que en el inicio del crucero el combustible representa un $20 \%$ del peso del avión en ese instante. ¿En dichas condiciones de vuelo cuánto valdría la relación $\Delta \boldsymbol{t g} C_{E}$ donde $\boldsymbol{\Delta} \boldsymbol{t}$ representa el tiempo de vuelo, $\boldsymbol{g}$ la aceleración de la gravedad y $\boldsymbol{C}_{E}$ el consumo medio específico de combustible del motor?
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
+3. De un avión volando en crucero con máxima eficiencia aerodinámica, se conoce su polar $\left(C_{D}=0.056 C_{L}^{2}+0.014\right)$ y que en el inicio del crucero el combustible representa un $20 \%$ del peso del avión en ese instante. ¿En dichas condiciones de vuelo cuánto valdría la relación $\Delta \boldsymbol{t g} C_{E}$ donde $\boldsymbol{\Delta} \boldsymbol{t}$ representa el tiempo de vuelo, $\boldsymbol{g}$ la aceleración de la gravedad y $\boldsymbol{C}_{E}$ el consumo medio específico de combustible del motor?
 
     a) $(\Delta t) g\left(C_{E}\right)=0.056$
 
@@ -3444,6 +3840,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $(\Delta t) g\left(C_{E}\right)=4.48$
 
     d) $(\Delta t) g\left(C_{E}\right)=0.398$
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 4. El proceso, en un aerorreactor como sistema global donde entra un gasto de aire $G$ más un gasto de combustible $c$ y salen unos productos $(G+c)$, puede considerarse que:
 
@@ -3455,6 +3857,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) El proceso puede suponerse adiabático porque el número de Reynolds es muy elevado $\left(R_{e}>>1\right)$ y el número de Prandtl toma valores de orden unidad
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 5. Una de las consecuencias de que el tiempo característico del proceso de combustión sea mucho menor que el de transmisión de calor, al que se asimila el proceso real, es que:
 
     a) Los aerorreactores son sistemas muy pesados
@@ -3464,6 +3872,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) Los aerorreactores tengan limitada la temperatura máxima de funcionamiento
 
     d) Desde el punto de vista de tamaño y problemas estructurales, sería muy conveniente sustituir el proceso de combustión por el uso de cambiadores de calor para calentar el fluido de trabajo
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 6. En un aerorreactor, considerado como sistema global donde entra un gasto de aire $G$ más un gasto de combustible $c$ y salen unos productos $(G+c)$ el término $(G+c)\left(h_{p}\left(T_{s}\right)-\right.$ $h_{P c c}\left(T_{s}\right)$ ), donde $h_{p}\left(T_{s}\right)=e n t a l p i ́ a ~ d e ~ l o s ~ p r o d u c t o s ~ y ~$ completa, representa una medida indirecta de
 
@@ -3475,6 +3889,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Del rendimiento motor
 
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
 7. El rendimiento motor de un aerorreactor representa una medida de
 
     a) La bondad del sistema produciendo potencia útil para el vuelo
@@ -3484,6 +3904,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) El consumo específico de combustible por unidad de potencia mecánica neta
 
     d) El poder calorífico del combustible
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 8. Un turborreactor de flujo único, en condiciones de crucero $\left(P_{0}=35211 \mathrm{~Pa}, T_{0}=257 \mathrm{~K}\right.$, $\left.M_{0}=1.5\right)$, ha sido diseñado con la condición de máximo rendimiento motor para una $T_{4 \mathrm{t}}$ dada. Posteriormente, manteniendo la condición de diseño, se ha bajado el Mach de vuelo de diseño a 0.84. En dicho cambio qué le ocurrirá a la relación global de presiones del motor
 
@@ -3495,6 +3921,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) No se sabe
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 9. En un turborreactor de flujo único inicialmente diseñado para máximo rendimiento motor para una condición de vuelo y $T_{4 t}$ dadas, se ha decidido subir su empuje específico de diseño manteniendo la condición de vuelo y $T_{4 t}$. ¿En dicho rediseño qué le ocurrirá a la relación de presiones del compresor?
 
     a) Subirá
@@ -3504,6 +3936,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) Se mantendrá constante
 
     d) No se sabe
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 10. Un turborreactor de flujo único, en condiciones de crucero $\left(P_{0}=35211 \mathrm{~Pa}, T_{0}=257 \mathrm{~K}\right.$, $\left.M_{0}=0.78\right)$, ha sido diseñado con la condición de máximo rendimiento motor para una $T_{4 \mathrm{t}}$ dada. Posteriormente, manteniendo la condición de diseño, se ha subido el Mach de vuelo de diseño a 0.84. En dicho cambio qué le ocurrirá a las pérdidas térmicas de sistema global?
 
@@ -3515,12 +3953,24 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) No se sabe
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 11. En un sistema de flujo único, cuyo rendimiento de propulsión a una condición de vuelo dada es 0.8, se ha conseguido un aumento del $20 \%$ de impulso específico a misma condición de vuelo. ¿Cuál sería su nuevo rendimiento de propulsión?
 
     a) $0.80$
     b) $0.86$
     c) $0.77$
     d) $0.66$
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 12. Un turborreactor de flujo único, con tobera convergente y tobera y turbina funcionando en condiciones críticas para cualquier altura y velocidad de vuelo, proporciona una velocidad de salida de $800 \mathrm{~m} / \mathrm{s}$ al nivel del mar. Si se sube la altura de vuelo, bajando la $T_{4 t}$ un $15 \%$, la nueva velocidad $V_{s}$ será aproximadamente
 
@@ -3529,12 +3979,24 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $V_{s}=779 \mathrm{~m} / \mathrm{s}$
     d) $V_{s}=837 \mathrm{~m} / \mathrm{s}$
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 13. Un turborreactor de flujo único, con tobera convergente ha sido diseñado en banco con una relación de presiones del compresor de 30 y $T_{4 t}$ dada $\left(P_{0}=101325 \mathrm{~Pa}, T_{0}=288 \mathrm{~K}\right.$, $\pi_{23}=30$ ). Si se supone que tanto la tobera como la turbina funcionan en condiciones críticas cuál sería la relación de presiones del compresor en crucero $\left(P_{0}=35211 \mathrm{~Pa}, T_{0}=257 \mathrm{~K}\right.$, $\left.M_{0}=0.8\right)$, si se ha bajado la $T_{4 t}$ un $15 \%$ (supóngase ciclo ideal)?
 
     a) 30
     b) 38
     c) 21
     d) 28
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 14. En un turbohélice optimizado a medida que la relación $V_{0} / V_{t b}$, ( $V_{0}=$ velocidad de vuelo y $V_{t b}=$ velocidad de salida del turborreactor base) baja la potencia en el eje de entrada a la hélice relativa a la disponible, $G \vee t_{b}{ }^{2} / 2$, sube. Esto es debido a que en el turborreactor base
 
@@ -3546,6 +4008,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Las perdidas mecánicas totales en la transmisión bajan
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 15. De un aerorreactor, para una velocidad de vuelo $V_{0}=200 \mathrm{~m} / \mathrm{s}$, se conoce su rendimiento de propulsión $\eta_{P}=0.4$. Para dicha velocidad de vuelo se decide transformarlo en un turbofan optimizado supuesto ciclo ideal para una relación de derivación dada $\Lambda=5$. ¿Cuáles serían los valores de las velocidades de salida del primario y secundario, $V_{P}$ y $V_{S}$ respectivamente?
 
     a) $V_{P}=462.1 \mathrm{~m} / \mathrm{s} ; V_{S}=462.1 \mathrm{~m} / \mathrm{s}$
@@ -3555,6 +4023,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $V_{P}=452.1 \mathrm{~m} / \mathrm{s} ; V_{S}=452.1 \mathrm{~m} / \mathrm{s}$
 
     d) $V_{P}=374.1 \mathrm{~m} / \mathrm{s} ; V_{S}=374.1 \mathrm{~m} / \mathrm{s}$
+
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
 
 16. Las variables motoras adimensionales dependientes $\left(\frac{E}{D^{2} P_{0}}, \frac{G \sqrt{R T_{0}}}{D^{2} P_{0}}, \frac{\eta_{q} c L}{D^{2} P_{0} \sqrt{R T_{0}}}, \ldots \ldots . .\right)$ de un aerorreactor, en el caso general, dependen de
 
@@ -3566,6 +4040,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Cinco parámetros adimensionales independientes
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 17. De un turborreactor de flujo único monoeje, que funciona con tobera crítica, se puede decir que, cuando disminuye la altura de vuelo manteniendo constante el Mach de vuelo $\left(M_{0}\right)$ y la temperatura máxima $\mathrm{T}_{4 \mathrm{t}}$,
 
     a) El parámetro de gasto del compresor aumenta
@@ -3575,6 +4055,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) El parámetro de gasto del compresor disminuye
 
     d) La relación de presiones del compresor se mantiene constante.
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 18. Para que la línea de funcionamiento de un turborreactor de flujo único monoeje sobre el diagrame del compresor sea única el requisito mínimo consiste en que
 
@@ -3586,6 +4072,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) La tobera y la turbina funcionen en condiciones críticas y los rendimientos sean constantes
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 19. Se tiene un turborreactor de flujo único con tobera convergente-divergente (CONDI) funcionando en condiciones críticas. ¿Qué le ocurriría al punto/puntos de funcionamiento sobre el diagrama del compresor si se varía el área de salida de la tobera, manteniendo constante el área de la garganta de la tobera?
 
     a) Formarían una familia de líneas de funcionamiento
@@ -3596,6 +4088,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Formarían una única línea de funcionamiento
 
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
+
 20. Un motor de empuje constante $E_{0}=90 \mathrm{kN}$ en despegue alcanza su temperatura máxima $T_{4 t m a x}$ de $1500 \mathrm{~K}$ para unas condiciones ambiente $\left(P_{0}=101 \mathrm{kPa}, T_{\mathrm{amb}}=298 \mathrm{~K}\right)$. En un despegue a unas nuevas condiciones ambiente $\left(P_{0}=102 \mathrm{kPa}, T_{\mathrm{amb}}=298 \mathrm{~K}\right)$ su temperatura de funcionamiento $T_{4 t}$ cumpliría
 
     a) $T_{4 t}=1500 \mathrm{~K}$
@@ -3605,6 +4103,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $T_{4 t}<1500 \mathrm{~K}$
 
     d) No se sabe
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 
 ## Junio-19-2018
@@ -3621,6 +4125,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Un empuje inferior o igual al empuje neto instalado a régimen máximo
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 2. Una aeronave inicia una bajada partiendo de una altura de vuelo de $9 \mathrm{~km}$ y una velocidad de vuelo de $250 \mathrm{~m} / \mathrm{s}$ manteniendo su nivel de energía. Durante esta maniobra
 
     a) El exceso de potencia específica es de $250 \mathrm{~m} / \mathrm{s}$
@@ -3630,6 +4140,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) La velocidad de vuelo se mantiene constante
 
     d) La velocidad de vuelo baja
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 3. Una aeronave despegando desde un aeropuerto, cuando tanto la resistencia como la fricción de rodadura son despreciables frente al empuje, necesita un poner una relación $T / W=0.7$. Debido a ciertos problemas en la pista, su longitud se ha tenido que disminuir en un $20 \%$. iCon esta nueva longitud de pista qué relación TM deberá poner el piloto?
 
@@ -3641,6 +4157,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) $0.90$
 
+    <details>
+    <summary>Solución</summary>
+
+    **Descartada**
+    </details>
+
 4. En el proceso global en un aerorreactor, como un sistema global donde entra un gasto de aire $G$ más un gasto de combustible $c$ y salen unos productos ( $G+c)$, se cumple que la entalpía de remanso del sistema global
 
     a) Se mantiene constante
@@ -3650,6 +4172,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) Siempre aumenta
 
     d) Aumenta y su incremento es igual a $\eta_{q} c L$
+
+    <details>
+    <summary>Solución</summary>
+
+    **a**
+    </details>
 
 5. ¿Cuál de los siguientes incrementos de entalpía representa una medida del rendimiento de combustión?
 
@@ -3661,12 +4189,24 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) $h_{p c c}\left(T_{0}\right)-h_{p}\left(T_{0}\right)$
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 
 6. Un turborreactor de flujo única se ha diseñado para la condición de máximo rendimiento motor con una relación $T=T_{4 t} / T_{0}=5$. ¿Si el ciclo fuese ideal, cuál sería su relación global de presiones?
     a) 139
     b) 279
     c) 90
     d) 529
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 7. Un aerorreactor ha sido diseñado, para una altura de vuelo $h$ y un Mach de vuelo $M_{0}$, con la condición de rendimiento motor máximo. Posteriormente se ha decidido, manteniendo la relación de presiones del compresor, la altura de vuelo y temperatura máxima del ciclo del diseño anterior, bajar el $M_{0}$ de diseño. En dicho rediseño
 
@@ -3678,11 +4218,23 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) El empuje específico se mantiene constante
 
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
 8. Un turborreactor de flujo único, en condiciones de crucero $\left(P_{0}=35211 \mathrm{~Pa}, T_{0}=257\right.$ $\left.\mathrm{K}, M_{0}=1.5\right)$, ha sido diseñado con la condición de máximo rendimiento motor para una $T_{4 \mathrm{t}}$ dada. Posteriormente, manteniendo la condición de diseño (máximo rendimiento motor) se ha bajado el Mach de vuelo de diseño a 0.84. En dicho cambio qué le ocurrirá a la relación global de presiones del motor
     a) Será mayor
     b) Será igual
     c) Será menor
     d) No se sabe
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 9. De un aerorreactor, para una velocidad de vuelo $V_{0}$ dada, se conoce su rendimiento de propulsión y motor $\left(\eta_{P}=0.65, \eta_{M}=0.4\right)$. Para dicha velocidad de vuelo se decide transformarlo en un turbohélice optimizado, ¿cuál sería la potencia en el eje de la hélice, en tanto por ciento y supuesto ciclo ideal, frente a la disponible en la fase de expansión, $P_{h} /\left(1 / 2 G V_{t b}{ }^{2}\right) ?$
     a) $88.78$
@@ -3690,11 +4242,23 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $95.50$
     d) $45.50$
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 10. De un aerorreactor, para una velocidad de vuelo $V_{0}$ dada, se conoce su rendimiento de propulsión y motor $\left(\eta_{P}=0.65, \eta_{M}=0.4\right)$. Para dicha velocidad de vuelo se decide transformarlo en un turbofán optimizado, ¿cuál sería la potencia en el eje del fan, en tanto por ciento y supuesto ciclo ideal, frente a la disponible en la fase de expansión, $P_{\text {fan }} /\left(1 / 2 G V_{t b}^{2}\right) ?$
     a) $86.8$
     b) $95.5$
     c) $76.8$
     d) $80.5$
+
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
 
 11. El rendimiento motor de un turbofán es
 
@@ -3706,6 +4270,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) No depende del turborreactor base
 
+    <details>
+    <summary>Solución</summary>
+
+    **c**
+    </details>
+
 12. De un aerorreactor, para una velocidad de vuelo $V_{0}=170 \mathrm{~m} / \mathrm{s}$, se conoce su rendimiento de propulsión $\eta_{P}=0.35$. Para dicha velocidad de vuelo se decide transformarlo en un turbofán optimizado supuesto ciclo ideal para una relación de derivación dada $\Lambda=5$. ¿Cuáles serían los valores de las velocidades de salida del primario y secundario, $V_{P}$ y $V_{S}$ respectivamente?
 
     a) $V_{P}=462.1 \mathrm{~m} / \mathrm{s} ; V_{S}=362.1 \mathrm{~m} / \mathrm{s}$
@@ -3715,6 +4285,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $V_{P}=452.1 \mathrm{~m} / \mathrm{s} ; V_{S}=452.1 \mathrm{~m} / \mathrm{s}$
 
     d) $V_{P}=262.1 \mathrm{~m} / \mathrm{s} ; V_{S}=262.1 \mathrm{~m} / \mathrm{s}$
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 13. Un compresor, en condiciones estándar $\left(T_{0} \star=288.15 \mathrm{~K} \mathrm{y} P_{0} \star=101.325 \mathrm{kPa}\right)$ proporciona un gasto de $80 \mathrm{~kg} / \mathrm{s}$. ¿Qué gasto proporcionaría dicho compresor en un día más frio $\left(T_{0}=273 \mathrm{~K}\right.$ y $\left.P_{0}=101.325 \mathrm{kPa}\right)$, si se ha mantenido el punto de funcionamiento?
 
@@ -3726,6 +4302,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) $93.00 \mathrm{~kg} / \mathrm{s}$
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 14. En una tobera convergente funcionando en condiciones críticas se cumple siempre
 
     a) Que el gasto es constante
@@ -3735,6 +4317,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) Que no es posible variar las condiciones de remanso en la entrada
 
     d) Que si el gasto es constante también debe serlo la temperatura de remanso de entrada
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 15. En el cálculo de actuaciones adimensionales de un aerorreactor existen, en el caso general, dos grados de libertad en el cálculo de actuaciones de su generador de gas. La condición mínima que debe cumplirse para que dicho generador de gas pase a tener un solo grado de libertad consiste en
 
@@ -3746,6 +4334,12 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Que tanto la tobera como la turbina funcionen en condiciones críticas y los rendimiento de turbina y compresor sea constante
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 16. Los puntos de funcionamiento de un turborreactor de flujo único sobre el mapa del compresor, funcionando en banco y provisto de una tobera de geometría fija, forman
 
     a) Una familia de líneas de funcionamiento
@@ -3756,11 +4350,23 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
 
     d) Una única línea de funcionamiento, solo si la tobera y la turbina funcionan en condiciones críticas
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 17. Un motor de empuje constante $E_{0}=256 \mathrm{kN}$ en despegue alcanza su temperatura máxima $T_{4 t}$ de $1600 \mathrm{~K}$ para unas condiciones ambiente $\left(P_{0}=101 \mathrm{kPa}, T_{0}=298 \mathrm{~K}\right)$. En un despegue a unas nuevas condiciones ambiente $\left(P_{0}=100 \mathrm{kPa}, T_{0}=298 \mathrm{~K}\right)$ su empuje de despegue sería
     a) $256 \mathrm{kN}$
     b) $253.5 \mathrm{kN}$
     c) $288.6 \mathrm{kN}$
     d) $238.4 \mathrm{kN}$
+
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
 
 18. Un motor de empuje constante $E_{0}=256 \mathrm{kN}$ en despegue alcanza su temperatura máxima $T_{4 t}$ de $1600 \mathrm{~K}$ para unas condiciones ambiente $\left(P_{0}=101 \mathrm{kPa}, T_{0}=298 \mathrm{~K}\right)$. En un despegue a unas nuevas condiciones ambiente $\left(P_{0}=100 \mathrm{kPa}, T_{0}=298 \mathrm{~K}\right)$ su temperatura de despegue $T_{4 t}$ sería
     a) $1540 \mathrm{~K}$
@@ -3768,11 +4374,23 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $1622 \mathrm{~K}$
     d) $1598 \mathrm{~K}$
 
+    <details>
+    <summary>Solución</summary>
+
+    **b**
+    </details>
+
 19. De un turborreactor de flujo único se sabe que en unas condiciones de vuelo dadas, con la turbina funcionando en condiciones críticas y la tobera en condiciones subcríticas, se han medido unas temperaturas $T_{4 t}=1600 \mathrm{~K}$ y $T_{5 t}=800 \mathrm{~K}$. En unas condiciones de vuelo distintas se ha medido una $T_{5 t}$ de $850 \mathrm{~K}$. ¿En esta condición de vuelo nueva cual sería la $T_{4 t}$ de funcionamiento?
     a) $1700 \mathrm{~K}$
     b) $1600 \mathrm{~K}$
     c) $1650 \mathrm{~K}$
     d) No se puede conocer con los datos disponibles
+
+    <details>
+    <summary>Solución</summary>
+
+    **d**
+    </details>
 
 20. En la medida de las actuaciones en banco de un aerorreactor, con tobera subcrítica, se ha medido un consumo específico de combustible $C_{E}=20 \mathrm{~g} /(\mathrm{kNs})$ para una $T_{0}=288 \mathrm{~K}$ y $T_{4 t} / T_{0}=5.5$. ¿Cuál sería el consumo específico de combustible medido $C_{E}$ para una nueva $T_{0}=278 \mathrm{~K}$, si se mantiene la relación $T_{4 t} / T_{0}$ ?
     a) $17.31 \mathrm{~g} /(\mathrm{kNs})$
@@ -3780,26 +4398,9 @@ Tómese, si fuese necesario: $C_{P}=1004.3 \mathrm{~J} / \mathrm{kg} \mathrm{K},
     c) $19.65 \mathrm{~g} /(\mathrm{kNs})$
     d) $20.35 \mathrm{~g} /(\mathrm{kNs})$
 
----
-
-## Plantillas
-
-### Test
-
-### Ejercicios
-
-### Test
-
     <details>
     <summary>Solución</summary>
 
-    ****
+    **c**
     </details>
 
-### Ejercicios
-
-    <details>
-    <summary>Solución</summary>
-
-
-    </details>

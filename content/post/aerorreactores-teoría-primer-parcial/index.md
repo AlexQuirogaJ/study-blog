@@ -1863,7 +1863,9 @@ $$
 
     <eq>
     $$
-    (G+c) h_{p}\left(T_{s}\right)-(G+c) h_{p c c}^{*}=\left.(G+c) \Delta h_{p c c}\right|_{*} ^{0}+(G+c)\left[h_{p c c}\left(T_{s}\right)-h_{p c c}\left(T_{0}\right)\right]+(G+c) \underbrace{\left[h_{p}\left(T_{s}\right)-h_{pcc}\left(T_{s}\right)\right]}_{\eta_q}
+    \begin{matrix}
+    (G+c) h_{p}\left(T_{s}\right)-(G+c) h_{p c c}^{*}= \\ \left.(G+c) \Delta h_{p c c}\right|_{*} ^{0}+(G+c)\left[h_{p c c}\left(T_{s}\right)-h_{p c c}\left(T_{0}\right)\right]+(G+c) \underbrace{\left[h_{p}\left(T_{s}\right)-h_{pcc}\left(T_{s}\right)\right]}_{\eta_q}
+    \end{matrix}
     $$
     </eq>
 
@@ -1882,7 +1884,9 @@ $$
 
   <eq>
   $$
-  \underbrace{\left.G \Delta h_{a}\right|_{*} ^{0}+\left.c \Delta h_{c}\right|_{*} ^{i}-\left.(G+c) \Delta h_{p c c}\right|_{*} ^{0}}_{3\%}+\eta_{q} c L=(G+c) \underbrace{\left[h_{p c c}\left(T_{s}\right)-h_{p c c}\left(T_{0}\right)\right]}_{\Delta S}+(G+c) \frac{V_{s}^{2}}{2}-G \frac{V_{0}^{2}}{2}
+  \begin{matrix}
+  \underbrace{\left.G \Delta h_{a}\right|_{*} ^{0}+\left.c \Delta h_{c}\right|_{*} ^{i}-\left.(G+c) \Delta h_{p c c}\right|_{*} ^{0}}_{3\%}+\eta_{q} c L= \\ (G+c) \underbrace{\left[h_{p c c}\left(T_{s}\right)-h_{p c c}\left(T_{0}\right)\right]}_{\Delta S}+(G+c) \frac{V_{s}^{2}}{2}-G \frac{V_{0}^{2}}{2}
+  \end{matrix}
   $$
   </eq>
 
@@ -1895,7 +1899,7 @@ $$
   - Respecto a las masas
 
     $$
-    k c<G \Rightarrow k f<1 \Rightarrow f<\frac{1}{k}=f_{e s t} \Rightarrow c << G \Rightarrow f \cong 1
+    k c<G \Rightarrow k f<1 \Rightarrow f<\frac{1}{k}=f_{e s t} \Rightarrow c \ll G \Rightarrow f \cong 1
     $$
 
   - Respecto a las entalpías de los productos de combustión
@@ -1944,12 +1948,14 @@ $$
   - Si $m_{CO}, m_{H2} , m_{HC}$ se corresponden con los gastos másicos obtenidos de CO, H2 y HC respectivamente, y $Q_{CO}$ , $Q_{H2}$ y $Q_{HC}$ son sus respectivos poderes caloríficos, se tiene
 
     $$
-    \eta_{q}=1-\frac{m_{C O} Q_{C O}+m_{H_{2}} Q_{H_{2}}+m_{H C} Q_{H C}}{c L}=1-\frac{E I_{C O} Q_{C O}+E I_{H_{2}} Q_{H_{2}}+E I_{H C} Q_{H C}}{1000 L}
+    \begin{matrix}
+    \eta_{q}=1-\frac{m_{C O} Q_{C O}+m_{H_{2}} Q_{H_{2}}+m_{H C} Q_{H C}}{c L}= \\ 1-\frac{E I_{C O} Q_{C O}+E I_{H_{2}} Q_{H_{2}}+E I_{H C} Q_{H C}}{1000 L}
+    \end{matrix}
     $$
 
     > Incluso en el equilibrio a alta temperatura se da disociación por lo que existe H2, C0, etc.
 
-    - En la última expresión se ha utilizado el índice de emisión EL que se define como los gramos del producto por kilogramo de combustible.
+    - En la última expresión se ha utilizado el índice de emisión El que se define como los gramos del producto por kilogramo de combustible.
     - CO → 50 unidades de IE equivalen a ≈ 1 % en rendimiento
     - HC → 10 unidades de IE equivalen a ≈ 1 % en rendimiento
 
@@ -1960,50 +1966,56 @@ $$
 
     - Unidades: ppm, ppmv
 
-- Balance energético
+### Balance energético
 
-  - Combinando la ecuación de la energía y la de la cantidad de movimiento multiplicada por $V_0$ y sumando $cV_0^2/2$
+- Combinando la ecuación de la energía y la de la cantidad de movimiento multiplicada por $V_0$ y sumando $cV_0^2/2$
 
-  <eq>
-  $$
-  \left.\begin{array}{l}\eta_{q} c L=(G+c)\left[h_{a}\left(T_{s}\right)-h_{a}\left(T_{0}\right)\right]+1 / 2\left[(G+c) V_{s}^{2}-G V_{0}^{2}\right] \\\left.E V_{0}=(G+c) V_{s} V_{0}-G V_{0}^{2} \quad \text { (Sistema Adaptado } P_{s}=P_{0}\right)\end{array}\right\}
-  $$
-  </eq>
+<eq>
+$$
+\left.\begin{array}{l}\eta_{q} c L=(G+c)\left[h_{a}\left(T_{s}\right)-h_{a}\left(T_{0}\right)\right]+1 / 2\left[(G+c) V_{s}^{2}-G V_{0}^{2}\right] \\\left.E V_{0}=(G+c) V_{s} V_{0}-G V_{0}^{2} \quad \text { (Sistema Adaptado } P_{s}=P_{0}\right)\end{array}\right\}
+$$
+</eq>
 
-  > En ejes relativos no veo la potencia útil $EV_0$, por tanto utilizo la ecuación de cantidad de movimiento multiplicando por $V_0$. Sumo las dos ecs. para que aparezca la potencia útil:
+> En ejes relativos no veo la potencia útil $EV_0$, por tanto utilizo la ecuación de cantidad de movimiento multiplicando por $V_0$. Sumo las dos ecs. para que aparezca la potencia útil:
 
-  $$
-  \eta_{q} c L+\frac{c V_{0}^{2}}{2}=E V_{0}+1 / 2\left[(G+c) V_{s}^{2}-G V_{s} V_{0}\right]+G V_{0}^{2}+(G+c)\left[h_{a}\left(T_{s}\right)-h_{a}\left(T_{0}\right)\right]+\frac{c V_{0}^{2}}{2}
-  $$
+$$
+\eta_{q} c L+\frac{c V_{0}^{2}}{2}=E V_{0}+1 / 2\left[(G+c) V_{s}^{2}-G V_{s} V_{0}\right]+G V_{0}^{2}+(G+c)\left[h_{a}\left(T_{s}\right)-h_{a}\left(T_{0}\right)\right]+\frac{c V_{0}^{2}}{2}
+$$
 
-  > Ecuación de la energía en ejes absolutos:
+> Ecuación de la energía en ejes absolutos:
 
-  <eq>
-  $$
-  \underbrace{\eta_{q} c L+\frac{c V_{0}^{2}}{2}}_{\textrm{Potencia consumida}}= \underbrace{\underbrace{E V_{0}}_{\textrm{P. útil}}+ \underbrace{1 / 2(G+c)\left(V_{s}-V_{0}\right)^{2}}_{\textrm{Potencia mecánica perdida}}}_{\textrm{Potencia mecánica obtenida}}+\underbrace{(G+c)\left[h_{a}\left(T_{s}\right)-h_{a}\left(T_{0}\right)\right]}_{\textrm{Potencia térmica perdida}}
-  $$
-  </eq>
+<eq>
+$$
+\underbrace{\eta_{q} c L+\frac{c V_{0}^{2}}{2}}_{\textrm{Potencia consumida}}= \underbrace{\underbrace{E V_{0}}_{\textrm{P. útil}}+ \underbrace{1 / 2(G+c)\left(V_{s}-V_{0}\right)^{2}}_{\textrm{Potencia mecánica perdida}}}_{\textrm{Potencia mecánica obtenida}}+\underbrace{(G+c)\left[h_{a}\left(T_{s}\right)-h_{a}\left(T_{0}\right)\right]}_{\textrm{Potencia térmica perdida}}
+$$
+</eq>
 
 - Rendimientos
   - Rendimiento motor:
 
     > Se quiere ver solo el ciclo Brayton. Solo interesa la potencialidad del ciclo para pasar Q a $E_m$. Se hace los cálculos con tobera adaptada (no se pone la velocidad de salida real, sino la adaptada), se exige que el ciclo de la mayor energía mecánica
 
+    <eq>
     $$
-    \begin{array}{r}\eta_{M}=\frac{\text { Potencia Mecanica Neta }}{\text { Potencia Combustible }}=\frac{E V_{0}+1 / 2(G+c)\left(V_{s}-V_{0}\right)^{2}-1 / 2 c V_{0}^{2}}{c L}= \\=\frac{1 / 2(G+c) V_{s}^{2}-1 / 2 G V_{0}^{2}}{c L}=\frac{1}{2} \frac{(1+f) V_{s}^{2}-V_{0}^{2}}{f L}\end{array}
+    \begin{matrix}\eta_{M}=\frac{\text { Potencia Mecanica Neta }}{\text { Potencia Combustible }}=\frac{E V_{0}+1 / 2(G+c)\left(V_{s}-V_{0}\right)^{2}-1 / 2 c V_{0}^{2}}{c L}= \\ =\frac{1 / 2(G+c) V_{s}^{2}-1 / 2 G V_{0}^{2}}{c L}=\frac{1}{2} \frac{(1+f) V_{s}^{2}-V_{0}^{2}}{f L}\end{matrix}
     $$
+    </eq>
 
   - Rendimiento de propulsión:
 
+    <eq>
     $$
-    \begin{array}{r}\eta_{P}=\frac{\text { Potencia Util }}{\text { Potencia Mecanica Neta }}=\frac{E V_{0}}{E V_{0}+1 / 2(G+c)\left(V_{s}-V_{0}\right)^{2}-1 / 2 c V_{0}^{2}}= \\=\frac{E V_{0}}{1 / 2(G+c) V_{s}^{2}-1 / 2 G V_{0}^{2}}=\frac{2 I_{s p} V_{0}}{(1+f) V_{s}^{2}-V_{0}^{2}} \approx \frac{2 V_{0}}{V_{s}+V_{0}}\end{array}
+    \begin{matrix}\eta_{P}=\frac{\text { Potencia Util }}{\text { Potencia Mecanica Neta }}=\frac{E V_{0}}{E V_{0}+1 / 2(G+c)\left(V_{s}-V_{0}\right)^{2}-1 / 2 c V_{0}^{2}}= \\ =\frac{E V_{0}}{1 / 2(G+c) V_{s}^{2}-1 / 2 G V_{0}^{2}}=\frac{2 I_{s p} V_{0}}{(1+f) V_{s}^{2}-V_{0}^{2}} \approx \frac{2 V_{0}}{V_{s}+V_{0}}\end{matrix}
     $$
+    </eq>
 
   - Rendimiento motopropulsivo o global
 
+    <eq>
     $$
     \eta_{\mathrm{MP}}=\frac{\text { Potencia Util }}{\text { Potencia Combustible }}=\eta_{M} \eta_{P}=\frac{E V_{0}}{c L}=\frac{I_{s p} V_{0}}{f L}=\frac{V_{0}}{C_{E} L}
     $$
+    </eq>
 
 ## Tema 4: Comportamiento Motor y Propulsor de los Turborreactores
 
@@ -2017,7 +2029,7 @@ $$
 $$
 </eq>
 
-En un ciclo ideal, al ser líneas isoentrópicas se cumple $\frac{T_{3^{\prime \prime} t}}{T_{0}}=\frac{T_{4 t}}{T_{9^{\prime}}}$
+En un ciclo ideal, `al ser líneas isoentrópicas` se cumple `$\frac{T_{3^{\prime \prime} t}}{T_{0}}=\frac{T_{4 t}}{T_{9^{\prime}}}$`
 En cualquier rama isoentrópica se cumple que la relación de temperaturas entre sus extremos es cte. Necesario para un estudio analítico.
 
 Para poder evaluar analíticamente el ciclo real:
@@ -2064,7 +2076,7 @@ $$
   </eq>
 
 -  La potencia neta específica es la potencia por unidad de gasto, $W_{n}/G$
--  Adimensionalizando con la velocidad del sonido al cuadrado correspondiente a T_{0} se llega a la potencia específica adimensional, $\omega_{n}$.
+-  Adimensionalizando con la velocidad del sonido al cuadrado correspondiente a $T_{0}$ se llega a la potencia específica adimensional, $\omega_{n}$.
 
 	> Al adimensionalizar las unidades lo pone el problema, no podemos adimencionalizar con V0 porque puede ser 0, por lo que adimensionalizamos con a0. Recordar que $C_{p}=\frac{\gamma}{\gamma -1} R$
 
@@ -2094,17 +2106,19 @@ $$
 $$
 </eq>
 
-![](atts/4/Pasted_image_20211020102623.png) ![Ciclo correspondiente al cero `$\eta_{c}^{\prime} \eta_{e}^{\prime} \theta_{t} / \theta_{0} \sigma_{c}=1$`](atts/4/image-20211020105107014.png)
+![](atts/4/Pasted_image_20211020102623.png) ![](atts/4/image-20211020105107014.png)
+
+La segunda imagen es el ciclo correspondiente al cero `$\eta_{c}^{\prime} \eta_{e}^{\prime} \theta_{t} / \theta_{0} \sigma_{c}=1$`
 
 - Se obtiene finalmente
   $$
-  \begin{aligned}
+  \begin{matrix}
   \omega_{n} &=\frac{W_{n}}{G a_{0}^{2}}=\frac{1}{\gamma-1}\left(\eta_{e}^{\prime} \theta_{t}-\frac{\theta_{0} \sigma_{c}}{\eta_{c}^{\prime}}\right)\left(1-\frac{1}{\theta_{0} \sigma_{c}}\right) \\
   &=\frac{1}{\gamma-1} \frac{1}{\textcolor{blue}{\eta_{c}^{\prime}}}\left(\textcolor{blue}{\eta_{e}^{\prime} \eta_{c}^{\prime}} \frac{\textcolor{red}{\theta_{t}}}{\textcolor{red}{\theta_{0} \sigma_{c}}}-1\right)\left(\textcolor{red}{\theta_{0} \sigma_{c}}-1\right)
-  \end{aligned}
+  \end{matrix}
   $$
 
-  - $T_{3t}<T_{4t}$ ya que sino no produce calor, no es un motor
+  - $T_{3t} < T_{4t}$ ya que sino no produce calor, no es un motor
 
 - La potencia neta se anula para
 
@@ -2217,7 +2231,7 @@ $$
   - aquellos que buscarán `maximizar la potencia específica`, y con ello el impulso específico , como los utilizados para aviación militar de alta actuación.
   - aquellos que busquen `mayores rendimientos motor`, para obtener un consumo específico menor, como los utilizados para el transporte aéreo.
 
-  > A un avión civil se le exige 3000h/año mientras que a un avión millitar la vida mas pequeña 300h/año, se puiede funcionar con temperaturas más elevadas debido a la menor vida.
+  > A un avión civil se le exige 3000h/año mientras que para un avión millitar la vida es mas pequeña 300h/año, y por tanto puede funcionar con temperaturas más elevadas debido a la menor vida.
 
 ![](atts/4/image-20211022100642590.png) ![](atts/4/image-20211022100709788.png) ![](atts/4/image-20211022100733060.png)
 
@@ -2340,7 +2354,7 @@ Relaciones de compresión 30-60. `Si aumenta la temperatura aumenta la potencia 
 
 - `La sensibilidad al rendimiento de expansión vuelve a ser mayor que la sensibilidad al rendimiento de compresión`; basta ver el cociente entre ambas expresiones
 
-> El comportamiento motor: potencia mecánica neta y rendimiento motor dependen en forma adimensional de solo dos parámetros. En estos parámetros estan metidos la temperatura, presión, etc. Paricipan la toma dinámica y el compresor.  Interesa aumentar $T_{4t}-T_{0}$, es decir aumentar $T_{4t}$ o volar más alto -> $T_{0}$
+> El comportamiento motor: potencia mecánica neta y rendimiento motor dependen en forma adimensional de solo dos parámetros. En estos parámetros estan metidos la temperatura, presión, etc. Paricipan la toma dinámica y el compresor.  Interesa aumentar $T_{4t}-T_{0}$, es decir aumentar $T_{4t}$ o volar más alto → $T_{0}$
 
 - **Resultados del Estudio de Sensibilidad de los Parámetros del Ciclo** (Variación del 1% del valor del parámetro)
 
@@ -2484,12 +2498,14 @@ Relaciones de compresión 30-60. `Si aumenta la temperatura aumenta la potencia 
 
 - Cuando existe velocidad de vuelo, se puede adimensionalizar todas las potencias mecánicas con el valor $GV_{0}^{2}$
 
+  <eq>
   $$
-  \begin{aligned}
+  \begin{matrix}
   &W_{n}=\frac{G\left(V_{s}^{2}-V_{0}^{2}\right)}{2}=\frac{G V_{0}^{2}}{2}\left(\frac{V_{s}^{2}}{V_{0}^{2}}-1\right) \Rightarrow \quad \frac{W_{n}}{G V_{0}^{2}}=\frac{1}{2}\left(\frac{V_{s}^{2}}{V_{0}^{2}}-1\right) \\
   &W_{u}=E V_{0}=G\left(V_{s}-V_{0}\right) V_{0}=G V_{0}^{2}\left(\frac{V_{s}}{V_{0}}-1\right) \quad \Rightarrow \quad \frac{W_{u}}{G V_{0}^{2}}=\left(\frac{V_{s}}{V_{0}}-1\right)
-  \end{aligned}
+  \end{matrix}
   $$
+  </eq>
 
 - Dividiendo ambas, se obtendría el rendimiento propulsivo
 
@@ -2570,7 +2586,7 @@ $$
 \end{aligned}
 $$
 
-- En Diseño, es fácil ver el efecto que la altura ( P_{0} y T_{0}) y velocidad de vuelo, V_{0} , producen; esto se denomina “cálculos del motor chicle” porque físicamente hay que ir cambiando de compresor para cada condición de vuelo.
+- En Diseño, es fácil ver el efecto que la altura ($P_{0}$ y $T_{0}$) y velocidad de vuelo, $V_{0}$ , producen; esto se denomina “cálculos del motor chicle” porque físicamente hay que ir cambiando de compresor para cada condición de vuelo.
 - Si lo que se quiere es, para un motor dado, obtener el efecto de la altura y velocidad de vuelo, hay que calcular los efectos que dichas condiciones tienen sobre los rendimientos y relación de compresión del compresor. Estos cálculos se denominan “Fuera de Diseño”
 
 - Ecuaciones del ciclo:
@@ -3214,13 +3230,13 @@ mismo consumo de combustible si $G=G_{\pi}$ y mismos parámetros del ciclo
 
 ![](atts/6/image-20211111095251224.png)
 
-> Grupo de baja (Compresor de baja y fan) : $(G_{\pi}+G_{\sigma}) \tau_{f} + G_{\pi} \tau_{cb} = G_{\pi} (T_{45t}-T_{4t})$
+> Grupo de baja (Compresor de baja y fan) : $(G_{\pi}+G_{\sigma}) \tau_{f} + G_{\pi} \tau_{cb} = G_{\pi} (T_{45t}-T_{5t})$
 >
 > Grupo de alta: $G_{\pi} \tau_{ca} = G_{\pi} (T_{4t-T_{45t}})$
 >
 > Definición del punto 45t: $G_{\pi}\tau_{f} + G_{\pi} \tau_{cb} + G_{\pi} \tau_{ca} = G_{\pi} C_{p} (T_{4t}-T_{45t})$
 >
-> $\tau_f$: trabajo específico del fan que se da a la corriente secundaria $\Lambda \tau_f = C_{p} (T_{45t}- T_{5t})$ turbina que únicamente meueve al fan
+> $\tau_f$: trabajo específico del fan que se da a la corriente secundaria $\Lambda \tau_f = C_{p} (T_{45t}- T_{5t})$ turbina que únicamente mueve al fan
 
 > Las estaciones del fan se nombran de manera análoga según la funcionalidad pero con un 1 delante: salida del compresor 3, etc.
 
@@ -3239,11 +3255,11 @@ $$
   - la relación de gastos secundario / primario, o relación de derivación, Λ,
   - el trabajo específico del fan, $\tau_{f}$, y los rendimientos de la nueva turbina y del fan, $\eta_{t}$ y $\eta_{f}$
 - Los TF se pueden dividir en dos grandes tipos según se instalen en la parte delantera o trasera del motor.
-- Los instalados delante, se llaman “en serie” ya que el fan es un elemento más de compresión del flujo primario.
+- Los `instalados delante`, se llaman `“en serie”` ya que `el fan es un elemento más de compresión del flujo primario`.
 
 
-- Los instalados detrás se denominan “en paralelo” ya que el fan sólo actúa sobre el flujo secundario.
-- El TF al producir velocidades de los “chorros” más pequeñas que las `del TB disminuye el nivel del ruido` respecto a éstos. `No la razón de ser del turbofan sino reducir el $C_{E}$`.
+- Los `instalados detrás` se denominan `“en paralelo”` ya que `el fan sólo actúa sobre el flujo secundario`.
+- El TF al producir velocidades de los “chorros” más pequeñas que las `del TB disminuye el nivel del ruido` respecto a éstos. `No es la razón de ser del turbofan sino reducir el $C_{E}$`.
 - Si la razón de derivación es muy grande, el fan es muy grande respecto a la turbina que lo mueve y se podrían tener problemas en acoplar las revoluciones de ambos componentes. En este caso, habría que utilizar un reductor entre ambos.
 
 ![Configuraciones existentes](atts/6/image-20211111095217408.png) ![](atts/6/image-20211111095308013.png)
